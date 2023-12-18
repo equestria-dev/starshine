@@ -1,0 +1,46 @@
+{
+  "storage": {
+    "b": "B",
+    "kb": "KiB",
+    "mb": "MiB",
+    "gb": "GiB",
+    "tb": "TiB",
+    "pb": "PiB",
+    "eb": "EiB"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projects",
+      "network": "Network",
+      "contact": "Contact",
+      "legal": "Legal"
+    },
+    "projects": {
+      "archives": "See our archived projects"
+    },
+    "network": {
+      "status": [
+        "All systems operational",
+        "Degraded performance",
+        "Major outage"
+      ],
+      "account": "Your account",
+      "infra": "Infrastructure",
+      "security": "Security advisories",
+      "bugs": "Bug tracker",
+      "blog": "Blog"
+    },
+    "legal": {
+      "privacy": "Data privacy",
+      "terms": ["Terms", "and conditions"],
+      "license": "Software licenses",
+      "disclaimer": "Legal disclaimers",
+      "branding": "Branding guidelines",
+      "support": "Supported by",
+      "version": "Version",
+      "made": "Made by ponies with",
+      "phpstorm": "and PhpStorm",
+      "trademark": "\"Equestria.dev\" and associated names are trademarks of Equestria.dev Developers in France and other countries. The Equestria.dev and projects logos are protected under applicable copyright laws. JetBrains, the associated logos and the associated names are registered trademarks of JetBrains s.r.o., used under license."
+    }
+  }
+}

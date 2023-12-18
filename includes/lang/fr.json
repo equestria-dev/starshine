@@ -1,0 +1,46 @@
+{
+  "storage": {
+    "b": "o",
+    "kb": "Kio",
+    "mb": "Mio",
+    "gb": "Gio",
+    "tb": "Tio",
+    "pb": "Pio",
+    "eb": "Eio"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projets",
+      "network": "Réseau",
+      "contact": "Contact",
+      "legal": "Légal"
+    },
+    "projects": {
+      "archives": "Voir nos projets archivés"
+    },
+    "network": {
+      "status": [
+        "Tout est opérationnel",
+        "Performance dégradée",
+        "Interruption majeure"
+      ],
+      "account": "Votre compte",
+      "infra": "Infrastructure",
+      "security": "Notes de sécurité",
+      "bugs": "Gestion de bugs",
+      "blog": "Blog"
+    },
+    "legal": {
+      "privacy": "Confidentialité",
+      "terms": ["Termes", "et conditions"],
+      "license": "Licenses logiciel",
+      "disclaimer": "Mentions légales",
+      "branding": "Termes de marque",
+      "support": "Soutenu par",
+      "version": "Version",
+      "made": "Réalisé par des poneys avec",
+      "phpstorm": "et PhpStorm",
+      "trademark": "« Equestria.dev » et les noms associés sont des marques commerciales de Equestria.dev Developers en France et dans d'autres pays. Le logo de Equestria.dev et des projets sont protégés conformément aux lois de propriété intellectuelle applicables. JetBrains, les logos associés et les noms associés sont des marques déposées de JetBrains s.r.o., utilisés sous license."
+    }
+  }
+}
