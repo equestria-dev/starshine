@@ -20,4 +20,4 @@ function l($key) {
     return $_lang[$key] ?? $key;
 }
 
-_preload_lang(json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/fr.json"), true), "lang");
+_preload_lang(json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/en.json"), true), "lang");

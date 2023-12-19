@@ -1,0 +1,54 @@
+@import "./navigation.css";
+@import "./hero.css";
+
+/**:focus {
+    outline: 2px solid #87E0D8;
+}*/
+
+@font-face {
+    src: url("/assets/fonts/font.ttf");
+    font-family: "Urbanist";
+    font-style: normal;
+}
+
+@font-face {
+    src: url("/assets/fonts/display.ttf");
+    font-family: "Space Mono";
+}
+
+@font-face {
+    src: url("/assets/fonts/font-italic.ttf");
+    font-family: "Urbanist";
+    font-style: italic;
+}
+
+html, body {
+    margin: 0;
+    font-family: "Urbanist", sans-serif;
+}
+
+main {
+    margin-top: 58px;
+}
+
+.container {
+    padding: 0 1vw;
+}
+
+@media (min-width: 500px) {
+    .container {
+        padding: 0 2vw;
+    }
+}
+
+@media (min-width: 700px) {
+    .container {
+        padding: 0 3vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .container {
+        padding: 0 5vw;
+    }
+}

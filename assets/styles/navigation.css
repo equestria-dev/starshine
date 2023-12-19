@@ -1,15 +1,3 @@
-@font-face {
-    src: url("/assets/font.ttf");
-    font-family: "Urbanist";
-    font-style: normal;
-}
-
-@font-face {
-    src: url("/assets/font-italic.ttf");
-    font-family: "Urbanist";
-    font-style: italic;
-}
-
 #navbar {
     border-width: 10px 0 0;
     border-top-style: solid;
@@ -19,10 +7,16 @@
     left: 0;
     right: 0;
     user-select: none;
+    background-color: rgba(255, 255, 255, .9);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+
+#navbar-container {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
 }
 
 #navbar-inner {
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
     height: 32px;
     padding: 8px 16px;
     display: flex;
@@ -36,11 +30,6 @@
 #navbar-logo {
     flex: min-content;
     display: flex;
-}
-
-html, body {
-    margin: 0;
-    font-family: "Urbanist", sans-serif;
 }
 
 #navbar-items {
@@ -122,7 +111,7 @@ html, body {
 
 .navbar-item-menu-container {
     position: fixed;
-    top: 58px;
+    top: 48px;
     left: 0;
     bottom: 0;
     right: 0;
@@ -258,7 +247,7 @@ hr {
     margin-bottom: 20px;
 }
 
-.navbar-network {
+.navbar-network, .navbar-contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -268,7 +257,7 @@ hr {
     margin-top: 20px;
 }
 
-.navbar-legal-item, .navbar-network-item {
+.navbar-legal-item, .navbar-network-item, .navbar-contact-item {
     color: black;
     text-decoration: none;
     display: flex;
@@ -277,44 +266,44 @@ hr {
     padding: 5px 10px;
 }
 
-.navbar-legal-item:hover, .navbar-network-item:hover {
+.navbar-legal-item:hover, .navbar-network-item:hover, .navbar-contact-item:hover {
     background-color: rgba(0, 0, 0, .05);
 }
 
-.navbar-legal-item:active, .navbar-network-item:active {
+.navbar-legal-item:active, .navbar-network-item:active, .navbar-contact-item:active {
     background-color: rgba(0, 0, 0, .1);
 }
 
-.navbar-legal-item-text, .navbar-network-item-text {
+.navbar-legal-item-text, .navbar-network-item-text, .navbar-contact-item-text {
     margin-left: 5px;
 }
 
 @media (max-width: 1350px) {
-    .navbar-legal-item-text-large, .navbar-network-item-text-large {
+    .navbar-legal-item-text-large, .navbar-network-item-text-large, .navbar-contact-item-text-large {
         display: none;
     }
 }
 
 @media (max-width: 1200px) {
-    .navbar-legal-item-text-large, .navbar-network-item-text-large {
+    .navbar-legal-item-text-large, .navbar-network-item-text-large, .navbar-contact-item-text-large {
         display: inline;
     }
 }
 
 @media (max-width: 850px) {
-    .navbar-legal-item-text-large, .navbar-network-item-text-large {
+    .navbar-legal-item-text-large, .navbar-network-item-text-large, .navbar-contact-item-text-large {
         display: none;
     }
 }
 
 @media (max-width: 768px) {
-    .navbar-legal-item-text-large, .navbar-network-item-text-large {
+    .navbar-legal-item-text-large, .navbar-network-item-text-large, .navbar-contact-item-text-large {
         display: inline;
     }
 }
 
 @media (max-width: 500px) {
-    .navbar-legal-item-text-large, .navbar-network-item-text-large {
+    .navbar-legal-item-text-large, .navbar-network-item-text-large, .navbar-contact-item-text-large {
         display: none;
     }
 }
@@ -327,44 +316,44 @@ hr {
     color: rgba(0, 0, 0, .75);
 }
 
-.navbar-status:hover {
-    opacity: .75;
+.navbar-status:hover, .navbar-email:hover {
+    background-color: rgba(var(--status-color), .25);
 }
 
-.navbar-status:active {
-    opacity: .5;
+.navbar-status:active, .navbar-email:active {
+    background-color: rgba(var(--status-color), .5);
 }
 
-.navbar-status {
-    --status-color: rgba(0, 0, 0, .5);
-    border: 1px solid var(--status-color);
+.navbar-status, .navbar-email {
+    --status-color: 0, 0, 0;
+    border: 1px solid rgba(var(--status-color), 1);
     padding: 10px 15px;
     border-radius: 10px;
-    color: var(--status-color);
+    color: rgba(var(--status-color), 1);
     display: flex;
     text-decoration: none;
     cursor: pointer;
     margin-bottom: 10px;
 }
 
-.navbar-network {
+.navbar-network, .navbar-contact {
     margin-top: 20px;
 }
 
-.navbar-status-text {
+.navbar-status-text, .navbar-email-text {
     margin-left: 10px;
 }
 
 .navbar-status-ok {
-    --status-color: rgba(26, 135, 84, 0.75);
+    --status-color: 26, 135, 84;
 }
 
 .navbar-status-warn {
-    --status-color: rgba(255, 193, 8, 0.75);
+    --status-color: 255, 193, 8;
 }
 
 .navbar-status-fail {
-    --status-color: rgba(219, 53, 69, 0.75);
+    --status-color: 219, 53, 69;
 }
 
 .navbar-stats {
@@ -378,4 +367,18 @@ hr {
     border: 1px solid rgba(0, 0, 0, .075);
     border-radius: 5px;
     padding: 5px 10px;
+}
+
+#navbar-a11y-link {
+    width: max-content;
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    flex: 170px;
+    position: fixed;
+    top: -100%;
+}
+
+#navbar-a11y-link:focus {
+    position: inherit !important;
 }
