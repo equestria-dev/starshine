@@ -110,6 +110,7 @@
 }
 
 .navbar-item-menu-container {
+    height: 100vh;
     position: fixed;
     top: 48px;
     left: 0;
@@ -367,18 +368,4 @@ hr {
     border: 1px solid rgba(0, 0, 0, .075);
     border-radius: 5px;
     padding: 5px 10px;
-}
-
-#navbar-a11y-link {
-    width: max-content;
-    text-decoration: none;
-    color: black;
-    margin-right: 10px;
-    flex: 170px;
-    position: fixed;
-    top: -100%;
-}
-
-#navbar-a11y-link:focus {
-    position: inherit !important;
 }

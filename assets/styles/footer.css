@@ -1,0 +1,40 @@
+footer, html, body {
+    background-color: #eee;
+}
+
+footer.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .9em;
+    color: rgba(0, 0, 0, .5);
+    display: grid;
+    grid-template-columns: max-content 1fr max-content;
+}
+
+#footer-links {
+    margin-left: 30px;
+}
+
+#footer-links a, #footer-language a {
+    color: rgba(0, 0, 0, .75);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#footer-links a:hover, #footer-language a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1100px) {
+    footer.container {
+        display: block;
+    }
+
+    #footer-links {
+        margin-left: 0;
+    }
+
+    #footer-language {
+        margin-top: 10px;
+    }
+}

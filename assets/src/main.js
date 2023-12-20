@@ -13,13 +13,18 @@ const Starshine = {
                 el.classList.replace("navbar-item-open", "navbar-item-closed");
             }
         }
+    },
+    Home: {
+        heroCta: () => {
+            document.getElementById("home").scrollIntoView();
+        }
     }
 }
 
 window.onload = () => {
     for (let id of ["projects", "network", "contact", "legal"]) {
         document.getElementById("navbar-item-" + id).onclick = (e) => {
-            if (e.target.id === "navbar-item-" + id) {
+            if (e.target.id === "navbar-item-" + id || e.target.classList.contains("navbar-item-menu-container")) {
                 Starshine.Navbar.item(id);
             }
         }

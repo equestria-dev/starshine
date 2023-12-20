@@ -1,4 +1,5 @@
 {
+  "_name": "English",
   "storage": {
     "b": "B",
     "kb": "KiB",
@@ -44,6 +45,37 @@
     },
     "contact": {
       "email": "Send us an email"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "title": ["Software platform", "you can", "rely on"],
+      "cta": "See what we do"
+    },
+    "categories": {
+      "dev": {
+        "title": "Development",
+        "description": "With over 5 years of experience in software development, in a wide range of languages — such as Rust, JavaScript, Kotlin or PHP —, you can be rest assured that we will develop quality software to help fulfill your needs, whether you are a business or an individual.",
+        "cta": "View projects"
+      },
+      "network": {
+        "title": "Networking",
+        "description": "Did you know this text went through at least 3 different Equestria.dev servers before reaching you? With our years of experience in managing servers — mainly Linux —, we can fully optimize any application to perform at its best regardless of the server load.",
+        "cta": "View infrastructure"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Privacy, security and protecting user data has always been one of our core values. Whenever possible — and needed —, we use robust military-grade encryption technology, and we make sure user data is always safe and protected from various types of attacks.",
+        "cta": "Read documents"
+      }
+    },
+    "contact": {
+      "title": "Have a special request?",
+      "description": "If you would like us to help with a project of your own, whether it is regarding development, managing servers or privacy and security, we can help. Feel free to drop us a message and we will see what we can do.",
+      "cta": "Send us a message"
     }
   }
 }
