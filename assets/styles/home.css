@@ -43,19 +43,12 @@
     padding-bottom: 100px;
     background-image: linear-gradient(130deg, rgba(214,172,249,0), rgba(131,111,186,0), rgba(97,140,199,0), rgba(214,172,249,0.25), rgba(131,111,186,0.25), rgba(97,140,199,0.25), rgba(135,224,216,0.25));
     background-size: 300% 300%;
-    animation-duration: 1s;
-    animation-name: hero-bg;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
 }
 
 #hero-inner {
     background-color: white;
-    animation-duration: 2s;
-    animation-name: hero-bg-inner;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
 }
+
 
 #hero-inner {
     height: calc(100vh - 58px);
@@ -127,11 +120,7 @@
     content: "";
     display: block;
     height: .5vw;
-    animation-duration: 1s;
-    animation-name: hero-bg-underline;
     opacity: 0;
-    animation-fill-mode: forwards;
-    animation-delay: 1.5s;
 }
 
 #home-container {
@@ -280,4 +269,25 @@ hr#home-separator {
 
 #home-inner {
     width: 100%;
+}
+
+body.animated #hero-tagline-underline::after {
+    animation-duration: 1s;
+    animation-name: hero-bg-underline;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+
+body.animated #hero {
+    animation-duration: 1s;
+    animation-name: hero-bg;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+}
+
+body.animated #hero-inner {
+    animation-duration: 2s;
+    animation-name: hero-bg-inner;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
 }

@@ -9,7 +9,7 @@
             </div>
         </div>
         <div id="hero-logo" class="container">
-            <img alt="Equestria.dev" id="hero-logo-img" src="/assets/img/favicon.svg">
+            <video id="hero-logo-img" src="/assets/img/intro.webm" autoplay></video>
         </div>
     </div>
 </div>
