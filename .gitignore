@@ -1,3 +1,4 @@
 includes/serverinfo/bin-arm
 includes/serverinfo/bin-x64
+includes/serverinfo/bin-mac
 includes/secrets.json

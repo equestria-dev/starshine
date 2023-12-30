@@ -1,4 +1,5 @@
 #navbar {
+    z-index: 9999;
     border-width: 10px 0 0;
     border-top-style: solid;
     border-image: linear-gradient(139deg, #D6ACF9, #836FBA, #618CC7, #87E0D8) 3;
@@ -10,6 +11,10 @@
     background-color: rgba(255, 255, 255, .9);
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
+}
+
+#navbar.with-announcement {
+    top: 32px;
 }
 
 #navbar-container {

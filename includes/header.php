@@ -17,10 +17,19 @@
     <script src="/assets/src/main.js"></script>
 </head>
 <body>
-<nav id="navbar">
+<?php $announcement = trim(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/announcement")); if ($announcement !== ""):
+    $clickable = false;
+    if (str_contains($announcement, "%%")) $clickable = true; ?>
+<header id="announcement" <?php if ($clickable): ?> class="announcement-clickable"<?php endif; ?>>
+    <?= $clickable ? '<a href="' . str_replace("@@", lp(), explode("%%", $announcement)[0]) . '" id="announcement-inner">' : '<div id="announcement-inner">' ?>
+    <?= $clickable ? explode("%%", $announcement)[1] . '<i class="bi bi-chevron-right" id="announcement-chevron"></i>' : $announcement ?>
+    <?= $clickable ? "</a>" : "</div>" ?>
+</header>
+<?php endif; ?>
+<nav id="navbar" <?= $announcement !== "" ? 'class="with-announcement"' : '' ?>>
     <div id="navbar-container" class="container">
         <div id="navbar-inner">
-            <a id="navbar-logo" href="/">
+            <a id="navbar-logo" href="/<?= lp() ?>">
                 <img alt="Equestria.dev" id="navbar-logo-img" src="/assets/img/logo.svg">
             </a>
             <ul id="navbar-items">
@@ -36,60 +45,33 @@
                         </span>
                     <div class="navbar-item-menu-container">
                         <div class="navbar-item-menu navbar-projects">
+                            <?php $projects = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/includes/data/projects.json"), true); uasort($projects, function ($a, $b) {
+                                return strcmp($a["display_name"] ?? $a["name"], $b["display_name"] ?? $b["name"]);
+                            }); ?>
                             <div class="navbar-projects-flagships">
-                                <a href="#" class="navbar-projects-flagship" id="navbar-projects-flagship-01">
-                                    <img alt="Project icon" src="/assets/img/placeholder.jpg" class="navbar-projects-flagship-icon">
-                                    <span class="navbar-projects-flagship-name">Lorem ipsum</span>
-                                </a>
-                                <a href="#" class="navbar-projects-flagship" id="navbar-projects-flagship-02">
-                                    <img alt="Project icon" src="/assets/img/placeholder.jpg" class="navbar-projects-flagship-icon">
-                                    <span class="navbar-projects-flagship-name">Dolor sit</span>
-                                </a>
-                                <a href="#" class="navbar-projects-flagship" id="navbar-projects-flagship-03">
-                                    <img alt="Project icon" src="/assets/img/placeholder.jpg" class="navbar-projects-flagship-icon">
-                                    <span class="navbar-projects-flagship-name">Amet consectetur</span>
-                                </a>
-                                <a href="#" class="navbar-projects-flagship" id="navbar-projects-flagship-04">
-                                    <img alt="Project icon" src="/assets/img/placeholder.jpg" class="navbar-projects-flagship-icon">
-                                    <span class="navbar-projects-flagship-name">Adipiscing elit</span>
-                                </a>
+                                <?php $flagships = []; $i = 0; $projects2 = array_values(array_filter($projects, function ($i) {
+                                    return !$i["archive"] && isset($i["icon"]);
+                                })); uasort($projects2, function ($a, $b) {
+                                    return $b["size"] - $a["size"];
+                                }); foreach ($projects2 as $project): $i++; if ($i <= 4): $flagships[] = $project["id"]; ?>
+                                    <a href="/<?= lp() ?>/projects/<?= $project['name'] ?? $project['id'] ?>" class="navbar-projects-flagship" id="navbar-projects-flagship-<?= $project["id"] ?>">
+                                        <img alt="Project icon" src="/assets/projects/<?= $project["id"] ?>.png" class="navbar-projects-flagship-icon">
+                                        <span class="navbar-projects-flagship-name"><?= $project["display_name"] ?? $project["name"] ?></span>
+                                    </a>
+                                <?php endif; endforeach; ?>
                             </div>
 
                             <hr>
 
                             <div class="navbar-projects-other">
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-01">Magna aliqua</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-02">Ut enim ad</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-03">Minim veniam</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-04">Quis nostrud</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-05">Exercitation ullamco</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-06">Laboris nisi</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-07">Ut aliquip ex ea</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-08">Commodo consequat very long</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-09">Duis aute irure</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-01">Magna aliqua</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-02">Ut enim ad</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-03">Minim veniam</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-04">Quis nostrud</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-05">Exercitation ullamco</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-06">Laboris nisi</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-07">Ut aliquip ex ea</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-08">Commodo consequat very long</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-09">Duis aute irure</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-01">Magna aliqua</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-02">Ut enim ad</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-03">Minim veniam</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-04">Quis nostrud</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-05">Exercitation ullamco</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-06">Laboris nisi</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-07">Ut aliquip ex ea</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-08">Commodo consequat very long</a>
-                                <a href="#" class="navbar-projects-other-item" id="navbar-projects-other-item-09">Duis aute irure</a>
+                                <?php foreach ($projects as $project): if (!$project["archive"] && !in_array($project["id"], $flagships)): ?>
+                                    <a href="/<?= lp() ?>/projects/<?= $project['name'] ?? $project['id'] ?>" class="navbar-projects-other-item" id="navbar-projects-other-item-<?= $project['id'] ?>"><?= $project["display_name"] ?? $project["name"] ?></a>
+                                <?php endif; endforeach; ?>
                             </div>
 
                             <hr class="navbar-projects-archive-hr">
 
-                            <a href="/projects/archive" class="navbar-projects-archive">
+                            <a href="/<?= lp() ?>/projects/archive" class="navbar-projects-archive">
                                 <span class="navbar-projects-archive-text"><?= l("lang.navigation.projects.archives") ?></span>
                                 <i class="navbar-item-icon-open bi bi-chevron-right"></i>
                             </a>
@@ -109,17 +91,17 @@
                     <div class="navbar-item-menu-container">
                         <div class="navbar-item-menu">
                             <?php $status = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/includes/data/status.json"), true); if ($status["services"]["code"] === 0): ?>
-                            <a href="/network/status" class="navbar-status navbar-status-ok">
+                            <a href="/<?= lp() ?>/network/status" class="navbar-status navbar-status-ok">
                                 <i class="bi bi-check-circle-fill"></i>
                                 <span class="navbar-status-text"><?= l("lang.navigation.network.status.0") ?></span>
                             </a>
                             <?php elseif ($status["services"]["code"] === 1): ?>
-                            <a href="/network/status" class="navbar-status navbar-status-warn">
+                            <a href="/<?= lp() ?>/network/status" class="navbar-status navbar-status-warn">
                                 <i class="bi bi-exclamation-circle-fill"></i>
                                 <span class="navbar-status-text"><?= l("lang.navigation.network.status.1") ?></span>
                             </a>
                             <?php else: ?>
-                            <a href="/network/status" class="navbar-status navbar-status-fail">
+                            <a href="/<?= lp() ?>/network/status" class="navbar-status navbar-status-fail">
                                 <i class="bi bi-x-circle-fill"></i>
                                 <span class="navbar-status-text"><?= l("lang.navigation.network.status.2") ?></span>
                             </a>
@@ -143,27 +125,27 @@
                             <hr>
 
                             <div class="navbar-network">
-                                <a href="/network/account" class="navbar-network-item">
+                                <a href="/<?= lp() ?>/network/account" class="navbar-network-item">
                                     <i class="bi bi-person-circle"></i>
                                     <span class="navbar-network-item-text"><?= l("lang.navigation.network.account") ?></span>
                                 </a>
-                                <a href="/network" class="navbar-network-item">
+                                <!--<a href="/<?= lp() ?>/network" class="navbar-network-item">
                                     <i class="bi bi-hdd-network"></i>
                                     <span class="navbar-network-item-text"><?= l("lang.navigation.network.infra") ?></span>
                                 </a>
-                                <a href="/network/security" class="navbar-network-item">
+                                <a href="/<?= lp() ?>/network/security" class="navbar-network-item">
                                     <i class="bi bi-lock"></i>
                                     <span class="navbar-network-item-text"><?= l("lang.navigation.network.security") ?></span>
-                                </a>
-                                <a href="/network/gitlab" class="navbar-network-item">
+                                </a>-->
+                                <a href="/<?= lp() ?>/network/gitlab" class="navbar-network-item">
                                     <i class="bi bi-gitlab"></i>
                                     <span class="navbar-network-item-text">GitLab</span>
                                 </a>
-                                <a href="/network/bugs" class="navbar-network-item">
+                                <a href="/<?= lp() ?>/network/bugs" class="navbar-network-item">
                                     <i class="bi bi-bug"></i>
                                     <span class="navbar-network-item-text"><?= l("lang.navigation.network.bugs") ?></span>
                                 </a>
-                                <a href="/network/blog" class="navbar-network-item">
+                                <a href="/<?= lp() ?>/network/blog" class="navbar-network-item">
                                     <i class="bi bi-book"></i>
                                     <span class="navbar-network-item-text"><?= l("lang.navigation.network.blog") ?></span>
                                 </a>
@@ -189,27 +171,27 @@
                             </a>
 
                             <div class="navbar-contact">
-                                <a href="/contact/mastodon" class="navbar-contact-item">
+                                <a href="/<?= lp() ?>/contact/mastodon" class="navbar-contact-item">
                                     <i class="bi bi-mastodon"></i>
                                     <span class="navbar-contact-item-text">Mastodon</span>
                                 </a>
-                                <a href="/contact/twitter" class="navbar-contact-item">
+                                <a href="/<?= lp() ?>/contact/twitter" class="navbar-contact-item">
                                     <i class="bi bi-twitter-x"></i>
                                     <span class="navbar-contact-item-text">Twitter/X</span>
                                 </a>
-                                <a href="/contact/reddit" class="navbar-contact-item">
+                                <a href="/<?= lp() ?>/contact/reddit" class="navbar-contact-item">
                                     <i class="bi bi-reddit"></i>
                                     <span class="navbar-contact-item-text">Reddit</span>
                                 </a>
-                                <a href="/contact/github" class="navbar-contact-item">
+                                <a href="/<?= lp() ?>/contact/github" class="navbar-contact-item">
                                     <i class="bi bi-github"></i>
                                     <span class="navbar-contact-item-text">GitHub</span>
                                 </a>
-                                <a href="/contact/steam" class="navbar-contact-item">
+                                <a href="/<?= lp() ?>/contact/steam" class="navbar-contact-item">
                                     <i class="bi bi-steam"></i>
                                     <span class="navbar-contact-item-text">Steam</span>
                                 </a>
-                                <a href="/contact/youtube" class="navbar-contact-item">
+                                <a href="/<?= lp() ?>/contact/youtube" class="navbar-contact-item">
                                     <i class="bi bi-youtube"></i>
                                     <span class="navbar-contact-item-text">YouTube</span>
                                 </a>
@@ -230,27 +212,27 @@
                     <div class="navbar-item-menu-container">
                         <div class="navbar-item-menu">
                             <div class="navbar-legal">
-                                <a href="/legal/privacy" class="navbar-legal-item">
+                                <a href="/<?= lp() ?>/legal/privacy" class="navbar-legal-item">
                                     <i class="bi bi-eye"></i>
                                     <span class="navbar-legal-item-text"><?= l("lang.navigation.legal.privacy") ?></span>
                                 </a>
-                                <a href="/legal/terms" class="navbar-legal-item">
+                                <a href="/<?= lp() ?>/legal/terms" class="navbar-legal-item">
                                     <i class="bi bi-key"></i>
                                     <span class="navbar-legal-item-text"><?= l("lang.navigation.legal.terms.0") ?><span class="navbar-legal-item-text-large"> <?= l("lang.navigation.legal.terms.1") ?></span></span>
                                 </a>
-                                <a href="/legal/license" class="navbar-legal-item">
+                                <a href="/<?= lp() ?>/legal/license" class="navbar-legal-item">
                                     <i class="bi bi-patch-check"></i>
                                     <span class="navbar-legal-item-text"><?= l("lang.navigation.legal.license") ?></span>
                                 </a>
-                                <a href="/legal/notices" class="navbar-legal-item">
+                                <a href="/<?= lp() ?>/legal/notices" class="navbar-legal-item">
                                     <i class="bi bi-eyeglasses"></i>
                                     <span class="navbar-legal-item-text"><?= l("lang.navigation.legal.disclaimer") ?></span>
                                 </a>
-                                <a href="/legal/branding" class="navbar-legal-item">
+                                <a href="/<?= lp() ?>/legal/branding" class="navbar-legal-item">
                                     <i class="bi bi-brush"></i>
                                     <span class="navbar-legal-item-text"><?= l("lang.navigation.legal.branding") ?></span>
                                 </a>
-                                <a href="/legal/jetbrains" class="navbar-legal-item">
+                                <a href="/<?= lp() ?>/legal/jetbrains" class="navbar-legal-item">
                                     <i class="bi bi-gift"></i>
                                     <span class="navbar-legal-item-text"><span class="navbar-legal-item-text-large"><?= l("lang.navigation.legal.support") ?> </span>JetBrains</span>
                                 </a>
@@ -273,4 +255,4 @@
         </div>
     </div>
 </nav>
-<main>
+<main <?= $announcement !== "" ? 'class="with-announcement"' : '' ?>>

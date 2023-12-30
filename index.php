@@ -3,7 +3,7 @@
 <div id="hero">
     <div id="hero-inner">
         <div id="hero-tagline" class="container">
-            <div>
+            <div id="hero-tagline-inner">
                 <div id="hero-tagline-text"><?= l("lang.home.hero.title.0") ?><br><?= l("lang.home.hero.title.1") ?> <span id="hero-tagline-underline"><?= l("lang.home.hero.title.2") ?></span></div>
                 <div id="hero-tagline-cta" onclick="Starshine.Home.heroCta();"><?= l("lang.home.hero.cta") ?> <i class="bi bi-chevron-down"></i></div>
             </div>

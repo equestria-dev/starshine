@@ -1,1 +1,1 @@
-{"services":{"ping":147.73684210526315,"code":0,"image":"status-ok","text":"All systems nominal","outages":[]},"servers":{"ram":35101618176,"disk":908102090752}}
+{"services":{"ping":127.6842105263158,"code":0,"image":"status-ok","text":"All systems nominal","outages":[]},"servers":{"ram":27737292800,"ramTotal":48835551232,"disk":647449487360,"diskTotal":1784288832512,"cores":25,"ghz":7.699999999999999,"ghzMax":8.77,"ghzMin":2.5,"cache":39321600,"cpuLoad":4.938013326835072,"processes":1480,"io":1708,"kernel":["6.2.16","6.6.8","6.3.6"]},"updated":1703974497}

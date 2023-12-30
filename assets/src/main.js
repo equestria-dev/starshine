@@ -30,7 +30,7 @@ window.onload = () => {
         }
     }
 
-    document.getElementById("hero-logo-img").ontimeupdate = () => {
+    if (document.getElementById("hero-logo-img")) document.getElementById("hero-logo-img").ontimeupdate = () => {
         if (document.getElementById("hero-logo-img").duration - document.getElementById("hero-logo-img").currentTime <= .7) {
             document.body.classList.add("animated");
         }

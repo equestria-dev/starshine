@@ -8,38 +8,18 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
-        "size": 1421485,
+        "size": 23819308,
         "language": "PHP",
         "languages": {
-            "PHP": 66.99,
-            "CSS": 30.14,
-            "JavaScript": 2.8,
-            "Hack": 0.07
+            "PHP": 67.5,
+            "CSS": 28.84,
+            "JavaScript": 3.3,
+            "Shell": 0.37
         },
-        "update": 1703019590,
-        "commit": 1703019584,
+        "update": 1703631652,
+        "commit": 1703631641,
         "archive": false,
         "readme": null
-    },
-    {
-        "id": "b6be5c1c42e900c01f87eb489994975e",
-        "owner": "equestria.dev",
-        "name": "sweetie-drops",
-        "display_name": "Sweetie Drops",
-        "description": null,
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/sweetie-drops",
-        "icon": null,
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/sweetie-drops",
-        "size": 25540,
-        "language": "TypeScript",
-        "languages": {
-            "TypeScript": 99.77,
-            "Dockerfile": 0.23
-        },
-        "update": 1701518721,
-        "commit": 1701518706,
-        "archive": false,
-        "readme": "# Sweetie Drops\nSweetie Drops is an experimental Discord bot designed to act as an \"early warning system\" for potential DM scammers.\n\n## How are scammers detected?\nEvery so often, the bot will check every member in every server for a specific flag, that being \"Unusual DM Activity\".<br\/>\nWhen it finds people, it will check their user profile for telltale signs of a scammer, which are:\n- No messages in the server aside from system messages.\n- Unsure on any other conditions\n\n## What does the bot do when it detects one?\nSweetie Drops *never* takes action on its own, instead it will send a message to the dedicated warning channel (or DM a random member with Ban Members permission if warning channel is not configured)<br\/>\nThis message will contain:\n- User ID\n- Username\n- Mention to the user\n\nThe bot will also add a hash to its database for that server, so it won't trigger for more than 1 member at a time.<br\/>\nUsing this, there is a *potential* to flag repeat offenders in other servers.<br\/>\nOnce a member no longer has the Unusual DM Activity flag, they will be removed from the database. However if they are banned, they may be put into a global \"red flag\" list.\n\n## Environment variable meanings\n`ENVIRONMENT` - Used to determine whether we're in a development environment or a production environment.<br>\n`DISCORD_ID` - The discord bot id for the bot. Used to register slash commands.<br>\n`DISCORD_TOKEN` - The discord bot token for the bot. Used to run the bot as well as register commands.<br>\n`DISCORD_GUILD` - The guild to register commands in when `ENVIRONMENT` is \"development\"<br>\n`DB_URL` - The URL used to connect to the database.<br>\n`DB_NAME` - The name of the database to connect to.<br>\n`GUILDS_COLLECTION` - The name of the collection storing guild information.<br>\n`REPORTS_COLLECTION` - The name of the collection storing report information.<br>\n"
     },
     {
         "id": "55d163066b13cbad0eed1199ce832eb6",
@@ -50,13 +30,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponish-translator",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponish-translator",
-        "size": 244214,
+        "size": 246877,
         "language": "HTML",
         "languages": {
             "HTML": 100
         },
-        "update": 1703019519,
-        "commit": 1703019512,
+        "update": 1703631581,
+        "commit": 1703631577,
         "archive": false,
         "readme": null
     },
@@ -69,14 +49,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/cometos",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/cometos",
-        "size": 1726205,
+        "size": 1735718,
         "language": "Rust",
         "languages": {
             "Rust": 99.94,
             "Lua": 0.06
         },
-        "update": 1703019508,
-        "commit": 1703019496,
+        "update": 1703631551,
+        "commit": 1703631527,
         "archive": false,
         "readme": null
     },
@@ -89,7 +69,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/mist",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/169\/maskable.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/mist",
-        "size": 114150778,
+        "size": 114160449,
         "language": "PHP",
         "languages": {
             "PHP": 78.57,
@@ -98,9 +78,9 @@
             "CSS": 3.7,
             "HTML": 1.26
         },
-        "update": 1703019514,
-        "commit": 1703019508,
-        "archive": false,
+        "update": 1703795131,
+        "commit": 1703631569,
+        "archive": true,
         "readme": null
     },
     {
@@ -112,15 +92,15 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/168\/logo2.jpg",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
-        "size": 104411176,
+        "size": 104417200,
         "language": "HTML",
         "languages": {
             "HTML": 63.32,
             "JavaScript": 36.12,
             "Shell": 0.55
         },
-        "update": 1703019577,
-        "commit": 1703019572,
+        "update": 1703631644,
+        "commit": 1703631636,
         "archive": false,
         "readme": null
     },
@@ -439,7 +419,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/status",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/95\/status.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/status",
-        "size": 5130897,
+        "size": 5136309,
         "language": "HTML",
         "languages": {
             "HTML": 94.83,
@@ -447,8 +427,8 @@
             "JavaScript": 1.91,
             "CSS": 0.16
         },
-        "update": 1692646506,
-        "commit": 1691096892,
+        "update": 1703107928,
+        "commit": 1703107921,
         "archive": false,
         "readme": null
     },
@@ -1012,17 +992,17 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/cold-haze",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/53\/cold-haze.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/cold-haze",
-        "size": 131973335,
+        "size": 131984040,
         "language": "PHP",
         "languages": {
-            "PHP": 88.76,
-            "CSS": 5.36,
-            "Pawn": 2.37,
-            "JavaScript": 2.26,
-            "HTML": 1.25
+            "PHP": 88.98,
+            "CSS": 5.25,
+            "Pawn": 2.33,
+            "JavaScript": 2.22,
+            "HTML": 1.22
         },
-        "update": 1702812243,
-        "commit": 1702812199,
+        "update": 1703631633,
+        "commit": 1703631630,
         "archive": false,
         "readme": null
     },
@@ -1220,13 +1200,76 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponywatch",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/4\/ponywatch.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponywatch",
-        "size": 28535407,
+        "size": 46314430,
         "language": "Kotlin",
         "languages": {
             "Kotlin": 100
         },
-        "update": 1702812353,
-        "commit": 1702812281,
+        "update": 1703277939,
+        "commit": 1703277927,
+        "archive": false,
+        "readme": null
+    },
+    {
+        "id": "e224a24777d323571f12694bf859ebe6",
+        "owner": "delta-tech",
+        "name": "delta-kiosk",
+        "display_name": "Delta Kiosk",
+        "description": "A kiosk system for Delta",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-kiosk",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/62\/delta-kiosk.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-kiosk",
+        "size": 90751655,
+        "language": "HTML",
+        "languages": {
+            "HTML": 70.34,
+            "JavaScript": 28.14,
+            "Shell": 1.52
+        },
+        "update": 1695708732,
+        "commit": 1687687713,
+        "archive": true,
+        "readme": null
+    },
+    {
+        "id": "57ba0623a5c0c28eacb7b1fa2478ecb6",
+        "owner": "delta-tech",
+        "name": "delta-android",
+        "display_name": "Delta Android",
+        "description": "A native (Kotlin) Android application for the Delta platform",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-android",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/61\/delta-android.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-android",
+        "size": 9652056,
+        "language": "Kotlin",
+        "languages": {
+            "Kotlin": 100
+        },
+        "update": 1695708823,
+        "commit": 1691666088,
+        "archive": false,
+        "readme": null
+    },
+    {
+        "id": "bc4fac7bf57407efce7ed5345d7283d9",
+        "owner": "delta-tech",
+        "name": "delta-web",
+        "display_name": "Delta Web",
+        "description": "The Web UI and backend for the Delta platform",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-web",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/60\/delta.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-web",
+        "size": 89341185,
+        "language": "PHP",
+        "languages": {
+            "PHP": 92.26,
+            "JavaScript": 7.07,
+            "HTML": 0.44,
+            "Hack": 0.14,
+            "Shell": 0.09
+        },
+        "update": 1696883390,
+        "commit": 1696883379,
         "archive": false,
         "readme": null
     },
@@ -2202,60 +2245,5 @@
         },
         "update": 1692649477,
         "commit": 1638628883
-    },
-    {
-        "archive": true,
-        "id": "7b5e83b4bdaad98c9720b2695f55e756",
-        "owner": "conep.one",
-        "name": "JumpKingAudioModifier",
-        "display_name": "JumpKingAudioModifier",
-        "description": "Modifies the audio of Jump King to various presets.",
-        "source": "https:\/\/github.com\/CloudburstSys\/JumpKingAudioModifier",
-        "icon": null,
-        "website": "https:\/\/github.com\/CloudburstSys\/JumpKingAudioModifier",
-        "size": 10,
-        "language": "C#",
-        "languages": {
-            "C#": 32352
-        },
-        "update": 1697987589,
-        "commit": 1695473172
-    },
-    {
-        "archive": true,
-        "id": "7a91e743ec2aceb89b7315d72aa158fa",
-        "owner": "conep.one",
-        "name": "node_pronouns",
-        "display_name": "node_pronouns",
-        "description": "A node.js module which modifies sentences to use different pronouns",
-        "source": "https:\/\/github.com\/CloudburstSys\/node_pronouns",
-        "icon": null,
-        "website": "https:\/\/github.com\/CloudburstSys\/node_pronouns",
-        "size": 70,
-        "language": "JavaScript",
-        "languages": {
-            "JavaScript": 8288
-        },
-        "update": 1678611539,
-        "commit": 1678611521
-    },
-    {
-        "archive": true,
-        "id": "fdb0fde6bc5e36229d6d953511d0ca09",
-        "owner": "conep.one",
-        "name": "PonyPixel",
-        "display_name": "PonyPixel",
-        "description": "pony fixer for r\/place ",
-        "source": "https:\/\/github.com\/CloudburstSys\/PonyPixel",
-        "icon": null,
-        "website": "https:\/\/github.com\/CloudburstSys\/PonyPixel",
-        "size": 3001,
-        "language": "Python",
-        "languages": {
-            "Python": 33913,
-            "Shell": 2272
-        },
-        "update": 1690070185,
-        "commit": 1687021820
     }
 ]

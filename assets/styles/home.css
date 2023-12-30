@@ -291,3 +291,26 @@ body.animated #hero-inner {
     animation-fill-mode: forwards;
     animation-delay: 0s;
 }
+
+@media (max-width: 900px) {
+    #hero-inner {
+        grid-template-columns: 1fr;
+    }
+
+    #hero-tagline {
+        text-align: center;
+    }
+
+    #hero-tagline-inner, #hero-tagline-cta {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #hero-tagline-text {
+        font-size: 42px;
+    }
+
+    #hero-tagline-cta {
+        font-size: 14px;
+    }
+}

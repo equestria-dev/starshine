@@ -9,6 +9,19 @@
     "pb": "PiB",
     "eb": "EiB"
   },
+  "time": {
+    "ago": "ago",
+    "later": "later",
+    "now": "now",
+    "second": ["second", "seconds"],
+    "minute": ["minute", "minutes"],
+    "hour": ["hour", "hours"],
+    "day": ["day", "days"],
+    "week": ["week", "weeks"],
+    "month": ["month", "months"],
+    "year": ["year", "years"],
+    "age": ["age", "ages"]
+  },
   "navigation": {
     "headers": {
       "projects": "Projects",
@@ -77,5 +90,83 @@
       "description": "If you would like us to help with a project of your own, whether it is regarding development, managing servers or privacy and security, we can help. Feel free to drop us a message and we will see what we can do.",
       "cta": "Send us a message"
     }
+  },
+  "error": {
+    "title": "Error",
+    "messages": {
+      "404": "Page not found",
+      "403": "Access is denied",
+      "401": "Authentication required",
+      "400": "Invalid request",
+      "500": "Internal server error",
+      "501": "Not available yet",
+      "502": "Upstream server error",
+      "503": "Server is unreachable",
+      "504": "Upstream server timed out",
+      "default": "Unknown system error"
+    },
+    "descriptions": {
+      "404": "If you followed a link from this website, then something must be wrong. If you followed an external link, then it is possible that link is incorrect and needs to be updated. If you entered the address yourself, it is possible you misspelled something.",
+      "403": "You have tried to reach a page that is not accessible from this website. This is usually the case for internal files that are used on the server. If you followed a link from this website and got here, then something must be wrong.",
+      "401": "You have tried to reach a page that requires authentication without being authenticated. Refreshing the page usually helps fix this issue. If you don't have credentials to authenticate for this page, you can go back to the home page.",
+      "400": "You have tried to send a request to the server that it cannot process. This should generally not happen, but it might indicate an issue with your browser. If you need help to fix this, feel free to contact us.",
+      "500": "An error occurred on the server while trying to process your request that is unrelated to your browser configuration. This is generally a bug or a temporary issue. If it persists, you can let us know about the issue so we can fix it.",
+      "501": "The page you have tried to reach uses a server feature that has not been implemented in the website yet. This is usually because the page you are trying to reach is a work in progress and will be available in the future.",
+      "502": "This page depends on an external resource or server that is not available at this time. This typically indicates an outage on one or more of our servers. If the issue persists, contact us so we can fix this.",
+      "503": "This page depends on an internal resource that is not available at this time. This typically means that the resource, website or server is under maintenance and is currently unavailable. Check our status page for more information.",
+      "504": "This page depends on an external resource or server that was not able to be reached on time. This typically indicates an outage or an overall slow-down. If the issue persists, contact us so we can fix this.",
+      "default": "An undocumented error occurred. We are not sure what went wrong, but the error code can help you. If you need help, please get in touch with us so we can fix this. We sincerely apologize for the inconvenience."
+    },
+    "actions": {
+      "home": "Go back to the home page",
+      "status": "Open the status page",
+      "email": "Contact us via email"
+    }
+  },
+  "project": {
+    "actions": {
+      "source": "Source code",
+      "website": "Official website"
+    },
+    "update": "Last updated",
+    "archive": "Archived for"
+  },
+  "archive": {
+    "title": "Archives"
+  },
+  "language": "Language selector",
+  "status": {
+    "title": "Systems status",
+    "main": [
+      "All the services are operating as nominal",
+      "Some services are experiencing performance degradation",
+      "Some services are experiencing a major outage"
+    ],
+    "description": [
+      "We have observed nominal and good performance of all the services hosted by Equestria.dev at the moment.",
+      "We have observed that some Equestria.dev services, while being functional, are being slower than usual.",
+      "We have observed down time in some Equestria.dev services, making them innacessible for some time."
+    ],
+    "affected": [
+      "The following service is affected by this incident:",
+      "The following services are affected by this incident:"
+    ],
+    "page": "View full status page",
+    "stats": {
+      "title": "Statistics",
+      "items": [
+        "Average service latency:",
+        "Total used memory:",
+        "Total used storage:",
+        "Total available compute power:",
+        "cache:",
+        "maximum I/O latency:",
+        "cores",
+        "Operating systems:",
+        "processes total"
+      ],
+      "used": "used"
+    },
+    "update": "Last updated"
   }
 }
