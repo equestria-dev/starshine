@@ -1,6 +1,6 @@
 #status-decoration {
     position: absolute;
-    background-image: radial-gradient(circle, rgba(0, 0, 0,1) 0%, rgba(0, 0, 0,0) 50%);
+    background-image: radial-gradient(circle, oklch(0% 0 0 / 1) 0%, oklch(0% 0 0 / 0) 50%);
     width: 150vh;
     height: 150vh;
     right: -75vh;
@@ -15,15 +15,15 @@
 }
 
 #status-decoration.status-decoration-ok {
-    background-image: radial-gradient(circle, rgba(26, 135, 84, .5) 0%, rgba(26, 135, 84, 0) 50%);
+    background-image: radial-gradient(circle, oklch(33.76% 0.18 293.93 / .5) 0%, oklch(33.76% 0.18 293.93 / 0) 50%);
 }
 
 #status-decoration.status-decoration-warn {
-    background-image: radial-gradient(circle, rgba(255, 193, 8, .5) 0%, rgba(255, 193, 8, 0) 50%);
+    background-image: radial-gradient(circle, oklch(72.58% 0.169 20.96 / .5) 0%, oklch(72.58% 0.169 20.96 / 0) 50%);
 }
 
 #status-decoration.status-decoration-fail {
-    background-image: radial-gradient(circle, rgba(219, 53, 69, .5) 0%, rgba(219, 53, 69, 0) 50%);
+    background-image: radial-gradient(circle, oklch(55.39% 0.245 336.05 / .5) 0%, oklch(55.39% 0.245 336.05 / 0) 50%);
 }
 
 #status-container {
@@ -64,22 +64,22 @@
     margin-left: 36px;
     margin-top: 15px;
     padding: 10px 20px;
-    border-left: 2px solid black;
+    border-left: 2px solid oklch(0% 0 0 / 1);
 }
 
 .status-overview-ok, .status-affected-ok {
-    color: rgb(21, 110, 67);
-    border-color: rgb(21, 110, 67) !important;
+    color: oklch(33.76% 0.18 293.93 / 1);
+    border-color: oklch(33.76% 0.18 293.93 / 1) !important;
 }
 
 .status-overview-warn, .status-affected-warn {
-    color: rgb(179, 135, 5);
-    border-color: rgb(179, 135, 5) !important;
+    color: oklch(72.58% 0.169 20.96 / 1);
+    border-color: oklch(72.58% 0.169 20.96 / 1) !important;
 }
 
 .status-overview-fail, .status-affected-fail {
-    color: rgb(143, 34, 45);
-    border-color: rgb(143, 34, 45) !important;
+    color: oklch(55.39% 0.245 336.05 / 1);
+    border-color: oklch(55.39% 0.245 336.05 / 1) !important;
 }
 
 #status-affected-list {
@@ -88,21 +88,21 @@
 
 #status-cta:hover {
     box-shadow: 10px 10px 0 0 rgba(214,172,249,0.25);
-    background-color: #D6ACF9;
-    border-color: #D6ACF9;
-    color: black;
+    background-color: oklch(80.86% 0.115 308.9 / 1);
+    border-color: oklch(80.86% 0.115 308.9 / 1);
+    color: oklch(0% 0 0 / 1);
 }
 
 #status-cta {
     display: inline-block;
-    box-shadow: 0 0 0 0 rgba(214,172,249,0.25);
+    box-shadow: 0 0 0 0 oklch(80.86% 0.115 308.9 / .25);
     transition: box-shadow 200ms, background-color 200ms, color 200ms, border-color 200ms;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     font-size: 14px;
-    border: 1px solid #836FBA;
-    color: #836FBA;
+    border: 1px solid oklch(59.2% 0.114 294.97 / 1);
+    color: oklch(59.2% 0.114 294.97 / 1);
     width: max-content;
     padding: 10px 20px;
     cursor: pointer;

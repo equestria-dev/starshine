@@ -9,7 +9,7 @@
     <title><?php if (isset($title)) {
         echo "$title - Equestria.dev";
     } else {
-        echo "Equestria.dev: Software platform you can rely on";
+        echo l("lang.title");
     } ?></title>
     <link rel="stylesheet" href="/assets/styles/main.css" type="text/css">
     <link rel="stylesheet" href="/assets/icons/icons.min.css" type="text/css">

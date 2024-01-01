@@ -1,12 +1,12 @@
 footer, html, body {
-    background-color: #eee;
+    background-color: oklch(94.91% 0 0 / 1);
 }
 
 footer.container {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: .9em;
-    color: rgba(0, 0, 0, .5);
+    color: oklch(0% 0 0 / .5);
     display: grid;
     grid-template-columns: max-content 1fr max-content;
 }
@@ -16,7 +16,7 @@ footer.container {
 }
 
 #footer-links a, #footer-language a {
-    color: rgba(0, 0, 0, .75);
+    color: oklch(0% 0 0 / .75);
     text-decoration: none;
     white-space: nowrap;
 }

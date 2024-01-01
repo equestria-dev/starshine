@@ -32,18 +32,22 @@ if (isset($parts[0])) {
         } else {
             error(404);
         }
+    } elseif ($parts[0] === "warrant" || $parts[0] === "pubkey") {
+        header("Content-Type: text/plain");
+        header("Content-Length: " . filesize($_SERVER['DOCUMENT_ROOT'] . "/" . $parts[0]));
+        readfile($_SERVER['DOCUMENT_ROOT'] . "/" . $parts[0]);
     } else {
         global $realLang;
 
-        if (ctype_alpha($parts[0])) {
-            if (file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/" . $parts[0] . ".json")) {
+        if (preg_match("/[a-zA-Z_\-\d]/m", $parts[0])) {
+            if (file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/" . $parts[0] . ".json") && $parts[0] !== "package" && $parts[0] !== "package-lock") {
                 $realLang = $parts[0];
 
                 $resourcePathParts = array_values(array_filter(array_slice($parts, 1), function ($i) {
                     return !str_contains($i, "..");
                 }));
 
-                if (isset($resourcePathParts[0]) && ($resourcePathParts[0] === "includes" || str_starts_with($resourcePathParts[0], ".") || $resourcePathParts[0] === "version")) {
+                if (isset($resourcePathParts[0]) && ($resourcePathParts[0] === "includes" || str_starts_with($resourcePathParts[0], ".") || $resourcePathParts[0] === "version" || $resourcePathParts[0] === "annoucement" || $resourcePathParts[0] === "warrantgen.js")) {
                     error(403);
                 }
 

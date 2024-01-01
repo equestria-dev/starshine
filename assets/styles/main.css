@@ -6,6 +6,7 @@
 @import "./language.css";
 @import "./announcement.css";
 @import "./status.css";
+@import "./legal.css";
 
 @font-face {
     src: url("/assets/fonts/font.ttf");
@@ -28,7 +29,7 @@ html, body {
 
 main {
     margin-top: 58px;
-    background-color: white;
+    background-color: oklch(100% 0 0 / 1);
 }
 
 main.with-announcement {

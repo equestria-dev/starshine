@@ -2,3 +2,8 @@ includes/serverinfo/bin-arm
 includes/serverinfo/bin-x64
 includes/serverinfo/bin-mac
 includes/secrets.json
+includes/lang/translation.js
+includes/lang/pseudo.js
+includes/lang/node_modules
+includes/lang/package.json
+includes/lang/package-lock.json

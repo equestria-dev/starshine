@@ -22,7 +22,7 @@
                 ?></td>
             <td class="archive-table-month"><?php
 
-                $month = date('F', $project["commit"]);
+                $month = month((int)date('n', $project["commit"]));
 
                 if ($month !== $lastMonth) {
                     $lastMonth = $month;

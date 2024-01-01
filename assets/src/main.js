@@ -35,4 +35,55 @@ window.onload = () => {
             document.body.classList.add("animated");
         }
     }
+
+    if (document.getElementById("legal-color-switch-oklch")) {
+        document.getElementById("legal-color-switch-oklch").onclick = (e) => {
+            e.preventDefault();
+
+            document.getElementById("legal-color-switch-oklch").classList.remove("legal-color-switch-active");
+            document.getElementById("legal-color-switch-rgb").classList.remove("legal-color-switch-active");
+            document.getElementById("legal-color-switch-cmyk").classList.remove("legal-color-switch-active");
+
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-rgb");
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-cmyk");
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-oklch");
+
+            document.getElementById("legal-color-switch-oklch").classList.add("legal-color-switch-active");
+            document.getElementById("legal-color-box").classList.add("legal-color-format-oklch");
+        }
+    }
+
+    if (document.getElementById("legal-color-switch-rgb")) {
+        document.getElementById("legal-color-switch-rgb").onclick = (e) => {
+            e.preventDefault();
+
+            document.getElementById("legal-color-switch-oklch").classList.remove("legal-color-switch-active");
+            document.getElementById("legal-color-switch-rgb").classList.remove("legal-color-switch-active");
+            document.getElementById("legal-color-switch-cmyk").classList.remove("legal-color-switch-active");
+
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-rgb");
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-cmyk");
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-oklch");
+
+            document.getElementById("legal-color-switch-rgb").classList.add("legal-color-switch-active");
+            document.getElementById("legal-color-box").classList.add("legal-color-format-rgb");
+        }
+    }
+
+    if (document.getElementById("legal-color-switch-cmyk")) {
+        document.getElementById("legal-color-switch-cmyk").onclick = (e) => {
+            e.preventDefault();
+
+            document.getElementById("legal-color-switch-oklch").classList.remove("legal-color-switch-active");
+            document.getElementById("legal-color-switch-rgb").classList.remove("legal-color-switch-active");
+            document.getElementById("legal-color-switch-cmyk").classList.remove("legal-color-switch-active");
+
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-rgb");
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-cmyk");
+            document.getElementById("legal-color-box").classList.remove("legal-color-format-oklch");
+
+            document.getElementById("legal-color-switch-cmyk").classList.add("legal-color-switch-active");
+            document.getElementById("legal-color-box").classList.add("legal-color-format-cmyk");
+        }
+    }
 }

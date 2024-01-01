@@ -31,23 +31,25 @@ if (!isset($realLang)) {
     $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang" . $useLang . ".json") ? $useLang : "en";
 }
 
+if ($realLang === "package" || $realLang === "package-lock") $realLang = "en";
+
 _preload_lang(json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/" . $realLang . ".json"), true), "lang");
 
 function size($n, $precision = 1) {
     if ($n < 1024) {
-        return $n . " " . l("lang.storage.b");
+        return $n . " " . (lp() === "fr" ? "o" : "B");
     } elseif ($n < 1024**2) {
-        return round($n / 1024, $precision) . " " . l("lang.storage.kb");
+        return round($n / 1024, $precision) . " Ki" . (lp() === "fr" ? "o" : "B");
     } elseif ($n < 1024**3) {
-        return round($n / 1024**2, $precision) . " " . l("lang.storage.mb");
+        return round($n / 1024**2, $precision) . " Mi" . (lp() === "fr" ? "o" : "B");
     } elseif ($n < 1024**4) {
-        return round($n / 1024**3, $precision) . " " . l("lang.storage.gb");
+        return round($n / 1024**3, $precision) . " Gi" . (lp() === "fr" ? "o" : "B");
     } elseif ($n < 1024**5) {
-        return round($n / 1024**4, $precision) . " " . l("lang.storage.tb");
+        return round($n / 1024**4, $precision) . " Ti" . (lp() === "fr" ? "o" : "B");
     } elseif ($n < 1024**6) {
-        return round($n / 1024**5, $precision) . " " . l("lang.storage.pb");
+        return round($n / 1024**5, $precision) . " Pi" . (lp() === "fr" ? "o" : "B");
     } elseif ($n < 1024**7) {
-        return round($n / 1024**6, $precision) . " " . l("lang.storage.eb");
+        return round($n / 1024**6, $precision) . " Ei" . (lp() === "fr" ? "o" : "B");
     }
 
     return $n . " " . l("lang.storage.b");
@@ -86,4 +88,8 @@ function timeAgo($time, $showTense = true): string {
     } else {
         return "{$difference} {$period}";
     }
+}
+
+function month($i) {
+    return l("lang.months." . ($i - 1));
 }

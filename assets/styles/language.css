@@ -19,7 +19,7 @@
 }
 
 .language-item {
-    color: black;
+    color: oklch(0% 0 0 / 1);
     text-decoration: none;
 }
 

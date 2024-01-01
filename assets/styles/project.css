@@ -14,7 +14,7 @@
     -webkit-backdrop-filter: blur(100vw);
     position: relative;
     z-index: 1;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: oklch(100% 0 0 / .8);
 }
 
 #project-box-icon {
@@ -36,7 +36,7 @@
 }
 
 #project-box-links {
-    border: 1px solid rgba(0, 0, 0, .5);
+    border: 1px solid oklch(0% 0 0 / .5);
     margin-top: 21px;
     width: 75%;
 }
@@ -48,20 +48,20 @@
 }
 
 .project-box-link {
-    border-right: 1px solid rgba(0, 0, 0, .5);
+    border-right: 1px solid oklch(0% 0 0 / .5);
     display: block;
-    color: black;
+    color: oklch(0% 0 0 / 1);
     text-decoration: none;
     padding: 10px 20px;
 }
 
 .project-box-link:hover {
-    background-color: #836fba;
-    color: white;
+    background-color: oklch(59.2% 0.114 294.97 / 1);
+    color: oklch(100% 0 0 / 1);
 }
 
 .project-box-link:active {
-    background-color: #392F76;
+    background-color: oklch(19.2% 0.114 294.97 / 1);
 }
 
 .project-box-link:nth-last-child(1) {
@@ -110,13 +110,13 @@
 
 .project-details-languages-item-bar {
     margin-top: 5px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: oklch(0% 0 0 / .1);
     height: 16px;
 }
 
 .project-details-languages-item-bar-fill {
     height: 16px;
-    background-color: #836fba;
+    background-color: oklch(59.2% 0.114 294.97 / 1);
 }
 
 #archive-container {
@@ -128,7 +128,7 @@
 
 #archive-decoration {
     position: absolute;
-    background-image: radial-gradient(circle, rgba(214,172,249,1) 0%, rgba(214,172,249,0) 50%);
+    background-image: radial-gradient(circle, oklch(80.86% 0.115 308.9 / 1) 0%, oklch(80.86% 0.115 308.9 / 0) 50%);
     width: 150vh;
     height: 150vh;
     right: -75vh;

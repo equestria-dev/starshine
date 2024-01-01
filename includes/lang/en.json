@@ -1,14 +1,6 @@
 {
   "_name": "English",
-  "storage": {
-    "b": "B",
-    "kb": "KiB",
-    "mb": "MiB",
-    "gb": "GiB",
-    "tb": "TiB",
-    "pb": "PiB",
-    "eb": "EiB"
-  },
+  "title": "Equestria.dev: Software platform you can rely on",
   "time": {
     "ago": "ago",
     "later": "later",
@@ -168,5 +160,146 @@
       "used": "used"
     },
     "update": "Last updated"
+  },
+  "months": [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+  ],
+  "legal": {
+    "notices": {
+      "title": "Legal disclaimers",
+      "privacy": "If you ever need more details, please contact us directly. Some information is kept hidden for privacy reasons.",
+      "webmasters": [
+        "Content management and disclaimers",
+        "Unless in presence of user-created content, the content hosted on Equestria.dev's platform is under the responsibility of",
+        "Even though we make as much effort as possible into providing users with accurate information, the Equestria.dev developers cannot guarantee the preciseness of the information provided by our platforms. Therefore, the information on our platforms may be inexact or outdated."
+      ],
+      "servers": "Server locations",
+      "locations": "Equestria.dev manages networks transiting user data in France, Germany and the United States. Networks that are only used for Equestria.dev's internal purposes and that do not transit user data are not mentioned on this page.",
+      "property": "Servers under the property of:",
+      "physical": "Approximate physical location:",
+      "isp": "Internet service provider:",
+      "us": "link for non-US residents",
+      "data": "User data requests",
+      "howto": "Should any Equestria.dev user request access or deletion of user data, an email containing the IP address of the user, any device identifiers (if applicable), an Equestria.dev account ID (if applicable) needs to be sent from the email address associated with the Equestria.dev account (if applicable) to the following email address:",
+      "law": "As per law enforcement rules, Equestria.dev is unable to delete server logs that are less than 3 months old.",
+      "gov": "Warrant canary",
+      "pgp": "This is a PGP message signed with the following key: ",
+      "key": "view full public key",
+      "alt": "alternative source",
+      "plain": "View warrant canary (opens in a new tab)"
+    },
+    "branding": {
+      "page": "Branding guidelines",
+      "title": "Equestria.dev branding guidelines",
+      "intro": "At Equestria.dev, we take things and how you represent our brand seriously. The Equestria.dev brand should represent quality, simple and private open-source software. If you use our branding assets for anything, please make sure to respect these guidelines.",
+      "copyright": "The Equestria.dev logo and products are protected by applicable copyright laws in France, the United States, and other countries. Equestria.dev grants you a non-transferable, non-exclusive, royalty-free limited license to use its logo as defined by the following guidelines. These guidelines also regulate use of the Equestria.dev logo throughout our own services. Failure to abide is considered an infringement on Equestria.dev's intellectual property and will lead to legal action.",
+      "logo": {
+        "title": "Our logo",
+        "message": "Please do not edit, change, distort, recolor, or reconfigure the Equestria.dev logo."
+      },
+      "icon": {
+        "title": "Icon only",
+        "message": "Use these only when the Equestria.dev brand is clearly visible, has been well established elsewhere on the page or in the design, or space does not permit showing the full version. When in doubt, use the other one."
+      },
+      "spacing": {
+        "title": "Spacing",
+        "message": "Make sure to respect these spacing guidelines while using the Equestria.dev logo. Additionally, make sure you make the logo big enough to be legible and distinguishable.",
+        "scale": "x = \".dev\" text height.",
+        "notice": "(the icon only version is recommended in spaces where you have to show the logo at sizes less than 96 pixels or 52.8 millimeters, down to 24 pixels or 13.2 millimeters)"
+      },
+      "dont": {
+        "title": "Don'ts",
+        "messages": [
+          "Do not edit, change or reconfigure the logo or the wordmark",
+          "Do not distort the logo or the wordmark including unintentionally",
+          "Do not recolor or apply visual effects to the logo or the wordmark",
+          "Do not place a tagline or any other element over the logo or wordmark"
+        ],
+        "descriptions": [
+          "This includes not rotating the logo and changing any text or shape, along with maintaining spacing between the different elements of the full logo.",
+          "You must not distort or deform the logo in any way, whether it is in a 2D or 3D frame. Additionally, make sure the logo is displayed properly in all cases.",
+          "Both the logo and wordmark must be kept as is, with no color change at all. If you need to use grayscale, use the monochrome variants.",
+          "Ensure that the taglines (if applicable) never overlap any element of the logo. Additionally, do not endorse approval or sponsorship when there is none."
+        ],
+        "too": {
+          "title": "Don't do too much",
+          "text": [
+            "Ensure that the Equestria.dev brand is not displayed more prominently than the name, logo or brand of your own product or service.",
+            "Doing \"too much\" could lead to confusion and make users think they are facing either the official Equestria.dev website, or an official Equestria.dev product."
+          ]
+        },
+        "attribution": {
+          "title": "Don't use without attribution",
+          "message": "When using the Equestria.dev logo or any project logo, always give attribution with either of the following texts:",
+          "copyright": {
+            "global": [
+              "Equestria.dev logo:",
+              "used under license"
+            ],
+            "product": [
+              "[project name] logo",
+              "project name"
+            ]
+          }
+        },
+        "impersonation": {
+          "title": "Don't imitate or impersonate",
+          "text": [
+            "Mimicking the Equestria.dev brand in non-Equestria.dev materials is not allowed. The same restriction applies for animating the Equestria.dev brand, combining it with any other words, symbols, images, or designs, or incorporating it into a slogan or tagline.",
+            "Additionally, using the name or likeness of an individual from within Equestria.dev or the group as whole in any social media account or other media is strictly prohibited."
+          ]
+        },
+        "endorsement": {
+          "title": "Don't imply endorsement where there is none",
+          "text": [
+            "We value collaboration, however, do not in any way imply affiliation, sponsorship, endorsement or approval of your products or services with Equestria.dev without Equestria.dev's express permission. You need to have a cooperation formally established in writing with an agreement from Equestria.dev before referring to such cooperation with Equestria.dev.",
+            "This means text such as \"Approved by Equestria.dev\", \"Equestria.dev Certified\" or \"Recommended by Equestria.dev\" is not allowed."
+          ]
+        }
+      },
+      "color": {
+        "title": "Color palette",
+        "intro": "The Equestria.dev color palette, named \"Brightdawn\" (after Misty Brightdawn, the character from My Little Pony) has been created to reflect our core values: inclusiveness, friendship and transparency. It is based on the original \"Misty\" palette used in 2023 updated to include brighter colors.",
+        "formats": {
+          "title": "Color code format:",
+          "oklch": "OKLCH (sRGB profile)",
+          "rgb": "Hexadecimal RGB (8-bit)",
+          "cmyk": "CMYK (standard)"
+        },
+        "list": [
+          "Primary Light",
+          "Primary Dark",
+          "Secondary Light",
+          "Secondary Dark",
+          "Background",
+          "On Background",
+          "Positive Light",
+          "Positive Dark",
+          "Neutral Light",
+          "Neutral Dark",
+          "Negative Light",
+          "Negative Dark",
+          "Surface",
+          "On Surface"
+        ]
+      },
+      "more": {
+        "title": "Looking for more?",
+        "text": "Download the full Equestria.dev brand kit and get access to all the resources we used to create our logo, along with special variants used in specific conditions, including prototype designs and other design sheets.",
+        "cta": "Download version 3",
+        "notice": "Also includes versions 1 and 2"
+      }
+    }
   }
 }
