@@ -331,7 +331,7 @@ hr {
 }
 
 .navbar-status, .navbar-email {
-    --status-color: 0, 0, 0;
+    --status-color: 0% 0 0;
     border: 1px solid oklch(var(--status-color) / 1);
     padding: 10px 15px;
     border-radius: 10px;

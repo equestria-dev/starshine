@@ -8,16 +8,16 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
-        "size": 23819308,
+        "size": 77549323,
         "language": "PHP",
         "languages": {
-            "PHP": 67.5,
-            "CSS": 28.84,
-            "JavaScript": 3.3,
-            "Shell": 0.37
+            "PHP": 67.56,
+            "CSS": 24.97,
+            "JavaScript": 6.83,
+            "Shell": 0.64
         },
-        "update": 1703631652,
-        "commit": 1703631641,
+        "update": 1704143216,
+        "commit": 1704143197,
         "archive": false,
         "readme": null
     },
@@ -30,13 +30,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponish-translator",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponish-translator",
-        "size": 246877,
+        "size": 243769,
         "language": "HTML",
         "languages": {
             "HTML": 100
         },
-        "update": 1703631581,
-        "commit": 1703631577,
+        "update": 1704143150,
+        "commit": 1704143143,
         "archive": false,
         "readme": null
     },
@@ -49,14 +49,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/cometos",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/cometos",
-        "size": 1735718,
+        "size": 1353508,
         "language": "Rust",
         "languages": {
             "Rust": 99.94,
             "Lua": 0.06
         },
-        "update": 1703631551,
-        "commit": 1703631527,
+        "update": 1704143115,
+        "commit": 1704143103,
         "archive": false,
         "readme": null
     },
@@ -92,15 +92,15 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/168\/logo2.jpg",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
-        "size": 104417200,
+        "size": 104410994,
         "language": "HTML",
         "languages": {
             "HTML": 63.32,
             "JavaScript": 36.12,
             "Shell": 0.55
         },
-        "update": 1703631644,
-        "commit": 1703631636,
+        "update": 1704406004,
+        "commit": 1704405994,
         "archive": false,
         "readme": null
     },
@@ -135,7 +135,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/sunny-starbot",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/163\/icon.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/sunny-starbot",
-        "size": 69948298,
+        "size": 69936898,
         "language": "PHP",
         "languages": {
             "PHP": 90.78,
@@ -143,8 +143,8 @@
             "JavaScript": 2.83,
             "Shell": 0.24
         },
-        "update": 1702814185,
-        "commit": 1702814177,
+        "update": 1704406007,
+        "commit": 1704405999,
         "archive": false,
         "readme": null
     },
@@ -258,15 +258,15 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/103\/violette.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
-        "size": 5432272,
+        "size": 5424263,
         "language": "PHP",
         "languages": {
             "PHP": 60.56,
             "CSS": 20.09,
             "JavaScript": 19.36
         },
-        "update": 1699824791,
-        "commit": 1699824783,
+        "update": 1704406016,
+        "commit": 1704406002,
         "archive": false,
         "readme": null
     },
@@ -419,7 +419,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/status",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/95\/status.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/status",
-        "size": 5136309,
+        "size": 5132036,
         "language": "HTML",
         "languages": {
             "HTML": 94.83,
@@ -427,8 +427,8 @@
             "JavaScript": 1.91,
             "CSS": 0.16
         },
-        "update": 1703107928,
-        "commit": 1703107921,
+        "update": 1704406008,
+        "commit": 1704405997,
         "archive": false,
         "readme": null
     },
@@ -483,14 +483,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/powertools",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/91\/powertools.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/powertools",
-        "size": 3727750,
+        "size": 3730395,
         "language": "JavaScript",
         "languages": {
-            "JavaScript": 97.96,
-            "Shell": 2.04
+            "JavaScript": 97.97,
+            "Shell": 2.03
         },
-        "update": 1702814166,
-        "commit": 1702814155,
+        "update": 1704406002,
+        "commit": 1704405991,
         "archive": false,
         "readme": null
     },
@@ -524,14 +524,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponypush",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/89\/ponypush.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponypush",
-        "size": 58084433,
+        "size": 58085574,
         "language": "Kotlin",
         "languages": {
             "Kotlin": 99.04,
             "Java": 0.96
         },
-        "update": 1692646516,
-        "commit": 1692109185,
+        "update": 1704405991,
+        "commit": 1704405987,
         "archive": false,
         "readme": "# Ponypush\nThis is a fork of the [ntfy Android app](https:\/\/github.com\/binwiederhier\/ntfy) ([ntfy.sh](https:\/\/ntfy.sh)) made to work with Equestria.dev's notification servers and other technologies. It is not meant to be used outside of Equestria.dev's services.\n\n## Build\n\n### Building without Firebase (\"F-Droid flavor\", using WebSockets)\nIn Android Studio, go to Build > Generate Signed Bundle\/APK and select `fdroidDebug` or `fdroidRelease`.\n\n### Building with Firebase (\"Google Play flavor\", using Firebase Cloud Messaging)\nTo build your own version with Firebase, you must:\n* Create a Firebase account and create an Android app on it\n* Place your account file at `app\/google-services.json`\n* In Android Studio, go to Build > Generate Signed Bundle\/APK and select `playDebug` or `playRelease`.\n\n## Notable differences\n- Revamped UI, with a lot of options removed\n  - Most notably, it is not possible to use a third-party server other than notifications.equestria.dev\n- Integration with Equestria.dev's tags\n- Firebase Cloud Messaging support for notifications.equestria.dev\n\n## Upstream integration\nWhen notable changes are made upstream (on the official ntfy app), Ponypush will attempt to integrate such changes as much as possible. However, we cannot guarantee that the implemented features will work the same as with the official ntfy app.\n\n## License\nThis is a fork of ntfy by [Philipp C. Heckel](https:\/\/heckel.io), distributed under the [Apache License 2.0](LICENSE) like the original project."
     },
@@ -565,7 +565,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponycon",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/87\/ponycon.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponycon",
-        "size": 14131274,
+        "size": 14062448,
         "language": "CSS",
         "languages": {
             "CSS": 56.33,
@@ -574,8 +574,8 @@
             "EJS": 2.91,
             "TypeScript": 1.76
         },
-        "update": 1701115754,
-        "commit": 1701115655,
+        "update": 1704186108,
+        "commit": 1704186086,
         "archive": false,
         "readme": null
     },
@@ -710,14 +710,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/maretimesans",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/78\/maretimesans.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/maretimesans",
-        "size": 91883197,
+        "size": 91639950,
         "language": "JavaScript",
         "languages": {
             "JavaScript": 55.31,
             "HTML": 44.69
         },
-        "update": 1695153810,
-        "commit": 1695119216,
+        "update": 1704153155,
+        "commit": 1704153149,
         "archive": false,
         "readme": "# ![Maretime Sans](.\/docs\/logo\/banner.jpg)\n\n![Badge](.\/docs\/badge.svg)\n\nMaretime Sans is a font based on the 2022 My Little Pony logo. It is built on a re-creation of the text found in various Hasbro marketing material.\n\n## Currently available characters\n![Currently available characters](.\/docs\/state.png)\n\n## Overview\n\n### Maretime Sans is...\n* A childish-looking font\n* A font to show your appreciation towards My Little Pony\n* A font to represent everypony\n* A cool font to use for your titles\n\n### Maretime Sans is not...\n* **An official Hasbro asset or product**\n* A font to use for paragraphs of text\n* A font to use for non-title headings\n* A font to recreate official Hasbro artwork\n\n## Installation\n\nThe font will appear as `MLPMaretimeSans` once installed on a system, so it can go along with the Find Your Sparkle* (`MLPFindYourSparkle`) font.\n\n**Find Your Sparkle is an official proprietary font made by Hasbro and is not provided in this repository.*\n\n### Windows\n* [Download the font](.\/export.otf)\n* In Windows Explorer, right click it\n* Click on \"Install\" or \"Install for all users\" (depending on what you want)\n\n### macOS\n* [Download the font](.\/export.otf)\n* Open the Font Book app\n* Drag-and-drop the downloaded file to the Font Book app\n\n### Linux (GNOME\/Ubuntu)\n* [Download the font](.\/export.otf)\n* Open the downloaded file with the Fonts application\n* Click on \"Install\" in the top right corner\n\n### Linux (KDE Plasma)\n* [Download the font](.\/export.otf)\n* Open System Settings, and go to the Fonts page\n* Go to \"Personal Fonts\" (or \"System Fonts\" if you want to install it system-wide)\n* Click on \"Install from File...\" and select the downloaded file\n\n### CSS\n* [Download the font](.\/export.otf) to your website (here, it is assumed to be `\/assets\/font.otf`)\n* Add the following CSS code:\n```css\n@font-face {\n    src: url(\"\/assets\/font.otf\");\n    font-family: \"MLPMaretimeSans\";\n    font-style: normal;\n    font-weight: normal;\n}\n```\n* Now, you can use the following rule: `font-family: \"MLPMaretimeSans\", sans-serif;`\n\n## License\nThe assets used in this font are inspired by Hasbro's assets for My Little Pony, therefore, they fall into Fair Use. However, using this font to infringe on Hasbro's trademark(s) is considered counterfeit and is illegal.\n\nAs for the font itself, you can use it freely for all your hobby projects and not-for-profit projects; however, please avoid using it in commercial settings. Also avoid claiming it as your own or removing copyright notices in the font file.\n\n## Troubleshooting\nIf you encounter an issue with this font, uninstall it and reinstall it. If the issue persists, [contact the developers](https:\/\/equestria.horse\/contact).\n\n## Get involved\nIf you want to add new characters to the font, report\/fix issues, or just about anything, please create an issue on [Equestria.dev's issue tracker](https:\/\/bugs.equestria.dev\/issues\/MRNS)."
     },
@@ -770,14 +770,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/74\/chatroom.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
-        "size": 253483197,
+        "size": 252807246,
         "language": "JavaScript",
         "languages": {
             "JavaScript": 57.52,
             "HTML": 42.48
         },
-        "update": 1700950513,
-        "commit": 1700950171,
+        "update": 1704153091,
+        "commit": 1704153084,
         "archive": false,
         "readme": null
     },
@@ -829,7 +829,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/horses",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/70\/horses.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/horses",
-        "size": 623514019,
+        "size": 623511062,
         "language": "PHP",
         "languages": {
             "PHP": 78.5,
@@ -837,8 +837,8 @@
             "CSS": 3.63,
             "Shell": 0.47
         },
-        "update": 1697719914,
-        "commit": 1697719910,
+        "update": 1704153115,
+        "commit": 1704153108,
         "archive": false,
         "readme": null
     },
@@ -932,14 +932,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/derp",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/derp",
-        "size": 10546,
+        "size": 9132,
         "language": "Python",
         "languages": {
             "Python": 99.51,
             "Shell": 0.49
         },
-        "update": 1699473539,
-        "commit": 1699473535,
+        "update": 1704153111,
+        "commit": 1704153103,
         "archive": false,
         "readme": null
     },
@@ -984,15 +984,15 @@
         "readme": null
     },
     {
-        "id": "b8adf0211ea0ab399b00662266a76781",
+        "id": "4b3bc7ee22eca2abb1f39c7243d424fd",
         "owner": "equestria.dev",
-        "name": "cold-haze",
+        "name": "ponycule",
         "display_name": "Ponycule",
         "description": "An all-in-one application + public website suite for plural systems",
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/cold-haze",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/53\/cold-haze.png",
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/cold-haze",
-        "size": 131984040,
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
+        "size": 131946608,
         "language": "PHP",
         "languages": {
             "PHP": 88.98,
@@ -1001,8 +1001,8 @@
             "JavaScript": 2.22,
             "HTML": 1.22
         },
-        "update": 1703631633,
-        "commit": 1703631630,
+        "update": 1704405983,
+        "commit": 1704405976,
         "archive": false,
         "readme": null
     },
@@ -1200,13 +1200,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponywatch",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/4\/ponywatch.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponywatch",
-        "size": 46314430,
+        "size": 19011243,
         "language": "Kotlin",
         "languages": {
             "Kotlin": 100
         },
-        "update": 1703277939,
-        "commit": 1703277927,
+        "update": 1704405994,
+        "commit": 1704405989,
         "archive": false,
         "readme": null
     },
@@ -1240,13 +1240,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-android",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/61\/delta-android.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-android",
-        "size": 9652056,
+        "size": 9653433,
         "language": "Kotlin",
         "languages": {
             "Kotlin": 100
         },
-        "update": 1695708823,
-        "commit": 1691666088,
+        "update": 1704153105,
+        "commit": 1704153096,
         "archive": false,
         "readme": null
     },
@@ -1259,7 +1259,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-web",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/60\/delta.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-web",
-        "size": 89341185,
+        "size": 89340157,
         "language": "PHP",
         "languages": {
             "PHP": 92.26,
@@ -1268,8 +1268,8 @@
             "Hack": 0.14,
             "Shell": 0.09
         },
-        "update": 1696883390,
-        "commit": 1696883379,
+        "update": 1704153098,
+        "commit": 1704153091,
         "archive": false,
         "readme": null
     },

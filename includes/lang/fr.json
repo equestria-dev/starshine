@@ -1,203 +1,203 @@
 {
-  "_name": "English",
-  "title": "Equestria.dev: Software platform you can rely on",
+  "_name": "Français",
+  "title": "Equestria.dev : Des logiciels sur lesquels vous pouvez compter",
   "time": {
-    "ago": "ago",
-    "later": "later",
-    "now": "now",
-    "second": ["second", "seconds"],
+    "ago": "plus tôt",
+    "later": "plus tard",
+    "now": "maintenant",
+    "second": ["seconde", "secondes"],
     "minute": ["minute", "minutes"],
-    "hour": ["hour", "hours"],
-    "day": ["day", "days"],
-    "week": ["week", "weeks"],
-    "month": ["month", "months"],
-    "year": ["year", "years"],
-    "age": ["age", "ages"]
+    "hour": ["heure", "heures"],
+    "day": ["jour", "jours"],
+    "week": ["semaine", "semaines"],
+    "month": ["mois", "mois"],
+    "year": ["an", "ans"],
+    "age": ["moment", "moments"]
   },
   "navigation": {
     "headers": {
-      "projects": "Projects",
-      "network": "Network",
+      "projects": "Projets",
+      "network": "Réseau",
       "contact": "Contact",
-      "legal": "Legal"
+      "legal": "Légal"
     },
     "projects": {
-      "archives": "See our archived projects"
+      "archives": "Voir nos projets archivés"
     },
     "network": {
       "status": [
-        "All systems operational",
-        "Degraded performance",
-        "Major outage"
+        "Tout est opérationnel",
+        "Dégradations de performance",
+        "Interruptions majeures"
       ],
-      "account": "Your account",
+      "account": "Votre compte",
       "infra": "Infrastructure",
-      "security": "Security advisories",
-      "bugs": "Bug tracker",
+      "security": "Rapports de sécurité",
+      "bugs": "Traqueur de problèmes",
       "blog": "Blog"
     },
     "legal": {
-      "privacy": "Data privacy",
-      "terms": ["Terms", "and conditions"],
-      "license": "Software licenses",
-      "disclaimer": "Legal disclaimers",
-      "branding": "Branding guidelines",
-      "support": "Supported by",
+      "privacy": "Confidentialité",
+      "terms": ["Termes", "et conditions"],
+      "license": "Licenses logicielles",
+      "disclaimer": "Notes légales",
+      "branding": "Règles de marque",
+      "support": "Soutenu par",
       "version": "Version",
-      "made": "Made by ponies with",
-      "phpstorm": "and PhpStorm",
-      "trademark": "\"Equestria.dev\" and associated names are trademarks of Equestria.dev Developers in France and other countries. The Equestria.dev and projects logos are protected under applicable copyright laws. JetBrains, the associated logos and the associated names are registered trademarks of JetBrains s.r.o., used under license."
+      "made": "Fait par des pouliches avec",
+      "phpstorm": "et PhpStorm",
+      "trademark": "\"Equestria.dev\" et les noms associées sont des marques commerciales de Equestria.dev Developers en France et dans d'autres pays. Les logos d'Equestria.dev et des projets sont protégés selon les lois de propriété intellectuelle applicables. JetBrains, les logos associés et les noms associés sont des marques déposées de JetBrains s.r.o., utilisées sous license."
     },
     "contact": {
-      "email": "Send us an email"
+      "email": "Envoyez-nous un courriel"
     }
   },
   "footer": {
-    "copyright": "All rights reserved."
+    "copyright": "Tous droits réservés."
   },
   "home": {
     "hero": {
-      "title": ["Software platform", "you can", "rely on"],
-      "cta": "See what we do"
+      "title": ["Des logiciels sur", "lesquels vous", "pouvez compter"],
+      "cta": "Voir ce que nous faisons"
     },
     "categories": {
       "dev": {
-        "title": "Development",
-        "description": "With over 5 years of experience in software development, in a wide range of languages — such as Rust, JavaScript, Kotlin or PHP —, you can be rest assured that we will develop quality software to help fulfill your needs, whether you are a business or an individual.",
-        "cta": "View projects"
+        "title": "Développement",
+        "description": "Avec plus de 5 ans d'expérience en développement de logiciels, dans une large gamme de langages — tels que Rust, JavaScript, Kotlin ou PHP —, vous pouvez être sûr que nous développons des logiciels de qualité qui vous permettent d'atteindre vos objectifs, que vous soyez un professionnel ou un particulier.",
+        "cta": "Voir les projets"
       },
       "network": {
-        "title": "Networking",
-        "description": "Did you know this text went through at least 3 different Equestria.dev servers before reaching you? With our years of experience in managing servers — mainly Linux —, we can fully optimize any application to perform at its best regardless of the server load.",
-        "cta": "View infrastructure"
+        "title": "Réseau",
+        "description": "Savez-vous que ce texte a traversé 3 serveurs Equestria.dev avant d'arriver jusqu'à vous ? Avec nos années d'expérience dans la gestion de serveurs — principalement sous Linux —, nous pouvez optimiser parfaitement n'importe quelle application pour fonctionner à son plein potentiel peu importe le niveau de charge.",
+        "cta": "Voir l'infrastructure"
       },
       "privacy": {
-        "title": "Privacy",
-        "description": "Privacy, security and protecting user data has always been ones of our core values. Whenever possible — and needed —, we use robust military-grade encryption technology, and we make sure user data is always safe and protected from various types of attacks.",
-        "cta": "Read documents"
+        "title": "Confidentialité",
+        "description": "Confidentialité, sécurité et protéger les données des utilisateurs ont toujours été de nos valeurs fondamentales. Lorsque c'est possible — et nécessaire —, nous utilisons des technologies de chiffrement robustes, et nous nous assurons que les données des utilisateurs sont toujours en sécurité et protégées contre diverses formes d'attaques.",
+        "cta": "Lire les documents"
       }
     },
     "contact": {
-      "title": "Have a special request?",
-      "description": "If you would like us to help with a project of your own, whether it is regarding development, managing servers or privacy and security, we can help. Feel free to drop us a message and we will see what we can do.",
-      "cta": "Send us a message"
+      "title": "Vous avez une demande particulière ?",
+      "description": "Si vous avez besoin de notre aide pour l'un de vos projet, que ce soit au niveau de développement, de la gestion des serveurs ou de la confidentialité et sécurité, nous pouvons aider. N'hésitez pas à nous connecter et on pourra voir ensemble que faire.",
+      "cta": "Envoyez-nous un message"
     }
   },
   "error": {
-    "title": "Error",
+    "title": "Erreur",
     "messages": {
-      "404": "Page not found",
-      "403": "Access is denied",
-      "401": "Authentication required",
-      "400": "Invalid request",
-      "500": "Internal server error",
-      "501": "Not available yet",
-      "502": "Upstream server error",
-      "503": "Server is unreachable",
-      "504": "Upstream server timed out",
-      "default": "Unknown system error"
+      "404": "Page introuvable",
+      "403": "Accès refusé",
+      "401": "Authentification requise",
+      "400": "Requête invalide",
+      "500": "Erreur interne du serveur",
+      "501": "Pas encore disponible",
+      "502": "Erreur du serveur de destination",
+      "503": "Le serveur est inaccessible",
+      "504": "Le serveur de destination a mis trop de temps à répondre",
+      "default": "Erreur système inconnue"
     },
     "descriptions": {
-      "404": "If you followed a link from this website, then something must be wrong. If you followed an external link, then it is possible that link is incorrect and needs to be updated. If you entered the address yourself, it is possible you misspelled something.",
-      "403": "You have tried to reach a page that is not accessible from this website. This is usually the case for internal files that are used on the server. If you followed a link from this website and got here, then something must be wrong.",
-      "401": "You have tried to reach a page that requires authentication without being authenticated. Refreshing the page usually helps fix this issue. If you don't have credentials to authenticate for this page, you can go back to the home page.",
-      "400": "You have tried to send a request to the server that it cannot process. This should generally not happen, but it might indicate an issue with your browser. If you need help to fix this, feel free to contact us.",
-      "500": "An error occurred on the server while trying to process your request that is unrelated to your browser configuration. This is generally a bug or a temporary issue. If it persists, you can let us know about the issue so we can fix it.",
-      "501": "The page you have tried to reach uses a server feature that has not been implemented in the website yet. This is usually because the page you are trying to reach is a work in progress and will be available in the future.",
-      "502": "This page depends on an external resource or server that is not available at this time. This typically indicates an outage on one or more of our servers. If the issue persists, contact us so we can fix this.",
-      "503": "This page depends on an internal resource that is not available at this time. This typically means that the resource, website or server is under maintenance and is currently unavailable. Check our status page for more information.",
-      "504": "This page depends on an external resource or server that was not able to be reached on time. This typically indicates an outage or an overall slow-down. If the issue persists, contact us so we can fix this.",
-      "default": "An undocumented error occurred. We are not sure what went wrong, but the error code can help you. If you need help, please get in touch with us so we can fix this. We sincerely apologize for the inconvenience."
+      "404": "Si vous avez suivi un lien depuis ce site, quelque chose peut être problématique. Si vous avez suivi un lien externe, il est possible qu'il soit incorrect et qu'il doive être modifié. Si vous avez entré l'adresse vous même, vous pourriez avoir commis une erreur.",
+      "403": "Vous avez tenté d'accéder à une page qui est pas accessible depuis ce site. Cela est normalement le cas pour les fichiers internes utilisés sur le serveur. Si vous avez suivi un lien depuis ce site est que vous êtes arrivé là, quelque chose s'est mal passé.",
+      "401": "Vous avez tenté d'accéder à une page qui réquiert une authentification sans vous être authentifié. Actualiser la page résout typiquement le problème. Si vous ne disposez pas d'identifiants pour cette page, vous pouvez retourner à la page d'accueil.",
+      "400": "Vous avez tenté d'envoyer une requête que le serveur ne peut pas traiter. Cela ne devrait pas arriver, mais il peut s'agir d'un problème avec votre navigateur. Si vous avez besoin d'aide pour résoudre cela, n'hésitez pas à nous contacter.",
+      "500": "Une erreur s'est produite sur le serveur en essayant de traiter votre requête qui n'est pas relative à la configuration de votre navigateur. Cela indique généralement un problème temporaire. Si il persiste, vous pouvez nous informer du problème afin qu'il soit corrigé.",
+      "501": "La page que vous avez essayé d'atteindre utilise une fonctionnalité du serveur qui n'a pas encore été implémentée sur ce site. Il s'agit généralement d'une page qui est en cours de création et qui sera disponible par le futur.",
+      "502": "Cette page dépend d'une ressource externe ou d'un serveur qui n'est pas disponible actuellement. Cela indique typiquement une interruption d'un ou plusieurs de nos serveurs. Si le problème persiste, informez-nous du problème afin de pouvoir réparer cela.",
+      "503": "Cette page dépend d'une ressource interne qui n'est pas disponible actuellement. Cela indique généralement que la ressource, le site ou le serveur est en maintenance et actuellement indisponible. Consultez l'état des services pour plus de détails.",
+      "504": "Cette page dépend d'une ressource externe ou d'un serveur qui n'a pas répondu à temps. Cela indique généralement une interruption ou un ralentissement généralisé. Si le problème persiste, informez-nous du problème afin de pouvoir réparer cela.",
+      "default": "Une erreur non renseignée s'est produite. Nous ne sommes pas sûr de ce qu'il s'est passé, mais le code d'erreur peut vous aider. Si vous avez besoin d'aide, contactez-nous pour résoudre cela. Nous nous excusons de la gêne occasionnée."
     },
     "actions": {
-      "home": "Go back to the home page",
-      "status": "Open the status page",
-      "email": "Contact us via email"
+      "home": "Retourner à la page d'accueil",
+      "status": "Ouvrir l'état des services",
+      "email": "Nous contacter par courriel"
     }
   },
   "project": {
     "actions": {
-      "source": "Source code",
-      "website": "Official website"
+      "source": "Code source",
+      "website": "Site officiel"
     },
-    "update": "Last updated",
-    "archive": "Archived for"
+    "update": "Mis à jour pour la dernière fois",
+    "archive": "Archivé depuis"
   },
   "archive": {
     "title": "Archives"
   },
-  "language": "Language selector",
+  "language": "Sélecteur de langue",
   "status": {
-    "title": "Systems status",
+    "title": "État des services",
     "main": [
-      "All the services are operating as nominal",
-      "Some services are experiencing performance degradation",
-      "Some services are experiencing a major outage"
+      "Tous les services fonctionnent de façon nominale",
+      "Certains services subissent une dégradation des performances",
+      "Certains services subissent une panne majeure"
     ],
     "description": [
-      "We have observed nominal and good performance of all the services hosted by Equestria.dev at the moment.",
-      "We have observed that some Equestria.dev services, while being functional, are being slower than usual.",
-      "We have observed down time in some Equestria.dev services, making them inaccessible for some time."
+      "Nous avons observé des performances bonnes et nominales sur tous les services hébergés par Equestria.dev en ce moment.",
+      "Nous avons observé que certains services Equestria.dev, bien que fonctionnels, sont plus lents que d'habitude.",
+      "Nous avons observé une interruption de certains services Equestria.dev, les rendant indisponibles pour l'instant."
     ],
     "affected": [
-      "The following service is affected by this incident:",
-      "The following services are affected by this incident:"
+      "Le service suivant est affecté par cet incident :",
+      "Les services suivants sont affectés par cet incident :"
     ],
-    "page": "View full status page",
+    "page": "Voir la page d'état complète",
     "stats": {
-      "title": "Statistics",
+      "title": "Statistiques",
       "items": [
-        "Average service latency:",
-        "Total used memory:",
-        "Total used storage:",
-        "Total available compute power:",
-        "cache:",
-        "maximum I/O latency:",
-        "cores",
-        "Operating systems:",
-        "processes total"
+        "Temps de réponse moyen :",
+        "RAM utilisée total :",
+        "Stockage utilisé total :",
+        "Puissance de calcul totale :",
+        "cache :",
+        "latence E/S maximale :",
+        "cœurs",
+        "Systèmes d'exploitation :",
+        "processus en tout"
       ],
-      "used": "used"
+      "used": "utilisé"
     },
-    "update": "Last updated"
+    "update": "Mis à jour pour la dernière fois"
   },
   "months": [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
+    "janvier",
+    "février",
+    "mars",
+    "avril",
+    "mai",
+    "juin",
+    "juillet",
+    "août",
+    "septembre",
+    "octobre",
+    "novembre",
+    "décembre"
   ],
   "legal": {
     "notices": {
-      "title": "Legal disclaimers",
-      "privacy": "If you ever need more details, please contact us directly. Some information is kept hidden for privacy reasons.",
+      "title": "Avertissements légaux",
+      "privacy": "Si vous avez besoin de plus d'informations, merci de nous contacter directement. Certaines informations sont gardées privées par souci de confidentialité.",
       "webmasters": [
-        "Content management and disclaimers",
-        "Unless in presence of user-created content, the content hosted on Equestria.dev's platform is under the responsibility of",
-        "Even though we make as much effort as possible into providing users with accurate information, the Equestria.dev developers cannot guarantee the preciseness of the information provided by our platforms. Therefore, the information on our platforms may be inexact or outdated."
+        "Gestion de contenu et avertissements",
+        "À l'exception du contenu généré par les utilisateurs, le contenu hébergé sur la plate-forme Equestria.dev est sous la responsabilité de",
+        "Malgré nos efforts pour fournir à nos utilisateurs des informations fiables, l'équipe Equestria.dev ne saurait garantir l'exactitude des informations sur nos plate-formes. De ce fait, les informations sur nos plate-formes peuvent être incorrectes ou dépassées."
       ],
-      "servers": "Server locations",
-      "locations": "Equestria.dev manages networks transiting user data in France, Germany and the United States. Networks that are only used for Equestria.dev's internal purposes and that do not transit user data are not mentioned on this page.",
-      "property": "Servers under the property of:",
-      "physical": "Approximate physical location:",
-      "isp": "Internet service provider:",
-      "us": "link for non-US residents",
-      "data": "User data requests",
-      "howto": "Should any Equestria.dev user request access or deletion of user data, an email containing the IP address of the user, any device identifiers (if applicable), an Equestria.dev account ID (if applicable) needs to be sent from the email address associated with the Equestria.dev account (if applicable) to the following email address:",
-      "law": "As per law enforcement regulations, Equestria.dev is unable to delete server logs that are less than 3 months old.",
-      "gov": "Warrant canary",
-      "pgp": "This is a PGP message signed with the following key: ",
-      "key": "view full public key",
-      "alt": "alternative source",
-      "plain": "View warrant canary (opens in a new tab)"
+      "servers": "Localisation des serveurs",
+      "locations": "Equestria.dev gère des réseaux transmettant des données utilisateurs en France, Allemagne et aux États-Unis. Les réseaux qui sont utilisés uniquement à des fins internes à Equestria.dev et qui ne transmettent pas de données utilisateurs ne sont pas mentionnés sur cette page.",
+      "property": "Serveurs sous la propriété de :",
+      "physical": "Position physique approximative :",
+      "isp": "Fournisseur d'accès Internet :",
+      "us": "lien pour les personnes hors É.-U.",
+      "data": "Demandes de données utilisateurs",
+      "howto": "Si un utilisateur d'Equestria.dev réquiert l'accès à ou la suppression des ses données personnelles, un courriel comprenant l'adresse Internet (IP) de l'utilisateur, les identifiants d'appareil (si applicable), l'identifiant du compte Equestria.dev (si applicable) doit être envoyé depuis l'adresse courriel associée au compte Equestria.dev (si applicable) à l'adresse email suivante :",
+      "law": "En raison de certaines lois, Equestria.dev n'est pas en mesure de supprimer les journaux de serveur datés de moins de 3 mois.",
+      "gov": "Demandes gouvernementales",
+      "pgp": "Ceci est un message PGP signé avec la clé suivante : ",
+      "key": "voir la clé publique complète",
+      "alt": "source alternative",
+      "plain": "Voir le message de demandes gouvernementales (ouvre un nouvel onglet)"
     },
     "branding": {
       "page": "Branding guidelines",

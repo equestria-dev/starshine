@@ -232,7 +232,7 @@
                                     <i class="bi bi-brush"></i>
                                     <span class="navbar-legal-item-text"><?= l("lang.navigation.legal.branding") ?></span>
                                 </a>
-                                <a href="/<?= lp() ?>/legal/jetbrains" class="navbar-legal-item">
+                                <a target="_blank" href="/<?= lp() ?>/legal/jetbrains" class="navbar-legal-item">
                                     <i class="bi bi-gift"></i>
                                     <span class="navbar-legal-item-text"><span class="navbar-legal-item-text-large"><?= l("lang.navigation.legal.support") ?> </span>JetBrains</span>
                                 </a>

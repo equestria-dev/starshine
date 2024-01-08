@@ -277,3 +277,15 @@
     font-weight: bold;
     opacity: 1 !important;
 }
+
+#legal-container-inner {
+    max-width: 40em;
+}
+
+#legal-license {
+    padding-left: 20px;
+    margin-left: 10px;
+    border-left: 2px solid oklch(80.86% 0.115 308.9 / 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

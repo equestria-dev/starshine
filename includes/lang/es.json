@@ -97,12 +97,12 @@
       },
       "network": {
         "title": "Redes",
-        "description": "¿Sabía que este texto pasó por al menos 3 servidores diferentes equestria.dev antes de comunicarse con usted? Con nuestros años de experiencia en la administración de servidores, principalmente Linux, podemos optimizar completamente cualquier aplicación para que funcione en su mejor momento, independientemente de la carga del servidor.",
+        "description": "¿Sabía que este texto pasó por al menos 3 servidores diferentes equestria.dev antes de comunicarse con usted? Con nuestros años de experiencia en la administración de servidores, principalmente Linux, podemos optimizar completamente cualquier aplicación para realizar en su mejor momento independientemente de la carga del servidor.",
         "cta": "Ver infraestructura"
       },
       "privacy": {
         "title": "Privacidad",
-        "description": "La privacidad, la seguridad y la protección de los datos del usuario siempre han sido uno de nuestros valores centrales. Siempre que sea posible, y sea necesario, utilizamos una robusta tecnología de cifrado de grado militar, y nos aseguramos de que los datos del usuario siempre estén seguros y protegidos de varios tipos de ataques.",
+        "description": "La privacidad, la seguridad y la protección de los datos del usuario siempre han sido de nuestros valores centrales. Siempre que sea posible, y sea necesario, utilizamos una robusta tecnología de cifrado de grado militar, y nos aseguramos de que los datos del usuario siempre estén seguros y protegidos de varios tipos de ataques.",
         "cta": "Leer documentos"
       }
     },
@@ -219,8 +219,8 @@
       "isp": "Proveedor de servicios de Internet:",
       "us": "enlace para residentes no estadounidenses",
       "data": "Solicitudes de datos de usuario",
-      "howto": "Si cualquier Equestria.dev Solicitud del usuario de acceso o eliminación de datos del usuario, un correo electrónico que contiene la dirección IP del usuario, cualquier identificador de dispositivo (si corresponde), una ID de cuenta Equestria.dev (si corresponde) debe enviarse desde la dirección de correo electrónico asociado con la cuenta Equestria.dev (si corresponde) a la siguiente dirección de correo electrónico:",
-      "law": "Según las reglas de aplicación de la ley, Equestria.dev no puede eliminar registros de servidores que tienen menos de 3 meses.",
+      "howto": "En caso de que cualquier Equestria.dev Solicite el acceso o la eliminación de los datos del usuario, se debe enviar un correo electrónico que contenga la dirección IP del usuario, cualquier identificador de dispositivo (si corresponde), una ID de cuenta Equestria.dev (si corresponde) desde la dirección de correo electrónico asociado con la cuenta Equestria.dev (si corresponde) a la siguiente dirección de correo electrónico:",
+      "law": "Según las regulaciones de aplicación de la ley, Equestria.dev no puede eliminar registros de servidores que tienen menos de 3 meses.",
       "gov": "Orden canario",
       "pgp": "Este es un mensaje PGP firmado con la siguiente clave:",
       "key": "Ver la clave pública completa",
@@ -269,7 +269,7 @@
               "usado bajo licencia"
             ],
             "product": [
-              "LOGOTO DE LKJAZKIZA",
+              "[Nombre del proyecto] Logotipo",
               "nombre del proyecto"
             ]
           },
@@ -328,6 +328,118 @@
       "title": "Directrices de marca Equestria.dev",
       "intro": "En Equestria.dev, tomamos las cosas y cómo representa en serio nuestra marca. La marca Equestria.dev debe representar un software de código abierto de calidad, simple y privado. Si usa nuestros activos de marca para cualquier cosa, asegúrese de respetar estas pautas.",
       "copyright": "El logotipo y los productos Equestria.dev están protegidos por leyes aplicables de derechos de autor en Francia, Estados Unidos y otros países. Equestria.dev le otorga una licencia limitada no transferible, no exclusiva y sin regalías para usar su logotipo según lo definido por las siguientes pautas. Estas pautas también regulan el uso del logotipo Equestria.dev en todos nuestros propios servicios. El incumplimiento se considera una infracción en la propiedad intelectual de Equestria.dev y conducirá a acciones legales."
+    },
+    "privacy": {
+      "sections": [
+        "Privacidad en los servicios en línea de Equestria.dev",
+        "Privacidad en las aplicaciones Equestria.dev",
+        "Privacidad en los servicios o aplicación en línea de Equestria.dev que se integran con los componentes de terceros",
+        "Equestria.dev responsabilidad de proteger los datos privados de un usuario"
+      ],
+      "text": [
+        [
+          "Equestria.dev solo guardará la información que nos da explícitamente (por ejemplo, como parte de un formulario de registro). No se recopilarán otros datos.",
+          "Sin embargo, como parte de la aplicación de la ley, Equestria.dev recopilará direcciones IP y otra información del navegador (nombre del navegador, versión, sistema operativo, URL y fecha) por hasta 365 días. Esta información se elimina cada año en enero.",
+          "Además, Equestria.dev puede, como parte de la mejora de la calidad y la confiabilidad de sus servicios, recopilar información completamente anónima, incluidas las páginas que visita, excluyendo los datos personales potenciales. Esta información se hace anónima antes de agregarse en estadísticas, y la información original se almacena como se menciona en 1§2 (ver arriba)."
+        ],
+        [
+          "Esta sección se aplica a las aplicaciones que están \"instaladas\" (accesibles incluso sin un servicio específico desde Equestria.dev) al dispositivo de un usuario, y tan pronto como el usuario inicia el proceso de instalación.",
+          "Las aplicaciones Equestria.dev nunca monitorearán, almacenarán, perturbarán o prevenirán el comportamiento de otras aplicaciones. Si la aplicación se está ejecutando o no, estará claro al usuario en todo momento.",
+          "Algunas aplicaciones pueden, después de que un usuario haya dado su consentimiento explícito y claro (incluso después de que un usuario ha reconocido el tipo de datos que se recopilarán), recopilar datos estadísticos anónimos como parte de la mejora de la calidad y la confiabilidad de estas aplicaciones. Un usuario siempre tiene la opción de dejar de enviar estas estadísticas a Equestria.dev sin ningún cambio en cómo se comporta la aplicación."
+        ],
+        [
+          "Cuando un servicio o aplicación en línea Equestria.dev se integra con un componente de terceros, la política de privacidad de ese tercero entra en vigencia en todas las operaciones que manejan este tercero.",
+          "Cuando el componente de terceros constituye la operación principal, el servicio en línea o las manijas de la aplicación, la Política de privacidad del tercero se aplica en prioridad. Cuando el componente de terceros constituye una operación secundaria dentro del servicio o aplicación en línea, la política de privacidad de Equestria.dev se aplica primero.",
+          "En el caso de que la política de privacidad de un tercero dependa de un servicio o aplicación en línea de Equestria.dev depende de los cambios, los usuarios de dicho servicio o aplicación en línea de Equestria.dev se darán cuenta de los cambios y cómo afecta la forma en que ellos Use el servicio o la aplicación en línea."
+        ],
+        [
+          "Equestria.dev es completamente responsable de asegurar los datos privados y personales de un usuario (a menos que un tercero esté involucrado en el proceso, en cuyo caso, como se menciona en la Sección 3, se toma la responsabilidad del tercero).",
+          "En el caso de que dicha información sea pública, por ejemplo, por intrusos que descargan datos de los servidores de Equestria.dev, los usuarios serán conscientes del problema lo antes posible, y recibirán instrucciones si es necesario.",
+          "Equestria.dev no tiene interés en vender, regalar o exponer los datos del usuario y no intentará ninguna de estas operaciones en ningún momento."
+        ]
+      ],
+      "translation": [
+        "Descargo de responsabilidad:",
+        "En el caso de que esta política de privacidad se traduzca a otro idioma, solo la versión en inglés es legalmente aplicable. Las versiones traducidas se proporcionan solo para fines de información."
+      ],
+      "title": "Privacidad de datos",
+      "bigtitle": "Equestria.dev Reglas de privacidad de datos",
+      "intro": "En Equestria.dev, valoramos su privacidad. Intentamos recopilar la menor cantidad de datos posible para proporcionarle el servicio que espera. En cualquier caso, el tratamiento de datos de Equestria.dev se realiza de acuerdo con el Reglamento Europeo de Protección de Datos Generales."
+    },
+    "terms": {
+      "translation": [
+        "Descargo de responsabilidad:",
+        "En el caso de que estos términos y condiciones se traduzcan a otro idioma, solo la versión en inglés es legalmente aplicable. Las versiones traducidas se proporcionan solo para fines de información."
+      ],
+      "sections": [
+        "Descargo de responsabilidad",
+        "Demografía",
+        "Propósitos",
+        "Cumplimiento de la ley",
+        "Calidad y confiabilidad de los servicios",
+        "Respeto y igualdad mutuos"
+      ],
+      "text": [
+        [
+          "Es posible que los usuarios específicos no puedan usar los servicios en línea de Equestria.dev dependiendo de su ubicación o condición física.",
+          "Los usuarios ubicados en China, Corea del Norte y otros países no pueden usar servicios en línea. Los administradores pueden hacer excepciones por caso.",
+          "Las personas que son legalmente menores de 13 años no pueden usar los servicios en línea. Los usuarios que tienen menos de 21 años pueden no tener acceso a características específicas."
+        ],
+        [
+          "Equestria.dev otorga a los usuarios un permiso único, revocable y no intercambiable para acceder a los servicios en línea.",
+          "No se permite el uso de los servicios en línea en una actividad de fabricación de ganancias, sin importar cuántos ganancias se obtengan, y dará como resultado una terminación inmediata del acceso a los servicios en línea."
+        ],
+        [
+          "Cuando usa un servicio alojado por Equestria.dev, un usuario acepta no utilizar el servicio para ninguna operación que sea ilegal en Francia o en los Estados Unidos. Además, las operaciones de un usuario no deben evitar que otros usuarios realicen sus propias operaciones.",
+          "No se permite publicar contenido abusivo o violento, código o software malicioso, o contenido robado y dará como resultado una terminación inmediata de acceso."
+        ],
+        [
+          "Hosting Services en línea es complicado y Equestria.dev se ejecuta con ingresos muy limitados.",
+          "Los desarrolladores y administradores de Equestria.dev no deben ser responsables en caso de que un servicio en línea no funcione según lo previsto. Todas las plataformas en línea se sirven como es sin garantía que funcionará según lo previsto o trabaje en absoluto durante un período de tiempo dado.",
+          "Equestria.dev afirma que los servicios que organizan pueden ser lentos o inalcanzables en puntos no especificados en el tiempo, con o sin previo aviso. Los administradores no prometen un porcentaje específico de disponibilidad para un servicio determinado durante todo el año."
+        ],
+        [
+          "Cuando están presentes las interacciones sociales, todos los usuarios aceptan no discriminarse entre sí debido a sus condiciones sociales, físicas o psicológicas, incluidas sus opiniones. Se alienta a los usuarios a informar un comportamiento tan inapropiado para ayudar a mantener las plataformas seguras para todos.",
+          "Todos los usuarios son libres de identificarlo como deseen siempre que no afecte la forma en que otros usuarios interactúan con el servicio. Todas las identidades son válidas sin importar de dónde sean.",
+          "Todos obtienen acceso al mismo servicio exacto, independientemente de dónde vivan (a menos que 1. sea aplicable) y quiénes son. Equestria.dev valora enormemente la igualdad y el respeto entre los usuarios e insiste en que los usuarios deben informar un comportamiento inapropiado, ya sea que viola estos términos de servicio o no."
+        ]
+      ],
+      "title": "Términos y condiciones",
+      "bigtitle": "Equestria.dev Términos y condiciones de servicios alojados",
+      "intro": "Los siguientes términos de uso solo se aplican a los servicios en línea alojados por Equestria.dev, incluso si se accede al servicio en línea a través de un tercero. Las aplicaciones o servicios \"locales\" que no están alojados por Equestria.dev no se rigen por estos Términos de uso, sino por su acuerdo de licencia y los Términos de uso del proveedor del proveedor del Servicio."
+    },
+    "license": {
+      "translation": [
+        "Descargo de responsabilidad:",
+        "En el caso de que estas licencias se traduzcan a otro idioma, solo la versión en inglés es legalmente aplicable. Las versiones traducidas se proporcionan solo para fines de información."
+      ],
+      "sections": [
+        "Software gratuito, libre y de código abierto",
+        "Software \"patentado\" de código cerrado"
+      ],
+      "text": [
+        [
+          "Se considera \"gratuito, libre y de código abierto\" todo software que Equestria.dev lanza bajo el dominio público de la licencia MIT, cualquier alternativa compatible o completamente libre de derechos de autor. A menos que una copia de un acuerdo de licencia esté presente en el código fuente del software, o una mención de otra licencia está presente en otro lugar, el software al que el código fuente es de acceso público se publica en los siguientes términos de la licencia:",
+          "Licencia de MIT",
+          "Por la presente, se otorga el permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y archivos de documentación asociados (el \"software\"), para tratar el software sin restricción, incluidos los derechos de usar, copiar, modificar, modificar, modificar, fusionar , publique, distribuya, sublicence y venda copias del software, y para permitir a las personas a las que se proporciona el software para hacerlo, sujeto a las siguientes condiciones:",
+          "El aviso de derechos de autor anterior y este aviso de permiso se incluirán en todas las copias o porciones sustanciales del software.",
+          "El software se proporciona \"tal cual\", sin garantía de ningún tipo, expresa o implícita, incluidas, entre otros, las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción. En ningún caso los autores o titulares de derechos de autor serán responsables de cualquier reclamo, daños u otro responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, derivado, de o en relación con el software o el uso u otros tratos en el SOFTWARE."
+        ],
+        [
+          "En algunos casos, los desarrolladores de Equestria.dev pueden optar por no lanzar el código fuente para una pieza específica de software. Esto podría deberse a que se abusa o se usa fácilmente, porque utiliza una plataforma privada, porque contiene información confidencial o privada u otra razón. Los desarrolladores pueden optar por hacer un software de código cerrado de código abierto más adelante.",
+          "Al descargar, instalar, comprar o usar el software, acepta estos términos de licencia. Si no los acepta, no use el software; O, si hay una variante de código abierto disponible, use la variante de código abierto.",
+          "En todos los casos de software de código cerrado, los usuarios deben:",
+          "Use el software estrictamente para fines personales y no con fines de lucro;",
+          "no intentar descompilar, modificar, publicar, distribuir, vender o licenciar el software;",
+          "no utilizar el software de una manera ilegal en Francia o en los Estados Unidos;",
+          "no utilizar el software de una manera que pueda poner en riesgo a Equestria.dev;",
+          "no exponer el software en lugares públicos donde los usuarios podrían usarlo sin aceptar primero este acuerdo de licencia",
+          "En el caso de un software pagado, los usuarios no deben dar acceso al software de forma gratuita para un tercero. Dar acceso al software a un pariente (amigo, familia, ...) se considera razonable, pero no debe exceder a 10 personas."
+        ]
+      ],
+      "title": "Licencias de software",
+      "bigtitle": "Equestria.dev software y licencias de fuentes",
+      "intro": "Equestria.dev lanza el software en una variedad de esquemas de licencia, la mayoría de las veces bajo las licencias Libre."
     }
   },
   "_name": "Español",
