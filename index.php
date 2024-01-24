@@ -9,7 +9,7 @@
             </div>
         </div>
         <div id="hero-logo" class="container">
-            <video id="hero-logo-img" src="/assets/img/intro.webm" autoplay></video>
+            <video id="hero-logo-img" src="/assets/img/intro.webm" muted autoplay></video>
         </div>
     </div>
 </div>

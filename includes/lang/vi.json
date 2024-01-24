@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "thứ hai",
+      "giây"
+    ],
+    "minute": [
+      "phút",
+      "phút"
+    ],
+    "hour": [
+      "giờ",
+      "giờ"
+    ],
+    "day": [
+      "ngày",
+      "ngày"
+    ],
+    "week": [
+      "tuần",
+      "tuần"
+    ],
+    "month": [
+      "tháng",
+      "tháng"
+    ],
+    "year": [
+      "năm",
+      "năm"
+    ],
+    "age": [
+      "tuổi",
+      "lứa tuổi"
+    ],
+    "ago": "trước kia",
+    "later": "sau đó",
+    "now": "Hiện nay"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Dự án",
+      "network": "Mạng",
+      "contact": "Liên hệ",
+      "legal": "Hợp pháp"
+    },
+    "projects": {
+      "archives": "Xem các dự án lưu trữ của chúng tôi"
+    },
+    "network": {
+      "status": [
+        "Tất cả các hệ thống hoạt động",
+        "Hiệu suất xuống cấp",
+        "Mất điện chính"
+      ],
+      "account": "Tài khoản của bạn",
+      "infra": "Cơ sở hạ tầng",
+      "security": "Tư vấn bảo mật",
+      "bugs": "Theo dõi lỗi",
+      "blog": "Blog"
+    },
+    "legal": {
+      "terms": [
+        "Điều kiện",
+        "và điều kiện"
+      ],
+      "privacy": "Quyền riêng tư dữ liệu",
+      "license": "Giấy phép phần mềm",
+      "disclaimer": "Từ chối trách nhiệm pháp lý",
+      "branding": "Hướng dẫn xây dựng thương hiệu",
+      "support": "Được hỗ trợ bởi",
+      "version": "Phiên bản",
+      "made": "Được thực hiện bởi ngựa con với",
+      "phpstorm": "và Phpstorm",
+      "trademark": "\"Equestria.dev\" và tên liên quan là nhãn hiệu của các nhà phát triển Equestria.dev ở Pháp và các quốc gia khác. Logo Equestria.Dev và các dự án được bảo vệ theo luật bản quyền hiện hành. JetBrains, các logo liên quan và các tên liên quan là các nhãn hiệu đã đăng ký của JetBrains S.R.O., được sử dụng theo giấy phép."
+    },
+    "contact": {
+      "email": "Gửi email cho chúng tôi"
+    }
+  },
+  "footer": {
+    "copyright": "Đã đăng ký Bản quyền."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Nền tảng phần mềm",
+        "bạn có thể",
+        "dựa vào"
+      ],
+      "cta": "Xem những gì chúng tôi làm"
+    },
+    "categories": {
+      "dev": {
+        "title": "Phát triển",
+        "description": "Với hơn 5 năm kinh nghiệm trong phát triển phần mềm, trong một loạt các ngôn ngữ - chẳng hạn như Rust, JavaScript, Kotlin hoặc PHP -, bạn có thể yên tâm rằng chúng tôi sẽ phát triển phần mềm chất lượng để giúp đáp ứng nhu cầu của bạn, cho dù bạn là một doanh nghiệp hoặc một cá nhân.",
+        "cta": "Xem các dự án"
+      },
+      "network": {
+        "title": "Kết nối mạng",
+        "description": "Bạn có biết văn bản này đã trải qua ít nhất 3 máy chủ Equestria.Dev khác nhau trước khi liên hệ với bạn không? Với nhiều năm kinh nghiệm trong việc quản lý máy chủ - chủ yếu là Linux -, chúng tôi hoàn toàn có thể tối ưu hóa bất kỳ ứng dụng nào để thực hiện tốt nhất bất kể tải máy chủ.",
+        "cta": "Xem cơ sở hạ tầng"
+      },
+      "privacy": {
+        "title": "Sự riêng tư",
+        "description": "Quyền riêng tư, bảo mật và bảo vệ dữ liệu người dùng luôn là các giá trị cốt lõi của chúng tôi. Bất cứ khi nào có thể-và cần thiết-, chúng tôi sử dụng công nghệ mã hóa cấp quân sự mạnh mẽ và chúng tôi đảm bảo dữ liệu người dùng luôn an toàn và được bảo vệ khỏi các loại tấn công khác nhau.",
+        "cta": "Đọc tài liệu"
+      }
+    },
+    "contact": {
+      "title": "Có một yêu cầu đặc biệt?",
+      "description": "Nếu bạn muốn chúng tôi giúp đỡ với một dự án của riêng bạn, cho dù đó là liên quan đến phát triển, quản lý máy chủ hoặc quyền riêng tư và bảo mật, chúng tôi có thể giúp đỡ. Hãy gửi cho chúng tôi một tin nhắn và chúng tôi sẽ xem những gì chúng tôi có thể làm.",
+      "cta": "Gửi tin nhắn cho chúng tôi"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Yêu cầu không hợp lệ",
+      "401": "Yêu cầu xác thực",
+      "403": "Truy cập bị từ chối",
+      "404": "Không tìm thấy trang",
+      "500": "Lỗi máy chủ nội bộ",
+      "501": "Chưa xuất hiện",
+      "502": "Lỗi máy chủ ngược dòng",
+      "503": "Máy chủ không thể truy cập được",
+      "504": "Máy chủ ngược dòng đã hết thời gian",
+      "default": "Lỗi hệ thống không xác định"
+    },
+    "descriptions": {
+      "400": "Bạn đã cố gắng gửi một yêu cầu đến máy chủ mà nó không thể xử lý. Điều này nói chung không nên xảy ra, nhưng nó có thể chỉ ra một vấn đề với trình duyệt của bạn. Nếu bạn cần trợ giúp để sửa chữa điều này, vui lòng liên hệ với chúng tôi.",
+      "401": "Bạn đã cố gắng tiếp cận một trang yêu cầu xác thực mà không được xác thực. Làm mới trang thường giúp khắc phục vấn đề này. Nếu bạn không có thông tin đăng nhập để xác thực cho trang này, bạn có thể quay lại trang chủ.",
+      "403": "Bạn đã cố gắng tiếp cận một trang không thể truy cập được từ trang web này. Đây thường là trường hợp cho các tệp nội bộ được sử dụng trên máy chủ. Nếu bạn theo một liên kết từ trang web này và đến đây, thì có gì đó không ổn.",
+      "404": "Nếu bạn theo một liên kết từ trang web này, thì có gì đó không ổn. Nếu bạn theo một liên kết bên ngoài, thì có thể liên kết không chính xác và cần được cập nhật. Nếu bạn tự mình vào địa chỉ, có thể bạn đã viết sai một thứ gì đó.",
+      "500": "Đã xảy ra lỗi trên máy chủ trong khi cố gắng xử lý yêu cầu của bạn không liên quan đến cấu hình trình duyệt của bạn. Đây thường là một lỗi hoặc một vấn đề tạm thời. Nếu nó vẫn tồn tại, bạn có thể cho chúng tôi biết về vấn đề này để chúng tôi có thể khắc phục nó.",
+      "501": "Trang bạn đã cố gắng tiếp cận sử dụng tính năng máy chủ chưa được triển khai trong trang web. Điều này thường là do trang bạn đang cố gắng tiếp cận là một công việc đang tiến triển và sẽ có sẵn trong tương lai.",
+      "502": "Trang này phụ thuộc vào tài nguyên hoặc máy chủ bên ngoài không có sẵn tại thời điểm này. Điều này thường chỉ ra sự ngừng hoạt động trên một hoặc nhiều máy chủ của chúng tôi. Nếu vấn đề vẫn còn, liên hệ với chúng tôi để chúng tôi có thể sửa chữa điều này.",
+      "503": "Trang này phụ thuộc vào một tài nguyên nội bộ không có sẵn tại thời điểm này. Điều này thường có nghĩa là tài nguyên, trang web hoặc máy chủ đang được bảo trì và hiện không có sẵn. Kiểm tra trang trạng thái của chúng tôi để biết thêm thông tin.",
+      "504": "Trang này phụ thuộc vào tài nguyên bên ngoài hoặc máy chủ không thể đạt được đúng hạn. Điều này thường chỉ ra sự ngừng hoạt động hoặc chậm lại. Nếu vấn đề vẫn còn, liên hệ với chúng tôi để chúng tôi có thể sửa chữa điều này.",
+      "default": "Một lỗi không có giấy tờ đã xảy ra. Chúng tôi không chắc chắn những gì đã sai, nhưng mã lỗi có thể giúp bạn. Nếu bạn cần giúp đỡ, xin vui lòng liên hệ với chúng tôi để chúng tôi có thể sửa chữa điều này. Chúng tôi chân thành xin lỗi vì sự bất tiện này."
+    },
+    "actions": {
+      "home": "Quay trở lại trang chủ",
+      "status": "Mở trang trạng thái",
+      "email": "Liên hệ với chúng tôi qua email"
+    },
+    "title": "Lỗi"
+  },
+  "project": {
+    "actions": {
+      "source": "Mã nguồn",
+      "website": "Trang web chính thức"
+    },
+    "update": "Cập nhật mới nhất",
+    "archive": "Lưu trữ cho"
+  },
+  "archive": {
+    "title": "Lưu trữ"
+  },
+  "status": {
+    "main": [
+      "Tất cả các dịch vụ đang hoạt động dưới dạng danh nghĩa",
+      "Một số dịch vụ đang trải qua suy thoái hiệu suất",
+      "Một số dịch vụ đang bị mất điện lớn"
+    ],
+    "description": [
+      "Chúng tôi đã quan sát hiệu suất danh nghĩa và tốt của tất cả các dịch vụ do Equestria.dev lưu trữ tại thời điểm này.",
+      "Chúng tôi đã quan sát thấy rằng một số dịch vụ Equestria.dev, trong khi có chức năng, đang chậm hơn bình thường.",
+      "Chúng tôi đã quan sát thời gian xuống trong một số dịch vụ Equestria.dev, khiến chúng không thể truy cập được trong một thời gian."
+    ],
+    "affected": [
+      "Dịch vụ sau bị ảnh hưởng bởi sự cố này:",
+      "Các dịch vụ sau bị ảnh hưởng bởi sự cố này:"
+    ],
+    "stats": {
+      "items": [
+        "Độ trễ dịch vụ trung bình:",
+        "Tổng bộ nhớ đã sử dụng:",
+        "Tổng lưu trữ đã sử dụng:",
+        "Tổng công suất tính toán có sẵn:",
+        "bộ nhớ cache:",
+        "Độ trễ I/O tối đa:",
+        "lõi",
+        "Các hệ điều hành:",
+        "Tổng số quá trình"
+      ],
+      "title": "Số liệu thống kê",
+      "used": "đã sử dụng"
+    },
+    "title": "Tình trạng hệ thống",
+    "page": "Xem trang trạng thái đầy đủ",
+    "update": "Cập nhật mới nhất"
+  },
+  "months": [
+    "Tháng Một",
+    "Tháng hai",
+    "Bước đều",
+    "Tháng tư",
+    "Có thể",
+    "Tháng sáu",
+    "Tháng bảy",
+    "Tháng tám",
+    "Tháng 9",
+    "Tháng Mười",
+    "Tháng mười một",
+    "Tháng 12"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Quản lý nội dung và từ chối trách nhiệm",
+        "Trừ khi có nội dung do người dùng tạo, nội dung được lưu trữ trên nền tảng của Equestria.dev chịu trách nhiệm của",
+        "Mặc dù chúng tôi nỗ lực hết sức có thể để cung cấp cho người dùng thông tin chính xác, các nhà phát triển Equestria.dev không thể đảm bảo tính chính xác của thông tin được cung cấp bởi các nền tảng của chúng tôi. Do đó, thông tin trên nền tảng của chúng tôi có thể không chính xác hoặc lỗi thời."
+      ],
+      "title": "Từ chối trách nhiệm pháp lý",
+      "privacy": "Nếu bạn cần thêm chi tiết, xin vui lòng liên hệ trực tiếp với chúng tôi. Một số thông tin được giữ ẩn vì lý do riêng tư.",
+      "servers": "Vị trí máy chủ",
+      "locations": "Equestria.Dev quản lý các mạng chuyển dữ liệu người dùng tại Pháp, Đức và Hoa Kỳ. Các mạng chỉ được sử dụng cho mục đích nội bộ của Equestria.Dev và không quá cảnh dữ liệu người dùng không được đề cập trên trang này.",
+      "property": "Máy chủ dưới tài sản của:",
+      "physical": "Vị trí vật lý gần đúng:",
+      "isp": "Nhà cung cấp dịch vụ Internet:",
+      "us": "liên kết cho cư dân không phải là Hoa Kỳ",
+      "data": "Yêu cầu dữ liệu người dùng",
+      "howto": "Nếu mọi người dùng Equestria.Dev yêu cầu truy cập hoặc xóa dữ liệu người dùng, email chứa địa chỉ IP của người dùng, bất kỳ định danh thiết bị nào (nếu có), ID tài khoản Equestria.dev (nếu có) cần được gửi từ địa chỉ email được liên kết với tài khoản Equestria.dev (nếu có) với địa chỉ email sau:",
+      "law": "Theo Quy định thực thi pháp luật, Equestria.dev không thể xóa nhật ký máy chủ dưới 3 tháng tuổi.",
+      "gov": "Bảo đảm Canary",
+      "pgp": "Đây là thông báo PGP được ký với khóa sau:",
+      "key": "Xem khóa công khai đầy đủ",
+      "alt": "nguồn thay thế",
+      "plain": "Xem Bảo hành Canary (Mở trong một tab mới)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Logo của chúng tôi",
+        "message": "Vui lòng không chỉnh sửa, thay đổi, méo mó, recolor hoặc cấu hình lại logo Equestria.dev."
+      },
+      "icon": {
+        "title": "Chỉ biểu tượng",
+        "message": "Chỉ sử dụng những thứ này khi thương hiệu Equestria.dev được hiển thị rõ ràng, đã được thiết lập tốt ở những nơi khác trên trang hoặc trong thiết kế, hoặc không gian không cho phép hiển thị phiên bản đầy đủ. Khi nghi ngờ, sử dụng cái khác."
+      },
+      "spacing": {
+        "title": "khoảng cách",
+        "message": "Đảm bảo tôn trọng các hướng dẫn khoảng cách này trong khi sử dụng logo Equestria.dev. Ngoài ra, hãy chắc chắn rằng bạn làm cho logo đủ lớn để dễ đọc và phân biệt.",
+        "scale": "x = \".dev\" chiều cao văn bản.",
+        "notice": "."
+      },
+      "dont": {
+        "messages": [
+          "Không chỉnh sửa, thay đổi hoặc cấu hình lại logo hoặc từ",
+          "Không làm biến dạng logo hoặc từ bao gồm vô ý",
+          "Không tái tạo hoặc áp dụng các hiệu ứng hình ảnh cho logo hoặc từ",
+          "Không đặt một khẩu hiệu hoặc bất kỳ phần tử nào khác trên logo hoặc wordmark"
+        ],
+        "descriptions": [
+          "Điều này bao gồm không xoay logo và thay đổi bất kỳ văn bản hoặc hình dạng nào, cùng với việc duy trì khoảng cách giữa các phần tử khác nhau của logo đầy đủ.",
+          "Bạn không được biến dạng hoặc biến dạng logo theo bất kỳ cách nào, cho dù đó là trong khung 2D hay 3D. Ngoài ra, hãy đảm bảo logo được hiển thị đúng trong mọi trường hợp.",
+          "Cả logo và wordmark phải được giữ như là, không có thay đổi màu sắc nào cả. Nếu bạn cần sử dụng thang độ xám, hãy sử dụng các biến thể đơn sắc.",
+          "Đảm bảo rằng các khẩu hiệu (nếu có) không bao giờ chồng chéo bất kỳ yếu tố nào của logo. Ngoài ra, không xác nhận sự chấp thuận hoặc tài trợ khi không có."
+        ],
+        "too": {
+          "text": [
+            "Đảm bảo rằng thương hiệu Equestria.dev không được hiển thị nổi bật hơn tên, logo hoặc thương hiệu của sản phẩm hoặc dịch vụ của riêng bạn.",
+            "Làm \"Quá nhiều\" có thể dẫn đến sự nhầm lẫn và khiến người dùng nghĩ rằng họ đang phải đối mặt với trang web Equestria.dev chính thức hoặc sản phẩm Equestria.Dev chính thức."
+          ],
+          "title": "Đừng làm quá nhiều"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Logo Equestria.Dev:",
+              "được sử dụng theo giấy phép"
+            ],
+            "product": [
+              "[Tên dự án] Logo",
+              "Tên dự án"
+            ]
+          },
+          "title": "Không sử dụng mà không có sự phân bổ",
+          "message": "Khi sử dụng logo Equestria.Dev hoặc bất kỳ logo dự án nào, luôn luôn ghi nhận sự ghi nhận với một trong các văn bản sau:"
+        },
+        "impersonation": {
+          "text": [
+            "Không được phép bắt chước thương hiệu Equestria.dev trong tài liệu không Equestria.DEV. Hạn chế tương tự áp dụng cho việc hoạt hình thương hiệu Equestria.dev, kết hợp nó với bất kỳ từ, ký hiệu, hình ảnh hoặc thiết kế nào khác hoặc kết hợp nó vào khẩu hiệu hoặc khẩu hiệu.",
+            "Ngoài ra, sử dụng tên hoặc sự giống nhau của một cá nhân từ trong Equestria.dev hoặc nhóm là toàn bộ trong bất kỳ tài khoản truyền thông xã hội nào hoặc phương tiện truyền thông khác đều bị nghiêm cấm."
+          ],
+          "title": "Đừng bắt chước hoặc mạo danh"
+        },
+        "endorsement": {
+          "text": [
+            "Tuy nhiên, chúng tôi đánh giá cao sự hợp tác không ngụ ý liên kết, tài trợ, chứng thực hoặc phê duyệt sản phẩm hoặc dịch vụ của bạn với Equestria.Dev mà không có sự cho phép rõ ràng của Equestria.Dev. Bạn cần phải có sự hợp tác chính thức được thiết lập bằng văn bản với một thỏa thuận từ Equestria.dev trước khi đề cập đến sự hợp tác đó với Equestria.dev.",
+            "Điều này có nghĩa là văn bản như \"được phê duyệt bởi Equestria.dev\", \"Equestria.Dev được chứng nhận\" hoặc \"được đề xuất bởi Equestria.dev\" không được phép."
+          ],
+          "title": "Đừng ám chỉ sự chứng thực khi không có"
+        },
+        "title": "Không"
+      },
+      "color": {
+        "formats": {
+          "title": "Định dạng mã màu:",
+          "oklch": "Oklch (hồ sơ SRGB)",
+          "rgb": "RGB thập lục phân (8 bit)",
+          "cmyk": "CMYK (Tiêu chuẩn)"
+        },
+        "list": [
+          "Ánh sáng chính",
+          "Tối chính",
+          "Ánh sáng thứ cấp",
+          "Thứ cấp tối",
+          "Lý lịch",
+          "Trên nền",
+          "Ánh sáng tích cực",
+          "Tích cực tối",
+          "Ánh sáng trung tính",
+          "Tối trung tính",
+          "Ánh sáng tiêu cực",
+          "Tiêu cực tối",
+          "Bề mặt",
+          "Trên bề mặt"
+        ],
+        "title": "Bảng màu",
+        "intro": "Bảng màu Equestria.Dev, được đặt tên là \"BrightDawn\" (sau Misty Brightdawn, nhân vật từ My Little Pony) đã được tạo ra để phản ánh các giá trị cốt lõi của chúng tôi: bao gồm, tình bạn và minh bạch. Nó dựa trên bảng màu \"Misty\" ban đầu được sử dụng vào năm 2023 được cập nhật để bao gồm các màu sáng hơn."
+      },
+      "more": {
+        "title": "Tìm kiếm thêm?",
+        "text": "Tải xuống bộ thương hiệu Funestria.Dev đầy đủ và có quyền truy cập vào tất cả các tài nguyên chúng tôi đã sử dụng để tạo logo của chúng tôi, cùng với các biến thể đặc biệt được sử dụng trong các điều kiện cụ thể, bao gồm các thiết kế nguyên mẫu và các bảng thiết kế khác.",
+        "cta": "Tải xuống phiên bản 3",
+        "notice": "Cũng bao gồm các phiên bản 1 và 2"
+      },
+      "page": "Hướng dẫn xây dựng thương hiệu",
+      "title": "Hướng dẫn xây dựng thương hiệu Equestria.Dev",
+      "intro": "Tại Equestria.dev, chúng tôi thực hiện mọi thứ và cách bạn đại diện cho thương hiệu của chúng tôi một cách nghiêm túc. Thương hiệu Equestria.dev nên đại diện cho phần mềm nguồn mở chất lượng, đơn giản và riêng tư. Nếu bạn sử dụng tài sản thương hiệu của chúng tôi cho bất cứ điều gì, vui lòng đảm bảo tôn trọng các hướng dẫn này.",
+      "copyright": "Logo và sản phẩm Equestria.Dev được bảo vệ bởi luật bản quyền hiện hành ở Pháp, Hoa Kỳ và các quốc gia khác. Equestria.Dev cấp cho bạn một giấy phép giới hạn không thể chuyển nhượng, không độc quyền, miễn phí bản quyền để sử dụng logo của nó như được định nghĩa bởi các hướng dẫn sau đây. Các hướng dẫn này cũng quy định việc sử dụng logo Equestria.dev trong toàn bộ các dịch vụ của chúng tôi. Việc không tuân thủ được coi là vi phạm tài sản trí tuệ của Equestria.Dev và sẽ dẫn đến hành động pháp lý."
+    },
+    "privacy": {
+      "sections": [
+        "Quyền riêng tư trên các dịch vụ trực tuyến Equestria.Dev",
+        "Quyền riêng tư trên các ứng dụng Equestria.Dev",
+        "Quyền riêng tư trên các dịch vụ hoặc ứng dụng trực tuyến Equestria.Dev tích hợp với các thành phần của bên thứ ba",
+        "Trách nhiệm của Equestria.Dev trong việc bảo vệ dữ liệu riêng tư của người dùng"
+      ],
+      "text": [
+        [
+          "Equestria.dev sẽ chỉ lưu thông tin bạn cung cấp rõ ràng cho chúng tôi (ví dụ, như là một phần của mẫu đăng ký). Không có dữ liệu nào khác sẽ được thu thập.",
+          "Tuy nhiên, là một phần của thực thi pháp luật, Equestria.DEV sẽ thu thập địa chỉ IP và thông tin trình duyệt khác (tên trình duyệt, phiên bản, hệ điều hành, URL và ngày) trong tối đa 365 ngày. Thông tin này sẽ bị xóa hàng năm trong tháng Giêng.",
+          "Hơn nữa, Equestria.dev, là một phần của việc cải thiện chất lượng và độ tin cậy của các dịch vụ của mình, thu thập thông tin ẩn danh hoàn toàn, bao gồm các trang bạn truy cập, loại trừ bất kỳ dữ liệu cá nhân tiềm năng nào. Thông tin này được thực hiện ẩn danh trước khi được tổng hợp thành thống kê và thông tin ban đầu được lưu trữ như đã đề cập trong 1 §2 (xem ở trên)."
+        ],
+        [
+          "Phần này áp dụng cho các ứng dụng được \"cài đặt\" (có thể truy cập ngay cả khi không có dịch vụ cụ thể từ Equestria.dev) vào thiết bị của người dùng và ngay khi người dùng bắt đầu quá trình cài đặt.",
+          "Các ứng dụng Equestria.Dev sẽ không bao giờ theo dõi, lưu trữ, làm phiền hoặc ngăn chặn hành vi của các ứng dụng khác. Cho dù ứng dụng có chạy hay không sẽ được làm rõ cho người dùng mọi lúc.",
+          "Một số ứng dụng có thể, sau khi người dùng đã đồng ý rõ ràng và rõ ràng (bao gồm sau khi người dùng đã thừa nhận loại dữ liệu sẽ được thu thập), thu thập dữ liệu thống kê ẩn danh như là một phần của việc cải thiện chất lượng và độ tin cậy của các ứng dụng này. Người dùng luôn được cung cấp tùy chọn ngừng gửi các số liệu thống kê này đến Equestria.dev mà không có bất kỳ thay đổi nào trong cách ứng dụng hoạt động."
+        ],
+        [
+          "Khi một dịch vụ hoặc ứng dụng trực tuyến Equestria.Dev tích hợp với thành phần của bên thứ ba, chính sách quyền riêng tư từ bên thứ ba đó có hiệu lực đối với tất cả các hoạt động được xử lý bởi bên thứ ba này.",
+          "Khi thành phần của bên thứ ba tạo thành hoạt động chính của dịch vụ trực tuyến hoặc xử lý ứng dụng, chính sách bảo mật từ bên thứ ba được áp dụng một cách ưu tiên. Khi thành phần của bên thứ ba tạo thành một hoạt động thứ cấp trong dịch vụ hoặc ứng dụng trực tuyến, chính sách bảo mật của Equestria.Dev áp dụng trước.",
+          "Trong trường hợp chính sách quyền riêng tư của bên thứ ba phụ thuộc vào dịch vụ hoặc ứng dụng trực tuyến Equestria.Dev phụ thuộc vào các thay đổi, người dùng của dịch vụ hoặc ứng dụng trực tuyến Equestria.Dev sẽ được nhận thức về các thay đổi và cách nó ảnh hưởng đến cách họ Sử dụng dịch vụ trực tuyến hoặc ứng dụng."
+        ],
+        [
+          "Equestria.dev hoàn toàn chịu trách nhiệm đảm bảo dữ liệu riêng tư và cá nhân của người dùng (trừ khi bên thứ ba tham gia vào quy trình, trong trường hợp đó, như đã đề cập trong Phần 3, trách nhiệm của bên thứ ba được thực hiện).",
+          "Trong trường hợp thông tin đó được công khai, ví dụ, bằng cách tải xuống dữ liệu từ các máy chủ của Equestria.Dev, người dùng sẽ được biết về vấn đề càng sớm càng tốt và sẽ được hướng dẫn nếu được yêu cầu.",
+          "Equestria.Dev không có hứng thú bán, cho đi hoặc phơi bày dữ liệu người dùng và sẽ không thử bất kỳ hoạt động nào trong số này bất cứ lúc nào."
+        ]
+      ],
+      "translation": [
+        "Tuyên bố từ chối trách nhiệm:",
+        "Trong trường hợp chính sách bảo mật này được dịch sang một ngôn ngữ khác, chỉ có phiên bản tiếng Anh được áp dụng về mặt pháp lý. Các phiên bản dịch chỉ được cung cấp cho mục đích thông tin."
+      ],
+      "title": "Quyền riêng tư dữ liệu",
+      "bigtitle": "Quy tắc bảo mật dữ liệu Equestria.Dev",
+      "intro": "Tại Equestria.Dev, chúng tôi đánh giá cao quyền riêng tư của bạn. Chúng tôi cố gắng thu thập càng ít dữ liệu càng tốt để cung cấp cho bạn dịch vụ mà bạn mong đợi. Bất kể, điều trị dữ liệu của Equestria.Dev được thực hiện theo Quy định bảo vệ dữ liệu chung của châu Âu."
+    },
+    "terms": {
+      "translation": [
+        "Tuyên bố từ chối trách nhiệm:",
+        "Trong trường hợp các thuật ngữ và điều kiện này được dịch sang một ngôn ngữ khác, chỉ có phiên bản tiếng Anh được áp dụng về mặt pháp lý. Các phiên bản dịch chỉ được cung cấp cho mục đích thông tin."
+      ],
+      "sections": [
+        "Tuyên bố miễn trừ trách nhiệm",
+        "Nhân khẩu học",
+        "Mục đích",
+        "Thực thi pháp luật",
+        "Chất lượng và độ tin cậy dịch vụ",
+        "Sự tôn trọng và bình đẳng lẫn nhau"
+      ],
+      "text": [
+        [
+          "Người dùng cụ thể có thể không được phép sử dụng các dịch vụ trực tuyến của Equestria.Dev tùy thuộc vào vị trí hoặc tình trạng vật lý của họ.",
+          "Người dùng ở Trung Quốc, Triều Tiên và một số quốc gia khác không được phép sử dụng các dịch vụ trực tuyến. Các trường hợp ngoại lệ có thể được thực hiện trên cơ sở mỗi trường hợp bởi các quản trị viên.",
+          "Các cá nhân trẻ hơn 13 tuổi không được phép sử dụng các dịch vụ trực tuyến. Người dùng dưới 21 tuổi có thể không có quyền truy cập vào các tính năng cụ thể."
+        ],
+        [
+          "Equestria.Dev cấp cho người dùng một quyền duy nhất, có thể hủy bỏ, không thể trao đổi để truy cập các dịch vụ trực tuyến.",
+          "Sử dụng các dịch vụ trực tuyến trong một hoạt động tạo ra lợi nhuận không được phép, bất kể lợi nhuận được tạo ra bao nhiêu và sẽ dẫn đến việc chấm dứt ngay lập tức quyền truy cập vào các dịch vụ trực tuyến."
+        ],
+        [
+          "Khi sử dụng dịch vụ do Equestria.dev lưu trữ, người dùng đồng ý không sử dụng dịch vụ cho bất kỳ hoạt động nào là bất hợp pháp ở Pháp hoặc Hoa Kỳ. Hơn nữa, các hoạt động của người dùng không được ngăn chặn người dùng khác thực hiện các hoạt động của riêng họ.",
+          "Xuất bản nội dung lạm dụng hoặc bạo lực, mã hoặc phần mềm độc hại hoặc nội dung bị đánh cắp không được phép và sẽ dẫn đến việc chấm dứt truy cập ngay lập tức."
+        ],
+        [
+          "Lưu trữ các dịch vụ trực tuyến rất phức tạp và Equestria.dev đang chạy với thu nhập rất hạn chế.",
+          "Các nhà phát triển và quản trị viên Equestria.Dev không nên chịu trách nhiệm trong trường hợp một dịch vụ trực tuyến không hoạt động như dự định. Tất cả các nền tảng trực tuyến được phục vụ như không có bảo hành bất cứ điều gì nó sẽ hoạt động như dự định hoặc làm việc trong bất kỳ khoảng thời gian nào.",
+          "Equestria.Dev tuyên bố rằng các dịch vụ mà họ lưu trữ có thể chậm hoặc không thể truy cập tại các điểm không xác định theo thời gian, có hoặc không có cảnh báo. Các quản trị viên không hứa hẹn về một tỷ lệ phần trăm sẵn có cho một dịch vụ nhất định trong suốt cả năm."
+        ],
+        [
+          "Khi có các tương tác xã hội, tất cả người dùng đồng ý không phân biệt đối xử lẫn nhau vì các điều kiện xã hội, thể chất hoặc tâm lý của họ, bao gồm cả ý kiến ​​của họ. Người dùng được khuyến khích báo cáo hành vi không phù hợp như vậy để giúp giữ cho các nền tảng an toàn cho mọi người.",
+          "Tất cả người dùng được tự do xác định khi họ muốn miễn là nó không ảnh hưởng đến cách người dùng khác tương tác với dịch vụ. Tất cả các danh tính là hợp lệ cho dù họ đến từ đâu.",
+          "Mọi người đều có quyền truy cập vào cùng một dịch vụ, bất kể họ sống ở đâu (trừ khi 1. được áp dụng) và họ là ai. Equestria.dev coi trọng sự bình đẳng và tôn trọng giữa người dùng và khẳng định rằng người dùng nên báo cáo hành vi không phù hợp, cho dù nó có vi phạm các điều khoản dịch vụ này hay không."
+        ]
+      ],
+      "title": "Các điều khoản và điều kiện",
+      "bigtitle": "Equestria.Dev Điều khoản và điều kiện dịch vụ được lưu trữ",
+      "intro": "Các điều khoản sử dụng sau đây chỉ áp dụng cho các dịch vụ trực tuyến do Equestria.dev lưu trữ, bao gồm nếu dịch vụ trực tuyến được truy cập thông qua bên thứ ba. Các ứng dụng hoặc dịch vụ \"cục bộ\" không được lưu trữ bởi Equestria.DEV không bị chi phối bởi các Điều khoản sử dụng này mà lần lượt là Thỏa thuận cấp phép của họ và Điều khoản sử dụng của Nhà cung cấp dịch vụ."
+    },
+    "license": {
+      "translation": [
+        "Tuyên bố từ chối trách nhiệm:",
+        "Trong trường hợp các giấy phép này được dịch sang ngôn ngữ khác, chỉ có phiên bản tiếng Anh được áp dụng về mặt pháp lý. Các phiên bản dịch chỉ được cung cấp cho mục đích thông tin."
+      ],
+      "sections": [
+        "Phần mềm miễn phí, libre và nguồn mở",
+        "Phần mềm \"độc quyền\" nguồn đóng"
+      ],
+      "text": [
+        [
+          "Được coi là \"miễn phí, libre và nguồn mở\" Tất cả các phần mềm mà Equestria.dev phát hành theo phạm vi công cộng Giấy phép MIT, bất kỳ sự thay thế tương thích nào hoặc hoàn toàn không có bản quyền. Trừ khi có một bản sao của thỏa thuận cấp phép có trong mã nguồn của phần mềm hoặc đề cập đến giấy phép khác có mặt ở nơi khác, phần mềm có thể truy cập công khai mã được phát hành theo các điều khoản cấp phép sau:",
+          "Giấy phép MIT",
+          "Quyền được cấp, miễn phí, cho bất kỳ ai có được bản sao của phần mềm này và các tệp tài liệu liên quan (phần mềm trực tuyến), để xử lý phần mềm mà không bị hạn chế, bao gồm không giới hạn quyền sử dụng, sao chép, sửa đổi, hợp nhất , Xuất bản, Phân phối, Nhãn hiệu và/hoặc Bán các bản sao của phần mềm và cho phép những người mà phần mềm được cung cấp để làm như vậy, tuân theo các điều kiện sau:",
+          "Thông báo bản quyền trên và thông báo quyền này sẽ được bao gồm trong tất cả các bản sao hoặc các phần đáng kể của phần mềm.",
+          "Phần mềm được cung cấp trên mạng như là, không có bảo hành dưới bất kỳ hình thức nào, rõ ràng hay ngụ ý, bao gồm nhưng không giới hạn trong các bảo đảm của thương mại, thể lực cho một mục đích cụ thể và không bị thiếu sót. Trong mọi trường hợp, các tác giả hoặc chủ sở hữu bản quyền phải chịu trách nhiệm đối với bất kỳ khiếu nại, thiệt hại hoặc trách nhiệm nào khác, cho dù trong hành động của hợp đồng, tra tấn hay nói cách khác, phát sinh từ hoặc liên quan đến phần mềm hoặc việc sử dụng hoặc các giao dịch khác trong PHẦN MỀM."
+        ],
+        [
+          "Trong một số trường hợp, các nhà phát triển Equestria.dev có thể chọn không phát hành mã nguồn cho một phần mềm cụ thể. Điều này có thể là do nó dễ bị lạm dụng hoặc sử dụng sai, bởi vì nó sử dụng một nền tảng tư nhân, bởi vì nó chứa thông tin bí mật hoặc cá nhân, hoặc một lý do khác. Các nhà phát triển có thể chọn làm cho một phần mềm nguồn mở nguồn mở sau này.",
+          "Bằng cách tải xuống, cài đặt, mua hoặc sử dụng phần mềm, bạn chấp nhận các điều khoản cấp phép này. Nếu bạn không chấp nhận chúng, không sử dụng phần mềm; Hoặc, nếu có sẵn một biến thể nguồn mở, hãy sử dụng biến thể nguồn mở.",
+          "Trong tất cả các trường hợp phần mềm nguồn đóng, người dùng phải:",
+          "sử dụng phần mềm nghiêm ngặt cho mục đích cá nhân và không phải vì lợi nhuận;",
+          "không cố gắng phân hủy, sửa đổi, xuất bản, phân phối, bán hoặc cấp phép cho phần mềm;",
+          "không sử dụng phần mềm theo cách bất hợp pháp ở Pháp hoặc Hoa Kỳ;",
+          "không sử dụng phần mềm theo cách có thể khiến Equestria.dev gặp rủi ro;",
+          "không để phần mềm ở những nơi công cộng nơi người dùng có thể sử dụng nó mà không đồng ý với thỏa thuận cấp phép này",
+          "Trong trường hợp phần mềm trả phí, người dùng không được cấp quyền truy cập vào phần mềm miễn phí cho bên thứ ba. Cung cấp quyền truy cập vào phần mềm cho người thân (bạn bè, gia đình, ...) được coi là hợp lý, nhưng không nên vượt quá 10 người."
+        ]
+      ],
+      "title": "Giấy phép phần mềm",
+      "bigtitle": "Phần mềm Equestria.Dev giấy phép nguồn",
+      "intro": "Equestria.dev phát hành phần mềm trong nhiều chương trình cấp phép, hầu hết thời gian theo giấy phép Libre."
+    }
+  },
+  "_name": "Tiếng Việt",
+  "title": "Equestria.dev: nền tảng phần mềm bạn có thể dựa vào",
+  "language": "Lựa chọn ngôn ngữ"
+}

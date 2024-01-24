@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "teine",
+      "sekundid"
+    ],
+    "minute": [
+      "minut",
+      "protokoll"
+    ],
+    "hour": [
+      "tööaeg",
+      "tööaeg"
+    ],
+    "day": [
+      "päev",
+      "päevad"
+    ],
+    "week": [
+      "nädal",
+      "nädalad"
+    ],
+    "month": [
+      "kuu",
+      "kuud"
+    ],
+    "year": [
+      "aasta",
+      "aastaid"
+    ],
+    "age": [
+      "vanus",
+      "vanus"
+    ],
+    "ago": "tagasi",
+    "later": "hiljem",
+    "now": "nüüd"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projektid",
+      "network": "Võrgustik",
+      "contact": "Kontakt",
+      "legal": "Juriidiline"
+    },
+    "projects": {
+      "archives": "Vaadake meie arhiveeritud projekte"
+    },
+    "network": {
+      "status": [
+        "Kõik süsteemid töötavad",
+        "Halvenenud jõudlus",
+        "Suur seisak"
+      ],
+      "account": "Sinu konto",
+      "infra": "Infrastruktuur",
+      "security": "Turvanõuanded",
+      "bugs": "Vea jälgija",
+      "blog": "Ajaveeb"
+    },
+    "legal": {
+      "terms": [
+        "Tingimused",
+        "ja tingimused"
+      ],
+      "privacy": "Andmete privaatsus",
+      "license": "Tarkvaralitsentsid",
+      "disclaimer": "Juriidilistest loobumised",
+      "branding": "Kaubamärgi juhised",
+      "support": "Toetanud",
+      "version": "Versioon",
+      "made": "Tehtud ponid koos",
+      "phpstorm": "ja phpstorm",
+      "trademark": "\"Equestria.Dev\" ja sellega seotud nimed on Equestria.DEV arendajad Prantsusmaal ja teiste riikide kaubamärgid. Equestria.dev ja projektide logod on kaitstud kohaldatavate autoriõiguse seaduste kohaselt. Jetbrains, seotud logod ja sellega seotud nimed on litsentsi alusel kasutatud Jetbrains S.R.O. registreeritud kaubamärgid."
+    },
+    "contact": {
+      "email": "Saada meile e -kiri"
+    }
+  },
+  "footer": {
+    "copyright": "Kõik õigused kaitstud."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Tarkvaraplatvorm",
+        "sa saad",
+        "toetuma"
+      ],
+      "cta": "Vaadake, mida me teeme"
+    },
+    "categories": {
+      "dev": {
+        "title": "Arendamine",
+        "description": "Üle 5 -aastase kogemusega tarkvaraarenduse alal, paljudes keeltes - näiteks Rust, JavaScript, Kotlin või PHP -, võite olla kindel, et töötame välja kvaliteetse tarkvara, mis aitab teie vajadusi täita, olgu see siis äri või üksikisik.",
+        "cta": "Vaateprojektid"
+      },
+      "network": {
+        "title": "Võrgustike loomine",
+        "description": "Kas teadsite, et see tekst läbis enne teie jõudmist vähemalt 3 erinevat equestria.dev -serverit? Oma aastatepikkuse kogemusega serverite haldamisel - peamiselt Linuxi - saame mis tahes rakendust täielikult optimeerida, et seda parimal juhul toimida, sõltumata serveri koormusest.",
+        "cta": "Vaata infrastruktuuri"
+      },
+      "privacy": {
+        "title": "Privaatsus",
+        "description": "Privaatsus, turvalisus ja kasutajate andmete kaitsmine on alati olnud meie põhiväärtused. Võimaluse korral-ja vajadusel-kasutame tugevat sõjaväe krüptimistehnoloogiat ning veendume, et kasutajaandmed oleksid alati ohutud ja kaitstud erinevat tüüpi rünnakute eest.",
+        "cta": "Loe dokumente"
+      }
+    },
+    "contact": {
+      "title": "Kas teil on spetsiaalne taotlus?",
+      "description": "Kui soovite, et me aitaksime oma projekti, olgu see siis arendamise, serverite või privaatsuse ja turvalisuse haldamise kohta, saame aidata. Võtke meile sõnum maha ja näeme, mida me teha saame.",
+      "cta": "Saada meile teade"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Kehtetu taotlus",
+      "401": "Autentimine on vajalik",
+      "403": "Juurdepääs on keelatud",
+      "404": "lehte ei leitud",
+      "500": "Siseserveri viga",
+      "501": "Pole veel saadaval",
+      "502": "Ülesvoolu serveri viga",
+      "503": "Server on kättesaamatu",
+      "504": "Ajastatud ülesvoolu server",
+      "default": "Tundmatu süsteemi viga"
+    },
+    "descriptions": {
+      "400": "Olete proovinud serverile päringut saata, et see ei saa töödelda. Seda ei tohiks üldiselt juhtuda, kuid see võib viidata teie brauseri probleemile. Kui vajate selle parandamiseks abi, võtke meiega ühendust.",
+      "401": "Olete proovinud jõuda lehele, mis nõuab autentimist ilma autendita. Lehe värskendamine aitab seda probleemi tavaliselt lahendada. Kui teil pole selle lehe autentimiseks volitusi, võite minna tagasi avalehele.",
+      "403": "Olete proovinud jõuda lehele, millele sellel veebisaidil juurde pääseda. Tavaliselt on see nii sisemiste failide puhul, mida serveris kasutatakse. Kui järgisite selle veebisaidi linki ja jõudsite siia, siis peab midagi olema valesti.",
+      "404": "Kui järgisite selle veebisaidi linki, peab midagi olema valesti. Kui järgisite välist linki, on võimalik, et link on vale ja seda tuleb värskendada. Kui sisestasite aadressile ise, on võimalik, et te midagi valesti kirjutasite.",
+      "500": "Serveris ilmnes viga, kui üritas teie päringut töödelda, mis pole teie brauseri konfiguratsiooniga seotud. See on üldiselt viga või ajutine probleem. Kui see püsib, võite meile sellest probleemist teada anda, et saaksime selle parandada.",
+      "501": "Leht, mille olete proovinud jõuda, kasutab serverifunktsiooni, mida pole veel veebisaidil rakendatud. Tavaliselt on see tingitud sellest, et leht, kuhu proovite jõuda, on pooleliolev töö ja see on tulevikus saadaval.",
+      "502": "See leht sõltub välisest ressursist või serverist, mis pole praegu saadaval. Tavaliselt näitab see kokkuvõtet ühel või mitmel meie serveril. Kui probleem püsib, võtke meiega ühendust, et saaksime selle parandada.",
+      "503": "See leht sõltub sisemisest ressursist, mida praegu pole saadaval. Tavaliselt tähendab see, et ressurss, veebisait või server on hoolduses ja pole praegu saadaval. Lisateavet leiate meie oleku lehelt.",
+      "504": "See leht sõltub välisest ressursist või serverist, millele ei õnnestunud õigel ajal jõuda. Tavaliselt näitab see seisakut või üldist aeglustumist. Kui probleem püsib, võtke meiega ühendust, et saaksime selle parandada.",
+      "default": "Ilmnes dokumentideta viga. Me pole kindlad, mis valesti läks, kuid veakood võib teid aidata. Kui vajate abi, võtke meiega ühendust, et saaksime selle parandada. Vabandame siiralt ebamugavuste pärast."
+    },
+    "actions": {
+      "home": "Minge tagasi avalehele",
+      "status": "Avage oleku leht",
+      "email": "Võtke meiega ühendust e -posti teel"
+    },
+    "title": "Viga"
+  },
+  "project": {
+    "actions": {
+      "source": "Lähtekood",
+      "website": "Ametlik koduleht"
+    },
+    "update": "Viimati värskendatud",
+    "archive": "Arhiveeritud"
+  },
+  "archive": {
+    "title": "Arhiiv"
+  },
+  "status": {
+    "main": [
+      "Kõik teenused toimivad nominaalsena",
+      "Mõne teenuse korral on tulemuslikkuse halvenemine",
+      "Mõnes teenuses on suur seisak"
+    ],
+    "description": [
+      "Oleme täheldanud kõigi Equestria.dev korraldatud teenuste nominaalset ja head tulemust.",
+      "Oleme täheldanud, et mõned Equestria.DEV -teenused on funktsionaalsed, kuid on tavapärasest aeglasem.",
+      "Oleme mõnes Equestria.DEV -teenuses täheldanud aega, muutes need mõnda aega ligipääsmatuks."
+    ],
+    "affected": [
+      "See juhtum mõjutab järgmist teenust:",
+      "See juhtum mõjutab järgmisi teenuseid:"
+    ],
+    "stats": {
+      "items": [
+        "Keskmine teenuse latentsus:",
+        "Kokku kasutatud mälu:",
+        "Kokku kasutatud salvestusruum:",
+        "Kokku saadaolev arvutusvõimsus:",
+        "Vahemälu:",
+        "Maksimaalne I/O latentsus:",
+        "südamikud",
+        "Operatsioonisüsteemid:",
+        "protsessid kokku"
+      ],
+      "title": "Statistika",
+      "used": "kasutatud"
+    },
+    "title": "Süsteemide olek",
+    "page": "Kuva täis oleku leht",
+    "update": "Viimati värskendatud"
+  },
+  "months": [
+    "Jaanuar",
+    "Veebruar",
+    "Marssima",
+    "Aprill",
+    "Mai",
+    "Juuni",
+    "Juuli",
+    "august",
+    "September",
+    "Oktoober",
+    "November",
+    "Detsember"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Sisuhaldus ja loobumine",
+        "Välja arvatud juhul, kui kasutajate loodud sisu juuresolekul on Equestria.Devi platvormil hostitud sisu vastutusele",
+        "Isegi kui me teeme võimalikult palju pingutusi kasutajatele täpse teabe pakkumisel, ei saa Equestria.DEV arendajad tagada meie platvormide esitatud teabe täpsust. Seetõttu võib meie platvormide teave olla ebatäpne või vananenud."
+      ],
+      "title": "Juriidilistest loobumised",
+      "privacy": "Kui vajate kunagi rohkem üksikasju, võtke meiega otse ühendust. Mõningat teavet hoitakse privaatsuse huvides varjatud.",
+      "servers": "Serveri asukohad",
+      "locations": "Equestria.Dev haldab võrgustikke kasutajaandmete transiitidest Prantsusmaal, Saksamaal ja Ameerika Ühendriikides. Võrgud, mida kasutatakse ainult Equestria.Devi sisemistel eesmärkidel ja mida ei mainita kasutajate andmeid sellel lehel.",
+      "property": "Serverid:",
+      "physical": "Ligikaudne füüsiline asukoht:",
+      "isp": "Internetiteenuse pakkuja:",
+      "us": "Link mitte-USA elanikele",
+      "data": "Kasutajate andmete taotlused",
+      "howto": "Kui mõni Equestria.DEV kasutaja taotleb kasutajaandmete juurdepääsu või kustutamist, tuleb e -posti aadressilt saata kasutaja IP -aadressi sisaldav e -kiri, mis tahes seadme identifikaatorid (vajaduse korral), Equestria.DEV konto ID (kui see on vajalik) Seotud Equestria.Dev kontoga (kui see on vajaduse korral) järgmise e -posti aadressiga:",
+      "law": "Korrakaitse määruste kohaselt ei saa Equestria.DEV kustutada vähem kui 3 kuud vanad serverilogid.",
+      "gov": "Garantii",
+      "pgp": "See on PGP -teade, mis on allkirjastatud järgmise klahviga:",
+      "key": "Vaadake täielikku avalikku võtit",
+      "alt": "alternatiivallikas",
+      "plain": "Kuva garantiikanaari (avaneb uuel vahekaardil)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Meie logo",
+        "message": "Palun ärge muutke, muutke, moonutage, taaselustage ega konfigureerige ümber Equestria.DEV logo."
+      },
+      "icon": {
+        "title": "Ainult ikoon",
+        "message": "Kasutage neid ainult siis, kui Equestria.Devi kaubamärk on selgelt nähtav, on mujal lehel või kujunduses hästi välja kujunenud, või ruum ei võimalda täisversiooni näidata. Kui kahtlete, kasutage teist."
+      },
+      "spacing": {
+        "title": "Vahekaugus",
+        "message": "Equestria.Devi logo kasutamisel lugege kindlasti neid vahekauguse juhiseid. Lisaks muutke logo piisavalt suureks, et olla loetav ja eristatav.",
+        "scale": "x = \".Dev\" teksti kõrgus.",
+        "notice": "(Ainult ikooni versioon on soovitatav ruumides, kus peate näitama logo suuruses vähem kui 96 pikslit või 52,8 millimeetrit, kuni 24 pikslit või 13,2 millimeetrit)"
+      },
+      "dont": {
+        "messages": [
+          "Ärge muutke, muutke ega konfigureerige logo ega sõnamärki",
+          "Ärge moonutage logo ega sõnamärki, sealhulgas tahtmatult",
+          "Ärge taaselustage ega rakendage visuaalefekte logole ega sõnamärgile",
+          "Ärge paigutage sildi- ega muud elementi logo või sõnamärgi kohale"
+        ],
+        "descriptions": [
+          "See hõlmab logo pöörlemist ja teksti või kuju muutmist koos vahekauguse säilitamisega kogu logo erinevate elementide vahel.",
+          "Te ei tohi logo mingil viisil moonutada ega deformeeruda, olgu see siis 2D- või 3D -kaadris. Lisaks veenduge, et logo kuvatakse kõigil juhtudel korralikult.",
+          "Nii logo kui ka sõnamärki tuleb hoida sellisena, nagu see on, ilma värvimuutuseta. Kui peate kasutama halltskaalat, kasutage ühevärvilisi variante.",
+          "Veenduge, et sildid (vajaduse korral) ei kattu kunagi logo elemendiga. Lisaks ärge toetage heakskiitu ega sponsorlust, kui neid pole."
+        ],
+        "too": {
+          "text": [
+            "Veenduge, et Equestria.dev kaubamärki ei kuvata rohkem kui teie toote või teenuse nime, logo ega kaubamärki.",
+            "\"Liiga palju\" tegemine võib põhjustada segadust ja panna kasutajaid arvama, et nad seisavad silmitsi kas ametliku Equestria.DEV veebisaidi või ametliku Equestria.DEV -tootega."
+          ],
+          "title": "Ära tee liiga palju"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Equestria.dev logo:",
+              "kasutatud litsentsi alusel"
+            ],
+            "product": [
+              "[projekti nimi] logo",
+              "projektinimi"
+            ]
+          },
+          "title": "Ärge kasutage ilma omistamiseta",
+          "message": "Equestria.Devi logo või projekti logo kasutamisel andke alati omistamine järgmistest tekstidest:"
+        },
+        "impersonation": {
+          "text": [
+            "Equestria.Dev kaubamärgi jäljendamine mitte-Equestria.DEV materjalides pole lubatud. Sama piirangu kehtib ka kaubamärgi Equestria.DEV animeerimisel, ühendades selle teiste sõnadega, sümbolite, piltide või kujundustega või ühendades selle loosungi või sildiliini.",
+            "Lisaks on rangelt keelatud üksikisiku nime või sarnasuse kasutamine Equestria.DEV -ist või rühmast tervikuna."
+          ],
+          "title": "Ärge jäljendage ega imiteerige"
+        },
+        "endorsement": {
+          "text": [
+            "Väärtustame koostööd, aga ei tähenda mingil moel teie toodete või teenuste kuuluvust, sponsorlust, kinnitamist, kinnitamist ega teenuseid Equestria.DEV -iga ilma Equestria.DEVi selgesõnalise loata. Enne sellisele koostööle Equestria.Deviga peab teil olema kirjalikult ametlikult loodud koostöö koos Equestria.DEV lepinguga.",
+            "See tähendab, et sellised tekstid nagu \"Equestria.dev\", \"Equestria.DEV sertifitseeritud\" või \"Equestria.Dev\" soovitatud \"pole lubatud."
+          ],
+          "title": "Ärge tähendage kinnitust, kus pole ühtegi"
+        },
+        "title": "Mitte"
+      },
+      "color": {
+        "formats": {
+          "title": "Värvikoodi vorming:",
+          "oklch": "OKLCH (SRGB profiil)",
+          "rgb": "Kuueteistkümnendar RGB (8-bitine)",
+          "cmyk": "CMYK (standard)"
+        },
+        "list": [
+          "Primaarvalgus",
+          "Primaarne tume",
+          "Sekundaarne tuli",
+          "Sekundaarne tume",
+          "Taust",
+          "Taustal",
+          "Positiivne valgus",
+          "Positiivne tume",
+          "Neutraalne valgus",
+          "Neutraalne tume",
+          "Negatiivne valgus",
+          "Negatiivne tume",
+          "Pink",
+          "Pinnal"
+        ],
+        "title": "Värvipalett",
+        "intro": "Equestria.dev värvipalett, mille nimi on \"Brightdawn\" (pärast Misty Brightdawn, on loodud minu väikese poni tegelane), et kajastada meie põhiväärtusi: kaasatus, sõprus ja läbipaistvus. See põhineb 2023. aastal kasutatud originaalse \"Misty\" paletil, et hõlmata heledamaid värve."
+      },
+      "more": {
+        "title": "Kas otsite rohkem?",
+        "text": "Laadige alla täielik Equestria.DEV brändikomplekt ja pääsege juurde kõigile ressurssidele, mida me oma logo loomiseks kasutasime, koos erilistes tingimustes kasutatavate spetsiaalsete variantidega, sealhulgas prototüübi kujundused ja muud kujunduslehed.",
+        "cta": "Laadige alla versioon 3",
+        "notice": "Sisaldab ka versioone 1 ja 2"
+      },
+      "page": "Kaubamärgi juhised",
+      "title": "Equestria.DEV kaubamärgi juhised",
+      "intro": "Equestria.dev võtame asju ja seda, kuidas te meie kaubamärki tõsiselt esindate. Bränd Equestria.Dev peaks esindama kvaliteetset, lihtsat ja privaatset avatud lähtekoodiga tarkvara. Kui kasutate meie brändivarasid millegi jaoks, pidage kindlasti neid juhiseid.",
+      "copyright": "Equestria.Devi logo ja tooteid kaitsevad kohaldatavad autoriõiguse seadused Prantsusmaal, Ameerika Ühendriikides ja teistes riikides. Equestria.Dev annab teile mitte-ülekantava, mitte eksklusiivse litsentsivaba litsentsi selle logo kasutamiseks vastavalt järgmistele juhistele. Need juhised reguleerivad ka Equestria.DEV logo kasutamist kogu meie oma teenustes. Jälgimata jätmist peetakse Equestria rikkumiseks.Devi intellektuaalomandisse ja see viib kohtumenetluseni."
+    },
+    "privacy": {
+      "sections": [
+        "Privaatsus Equestria.DEV veebiteenustel",
+        "Privaatsus Equestria.DEV rakendustes",
+        "Privaatsus Equestria.DEV veebiteenustel või rakendusel, mis integreeruvad kolmandate osapoolte komponentidega",
+        "Equestria.Devi vastutus kasutaja privaatsete andmete kaitsmisel"
+      ],
+      "text": [
+        [
+          "Equestria.Dev salvestab ainult teile selgesõnalise teabe (näiteks registreerimisvormi osana). Muid andmeid ei kogune.",
+          "Kuid õiguskaitse osana kogub Equestria.DEV IP -aadressid ja muud brauseri teavet (brauseri nimi, versioon, opsüsteem, URL ja kuupäev) kuni 365 päeva. See teave kustutatakse igal aastal jaanuaris.",
+          "Lisaks võib Equestria.Dev oma teenuste kvaliteedi ja usaldusväärsuse parandamise osana koguda täiesti anonüümset teavet, sealhulgas külastatavaid lehti, välja arvatud võimalikud isikuandmed. See teave tehakse enne statistikaks koondamist anonüümseks ja algne teave salvestatakse vastavalt punktile 1 (vt eespool)."
+        ],
+        [
+          "See jaotis kehtib rakenduste kohta, mis on installitud (juurdepääsetav isegi ilma konkreetse teenuseta Equestria.DEV) kasutaja seadmesse ja niipea, kui kasutaja installiprotsessi alustab.",
+          "Equestria.DEV rakendused ei jälgi, ei häiri, ei häiri ega takista muude rakenduste käitumist. Kas rakendus töötab või mitte, tehakse kasutajale kogu aeg selgeks.",
+          "Mõned rakendused võivad pärast seda, kui kasutaja on andnud oma selge ja selge nõusoleku (sealhulgas pärast seda, kui kasutaja on tunnistanud kogutud andmeid), koguge anonüümseid statistilisi andmeid nende rakenduste kvaliteedi ja usaldusväärsuse parandamise osana. Kasutajale antakse alati võimalus lõpetada selle statistika saatmine Equestria.DEV ilma muudatusteta rakenduse käitumises."
+        ],
+        [
+          "Kui Equestria.DEV võrguteenus või rakendus integreerub kolmanda osapoole komponendiga, jõustub selle kolmanda osapoole privaatsuspoliitika kõigil toimingutel, mida selle kolmanda osapoolega tegeleb.",
+          "Kui kolmanda osapoole komponent on põhitoiming, mida veebiteenus või rakendus käepidet käitleb, kehtib prioriteediks kolmanda osapoole privaatsuspoliitika. Kui kolmanda osapoole komponent on veebiteenuses või rakenduses teisene toiming, kehtib Equestria.Devi privaatsuspoliitika esiteks.",
+          "Juhul, kui kolmanda osapoole privaatsuseeskirjad sõltus Equestria.DEV veebiteenus või rakendus muutustest, tehakse nimetatud Equestria.DEV veebiteenuse või rakenduse kasutajad muudatustest ja kuidas see mõjutab nende viisi Kasutage veebiteenust või rakendust."
+        ],
+        [
+          "Equestria.Dev vastutab täielikult kasutaja privaatsete ja isikuandmete tagamise eest (välja arvatud juhul, kui protsessi ei osale kolmas osapool, sel juhul võetakse kolmanda osapoole vastutus).",
+          "Juhul, kui sellise teabe avalikustab, näiteks sissetungijad, kes laadivad Equestria.Devi serveritest andmeid alla, teavitatakse kasutajaid selle probleemiga võimalikult kiiresti ja neile antakse vajadusel juhised.",
+          "Equestria.DEV -l pole huvi kasutajaandmete müümise, äraandmise ega paljastamise vastu ega ürita ühtegi neist toimingutest kunagi."
+        ]
+      ],
+      "translation": [
+        "Kohustustest loobumine:",
+        "Juhul, kui see privaatsuspoliitika tõlgitakse teise keelde, on juriidiliselt rakendatav ainult ingliskeelne versioon. Tõlgitud versioonid on esitatud ainult teabe eesmärgil."
+      ],
+      "title": "Andmete privaatsus",
+      "bigtitle": "Equestria.Dev andmete privaatsuseeskirjad",
+      "intro": "Equestria.Dev väärtustame teie privaatsust. Püüame koguda võimalikult vähe andmeid, et pakkuda teile ootavat teenust. Sõltumata sellest, Equestria.Devi andmeravi toimub vastavalt Euroopa üldise andmekaitse määrusele."
+    },
+    "terms": {
+      "translation": [
+        "Kohustustest loobumine:",
+        "Juhul, kui need tingimused on tõlgitud teise keelde, on juriidiliselt rakendatav ainult ingliskeelne versioon. Tõlgitud versioonid on esitatud ainult teabe eesmärgil."
+      ],
+      "sections": [
+        "Loobumine",
+        "Demograafia",
+        "Eesmärgid",
+        "Korrakaitse",
+        "Teenuste kvaliteet ja usaldusväärsus",
+        "Vastastikune austus ja võrdsus"
+      ],
+      "text": [
+        [
+          "Spetsiifilistel kasutajatel ei pruugi olla lubatud kasutada Equestria.Devi võrguteenuseid sõltuvalt nende asukohast või füüsilisest seisundist.",
+          "Kasutajatel, kes asuvad Hiinas, Põhja -Koreas, ja mõnel teisel riigil ei ole lubatud veebiteenuseid kasutada. Administraatorid saavad erandeid teha.",
+          "Juriidiliselt nooremaid kui 13 -aastaseid isikuid ei lubata üldse veebiteenuseid kasutada. Vähem kui 21 -aastastel kasutajatel ei pruugi olla juurdepääsu konkreetsetele funktsioonidele."
+        ],
+        [
+          "Equestria.Dev annab kasutajatele ainulaadse, tühistatava ja mittevahetava loa veebiteenustele juurdepääsu saamiseks.",
+          "Veebiteenuste kasutamine kasumit teenivate tegevuste korral pole lubatud, hoolimata sellest, kui palju kasumit teenitakse, ja see tuletab veebiteenustele juurdepääsu viivitamatu lõpetamise."
+        ],
+        [
+          "Equestria.Dev hostitud teenuse kasutamisel nõustub kasutaja mitte kasutama teenust ühegi Prantsusmaal või Ameerika Ühendriikides ebaseadusliku toimingu jaoks. Lisaks ei tohi kasutaja toimingud takistada teistel kasutajatel omaenda toiminguid tegemast.",
+          "Vägivaldse või vägivaldse sisu, pahatahtliku koodi või tarkvara või varastatud sisu avaldamise avaldamine pole lubatud ja see tuletab juurdepääsu viivitamatu lõpetamise."
+        ],
+        [
+          "Veebiteenuste majutamine on keeruline ja Equestria.DEV töötab väga piiratud sissetulekuga.",
+          "Equestria.DEV arendajad ja administraatorid ei tohiks olla vastutavad juhul, kui veebiteenus ei tööta nii, nagu ette nähtud. Kõiki veebiplatvorme pakutakse sellisena, nagu see oleks ilma garantiideta, et see toimib nii kavandatud või üldse iga aja jooksul.",
+          "Equestria.Dev väidab, et nende korraldatavad teenused võivad täpsustamata punktides olla aeglased või kättesaamatud, hoiatusega või ilma. Administraatorid ei luba antud teenuse kättesaadavuse konkreetset protsenti aastaringselt."
+        ],
+        [
+          "Kui on sotsiaalne suhtlus, nõustuvad kõik kasutajad oma sotsiaalsete, füüsiliste või psühholoogiliste tingimuste, sealhulgas arvamuste tõttu üksteist diskrimineerima. Kasutajaid julgustatakse sellisest sobimatust käitumisest teatama, et hoida platvormid kõigile ohutuks.",
+          "Kõigil kasutajatel on vabadus tuvastada, kui nad soovivad, kui see ei mõjuta seda, kuidas teised kasutajad teenusega suhtlevad. Kõik identiteedid kehtivad sõltumata sellest, kust nad pärit on.",
+          "Kõik saavad juurdepääsu täpselt samale teenusele, olenemata sellest, kus nad elavad (välja arvatud juhul, kui 1. on kohaldatav) ja kes nad on. Equestria.Dev väärtustab kasutajate võrdsust ja austust ning nõuab, et kasutajad peaksid teatama sobimatust käitumisest, olenemata sellest, kas see rikub neid teenusetingimusi või mitte."
+        ]
+      ],
+      "title": "Tingimused",
+      "bigtitle": "Equestria.Dev korraldas teenuste tingimusi",
+      "intro": "Järgmised kasutustingimused kehtivad ainult Equestria.Dev korraldatud veebiteenuste kohta, sealhulgas siis, kui veebiteenusele pääseb juurde kolmanda osapoole kaudu. \"Kohalikud\" taotlusi või teenuseid, mida Equestria.DEV ei korralda, ei reguleeri need kasutustingimused, vaid vastavalt nende litsentsileping ja teenuse hostimise pakkuja kasutustingimused."
+    },
+    "license": {
+      "translation": [
+        "Kohustustest loobumine:",
+        "Juhul, kui need litsentsid on tõlgitud teise keelde, on juriidiliselt rakendatav ainult ingliskeelne versioon. Tõlgitud versioonid on esitatud ainult teabe eesmärgil."
+      ],
+      "sections": [
+        "Tasuta, libre ja avatud lähtekoodiga tarkvara",
+        "Suletud lähtekoodiga \"patenteeritud\" tarkvara"
+      ],
+      "text": [
+        [
+          "Peetakse \"tasuta, libre ja avatud lähtekoodiga\" kogu tarkvara, mille Equestria.DEV vabastab kas MIT-litsentsi alusel, mis tahes ühilduva alternatiivi või täiesti autoriõiguseta. Kui tarkvara lähtekoodis pole litsentsilepingu koopiat või mujal on olemas mõne muu litsentsi mainimine, avaldatakse tarkvara, millist lähtekoodi avalikult juurdepääsetavaks on, järgmiste litsentsitingimuste alusel:",
+          "MIT -litsents",
+          "Käesolevaga antakse luba tasuta igale inimesele, kes hankivad selle tarkvara koopiat ja sellega seotud dokumentatsioonifailide (tarkvara), et tegeleda tarkvaraga ilma piiranguteta, sealhulgas ilma piiramiseta õigused kasutada, kopeerida, muuta, ühineda , avaldage, levitage, alamjooksu ja/või müüge tarkvara koopiaid ning lubage isikutel, kellele tarkvara on selleks ette nähtud, vastavalt järgmistele tingimustele:",
+          "Ülaltoodud autoriõiguse teatis ja see loa teade sisalduvad tarkvara kõigisse koopiatesse või olulistesse osadesse.",
+          "Tarkvara on varustatud sellisena, nagu see on, ilma igasuguse selgesõnalise või kaudse garantiita, sealhulgas, kuid mitte ainult, kaupletavuse garantiide, konkreetse eesmärgi sobivuse ja rikkumiseta. Mingil juhul ei vastuta autorid või autoriõiguse omanikud mis tahes nõude, kahju või muu vastutuse eest, olgu see siis lepingu, tühja või muul viisil, mis tuleneb tarkvarast või sellega seotud või sellega seoses Tarkvara."
+        ],
+        [
+          "Mõnel juhul võivad Equestria.DEV arendajad valida, kas ei avaldata konkreetse tarkvara lähtekoodi. Selle põhjuseks võib olla asjaolu, et seda kuritarvitatakse või väärkasutatakse, kuna see kasutab privaatset platvormi, kuna see sisaldab konfidentsiaalset või privaatset teavet või mõnda muud põhjust. Arendajad saavad valida, kas teha suletud lähtekoodiga tarkvara hiljem avatud lähtekoodiga.",
+          "Tarkvara allalaadimise, installimise, ostmise või kasutamise kaudu aktsepteerite neid litsentsitingimusi. Kui te neid ei aktsepteeri, ärge kasutage tarkvara; Või kui saadaval on avatud lähtekoodiga variant, kasutage avatud lähtekoodiga varianti.",
+          "Kõigil suletud lähtekoodiga tarkvara juhtudel peavad kasutajad:",
+          "Kasutage tarkvara rangelt isiklikel eesmärkidel, mitte kasumi nimel;",
+          "ei ürita tarkvara dekompileerida, muuta, avaldada, levitada, müüa ega litsentsida;",
+          "mitte kasutada tarkvara viisil, mis on Prantsusmaal või Ameerika Ühendriikides ebaseaduslik;",
+          "ei kasuta tarkvara viisil, mis võiks seada Equestria.DEV ohtu;",
+          "ei paljasta tarkvara avalikes kohtades, kus kasutajad saaksid seda kasutada ilma selle litsentsilepinguga nõustumata",
+          "Tasulise tarkvara korral ei tohi kasutajad kolmandale osapoolele tasuta tarkvarale juurdepääsu anda. Sugulasele (sõbrale, perele, ...) tarkvarale juurdepääsu andmist peetakse mõistlikuks, kuid see ei tohiks ületada 10 inimest."
+        ]
+      ],
+      "title": "Tarkvaralitsentsid",
+      "bigtitle": "Equestria.DEV tarkvara ja allikate litsentsid",
+      "intro": "Equestria.Dev vabastab tarkvara erinevates litsentsimisskeemides, enamasti Libre litsentside all."
+    }
+  },
+  "_name": "Eestonian",
+  "title": "Equestria.Dev: tarkvaraplatvorm, millele saate tugineda",
+  "language": "Keelevalija"
+}

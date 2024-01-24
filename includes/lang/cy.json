@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "heiliwn",
+      "eiliadau"
+    ],
+    "minute": [
+      "munud",
+      "munudau"
+    ],
+    "hour": [
+      "awr",
+      "oriau"
+    ],
+    "day": [
+      "Dydd",
+      "nyddiau"
+    ],
+    "week": [
+      "wythnosau",
+      "wythnosau"
+    ],
+    "month": [
+      "misoedd",
+      "misoedd"
+    ],
+    "year": [
+      "blwyddyn",
+      "mlynyddoedd"
+    ],
+    "age": [
+      "heneiddio",
+      "hoesau"
+    ],
+    "ago": "yn ôl",
+    "later": "yn ddiweddarach",
+    "now": "nawr"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Prosiectau",
+      "network": "Rhwydweithiwyd",
+      "contact": "Nghyswllt",
+      "legal": "Cyfreithiol"
+    },
+    "projects": {
+      "archives": "Gweler ein prosiectau wedi'u harchifo"
+    },
+    "network": {
+      "status": [
+        "Pob system yn weithredol",
+        "Perfformiad diraddiedig",
+        "Toriad mawr"
+      ],
+      "account": "Eich Cyfrif",
+      "infra": "Seilwaith",
+      "security": "Cynghorion Diogelwch",
+      "bugs": "Traciwr Bug",
+      "blog": "Blogiwyd"
+    },
+    "legal": {
+      "terms": [
+        "Nhelerau",
+        "ac amodau"
+      ],
+      "privacy": "Preifatrwydd Data",
+      "license": "Trwyddedau meddalwedd",
+      "disclaimer": "Ymwadiadau cyfreithiol",
+      "branding": "Canllawiau Brandio",
+      "support": "Gyda chefnogaeth gan",
+      "version": "Fersiwn",
+      "made": "Wedi'i wneud gan ferlod gyda",
+      "phpstorm": "a phpstorm",
+      "trademark": "Mae \"Equestria.dev\" ac enwau cysylltiedig yn nodau masnach datblygwyr Equestria.dev yn Ffrainc a gwledydd eraill. Mae'r logos Equestria.dev a phrosiectau wedi'u gwarchod o dan ddeddfau hawlfraint cymwys. Mae Jetbrains, y logos cysylltiedig a'r enwau cysylltiedig yn nodau masnach cofrestredig Jetbrains S.R.O., a ddefnyddir o dan drwydded."
+    },
+    "contact": {
+      "email": "Anfonwch e -bost atom"
+    }
+  },
+  "footer": {
+    "copyright": "Cedwir pob hawl."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Platfform meddalwedd",
+        "gallwch chi",
+        "dibynnu ar"
+      ],
+      "cta": "Gweld beth rydyn ni'n ei wneud"
+    },
+    "categories": {
+      "dev": {
+        "title": "Natblygiadau",
+        "description": "Gyda dros 5 mlynedd o brofiad mewn datblygu meddalwedd, mewn ystod eang o ieithoedd - megis rhwd, javascript, kotlin neu php -, gallwch fod yn dawel eich meddwl y byddwn yn datblygu meddalwedd o safon i helpu i gyflawni eich anghenion, p'un a ydych chi'n fusnes neu unigolyn.",
+        "cta": "Gweld prosiectau"
+      },
+      "network": {
+        "title": "Rwydweithio",
+        "description": "Oeddech chi'n gwybod bod y testun hwn wedi mynd trwy o leiaf 3 gweinydd Equestria.dev gwahanol cyn eich cyrraedd chi? Gyda'n blynyddoedd o brofiad mewn rheoli gweinyddwyr - Linux yn bennaf -, gallwn optimeiddio unrhyw raglen yn llawn i berfformio ar ei orau waeth beth yw llwyth y gweinydd.",
+        "cta": "Gweld Seilwaith"
+      },
+      "privacy": {
+        "title": "Preifatrwydd",
+        "description": "Mae preifatrwydd, diogelwch ac amddiffyn data defnyddwyr bob amser wedi bod yn rhai o'n gwerthoedd craidd. Lle bynnag y bo hynny'n bosibl-ac sydd ei angen-rydym yn defnyddio technoleg amgryptio gradd milwrol gadarn, ac rydym yn sicrhau bod data defnyddwyr bob amser yn ddiogel ac yn cael ei amddiffyn rhag gwahanol fathau o ymosodiadau.",
+        "cta": "Darllen dogfennau"
+      }
+    },
+    "contact": {
+      "title": "Cael cais arbennig?",
+      "description": "Os hoffech i ni helpu gyda phrosiect eich hun, p'un a yw'n ymwneud â datblygu, rheoli gweinyddwyr neu breifatrwydd a diogelwch, gallwn helpu. Mae croeso i chi ollwng neges atom a byddwn yn gweld beth allwn ei wneud.",
+      "cta": "Anfonwch neges atom"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Cais annilys",
+      "401": "Dilysu Angenrheidiol",
+      "403": "Gwrthodir mynediad",
+      "404": "Tudalen heb ei darganfod",
+      "500": "Gwall Gweinydd Mewnol",
+      "501": "Ddim ar gael eto",
+      "502": "Gwall gweinydd i fyny'r afon",
+      "503": "Mae'r gweinydd yn anghyraeddadwy",
+      "504": "Amser i fyny'r afon wedi'i amseru",
+      "default": "Gwall system anhysbys"
+    },
+    "descriptions": {
+      "400": "Rydych wedi ceisio anfon cais at y gweinydd na all ei brosesu. Yn gyffredinol, ni ddylai hyn ddigwydd, ond gallai nodi problem gyda'ch porwr. Os oes angen help arnoch i drwsio hyn, mae croeso i chi gysylltu â ni.",
+      "401": "Rydych wedi ceisio cyrraedd tudalen y mae angen ei dilysu heb gael ei dilysu. Mae adnewyddu'r dudalen fel arfer yn helpu i ddatrys y mater hwn. Os nad oes gennych gymwysterau i ddilysu ar gyfer y dudalen hon, gallwch fynd yn ôl i'r dudalen gartref.",
+      "403": "Rydych wedi ceisio cyrraedd tudalen nad yw'n hygyrch o'r wefan hon. Mae hyn fel arfer yn wir am ffeiliau mewnol a ddefnyddir ar y gweinydd. Os gwnaethoch ddilyn dolen o'r wefan hon a chyrraedd yma, yna mae'n rhaid bod rhywbeth yn anghywir.",
+      "404": "Os gwnaethoch ddilyn dolen o'r wefan hon, yna rhaid i rywbeth fod yn anghywir. Os gwnaethoch ddilyn cyswllt allanol, yna mae'n bosibl bod cyswllt yn anghywir ac mae angen ei ddiweddaru. Os gwnaethoch chi fynd i mewn i'r cyfeiriad eich hun, mae'n bosibl eich bod wedi camsillafu rhywbeth.",
+      "500": "Digwyddodd gwall ar y gweinydd wrth geisio prosesu'ch cais nad yw'n gysylltiedig â chyfluniad eich porwr. Byg neu fater dros dro yw hwn yn gyffredinol. Os yw'n parhau, gallwch roi gwybod i ni am y mater fel y gallwn ei drwsio.",
+      "501": "Mae'r dudalen rydych chi wedi ceisio ei chyrraedd yn defnyddio nodwedd gweinydd nad yw wedi'i gweithredu ar y wefan eto. Mae hyn fel arfer oherwydd bod y dudalen rydych chi'n ceisio ei chyrraedd yn waith ar y gweill a bydd ar gael yn y dyfodol.",
+      "502": "Mae'r dudalen hon yn dibynnu ar adnodd neu weinydd allanol nad yw ar gael ar hyn o bryd. Mae hyn fel rheol yn dynodi toriad ar un neu fwy o'n gweinyddwyr. Os bydd y mater yn parhau, cysylltwch â ni fel y gallwn drwsio hyn.",
+      "503": "Mae'r dudalen hon yn dibynnu ar adnodd mewnol nad yw ar gael ar hyn o bryd. Mae hyn yn nodweddiadol yn golygu bod yr adnodd, y wefan neu'r gweinydd yn cael ei gynnal a chadw ac nad yw ar gael ar hyn o bryd. Gwiriwch ein tudalen statws i gael mwy o wybodaeth.",
+      "504": "Mae'r dudalen hon yn dibynnu ar adnodd neu weinydd allanol nad oedd modd ei gyrraedd mewn pryd. Mae hyn yn nodweddiadol yn dynodi toriad neu arafu cyffredinol. Os bydd y mater yn parhau, cysylltwch â ni fel y gallwn drwsio hyn.",
+      "default": "Digwyddodd gwall heb ei ddogfennu. Nid ydym yn siŵr beth aeth o'i le, ond gall y cod gwall eich helpu chi. Os oes angen help arnoch, cysylltwch â ni fel y gallwn drwsio hyn. Ymddiheurwn yn ddiffuant am yr anghyfleustra."
+    },
+    "actions": {
+      "home": "Ewch yn ôl i'r dudalen gartref",
+      "status": "Agorwch y dudalen statws",
+      "email": "Cysylltwch â ni trwy e -bost"
+    },
+    "title": "Wallau"
+  },
+  "project": {
+    "actions": {
+      "source": "Cod Ffynhonnell",
+      "website": "Gwefan swyddogol"
+    },
+    "update": "Wedi'i ddiweddaru ddiwethaf",
+    "archive": "Archifo am"
+  },
+  "archive": {
+    "title": "Archifau"
+  },
+  "status": {
+    "main": [
+      "Mae'r gwasanaethau i gyd yn gweithredu fel enwol",
+      "Mae rhai gwasanaethau yn profi diraddiad perfformiad",
+      "Mae rhai gwasanaethau yn profi toriad mawr"
+    ],
+    "description": [
+      "Rydym wedi arsylwi perfformiad enwol a da o'r holl wasanaethau a gynhelir gan Equestria.dev ar hyn o bryd.",
+      "Rydym wedi arsylwi bod rhai gwasanaethau Equestria.dev, wrth eu bod yn swyddogaethol, yn arafach na'r arfer.",
+      "Rydym wedi arsylwi amser mewn rhai gwasanaethau Equestria.dev, gan eu gwneud yn anhygyrch am gryn amser."
+    ],
+    "affected": [
+      "Effeithir ar y gwasanaeth canlynol gan y digwyddiad hwn:",
+      "Mae'r digwyddiad hwn yn effeithio ar y gwasanaethau canlynol:"
+    ],
+    "stats": {
+      "items": [
+        "Latency Gwasanaeth Cyfartalog:",
+        "Cyfanswm y cof a ddefnyddir:",
+        "Cyfanswm y storfa a ddefnyddir:",
+        "Cyfanswm y pŵer cyfrifiadurol sydd ar gael:",
+        "Cache:",
+        "Uchafswm I/O Latency:",
+        "creiddiau",
+        "Systemau Gweithredu:",
+        "Cyfanswm prosesau"
+      ],
+      "title": "Ystadegau",
+      "used": "nefnydd"
+    },
+    "title": "Statws Systemau",
+    "page": "Gweld Tudalen Statws Llawn",
+    "update": "Wedi'i ddiweddaru ddiwethaf"
+  },
+  "months": [
+    "Ionawr",
+    "Chwefror",
+    "Orymdeithion",
+    "Ebrill",
+    "Mai",
+    "Mehefin",
+    "Ngorffennaf",
+    "Awst",
+    "Medi",
+    "Hydref",
+    "Nhachwedd",
+    "Rhagfyr"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Rheoli cynnwys ac ymwadiadau",
+        "Oni bai ym mhresenoldeb cynnwys a grëwyd gan ddefnyddwyr, mae'r cynnwys a gynhelir ar blatfform Equestria.dev o dan gyfrifoldeb",
+        "Er ein bod yn gwneud cymaint o ymdrech â phosibl i roi gwybodaeth gywir i ddefnyddwyr, ni all datblygwyr Equestria.DEV warantu uniondeb y wybodaeth a ddarperir gan ein llwyfannau. Felly, gall y wybodaeth ar ein llwyfannau fod yn ddibwys neu'n hen ffasiwn."
+      ],
+      "title": "Ymwadiadau cyfreithiol",
+      "privacy": "Os oes angen mwy o fanylion arnoch erioed, cysylltwch â ni yn uniongyrchol. Mae rhywfaint o wybodaeth yn cael ei chuddio am resymau preifatrwydd.",
+      "servers": "Lleoliadau gweinydd",
+      "locations": "Mae Equestria.Dev yn rheoli rhwydweithiau sy'n trosglwyddo data defnyddwyr yn Ffrainc, yr Almaen a'r Unol Daleithiau. Nid yw rhwydweithiau sy'n cael eu defnyddio at ddibenion mewnol Equestria.dev yn unig ac nad ydynt yn cludo data defnyddwyr yn cael eu crybwyll ar y dudalen hon.",
+      "property": "Gweinyddwyr o dan eiddo:",
+      "physical": "Gwahaniaethu lleoliad corfforol:",
+      "isp": "Darparwr Gwasanaeth Rhyngrwyd:",
+      "us": "Cyswllt ar gyfer preswylwyr nad ydynt yn UDA",
+      "data": "Ceisiadau Data Defnyddwyr",
+      "howto": "Pe bai unrhyw ddefnyddiwr Equestria.DEV yn gofyn am fynediad neu ddileu data defnyddwyr, e -bost sy'n cynnwys cyfeiriad IP y defnyddiwr, unrhyw ddynodwyr dyfais (os yw'n berthnasol), mae angen anfon ID cyfrif Equestria.DEV (os yw'n berthnasol) o'r cyfeiriad e -bost Yn gysylltiedig â'r cyfrif Equestria.DEV (os yw'n berthnasol) i'r cyfeiriad e -bost canlynol:",
+      "law": "Yn unol â rheoliadau gorfodaeth cyfraith, ni all Equestria.dev ddileu logiau gweinydd sy'n llai na 3 mis oed.",
+      "gov": "Gwarant caneri",
+      "pgp": "Neges PGP yw hon wedi'i llofnodi gyda'r allwedd ganlynol:",
+      "key": "Gweld Allwedd Cyhoeddus Llawn",
+      "alt": "Ffynhonnell Amgen",
+      "plain": "Gweld gwarant caneri (yn agor mewn tab newydd)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Ein logo",
+        "message": "Peidiwch â golygu, newid, ystumio, atgofio neu ail -ffurfweddu'r logo Equestria.dev."
+      },
+      "icon": {
+        "title": "Eicon yn unig",
+        "message": "Defnyddiwch y rhain dim ond pan fydd y brand Equestria.Dev i'w weld yn glir, wedi'i sefydlu'n dda mewn man arall ar y dudalen neu yn y dyluniad, neu nid yw gofod yn caniatáu dangos y fersiwn lawn. Pan nad ydych chi'n siŵr, defnyddiwch yr un arall."
+      },
+      "spacing": {
+        "title": "Bylchau",
+        "message": "Gwnewch yn siŵr eich bod yn parchu'r canllawiau bylchau hyn wrth ddefnyddio'r logo Equestria.dev. Yn ogystal, gwnewch yn siŵr eich bod chi'n gwneud y logo yn ddigon mawr i fod yn ddarllenadwy ac yn wahaniaethol.",
+        "scale": "x = \".dev\" uchder testun.",
+        "notice": "(Argymhellir y fersiwn eicon yn unig mewn lleoedd lle mae'n rhaid i chi ddangos y logo ar feintiau llai na 96 picsel neu 52.8 milimetr, i lawr i 24 picsel neu 13.2 milimetr)"
+      },
+      "dont": {
+        "messages": [
+          "Peidiwch â golygu, newid nac ail -ffurfweddu'r logo na'r marc geiriau",
+          "Peidiwch ag ystumio'r logo na'r marc geiriau gan gynnwys yn anfwriadol",
+          "Peidiwch ag atgoffa na chymhwyso effeithiau gweledol ar y logo neu'r marc geiriau",
+          "Peidiwch â gosod llinell tag nac unrhyw elfen arall dros y logo neu'r marc geiriau"
+        ],
+        "descriptions": [
+          "Mae hyn yn cynnwys peidio â chylchdroi'r logo a newid unrhyw destun neu siâp, ynghyd â chynnal bylchau rhwng gwahanol elfennau'r logo llawn.",
+          "Rhaid i chi beidio ag ystumio nac anffurfio'r logo mewn unrhyw ffordd, p'un a yw mewn ffrâm 2D neu 3D. Yn ogystal, gwnewch yn siŵr bod y logo yn cael ei arddangos yn iawn ym mhob achos.",
+          "Rhaid cadw'r logo a'r marc geiriau fel y mae, heb unrhyw newid lliw o gwbl. Os oes angen i chi ddefnyddio graddfa lwyd, defnyddiwch yr amrywiadau unlliw.",
+          "Sicrhewch nad yw'r llinellau tag (os yw'n berthnasol) byth yn gorgyffwrdd ag unrhyw elfen o'r logo. Yn ogystal, peidiwch â chymeradwyo cymeradwyaeth na nawdd pan nad oes un."
+        ],
+        "too": {
+          "text": [
+            "Sicrhewch nad yw'r brand Equestria.dev yn cael ei arddangos yn fwy amlwg nag enw, logo neu frand eich cynnyrch neu wasanaeth eich hun.",
+            "Gallai gwneud \"gormod\" arwain at ddryswch a gwneud i ddefnyddwyr feddwl eu bod yn wynebu naill ai gwefan swyddogol Equestria.dev, neu gynnyrch swyddogol Equestria.dev."
+          ],
+          "title": "Peidiwch â gwneud gormod"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Logo Equestria.dev:",
+              "a ddefnyddir o dan drwydded"
+            ],
+            "product": [
+              "Logo [Enw'r Prosiect]",
+              "Enw'r Prosiect"
+            ]
+          },
+          "title": "Peidiwch â defnyddio heb briodoli",
+          "message": "Wrth ddefnyddio'r logo Equestria.dev neu unrhyw logo prosiect, rhowch briodoli gyda'r naill neu'r llall o'r testunau canlynol bob amser:"
+        },
+        "impersonation": {
+          "text": [
+            "Ni chaniateir dynwared y brand Equestria.dev mewn deunyddiau nad ydynt yn Sequestria.dev. Mae'r un cyfyngiad yn berthnasol ar gyfer animeiddio'r brand Equestria.dev, gan ei gyfuno ag unrhyw eiriau, symbolau, delweddau, neu ddyluniadau eraill, neu ei ymgorffori mewn slogan neu linell tag.",
+            "Yn ogystal, gwaharddir defnyddio enw neu debygrwydd unigolyn o'r tu mewn i Equestria.dev neu'r grŵp cyfan mewn unrhyw gyfrif cyfryngau cymdeithasol neu gyfryngau eraill yn llwyr."
+          ],
+          "title": "Peidiwch â dynwared na dynwared"
+        },
+        "endorsement": {
+          "text": [
+            "Fodd bynnag, rydym yn gwerthfawrogi cydweithredu, nid yw mewn unrhyw ffordd yn awgrymu cysylltiad, nawdd, ardystiad na chymeradwyaeth eich cynhyrchion neu wasanaethau gydag Equestria.dev heb ganiatâd penodol Equestria.dev. Mae angen i chi gael cydweithrediad wedi'i sefydlu'n ffurfiol yn ysgrifenedig gyda chytundeb gan Equestria.dev cyn cyfeirio at gydweithrediad o'r fath ag Equestria.dev.",
+            "Mae hyn yn golygu na chaniateir testun fel \"wedi'i gymeradwyo gan Equestria.dev\", \"Equestria.dev ardystiedig\" neu \"a argymhellir gan Equestria.dev\"."
+          ],
+          "title": "Peidiwch ag awgrymu cymeradwyaeth lle nad oes un"
+        },
+        "title": "Peidiwch â gwneud hynny"
+      },
+      "color": {
+        "formats": {
+          "title": "Fformat Cod Lliw:",
+          "oklch": "Oklch (proffil srgb)",
+          "rgb": "RGB Hexadecimal (8-did)",
+          "cmyk": "CMYK (Safon)"
+        },
+        "list": [
+          "Golau Cynradd",
+          "Tywyll cynradd",
+          "Golau eilaidd",
+          "Tywyll",
+          "Nghefndir",
+          "Ar gefndir",
+          "Golau positif",
+          "Tywyll positif",
+          "Golau niwtral",
+          "Tywyll Niwtral",
+          "Golau negyddol",
+          "Tywyll negyddol",
+          "Arwyneb",
+          "Ar wyneb"
+        ],
+        "title": "Palet Lliw",
+        "intro": "Mae'r palet lliw Equestria.dev, o'r enw \"BrightDawn\" (ar ôl Misty Brightdawn, y cymeriad o fy merlen fach) wedi'i greu i adlewyrchu ein gwerthoedd craidd: cynhwysiant, cyfeillgarwch a thryloywder. Mae'n seiliedig ar y palet \"Misty\" gwreiddiol a ddefnyddiwyd yn 2023 wedi'i ddiweddaru i gynnwys lliwiau mwy disglair."
+      },
+      "more": {
+        "title": "Chwilio am fwy?",
+        "text": "Dadlwythwch y pecyn brand Equestria.dev llawn a chael mynediad i'r holl adnoddau a ddefnyddiwyd gennym i greu ein logo, ynghyd ag amrywiadau arbennig a ddefnyddir mewn amodau penodol, gan gynnwys dyluniadau prototeip a thaflenni dylunio eraill.",
+        "cta": "Dadlwythwch Fersiwn 3",
+        "notice": "Hefyd yn cynnwys fersiynau 1 a 2"
+      },
+      "page": "Canllawiau Brandio",
+      "title": "Canllawiau Brandio Equestria.Dev",
+      "intro": "Yn Equestria.dev, rydyn ni'n cymryd pethau a sut rydych chi'n cynrychioli ein brand o ddifrif. Dylai brand Equestria.Dev gynrychioli meddalwedd ffynhonnell agored o ansawdd, syml a phreifat. Os ydych chi'n defnyddio ein hasedau brandio ar gyfer unrhyw beth, gwnewch yn siŵr eich bod chi'n parchu'r canllawiau hyn.",
+      "copyright": "Mae logo a chynhyrchion Equestria.dev yn cael eu gwarchod gan ddeddfau hawlfraint cymwys yn Ffrainc, yr Unol Daleithiau a gwledydd eraill. Mae Equestria.Dev yn rhoi trwydded gyfyngedig gyfyngedig na ellir ei throsglwyddo, nad yw'n unigryw, heb freindal i ddefnyddio ei logo fel y'i diffinnir gan y canllawiau canlynol. Mae'r canllawiau hyn hefyd yn rheoleiddio defnyddio logo Equestria.DEV trwy gydol ein gwasanaethau ein hunain. Mae methu â chadw yn cael ei ystyried yn torri ar eiddo deallusol Equestria.dev a bydd yn arwain at gamau cyfreithiol."
+    },
+    "privacy": {
+      "sections": [
+        "Preifatrwydd ar y gwasanaethau ar -lein Equestria.dev",
+        "Preifatrwydd ar y cymwysiadau Equestria.Dev",
+        "Preifatrwydd ar y gwasanaethau neu gymhwysiad ar -lein equestria.dev sy'n integreiddio â chydrannau trydydd parti",
+        "Cyfrifoldeb Equestria.dev wrth amddiffyn data preifat defnyddiwr"
+      ],
+      "text": [
+        [
+          "Dim ond y wybodaeth rydych chi'n ei rhoi i ni (er enghraifft, fel rhan o ffurflen gofrestru) y bydd Equestria.dev yn arbed y wybodaeth rydych chi'n ei chadw yn benodol). Ni fydd unrhyw ddata arall yn cael ei gasglu.",
+          "Fodd bynnag, fel rhan o orfodi'r gyfraith, bydd Equestria.dev yn casglu cyfeiriadau IP a gwybodaeth arall porwr (enw'r porwr, fersiwn, system weithredu, URL, a dyddiad) am hyd at 365 diwrnod. Mae'r wybodaeth hon yn cael ei dileu bob blwyddyn ym mis Ionawr.",
+          "At hynny, gall Equestria.dev, fel rhan o wella ansawdd a dibynadwyedd ei wasanaethau, gasglu gwybodaeth hollol ddienw, gan gynnwys y tudalennau rydych chi'n ymweld â nhw, ac eithrio unrhyw ddata personol posibl. Gwneir y wybodaeth hon yn ddienw cyn cael ei chrynhoi i ystadegau, ac mae'r wybodaeth wreiddiol yn cael ei storio fel y crybwyllir yn 1§2 (gweler uchod)."
+        ],
+        [
+          "Mae'r adran hon yn berthnasol i gymwysiadau sydd wedi'u \"gosod\" (ar gael hyd yn oed heb wasanaeth penodol gan Equestria.dev) i ddyfais defnyddiwr, a chyn gynted ag y bydd y defnyddiwr yn cychwyn y broses osod.",
+          "Ni fydd cymwysiadau Equestria.DEV byth yn monitro, storio, aflonyddu nac atal ymddygiad cymwysiadau eraill. Bydd p'un a yw'r cais yn rhedeg ai peidio yn cael ei wneud yn glir i'r defnyddiwr bob amser.",
+          "Gall rhai cymwysiadau, ar ôl i ddefnyddiwr roi ei gydsyniad eglur a chlir (gan gynnwys ar ôl i ddefnyddiwr gydnabod y math o ddata a fydd yn cael ei gasglu), yn casglu data ystadegyn dienw fel rhan o wella ansawdd a dibynadwyedd y cymwysiadau hyn. Mae defnyddiwr bob amser yn cael yr opsiwn i roi'r gorau i anfon yr ystadegau hyn i Equestria.dev heb unrhyw newid yn y modd y mae'r cais yn ymddwyn."
+        ],
+        [
+          "Pan fydd gwasanaeth neu gymhwysiad ar -lein Equestria.dev yn integreiddio â chydran trydydd parti, mae'r polisi preifatrwydd o'r trydydd parti hwnnw'n dod i rym ar yr holl weithrediadau sy'n cael eu trin gan y trydydd parti hwn.",
+          "Pan mai cydran y trydydd parti yw'r prif weithrediad y mae'r gwasanaeth ar -lein neu gais yn ei drin, mae'r Polisi Preifatrwydd o'r trydydd parti yn berthnasol o ran blaenoriaeth. Pan fydd cydran y trydydd parti yn weithrediad eilaidd yn y gwasanaeth neu'r cymhwysiad ar -lein, mae Polisi Preifatrwydd Equestria.dev yn berthnasol yn gyntaf.",
+          "Os bydd polisi preifatrwydd trydydd parti yn dibynnu arno gan wasanaeth neu gymhwysiad ar -lein Equestria.dev yn dibynnu ar newidiadau, bydd defnyddwyr gwasanaeth neu gymhwysiad ar -lein equestria.dev yn ymwybodol o'r newidiadau a sut mae'n effeithio ar y ffordd y maent Defnyddiwch y gwasanaeth neu'r cais ar -lein."
+        ],
+        [
+          "Mae Equestria.dev yn gwbl gyfrifol am sicrhau data preifat a phersonol defnyddiwr (oni bai bod trydydd parti yn rhan o'r broses, ac os felly, fel y soniwyd yn Adran 3, cymerir cyfrifoldeb y trydydd parti).",
+          "Os bydd gwybodaeth o'r fath yn cael ei chyhoeddi, e.e., gan dresmaswyr yn lawrlwytho data o weinyddion Equestria.dev, bydd defnyddwyr yn cael eu gwneud yn ymwybodol o'r mater cyn gynted â phosibl, a rhoddir cyfarwyddiadau iddynt os oes angen.",
+          "Nid oes gan Equestria.dev unrhyw ddiddordeb mewn gwerthu, rhoi na datgelu data defnyddwyr i ffwrdd ac ni fydd yn ceisio unrhyw un o'r gweithrediadau hyn ar unrhyw adeg."
+        ]
+      ],
+      "translation": [
+        "Ymwadiad:",
+        "Os bydd y polisi preifatrwydd hwn yn cael ei gyfieithu i iaith arall, dim ond y fersiwn Saesneg sy'n berthnasol yn gyfreithiol. Darperir y fersiynau wedi'u cyfieithu at ddibenion gwybodaeth yn unig."
+      ],
+      "title": "Preifatrwydd Data",
+      "bigtitle": "Rheolau Preifatrwydd Data Equestria.Dev",
+      "intro": "Yn Equestria.dev, rydym yn gwerthfawrogi eich preifatrwydd. Rydyn ni'n ceisio casglu cyn lleied o ddata â phosib i roi'r gwasanaeth rydych chi'n ei ddisgwyl i chi. Ta waeth, mae triniaeth ddata Equestria.dev yn cael ei gwneud yn unol â Rheoliad Diogelu Data Cyffredinol Ewrop."
+    },
+    "terms": {
+      "translation": [
+        "Ymwadiad:",
+        "Os bydd y telerau ac amodau hyn yn cael eu cyfieithu i iaith arall, dim ond y fersiwn Saesneg sy'n berthnasol yn gyfreithiol. Darperir y fersiynau wedi'u cyfieithu at ddibenion gwybodaeth yn unig."
+      ],
+      "sections": [
+        "Ymwadiad",
+        "Demograffeg",
+        "Dibenion",
+        "Gorfodi'r gyfraith",
+        "Gwasanaethau Ansawdd a Dibynadwyedd",
+        "Parch a chydraddoldeb ar y cyd"
+      ],
+      "text": [
+        [
+          "Efallai na fydd defnyddwyr penodol yn cael defnyddio gwasanaethau ar -lein Equestria.dev yn dibynnu ar eu lleoliad neu eu cyflwr corfforol.",
+          "Ni chaniateir i ddefnyddwyr sydd wedi'u lleoli yn Tsieina, Gogledd Corea, a rhai gwledydd eraill ddefnyddio gwasanaethau ar -lein. Gall y gweinyddwyr wneud eithriadau fesul achos.",
+          "Ni chaniateir i unigolion sy'n gyfreithiol iau na 13 oed ddefnyddio'r gwasanaethau ar -lein o gwbl. Efallai na fydd gan ddefnyddwyr sy'n llai na 21 oed fynediad at nodweddion penodol."
+        ],
+        [
+          "Mae Equestria.Dev yn rhoi caniatâd unigryw, dirymadwy, na ellir ei gyfnewid i ddefnyddwyr i gael mynediad i'r gwasanaethau ar-lein.",
+          "Ni chaniateir defnyddio'r gwasanaethau ar-lein mewn gweithgaredd gwneud elw o gwbl, ni waeth faint o elw sy'n cael ei wneud, a bydd yn arwain at derfynu mynediad i'r gwasanaethau ar-lein ar unwaith."
+        ],
+        [
+          "Wrth ddefnyddio gwasanaeth a gynhelir gan Equestria.dev, mae defnyddiwr yn cytuno i beidio â defnyddio'r gwasanaeth ar gyfer unrhyw weithrediad sy'n anghyfreithlon yn Ffrainc neu'r Unol Daleithiau. At hynny, rhaid i weithrediadau defnyddiwr beidio ag atal defnyddwyr eraill rhag gwneud eu gweithrediadau eu hunain.",
+          "Ni chaniateir cyhoeddi cynnwys ymosodol neu dreisgar, cod neu feddalwedd maleisus, neu gynnwys wedi'i ddwyn a bydd yn arwain at derfynu mynediad ar unwaith."
+        ],
+        [
+          "Mae cynnal gwasanaethau ar -lein yn gymhleth ac mae Equestria.dev yn rhedeg ar incwm cyfyngedig iawn.",
+          "Ni ddylai datblygwyr a gweinyddwyr Equestria.dev fod yn atebol pe na bai gwasanaeth ar -lein yn gweithio yn ôl y bwriad. Mae pob platfform ar -lein yn cael ei wasanaethu fel y mae heb unrhyw warant o gwbl y bydd yn gweithio yn ôl y bwriad neu'n gweithio o gwbl am unrhyw gyfnod penodol o amser.",
+          "Mae Equestria.dev yn nodi y gall y gwasanaethau y maent yn eu cynnal fod yn araf neu'n anghyraeddadwy ar bwyntiau amhenodol mewn amser, gyda neu heb rybudd. Nid yw'r gweinyddwyr yn addo canran benodol o'r argaeledd ar gyfer gwasanaeth penodol trwy gydol y flwyddyn."
+        ],
+        [
+          "Pan fydd rhyngweithiadau cymdeithasol yn bresennol, mae pob defnyddiwr yn cytuno i beidio â gwahaniaethu ei gilydd oherwydd eu cyflyrau cymdeithasol, corfforol neu seicolegol, gan gynnwys eu barn. Anogir defnyddwyr i riportio ymddygiad mor amhriodol i helpu i gadw'r llwyfannau'n ddiogel i bawb.",
+          "Mae pob defnyddiwr yn rhydd i nodi fel y dymunant cyn belled nad yw'n effeithio ar y ffordd y mae defnyddwyr eraill yn rhyngweithio â'r gwasanaeth. Mae pob hunaniaeth yn ddilys ni waeth o ble maen nhw'n dod.",
+          "Mae pawb yn cael mynediad i'r un gwasanaeth yn union, waeth ble maen nhw'n byw (oni bai bod 1. yn berthnasol) a phwy ydyn nhw. Mae Equestria.Dev yn gwerthfawrogi cydraddoldeb a pharch rhwng defnyddwyr yn fawr ac yn mynnu y dylai defnyddwyr riportio ymddygiad amhriodol, p'un a yw'n torri'r Telerau Gwasanaeth hyn ai peidio."
+        ]
+      ],
+      "title": "Telerau ac Amodau",
+      "bigtitle": "Equestria.Dev Telerau ac Amodau Gwasanaethau",
+      "intro": "Mae'r Telerau Defnyddio canlynol yn berthnasol i wasanaethau ar -lein yn unig a gynhelir gan Equestria.dev, gan gynnwys a gyrchir y gwasanaeth ar -lein trwy drydydd parti. Nid yw cymwysiadau neu wasanaethau \"lleol\" nad ydynt yn cael eu cynnal gan Equestria.DEV yn cael eu llywodraethu gan y Telerau Defnyddio hyn ond yn y drefn honno eu cytundeb trwydded a thelerau defnyddio darparwr cynnal y gwasanaeth."
+    },
+    "license": {
+      "translation": [
+        "Ymwadiad:",
+        "Os bydd y trwyddedau hyn yn cael eu cyfieithu i iaith arall, dim ond y fersiwn Saesneg sy'n berthnasol yn gyfreithiol. Darperir y fersiynau wedi'u cyfieithu at ddibenion gwybodaeth yn unig."
+      ],
+      "sections": [
+        "Meddalwedd am ddim, libre a ffynhonnell agored",
+        "Meddalwedd \"perchnogol\" ffynhonnell gaeedig"
+      ],
+      "text": [
+        [
+          "Yn cael ei ystyried yn \"rhad ac am ddim, libre a ffynhonnell agored\" yr holl feddalwedd y mae equestria.dev yn ei ryddhau o dan naill ai parth cyhoeddus y drwydded MIT, unrhyw ddewis arall cydnaws, neu'n hollol ddi-hawlfraint. Oni bai bod copi o gytundeb trwydded yn bresennol yng nghod ffynhonnell y feddalwedd, neu os yw sôn am drwydded arall yn bresennol mewn man arall, mae meddalwedd pa god ffynhonnell y gellir ei gyrraedd yn gyhoeddus yn cael ei ryddhau o dan delerau'r drwydded ganlynol:",
+          "Trwydded MIT",
+          "Rhoddir caniatâd trwy hyn, yn rhad ac am ddim, i unrhyw berson sy'n cael copi o'r feddalwedd hon a ffeiliau dogfennaeth gysylltiedig (y “meddalwedd”), i ddelio yn y feddalwedd heb gyfyngiad, gan gynnwys heb gyfyngiad yr hawliau i ddefnyddio, copïo, addasu, uno .",
+          "Bydd yr Hysbysiad Hawlfraint uchod a'r rhybudd caniatâd hwn yn cael ei gynnwys ym mhob copi neu ddogn sylweddol o'r feddalwedd.",
+          "Darperir y feddalwedd “fel y mae”, heb warant o unrhyw fath, yn mynegi neu ymhlyg, gan gynnwys ond heb fod yn gyfyngedig i warantau masnachadwyedd, ffitrwydd at bwrpas penodol a phenderfynu. Ni fydd yr awduron na deiliaid hawlfraint yn atebol am unrhyw hawliad, iawndal nac atebolrwydd arall, p'un ai mewn gweithred o gontract, camwedd neu fel arall, yn deillio o'r feddalwedd neu mewn cysylltiad â'r meddalwedd neu'r defnydd neu ddelio eraill yn y Meddalwedd."
+        ],
+        [
+          "Mewn rhai achosion, gall datblygwyr Equestria.DEV ddewis peidio â rhyddhau'r cod ffynhonnell ar gyfer darn penodol o feddalwedd. Gallai hyn fod oherwydd ei fod yn hawdd ei gam -drin neu ei gamddefnyddio, oherwydd ei fod yn defnyddio platfform preifat, oherwydd ei fod yn cynnwys gwybodaeth gyfrinachol neu breifat, neu reswm arall. Gall datblygwyr ddewis gwneud meddalwedd ffynhonnell gaeedig ffynhonnell agored yn nes ymlaen.",
+          "Trwy lawrlwytho, gosod, prynu neu ddefnyddio'r feddalwedd, rydych chi'n derbyn y telerau trwydded hyn. Os na dderbyniwch nhw, peidiwch â defnyddio'r feddalwedd; Neu, os oes amrywiad ffynhonnell agored ar gael, defnyddiwch yr amrywiad ffynhonnell agored.",
+          "Ym mhob achos o feddalwedd ffynhonnell gaeedig, rhaid i ddefnyddwyr:",
+          "defnyddio'r feddalwedd yn llym at ddibenion personol ac nid er elw;",
+          "Peidio â cheisio dadelfennu, addasu, cyhoeddi, dosbarthu, gwerthu na thrwyddedu meddalwedd;",
+          "peidio â defnyddio'r feddalwedd mewn ffordd sy'n anghyfreithlon yn Ffrainc neu'r Unol Daleithiau;",
+          "peidio â defnyddio'r feddalwedd mewn ffordd a allai roi Equestria.dev mewn perygl;",
+          "peidio â dinoethi'r feddalwedd mewn mannau cyhoeddus lle gallai defnyddwyr ei ddefnyddio heb gytuno yn gyntaf i'r cytundeb trwydded hwn",
+          "Mewn achos o feddalwedd taledig, rhaid i ddefnyddwyr beidio â rhoi mynediad i'r feddalwedd am ddim i drydydd parti. Mae rhoi mynediad i'r feddalwedd i berthynas (ffrind, teulu, ...) yn cael ei ystyried yn rhesymol, ond ni ddylai fod yn fwy na 10 o bobl."
+        ]
+      ],
+      "title": "Trwyddedau meddalwedd",
+      "bigtitle": "Trwyddedau meddalwedd a ffynonellau Equestria.dev",
+      "intro": "Mae Equestria.Dev yn rhyddhau meddalwedd mewn amrywiaeth o gynlluniau trwyddedu, y rhan fwyaf o'r amser o dan drwyddedau Libre."
+    }
+  },
+  "_name": "Gymreig",
+  "title": "Equestria.dev: Llwyfan meddalwedd y gallwch ddibynnu arno",
+  "language": "Dewisydd iaith"
+}

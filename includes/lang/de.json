@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "zweite",
+      "Sekunden"
+    ],
+    "minute": [
+      "Minute",
+      "Protokoll"
+    ],
+    "hour": [
+      "Stunde",
+      "Std."
+    ],
+    "day": [
+      "Tag",
+      "Tage"
+    ],
+    "week": [
+      "Woche",
+      "Wochen"
+    ],
+    "month": [
+      "Monat",
+      "Monate"
+    ],
+    "year": [
+      "Jahr",
+      "Jahre"
+    ],
+    "age": [
+      "Alter",
+      "Alter"
+    ],
+    "ago": "vor",
+    "later": "später",
+    "now": "Jetzt"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projekte",
+      "network": "Netzwerk",
+      "contact": "Kontakt",
+      "legal": "Legal"
+    },
+    "projects": {
+      "archives": "Siehe unsere archivierten Projekte"
+    },
+    "network": {
+      "status": [
+        "Alle Systeme in Betrieb",
+        "Beeinträchtigte Leistung",
+        "Hauptausfall"
+      ],
+      "account": "Ihr Konto",
+      "infra": "Infrastruktur",
+      "security": "Sicherheitsberatung",
+      "bugs": "Bug Tracker",
+      "blog": "Blog"
+    },
+    "legal": {
+      "terms": [
+        "Bedingungen",
+        "und Bedingungen"
+      ],
+      "privacy": "Datenprivatsphäre",
+      "license": "Software -Lizenzen",
+      "disclaimer": "Rechtsausschlüsse",
+      "branding": "Branding -Richtlinien",
+      "support": "Unterstützt durch",
+      "version": "Ausführung",
+      "made": "Gemacht von Ponys mit",
+      "phpstorm": "und Phpstorming",
+      "trademark": "\"Equestria.dev\" und die damit verbundenen Namen sind Marken von Equestria.dev -Entwicklern in Frankreich und anderen Ländern. Die Logos von Equestria.dev und Projekten sind nach den geltenden Urheberrechtsgesetzen geschützt. Jetbrains, die zugehörigen Logos und die zugehörigen Namen sind eingetragene Marken von JetBrains S.R.O., die unter Lizenz verwendet werden."
+    },
+    "contact": {
+      "email": "senden Sie uns eine Email"
+    }
+  },
+  "footer": {
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Softwareplattform",
+        "du kannst",
+        "sich verlassen auf"
+      ],
+      "cta": "Sehen Sie, was wir tun"
+    },
+    "categories": {
+      "dev": {
+        "title": "Entwicklung",
+        "description": "Mit über 5 Jahren Erfahrung in der Softwareentwicklung in einer Vielzahl von Sprachen - wie Rust, JavaScript, Kotlin oder PHP - können Sie sicher sein, dass wir qualitativ hochwertige Software entwickeln, um Ihre Anforderungen zu erfüllen, unabhängig davon, ob Sie ein Unternehmen sind oder eine Person.",
+        "cta": "Projekte anzeigen"
+      },
+      "network": {
+        "title": "Networking",
+        "description": "Wussten Sie, dass dieser Text mindestens 3 verschiedene Equestria.dev -Server durchlief, bevor Sie Sie erreichen? Mit unserer jahrelangen Erfahrung in der Verwaltung von Servern - hauptsächlich Linux - können wir jede Anwendung vollständig optimieren, um unabhängig von der Serverlast von ihrer besten Seite auszuführen.",
+        "cta": "Infrastruktur anzeigen"
+      },
+      "privacy": {
+        "title": "Privatsphäre",
+        "description": "Datenschutz, Sicherheit und Schutz der Benutzerdaten waren schon immer unsere Grundwerte. Wann immer möglich-und nötig-verwenden wir eine robuste Verschlüsselungstechnologie für militärische Qualität und stellen sicher, dass Benutzerdaten immer sicher und vor verschiedenen Arten von Angriffen geschützt sind.",
+        "cta": "Dokumente lesen"
+      }
+    },
+    "contact": {
+      "title": "Eine besondere Anfrage haben?",
+      "description": "Wenn Sie möchten, dass wir bei einem eigenen Projekt helfen, sei es in Bezug auf Entwicklung, Verwaltung von Servern oder Datenschutz und Sicherheit, können wir helfen. Fühlen Sie sich frei, uns eine Nachricht zu geben, und wir werden sehen, was wir tun können.",
+      "cta": "Schick uns eine Nachricht"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Ungültige Anfrage",
+      "401": "Authentifizierung erforderlich",
+      "403": "Der Zugang wird abgelehnt",
+      "404": "Seite nicht gefunden",
+      "500": "Interner Serverfehler",
+      "501": "Zurzeit nicht verfügbar",
+      "502": "Upstream -Serverfehler",
+      "503": "Der Server ist nicht erreichbar",
+      "504": "Upstream -Server zeitlich festgelegt",
+      "default": "Unbekannter Systemfehler"
+    },
+    "descriptions": {
+      "400": "Sie haben versucht, eine Anfrage an den Server zu senden, den er nicht verarbeiten kann. Dies sollte im Allgemeinen nicht geschehen, aber es könnte ein Problem mit Ihrem Browser anzeigen. Wenn Sie Hilfe benötigen, um dies zu beheben, können Sie sich gerne an uns wenden.",
+      "401": "Sie haben versucht, eine Seite zu erreichen, die eine Authentifizierung erfordert, ohne authentifiziert zu werden. Das Aktualisieren der Seite hilft normalerweise dabei, dieses Problem zu beheben. Wenn Sie keine Anmeldeinformationen für diese Seite authentifizieren können, können Sie zur Startseite zurückkehren.",
+      "403": "Sie haben versucht, eine Seite zu erreichen, auf die auf dieser Website nicht zugegriffen werden kann. Dies ist normalerweise bei internen Dateien der Fall, die auf dem Server verwendet werden. Wenn Sie einem Link von dieser Website befolgt und hierher gekommen sind, muss etwas falsch sein.",
+      "404": "Wenn Sie einen Link von dieser Website befolgt haben, muss etwas falsch sein. Wenn Sie einem externen Link befolgt werden, ist es möglich, dass der Link falsch ist und aktualisiert werden muss. Wenn Sie die Adresse selbst eingegeben haben, ist es möglich, dass Sie etwas falsch geschrieben haben.",
+      "500": "Auf dem Server trat ein Fehler auf, während Sie versuchten, Ihre Anforderung zu verarbeiten, die nicht mit Ihrer Browserkonfiguration zu tun hat. Dies ist im Allgemeinen ein Fehler oder ein vorübergehendes Problem. Wenn es bestehen bleibt, können Sie uns über das Problem informieren, damit wir es beheben können.",
+      "501": "Die Seite, die Sie zu erreichen haben, verwendet eine Serverfunktion, die auf der Website noch nicht implementiert wurde. Dies liegt normalerweise daran, dass die Seite, die Sie erreichen möchten, in Arbeit ist und in Zukunft verfügbar sein wird.",
+      "502": "Diese Seite hängt von einer externen Ressource oder einem Server ab, die derzeit nicht verfügbar ist. Dies zeigt typischerweise einen Ausfall auf einem oder mehreren unserer Server an. Wenn das Problem weiterhin besteht, kontaktieren Sie uns, damit wir dies beheben können.",
+      "503": "Diese Seite hängt von einer internen Ressource ab, die derzeit nicht verfügbar ist. Dies bedeutet in der Regel, dass die Ressource, die Website oder der Server in der Wartung stehen und derzeit nicht verfügbar sind. Weitere Informationen finden Sie auf unserer Statusseite.",
+      "504": "Diese Seite hängt von einer externen Ressource oder einem Server ab, der nicht rechtzeitig erreicht werden konnte. Dies zeigt typischerweise einen Ausfall oder eine allgemeine Verlangsamung an. Wenn das Problem weiterhin besteht, kontaktieren Sie uns, damit wir dies beheben können.",
+      "default": "Ein undokumentierter Fehler trat auf. Wir sind uns nicht sicher, was schief gelaufen ist, aber der Fehlercode kann Ihnen helfen. Wenn Sie Hilfe benötigen, setzen Sie sich bitte mit uns in Verbindung, damit wir dies beheben können. Wir entschuldigen uns aufrichtig für die Unannehmlichkeiten."
+    },
+    "actions": {
+      "home": "Gehen Sie zurück zur Startseite",
+      "status": "Öffnen Sie die Statusseite",
+      "email": "Kontaktieren Sie uns per E -Mail"
+    },
+    "title": "Fehler"
+  },
+  "project": {
+    "actions": {
+      "source": "Quellcode",
+      "website": "Offizielle Website"
+    },
+    "update": "Letzte Aktualisierung",
+    "archive": "Archiviert für"
+  },
+  "archive": {
+    "title": "Archiv"
+  },
+  "status": {
+    "main": [
+      "Alle Dienste werden als nominal tätig",
+      "Einige Dienste haben eine Leistungsverschlechterung",
+      "Einige Dienste erleiden einen großen Ausfall"
+    ],
+    "description": [
+      "Wir haben die nominelle und gute Leistung aller von equestria.dev veranstalteten Dienste beobachtet.",
+      "Wir haben beobachtet, dass einige Equestria.dev -Dienste, obwohl sie funktionsfähig sind, langsamer als gewöhnlich sind.",
+      "Wir haben die Ausfallzeit in einigen Equestria.dev -Diensten beobachtet, was sie für einige Zeit unzugänglich macht."
+    ],
+    "affected": [
+      "Der folgende Service wird durch diesen Vorfall beeinflusst:",
+      "Die folgenden Dienste sind von diesem Vorfall betroffen:"
+    ],
+    "stats": {
+      "items": [
+        "Durchschnittliche Servicelatenz:",
+        "Total gebrauchter Speicher:",
+        "Gesamte gebrauchter Speicher:",
+        "Gesamt verfügbarer Berechnung Strom:",
+        "Zwischenspeicher:",
+        "Maximale E/O -Latenz:",
+        "Kerne",
+        "Betriebssysteme:",
+        "Prozesse insgesamt"
+      ],
+      "title": "Statistiken",
+      "used": "gebraucht"
+    },
+    "title": "Systemstatus",
+    "page": "Die vollständige Statusseite anzeigen",
+    "update": "Letzte Aktualisierung"
+  },
+  "months": [
+    "Januar",
+    "Februar",
+    "Marsch",
+    "April",
+    "Mai",
+    "Juni",
+    "Juli",
+    "August",
+    "September",
+    "Oktober",
+    "November",
+    "Dezember"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Content -Management und Haftungsausschlüsse",
+        "Sofern nicht von benutzerdefinierten Inhalten in Anwesenheit von Inhalten auf der Plattform von Equestria.Dev verantwortlich ist, liegt der Inhalt von Inhalten",
+        "Obwohl wir uns so viel Mühe wie möglich bemühen, Benutzern genaue Informationen zu liefern, können die Entwickler von Equestria die Genauigkeit der von unseren Plattformen bereitgestellten Informationen nicht garantieren. Daher können die Informationen auf unseren Plattformen ungenau oder veraltet sein."
+      ],
+      "title": "Rechtsausschlüsse",
+      "privacy": "Wenn Sie jemals weitere Details benötigen, kontaktieren Sie uns bitte direkt. Einige Informationen werden aus Datenschutzgründen versteckt.",
+      "servers": "Serverstandorte",
+      "locations": "Equestria.dev verwaltet Netzwerke, die Benutzerdaten in Frankreich, Deutschland und den Vereinigten Staaten transportieren. Netzwerke, die nur für die internen Zwecke von Equestria verwendet werden. Die Benutzerdaten werden auf dieser Seite nicht erwähnt.",
+      "property": "Server unter dem Eigentum von:",
+      "physical": "Ungefähre physische Lage:",
+      "isp": "Internetanbieter:",
+      "us": "Link für Nicht-US-Bewohner",
+      "data": "Benutzerdatenanfragen",
+      "howto": "Sollte equestria.dev Benutzerzugriff oder Löschung von Benutzerdaten, eine E -Mail mit der IP -Adresse des Benutzers, alle Gerätekennung (falls zutreffend), eine Equestria.Dev -Konto -ID (falls zutreffend) aus der E -Mail -Adresse gesendet werden mit dem Equestria.Dev -Konto (falls zutreffend) an die folgende E -Mail -Adresse verbunden:",
+      "law": "Gemäß den Vorschriften der Strafverfolgungsbehörden kann Equestria.dev keine weniger als 3 Monate alt sind.",
+      "gov": "Kanarienbefehl garantieren",
+      "pgp": "Dies ist eine PGP -Nachricht, die mit dem folgenden Schlüssel signiert ist:",
+      "key": "Volle öffentliche Schlüssel anzeigen",
+      "alt": "alternative Quelle",
+      "plain": "Haftbefehl Kanarienansicht (öffnet sich in einer neuen Registerkarte)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Unser Logo",
+        "message": "Bitte bearbeiten, ändern, verzerren, rekunden oder rekonfigurieren Sie das Equestria.dev -Logo nicht."
+      },
+      "icon": {
+        "title": "Nur Ikone",
+        "message": "Verwenden Sie diese nur dann, wenn die Marke Equestria.dev eindeutig sichtbar ist, an anderer Stelle auf der Seite oder im Design gut etabliert wurde oder der Platz nicht zulässt, die die Vollversion zeigt. Verwenden Sie im Zweifelsfall den anderen."
+      },
+      "spacing": {
+        "title": "Abstand",
+        "message": "Stellen Sie sicher, dass diese Abstandsrichtlinien bei der Verwendung des Equestria.dev -Logos respektieren. Stellen Sie außerdem sicher, dass Sie das Logo groß genug machen, um lesbar und unterscheidbar zu sein.",
+        "scale": "x = \".dev\" Texthöhe.",
+        "notice": "(Die einzige Version von Symbol wird in Räumen empfohlen, in denen Sie das Logo in Größen weniger als 96 Pixel oder 52,8 Millimeter, bis zu 24 Pixel oder 13,2 Millimetern anzeigen müssen."
+      },
+      "dont": {
+        "messages": [
+          "Bearbeiten, ändern oder rekonfigurieren Sie das Logo oder das Wortmark nicht",
+          "Verzerrt das Logo oder das Wortmark nicht unbeabsichtigt",
+          "Verringern Sie oder wenden Sie keine visuellen Effekte auf das Logo oder das Wortmark an",
+          "Platzieren Sie keinen Slogan oder ein anderes Element über das Logo oder Wordmark"
+        ],
+        "descriptions": [
+          "Dies beinhaltet nicht das Drehen des Logos und das Ändern von Text oder Form sowie die Aufrechterhaltung des Abstands zwischen den verschiedenen Elementen des vollständigen Logos.",
+          "Sie dürfen das Logo in keiner Weise verzerren oder verformen, egal ob es sich in einem 2D- oder 3D -Rahmen befindet. Stellen Sie außerdem sicher, dass das Logo in allen Fällen ordnungsgemäß angezeigt wird.",
+          "Sowohl das Logo als auch das Wordmark müssen so gehalten werden, wie es ist, ohne Farbwechsel. Wenn Sie Graustufen verwenden müssen, verwenden Sie die monochromen Varianten.",
+          "Stellen Sie sicher, dass sich die Taglines (falls zutreffend) kein Element des Logos überlappen. Billigen Sie außerdem keine Genehmigung oder Sponsoring, wenn keine vorhanden ist."
+        ],
+        "too": {
+          "text": [
+            "Stellen Sie sicher, dass die Marke Equestria.dev nicht mehr herausragender als der Name, das Logo oder die Marke Ihres eigenen Produkts oder Ihre eigene Dienstleistung angezeigt wird.",
+            "\"Zu viel\" zu machen, könnte zu Verwirrung führen und die Benutzer glauben, dass sie entweder auf der offiziellen Website von Equestria.dev oder einem offiziellen Equestria.dev -Produkt konfrontiert sind."
+          ],
+          "title": "Mach nicht zu viel"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Equestria.dev Logo:",
+              "unter Lizenz verwendet"
+            ],
+            "product": [
+              "[Projektname] Logo",
+              "Projektname"
+            ]
+          },
+          "title": "Verwenden Sie nicht ohne Zuschreibung",
+          "message": "Wenn Sie das Equestria.dev -Logo oder ein Projektlogo verwenden, geben Sie immer eine der folgenden Texte an:"
+        },
+        "impersonation": {
+          "text": [
+            "Nachahmung der Marke Equestria.dev in Nicht-Equestria.dev-Materialien ist nicht zulässig. Die gleiche Einschränkung gilt für die Animierung der Marke Equestria.dev, die mit anderen Wörtern, Symbolen, Bildern oder Designs kombiniert oder in einen Slogan oder einen Slogan einbezieht.",
+            "Darüber hinaus ist die Verwendung des Namens oder der Ähnlichkeit einer Person innerhalb von Equestria.dev oder der Gruppe als Ganzes in jedem Social -Media -Konto oder in anderen Medien strengstens untersagt."
+          ],
+          "title": "Ahme oder identifiziere dich nicht aus"
+        },
+        "endorsement": {
+          "text": [
+            "Wir schätzen die Zusammenarbeit jedoch in keiner Weise Zugehörigkeit, Sponsoring, Bestätigung oder Genehmigung Ihrer Produkte oder Dienstleistungen mit Equestria.dev ohne Equestria.devs ausdrückliche Genehmigung. Sie müssen eine Zusammenarbeit mit einer Vereinbarung von Equestria.dev, die sich auf eine solche Zusammenarbeit mit Equestria.Dev beziehen.",
+            "Dies bedeutet Text wie \"genehmigt von equestria.dev\", \"equestria.dev zertifiziert\" oder \"von equestria.dev\" empfohlen ist nicht zulässig."
+          ],
+          "title": "Implizieren Sie keine Bestätigung, wo es keine gibt"
+        },
+        "title": "Nichts"
+      },
+      "color": {
+        "formats": {
+          "title": "Farbcode -Format:",
+          "oklch": "Oklch (SRGB -Profil)",
+          "rgb": "Hexadezimal-RGB (8-Bit)",
+          "cmyk": "CMYK (Standard)"
+        },
+        "list": [
+          "Primärlicht",
+          "Hauptdunkel",
+          "Sekundärlicht",
+          "Sekundäre Dunkelheit",
+          "Hintergrund",
+          "Im Hintergrund",
+          "Positives Licht",
+          "Positive Dunkelheit",
+          "Neutrales Licht",
+          "Neutral dunkel",
+          "Negatives Licht",
+          "Negative Dunkelheit",
+          "Oberfläche",
+          "Auf der Oberfläche"
+        ],
+        "title": "Farbpalette",
+        "intro": "Die Equestria.Dev -Farbpalette namens \"Brightdawn\" (nach Misty Brightdawn wurde der Charakter aus meinem kleinen Pony) geschaffen, um unsere Grundwerte widerzuspiegeln: Inklusivität, Freundschaft und Transparenz. Es basiert auf der ursprünglichen \"Misty\" -Palette, die 2023 verwendet wurde, um hellere Farben zu enthalten."
+      },
+      "more": {
+        "title": "Auf der Suche nach mehr?",
+        "text": "Laden Sie das vollständige Equestria.Dev -Brand -Kit herunter und erhalten Sie Zugriff auf alle Ressourcen, mit denen wir unser Logo erstellt haben, zusammen mit speziellen Varianten, die unter bestimmten Bedingungen verwendet werden, einschließlich Prototypdesigns und anderen Designblättern.",
+        "cta": "Laden Sie Version 3 herunter",
+        "notice": "Enthält auch Versionen 1 und 2"
+      },
+      "page": "Branding -Richtlinien",
+      "title": "Equestria.dev Branding -Richtlinien",
+      "intro": "Bei Equestria.dev nehmen wir Dinge und wie Sie unsere Marke ernsthaft darstellen. Die Marke Equestria.dev sollte Qualität, einfache und private Open-Source-Software darstellen. Wenn Sie unsere Branding -Vermögenswerte für irgendetwas verwenden, respektieren Sie diese Richtlinien bitte.",
+      "copyright": "Das Equestria.dev -Logo und die Produkte sind durch geltende Urheberrechtsgesetze in Frankreich, den Vereinigten Staaten und anderen Ländern geschützt. Equestria.dev gewährt Ihnen eine nicht übertragbare, nicht exklusive, lizenzfreie Lizenzlizenz, um sein Logo gemäß den folgenden Richtlinien zu verwenden. Diese Richtlinien regulieren auch die Verwendung des Equestria.dev -Logos in unseren eigenen Diensten. Das Versäumnis, einzuhalten, gilt als Verstöße gegen Equestria.devs geistiges Eigentum und führt zu rechtlichen Schritten."
+    },
+    "privacy": {
+      "sections": [
+        "Privatsphäre auf den Equestria.dev Online -Diensten",
+        "Privatsphäre zu den Equestria.dev -Anwendungen",
+        "Privatsphäre auf den Equestria.dev Online -Diensten oder -Anwendung, die sich in Komponenten Dritter integrieren",
+        "Equestria.Devs Verantwortung beim Schutz der privaten Daten eines Benutzers"
+      ],
+      "text": [
+        [
+          "Equestria.dev speichert nur die Informationen, die Sie uns ausdrücklich geben (z. B. als Teil eines Registrierungsformulars). Es werden keine anderen Daten gesammelt.",
+          "Im Rahmen der Strafverfolgung sammelt Equestria.dev jedoch IP -Adressen und andere Browserinformationen (Browsername, Version, Betriebssystem, URL und Datum) für bis zu 365 Tage. Diese Informationen werden jedes Jahr im Januar gelöscht.",
+          "Darüber hinaus kann Equestria.dev im Rahmen der Verbesserung der Qualität und Zuverlässigkeit seiner Dienste vollständig anonyme Informationen sammeln, einschließlich der Seiten, die Sie besuchen, ohne potenzielle personenbezogene Daten. Diese Informationen werden anonym gemacht, bevor sie in Statistiken aggregiert werden, und die ursprünglichen Informationen werden wie in 1§2 erwähnt (siehe oben)."
+        ],
+        [
+          "Dieser Abschnitt gilt für Anwendungen, die \"installiert\" werden (auch ohne spezifischen Dienst von Equestria.dev) für das Gerät eines Benutzers und sobald der Benutzer den Installationsprozess startet.",
+          "Equestria.DEV -Anwendungen werden das Verhalten anderer Anwendungen niemals überwachen, speichern, stören oder verhindern. Ob die Anwendung ausgeführt wird oder nicht, wird dem Benutzer jederzeit klargestellt.",
+          "Einige Anwendungen können, nachdem ein Benutzer seine explizite und eindeutige Einwilligung eingereicht hat (einschließlich der Anerkennung eines Benutzers, die Art der gesammelten Daten bestätigt haben), um anonyme statistische Daten im Rahmen der Verbesserung der Qualität und Zuverlässigkeit dieser Anwendungen zu sammeln. Ein Benutzer erhält immer die Möglichkeit, diese Statistiken nicht mehr an equestria.dev zu senden, ohne wie sich die Anwendung verhält."
+        ],
+        [
+          "Wenn sich ein Online -Service oder die Anwendung von Equestria.dev in eine Komponente eines Drittanbieters integriert, wirkt sich die Datenschutzrichtlinie dieser Dritten auf alle Operationen aus, die von diesem Dritten behandelt werden.",
+          "Wenn die Komponente von Drittanbietern den Hauptbetrieb ausmacht, den der Online -Service oder die Anwendung übernimmt, gilt die Datenschutzrichtlinie des Dritten in Priorität. Wenn die Komponente von Drittanbietern einen sekundären Betrieb innerhalb des Online -Dienstes oder der Anwendung darstellt, gilt die Datenschutzrichtlinie von Equestria.dev zuerst.",
+          "Für den Fall, dass die Datenschutzrichtlinie eines Dritten von einem Equestria abhängt. Der On -Online -Service oder die Bewerbung von Devisen abhängt von Änderungen, die Benutzer der Equestria.Dev Online -Service oder -anwendung werden über die Änderungen und die Auswirkungen auf die Art und Weise, wie sie sich auswirkt, aufmerksam gemacht Verwenden Sie den Online -Service oder die Anwendung."
+        ],
+        [
+          "Equestria.dev ist völlig verantwortlich für die Sicherung der privaten und personenbezogenen Daten eines Benutzers (es sei denn, ein Dritter ist in den Prozess verwickelt. In diesem Fall wird, wie in Abschnitt 3 erwähnt, die Verantwortung des Dritten übernommen).",
+          "Für den Fall, dass solche Informationen veröffentlicht werden, z. B. durch Eindringlinge, die Daten von Equestria.Dev -Servern herunterladen, werden Benutzer so schnell wie möglich auf das Problem informiert und bei Bedarf Anweisungen erhalten.",
+          "Equestria.dev hat kein Interesse daran, Benutzerdaten zu verkaufen, zu verschenken oder zu entlarven und wird zu keinem Zeitpunkt einen dieser Vorgänge versuchen."
+        ]
+      ],
+      "translation": [
+        "Haftungsausschluss:",
+        "Für den Fall, dass diese Datenschutzrichtlinie in eine andere Sprache übersetzt wird, ist nur die englische Version rechtlich anwendbar. Die übersetzten Versionen werden nur zu Informationszwecken bereitgestellt."
+      ],
+      "title": "Datenprivatsphäre",
+      "bigtitle": "Equestria.dev Datenschutzregeln",
+      "intro": "Bei equestria.dev schätzen wir Ihre Privatsphäre. Wir versuchen, so wenig Daten wie möglich zu sammeln, um Ihnen den erwarteten Service zu bieten. Unabhängig davon erfolgt die Datenbehandlung von Equestria.DEV gemäß der europäischen allgemeinen Datenschutzverordnung."
+    },
+    "terms": {
+      "translation": [
+        "Haftungsausschluss:",
+        "Für den Fall, dass diese Bedingungen in eine andere Sprache übersetzt werden, ist nur die englische Version rechtlich anwendbar. Die übersetzten Versionen werden nur zu Informationszwecken bereitgestellt."
+      ],
+      "sections": [
+        "Haftungsausschluss",
+        "Demografie",
+        "Zwecke",
+        "Strafverfolgung",
+        "Qualität und Zuverlässigkeit der Dienstleistungen",
+        "Gegenseitiger Respekt und Gleichheit"
+      ],
+      "text": [
+        [
+          "Spezifische Benutzer dürfen die Online -Dienste von Equestria.Dev je nach Standort oder körperlicher Verfassung nicht nutzen.",
+          "Benutzer, die sich in China, Nordkorea und in einigen anderen Ländern befinden, dürfen keine Online -Dienste nutzen. Ausnahmen können von den Administratoren pro Fall vorgenommen werden.",
+          "Personen, die rechtlich jünger als 13 Jahre alt sind, dürfen die Online -Dienste überhaupt nicht nutzen. Benutzer, die weniger als 21 Jahre alt sind, haben möglicherweise keinen Zugriff auf bestimmte Funktionen."
+        ],
+        [
+          "Equestria.dev gewährt den Benutzern eine einzigartige, widerrufliche und nicht austauschbare Erlaubnis, auf die Online-Dienste zuzugreifen.",
+          "Die Nutzung der Online-Dienste in einer gewinnbringenden Aktivität ist überhaupt nicht zulässig, unabhängig davon, wie viel Gewinn erzielt wird, und führt zu einer sofortigen Beendigung des Zugriffs auf die Online-Dienste."
+        ],
+        [
+          "Bei der Verwendung eines von equestria.dev gehosteten Dienstes erklärt sich ein Benutzer ein, den Dienst nicht für einen in Frankreich oder den Vereinigten Staaten illegalen Betrieb zu nutzen. Darüber hinaus darf die Vorgänge eines Benutzers nicht verhindern, dass andere Benutzer ihre eigenen Vorgänge ausführen.",
+          "Das Veröffentlichen von missbräuchlichen oder gewalttätigen Inhalten, böswilliger Code oder Software oder gestohlener Inhalt ist nicht zulässig und führt zu einer sofortigen Beendigung des Zugriffs."
+        ],
+        [
+          "Das Hosting Online -Dienste ist kompliziert und Equestria.dev hat nur sehr begrenzte Einnahmen.",
+          "Die Entwickler und Administratoren von Equestria.dev sollten nicht haftbar sein, falls ein Online -Service nicht wie beabsichtigt funktioniert. Alle Online -Plattformen werden so bedient, dass es für eine gewisse Garantie wie beabsichtigt oder überhaupt für einen bestimmten Zeitraum funktioniert.",
+          "Equestria.dev gibt an, dass die von ihnen ausgebildeten Dienste mit oder ohne Vorwarnung langsam oder nicht erreichbar sein können. Die Administratoren versprechen keinen bestimmten Prozentsatz der Verfügbarkeit für einen bestimmten Service das ganze Jahr über."
+        ],
+        [
+          "Wenn soziale Interaktionen vorhanden sind, stimmen alle Benutzer zu, sich aufgrund ihrer sozialen, physischen oder psychischen Bedingungen, einschließlich ihrer Meinungen, nicht gegenseitig zu diskriminieren. Benutzer werden ermutigt, ein solches unangemessenes Verhalten zu melden, um die Plattformen für alle zu schützen.",
+          "Alle Benutzer können sich so identifizieren, wie sie sich wünschen, solange dies die Art und Weise, wie andere Benutzer mit dem Dienst interagieren, nicht beeinflusst. Alle Identitäten sind gültig, egal woher sie stammen.",
+          "Jeder erhält Zugang zu genau dem gleichen Service, unabhängig davon, wo er wohnt (es sei denn, 1. ist anwendbar) und wer er ist. Equestria.dev schätzt die Gleichheit und den Respekt zwischen Benutzern stark und besteht darauf, dass Benutzer unangemessenes Verhalten melden sollten, unabhängig davon, ob sie gegen diese Nutzungsbedingungen verstoßen oder nicht."
+        ]
+      ],
+      "title": "Geschäftsbedingungen",
+      "bigtitle": "Equestria.dev gehostete Dienstleistungsbedingungen für Dienstleistungen",
+      "intro": "Die folgenden Nutzungsbedingungen gelten nur für Online -Dienste, die von equestria.dev gehostet werden, auch wenn der Online -Service über einen Dritten zugegriffen wird. \"Lokale\" Bewerbungen oder Dienste, die nicht von equestria gehostet werden."
+    },
+    "license": {
+      "translation": [
+        "Haftungsausschluss:",
+        "Für den Fall, dass diese Lizenzen in eine andere Sprache übersetzt werden, ist nur die englische Version rechtlich anwendbar. Die übersetzten Versionen werden nur zu Informationszwecken bereitgestellt."
+      ],
+      "sections": [
+        "Kostenlose, Libre und Open-Source-Software",
+        "\"Proprietary\" -Software geschlossene Source"
+      ],
+      "text": [
+        [
+          "Wird als \"frei, libre und open-source\" als Software angesehen, die Equestria.dev entweder im öffentlichen Domain The MIT-Lizenz, eine kompatible Alternative oder vollständig urheberrechtlich geschütztes frei macht. Sofern im Quellcode der Software eine Kopie einer Lizenzvereinbarung nicht vorhanden ist oder eine andere Lizenz an anderer Stelle vorhanden ist, ist Software, auf die der Quellcode öffentlich zugänglich ist, in den folgenden Lizenzbedingungen veröffentlicht:",
+          "MIT -Lizenz",
+          "Die Erlaubnis wird hiermit einer Person, die eine Kopie dieser Software und zugehörigen Dokumentationsdateien (der „Software“) erhält, kostenlos erteilt, um die Software ohne Einschränkung zu behandeln, einschließlich ohne Einschränkung der Rechte zu verwenden, zu kopieren, zu modifizieren, zu verschmelzen, verschmelzen , veröffentlichen, vertreiben, unterlizenzieren und/oder Kopien der Software verkaufen und Personen, denen die Software dazu bereitgestellt wird, unter den folgenden Bedingungen ermöglicht:",
+          "Die oben genannte Copyright -Mitteilung und diese Erlaubnisbekanntmachung müssen in alle Kopien oder wesentlichen Teile der Software enthalten sein.",
+          "Die Software wird „wie es ist“ ohne Garantie jeglicher Art, ausdrücklich oder stillschweigend bereitgestellt, einschließlich, aber nicht beschränkt auf die Gewährleistung der Handelsfähigkeit, die Eignung für einen bestimmten Zweck und die Nichtverletzung. In keinem Fall haftet die Autoren oder Urheberrechtsinhaber für Ansprüche, Schäden oder andere Haftungen, sei es in einer Vertragsklage, unerlaubter Handlung oder anderweitig, aus oder im Zusammenhang mit der Software oder anderen Geschäften in der SOFTWARE."
+        ],
+        [
+          "In einigen Fällen können Equestria.Dev -Entwickler den Quellcode für eine bestimmte Software nicht freigeben. Dies könnte daran liegen, dass es leicht missbraucht oder missbraucht wird, da es eine private Plattform verwendet, da sie vertrauliche oder private Informationen oder einen anderen Grund enthält. Entwickler können sich später für eine Open-Source-Software für geschlossene Software erstellen.",
+          "Durch das Herunterladen, Installieren, Einkauf oder Verwenden der Software akzeptieren Sie diese Lizenzbedingungen. Wenn Sie sie nicht akzeptieren, verwenden Sie die Software nicht. Wenn eine Open-Source-Variante verfügbar ist, verwenden Sie die Open-Source-Variante.",
+          "In allen Fällen von Closed-Source-Software müssen Benutzer:",
+          "Verwenden Sie die Software ausschließlich für persönliche Zwecke und nicht aus Gewinn;",
+          "nicht versuchen, die Software zu dekompilieren, zu ändern, zu veröffentlichen, zu verteilen, zu verkaufen oder zu lizenzieren;",
+          "Verwenden Sie die Software nicht auf eine Weise, die in Frankreich oder den Vereinigten Staaten illegal ist.",
+          "Verwenden Sie die Software nicht so, dass Equestria.dev gefährdet werden könnte.",
+          "Entdecken Sie die Software nicht an öffentlichen Orten, an denen Benutzer sie verwenden könnten, ohne diese Lizenzvereinbarung zuerst zuzustimmen",
+          "Im Falle einer bezahlten Software dürfen Benutzer keinen Zugang zur Software kostenlos auf einen Dritten ermöglichen. Einen Verwandten (Freund, Familie, ...) zugänglich zu machen, gilt als angemessen, sollte jedoch 10 Personen nicht überschreiten."
+        ]
+      ],
+      "title": "Software -Lizenzen",
+      "bigtitle": "Equestria.dev Software und Quellenlizenzen",
+      "intro": "Equestria.dev veröffentlicht Software in einer Vielzahl von Lizenzierungssystemen, die meistens unter Libre -Lizenzen."
+    }
+  },
+  "_name": "Deutsch",
+  "title": "Equestria.dev: Softwareplattform, auf die Sie sich verlassen können",
+  "language": "Sprachauswahl"
+}

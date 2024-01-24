@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "segundu",
+      "bizkarbete"
+    ],
+    "minute": [
+      "ñimiño",
+      "minutu"
+    ],
+    "hour": [
+      "ordu",
+      "ordire ordu"
+    ],
+    "day": [
+      "egun",
+      "egun"
+    ],
+    "week": [
+      "aste",
+      "aste"
+    ],
+    "month": [
+      "hil",
+      "hilabete"
+    ],
+    "year": [
+      "urte",
+      "urte"
+    ],
+    "age": [
+      "zahartu",
+      "urte"
+    ],
+    "ago": "duela",
+    "later": "beranduago",
+    "now": "orain"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Proiektzak",
+      "network": "Sare",
+      "contact": "Kontaktu",
+      "legal": "Arauzko"
+    },
+    "projects": {
+      "archives": "Ikusi gure artxibatutako proiektuak"
+    },
+    "network": {
+      "status": [
+        "Sistema guztiak funtzionatzen dute",
+        "Degradatutako errendimendua",
+        "ELKARRIZKETA NAGUSIA"
+      ],
+      "account": "Zure kontua",
+      "infra": "Azpiegusa",
+      "security": "Segurtasun aholkulariak",
+      "bugs": "Bug Tracker",
+      "blog": "Bloga"
+    },
+    "legal": {
+      "terms": [
+        "Baldintzak",
+        "eta baldintzak"
+      ],
+      "privacy": "Datuen pribatutasuna",
+      "license": "Software Lizentziak",
+      "disclaimer": "Legezko oharrak",
+      "branding": "Branding Jarraibideak",
+      "support": "Onartuta",
+      "version": "Bertsio",
+      "made": "Poniak eginda",
+      "phpstorm": "eta phpstorm",
+      "trademark": "\"Equestria.dev\" eta lotutako izenak Equestria.Dev garatzaileen marka komertzialak dira Frantzian eta beste herrialde batzuetan. Equestria.dev eta proiektuen logotipoak egile eskubideen lege aplikagarrien arabera babestuta daude. JetBrains, lotutako logotipoak eta lotutako izenak Jetbrains S.R.O.-ren marka erregistratuak dira, lizentziapean erabiliak."
+    },
+    "contact": {
+      "email": "Bidali mezu elektroniko bat"
+    }
+  },
+  "footer": {
+    "copyright": "Eskubide guztiak erreserbatuak."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Software plataforma",
+        "ahal duzu",
+        "fidatu"
+      ],
+      "cta": "Ikusi zer egiten dugun"
+    },
+    "categories": {
+      "dev": {
+        "title": "Garapen",
+        "description": "Softwarearen garapenean 5 urte baino gehiagoko esperientziarekin, hizkuntza ugaritan, hala nola herdoila, JavaScript, Kotlin edo PHP - ziurtatu egin daiteke kalitatezko softwarea garatuko dugula zure beharrak asetzen laguntzeko, negozioa zaren ala ez edo gizabanakoa.",
+        "cta": "Ikusi proiektuak"
+      },
+      "network": {
+        "title": "Sarean",
+        "description": "Ba al zenekien testu hau gutxienez 3 zaldizko zartagin desberdinetara pasatu zenuela? Zerbitzariak kudeatzen dituzten gure urteekin, batez ere Linux -, edozein aplikazio optimizatu dezakegu zure onena egiteko, zerbitzariaren karga edozein dela ere.",
+        "cta": "Ikusi azpiegiturak"
+      },
+      "privacy": {
+        "title": "Pribatutasun",
+        "description": "Pribatutasuna, segurtasuna eta erabiltzaileen datuak babestea beti izan da gure balio nagusien balioak. Ahal den guztietan - eta beharrezkoa da - militarren zifratze teknologia sendoa erabiltzen dugu eta ziurtatu erabiltzaileen datuak beti seguruak direla eta hainbat eraso motatatik babestuta.",
+        "cta": "Irakurri dokumentuak"
+      }
+    },
+    "contact": {
+      "title": "Eskaera berezia al duzu?",
+      "description": "Zure proiektu batekin lagundu nahi baduzu, garapenari dagokionez, zerbitzariei edo pribatutasunari eta segurtasunari dagokionez, lagundu dezakegu. Ez zaitez mezu bat botatzen eta ikusiko dugu zer egin dezakegun.",
+      "cta": "Bidal iezaguzu mezu bat"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Eskaera baliogabea",
+      "401": "Autentifikazioa beharrezkoa da",
+      "403": "Sarbidea ukatzen da",
+      "404": "Ez da orria aurkitu",
+      "500": "Barneko zerbitzari-errorea",
+      "501": "Oraindik ez dago erabilgarri",
+      "502": "Upstream zerbitzariaren errorea",
+      "503": "Zerbitzaria eskura daiteke",
+      "504": "Upstream zerbitzaria denbora iraungita",
+      "default": "Sistema ezezagunaren akatsa"
+    },
+    "descriptions": {
+      "400": "Prozesatu ezin duen zerbitzariari eskaera bat bidaltzen saiatu zara. Hori orokorrean ez da gertatu behar, baina arakatzailearekin arazo bat adieraz dezake. Hau konpontzeko laguntza behar baduzu, jar zaitez gurekin harremanetan.",
+      "401": "Autentifikazioa behar duen orri batera iristen saiatu zara autentikatu gabe. Orriak freskatzeak normalean arazo hau konpontzen laguntzen du. Orrialde honetarako autentifikatzeko egiaztagiririk ez baduzu, hasierako orrialdera itzuli zaitezke.",
+      "403": "Webgune honetatik irisgarria ez den orri batera iristen saiatu zara. Normalean zerbitzarian erabiltzen diren barne fitxategien kasua da. Webgune honetako esteka jarraitu eta hona iritsi bazara, zerbait oker egon behar da.",
+      "404": "Webgune honetako esteka jarraitu baduzu, zerbait oker egon behar da. Kanpoko esteka jarraitu baduzu, posible da esteka okerra dela eta eguneratu behar dela. Helbidea zeure buruari sartu bazenuen, posible da zerbait gaizki idatzita.",
+      "500": "Errorea gertatu da zerbitzarian zure nabigatzailearen konfigurazioarekin zerikusirik ez duen eskaera prozesatzen saiatzean. Hau orokorrean akatsa edo aldi baterako arazoa da. Hartzen badu, gaiari buruz jakin iezaguzu konpondu ahal izateko.",
+      "501": "Iritsi zaren orrialdeak oraindik ere webgunean ezarritako zerbitzari funtzioa erabiltzen du. Normalean izaten da lortzen saiatzen ari zaren orria abian da eta etorkizunean eskuragarri egongo da.",
+      "502": "Orrialde hau une honetan eskuragarri ez dagoen kanpoko baliabide edo zerbitzari baten araberakoa da. Horrek normalean gure zerbitzari bateko edo gehiagoren bat adierazten du. Gaiak jarraitzen badu, jarri gurekin harremanetan hau konpondu ahal izateko.",
+      "503": "Orrialde hau une honetan eskuragarri ez dagoen barne baliabidearen araberakoa da. Horrek normalean esan nahi du baliabidea, webgunea edo zerbitzaria mantentzen ari dela eta gaur egun ez dago erabilgarri. Informazio gehiago lortzeko, egiaztatu gure egoera orria.",
+      "504": "Orrialde hau garaiz iritsi ezin den kanpoko baliabide edo zerbitzari baten araberakoa da. Horrek normalean irteera bat edo motelagoa adierazten du. Gaiak jarraitzen badu, jarri gurekin harremanetan hau konpondu ahal izateko.",
+      "default": "Dokumenturik gabeko errorea gertatu da. Ez gaude ziur zer oker joan den, baina errore kodeak lagun dezake. Laguntza behar baduzu, jar zaitez gurekin harremanetan hau konpondu ahal izateko. Zintzotasunez barkamena eskatzen diegu eragozpenengatik."
+    },
+    "actions": {
+      "home": "Itzuli hasierako orrialdera",
+      "status": "Ireki egoera orria",
+      "email": "Jar zaitez gurekin harremanetan posta elektroniko bidez"
+    },
+    "title": "Errakuntza"
+  },
+  "project": {
+    "actions": {
+      "source": "Iturburu kodea",
+      "website": "Webgune Ofiziala"
+    },
+    "update": "Azken eguneraketa",
+    "archive": "Artxibatuta"
+  },
+  "archive": {
+    "title": "Agiritegiak"
+  },
+  "status": {
+    "main": [
+      "Zerbitzu guztiak nominal gisa funtzionatzen dute",
+      "Zerbitzu batzuek errendimenduaren degradazioa izaten ari dira",
+      "Zerbitzu batzuk irteera handiak izaten ari dira"
+    ],
+    "description": [
+      "Oraingoz, Equestria.Dev-ek antolatutako zerbitzu guztien errendimendu nominala eta ona ikusi dugu.",
+      "Ikusi dugu Equestria.Dev zerbitzu batzuk, funtzionalak izan arren, ohi baino motelagoak direla.",
+      "Denbora beherago ikusi dugu Equestria.DeV zerbitzu batzuetan, eskuraezinak bihurtuz denbora batez."
+    ],
+    "affected": [
+      "Gertakari honek honako zerbitzua da:",
+      "Gertakari honek honako zerbitzu hauek dira:"
+    ],
+    "stats": {
+      "items": [
+        "Batez besteko zerbitzua latentzia:",
+        "Erabilitako memoria osoa:",
+        "Erabilitako biltegiratze osoa:",
+        "Guztira eskuragarri dagoen potentzia:",
+        "cache:",
+        "Gehienez I / O latentzia:",
+        "nesuak",
+        "Sistema eragileak:",
+        "Prozesuak Guztira"
+      ],
+      "title": "Estatistika",
+      "used": "erabiliko"
+    },
+    "title": "Sistemen egoera",
+    "page": "Ikusi egoera osoa orria",
+    "update": "Azken eguneraketa"
+  },
+  "months": [
+    "Urtarril",
+    "Otsail",
+    "martxoa",
+    "Apiril",
+    "Maiatz",
+    "Ekain",
+    "Uztail",
+    "Abuztu",
+    "Irail",
+    "urria",
+    "Azaro",
+    "Abendu"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Edukien kudeaketa eta oharrak",
+        "Erabiltzaileak sortutako edukia izan ezean, Equestria.Dev-en plataforman ostatatutako edukia erantzukizuna da",
+        "Nahiz eta informazio zehatza duten erabiltzaileei ahalik eta ahalegin handienak egiten, Equestria.Dev garatzaileek ezin dute gure plataformek emandako informazioaren zehaztasuna bermatu. Beraz, gure plataformei buruzko informazioa zehaztugabe edo zaharkituta egon daiteke."
+      ],
+      "title": "Legezko oharrak",
+      "privacy": "Xehetasun gehiago behar izanez gero, jar zaitez gurekin harremanetan zuzenean. Informazioren bat pribatutasun arrazoiengatik ezkutatzen da.",
+      "servers": "Zerbitzari kokapenak",
+      "locations": "Equestria.Dev-ek sareak kudeatzen ditu erabiltzaileen datuak Frantzian, Alemanian eta Estatu Batuetan zehar. Equestria.Dev-en barne helburuetarako bakarrik erabiltzen diren sareak eta ez dira erabiltzailearen datuak igortzen ez direnak orri honetan aipatzen.",
+      "property": "Zerbitzariak:",
+      "physical": "Gutxi gorabehera kokapen fisikoa:",
+      "isp": "Interneteko zerbitzu hornitzailea:",
+      "us": "AEBetako egoiliarren esteka",
+      "data": "Erabiltzailearen datuen eskaerak",
+      "howto": "Eremu-erabiltzaileek erabiltzaileen datuak eskatzeko edo ezabatzea eskatzen dute erabiltzailearen datuak, erabiltzailearen IP helbidea, edozein gailu identifikatzaile (hala badagokio), Equestria.Dev kontu IDa (hala badagokio) helbide elektronikotik bidali behar da Equestria.Dev kontuarekin lotuta (hala badagokio) helbide elektroniko honetara:",
+      "law": "Legean betearazteko araudiak, Equestria.Dev-ek ezin du 3 hilabete baino gutxiago dituzten zerbitzariaren erregistroak ezabatu.",
+      "gov": "Bermea Kanaria",
+      "pgp": "Honako gakoarekin sinatutako PGP mezua da:",
+      "key": "Ikusi gako publiko osoa",
+      "alt": "Iturburu alternatiboa",
+      "plain": "Ikusi Bermea Kanaria (fitxa berri batean irekiko da)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Gure logotipoa",
+        "message": "Mesedez, ez editatu, aldatu, desitxuratu, birsortu edo berriro konfiguratu Equestria.Dev logotipoa."
+      },
+      "icon": {
+        "title": "Ikonoa bakarrik",
+        "message": "Erabili horiek zaldizko markak argi eta garbi ikusita daudenean, orrialdean edo diseinuan edo espazioan ez du bertsio osoa erakusten uzten. Zalantzarik izanez gero, erabili bestea."
+      },
+      "spacing": {
+        "title": "Tartea",
+        "message": "Ziurtatu tartearen jarraibide horiek errespetatzen dituztela Equestria.Dev logotipoa erabiltzen duzun bitartean. Gainera, ziurtatu logotipoa nahikoa handia dela irakurgarria eta bereizteko.",
+        "scale": "x = \".dov\" testuaren altuera.",
+        "notice": "(Ikonoaren bertsioa gomendatzen da logotipoa 96 pixeletik edo 52,8 milimetro baino gutxiagoko tamainetan erakutsi behar duzun espazioetan, 24 pixelera edo 13,2 milimetrotan behera)"
+      },
+      "dont": {
+        "messages": [
+          "Ez editatu, aldatu edo berriro konfiguratu logotipoa edo hitza",
+          "Ez desitxuratu logotipoa edo hitz-marka nahi gabe",
+          "Ez birziklatu edo aplikatu ikusizko efektuak logotipoan edo hitzetan",
+          "Ez jarri logotipoaren edo wordmark-en beste elementu bat"
+        ],
+        "descriptions": [
+          "Horrek ez du logotipoa biratu eta edozein testu edo forma aldatzea, logotipo osoaren elementu desberdinen arteko tartea mantentzearekin batera.",
+          "Ez duzu logotipoa edozein modutan desitxuratu edo deformatu behar, 2D edo 3D markoan dagoen ala ez. Gainera, ziurtatu logotipoa behar bezala bistaratzen dela kasu guztietan.",
+          "Logotipoa eta Wordmark gorde behar dira, kolore aldaketarik gabe. Eskala grisa erabili behar baduzu, erabili monokromako aldaerak.",
+          "Ziurtatu etiketek (hala badagokio) ez dutela logotipoaren elementuren bat gainjartzen. Gainera, ez du onarpena edo babesik ez dagoenean."
+        ],
+        "too": {
+          "text": [
+            "Ziurtatu Equestria.Dev marka ez dela zure produktuaren edo zerbitzuaren izena, logotipoa edo marka baino nabarmenago bistaratzen.",
+            "\"Gehiegi\" egiteak nahasmena ekar lezake eta erabiltzaileek Equestria.dev webgune ofizialaren aurrean edo Equestria.Dev produktu ofizialaren aurrean daudela uste dute."
+          ],
+          "title": "Ez egin gehiegi"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Equestria.dev logotipoa:",
+              "lizentziapean erabilia"
+            ],
+            "product": [
+              "[Proiektuaren izena] Logotipoa",
+              "Proiektuaren izena"
+            ]
+          },
+          "title": "Ez erabili atribuziorik gabe",
+          "message": "Equestria.dev logotipoa edo proiektuen logotipoa erabiltzerakoan, eman beti atribuzioa ondorengo testu hauetakoren batekin:"
+        },
+        "impersonation": {
+          "text": [
+            "Equestria.Dev marka ez da mimicking ez da .Dev materialetan ez da onartzen. Murrizketa bera gertatzen da Equestria.dev marka animatzeko, beste edozein hitzekin, sinboloekin, irudiekin edo diseinuekin konbinatuz edo lelo edo etiketa batean txertatzea.",
+            "Gainera, Ekaindia.Dev edo taldeko pertsona baten izena edo taldea osorik debekatuta dago."
+          ],
+          "title": "Ez imitatu edo inpertsonatu"
+        },
+        "endorsement": {
+          "text": [
+            "Elkarlana baloratzen dugu, ordea, ez dugu inolaz ere inolaz ere zure produktuak edo zerbitzuak onartzea Equestria.Dev-ekin ekintzarik gabe. Equestria.Dev-ek hitzarmen batekin idatziz formalki ezarritako lankidetza izan behar duzu. Equestria.Dev-ekin lankidetza egin aurretik.",
+            "Horrek esan nahi du \"Equestria.Dev-ek\", \"Equestria.Dev Ziurtagiria\" edo \"Equestria.Dev-ek gomendatua\" ez da onartzen."
+          ],
+          "title": "Ez esan inor ez dagoen lekuan"
+        },
+        "title": "Ez"
+      },
+      "color": {
+        "formats": {
+          "title": "Kolore kodea formatua:",
+          "oklch": "Oklch (SRGB profila)",
+          "rgb": "Rgb hexadekimala (8 bit)",
+          "cmyk": "Cmyk (estandarra)"
+        },
+        "list": [
+          "Argi nagusia",
+          "Lehen iluna",
+          "Bigarren mailako argia",
+          "Bigarren iluna",
+          "Hondo",
+          "Atzeko planoan",
+          "Argi positiboa",
+          "Ilun positiboa",
+          "Argi neutroa",
+          "Ilun neutroa",
+          "Argi negatiboa",
+          "Negatiboa",
+          "Azalera",
+          "Azalean"
+        ],
+        "title": "Kolore paleta",
+        "intro": "Equestria.dev kolore paleta, \"Brightdawn\" izenekoa (Misty Brightdawn ondoren, nire zaldia txikiko pertsonaia sortu da) gure oinarrizko balioak islatzeko sortu da: inklusibitatea, adiskidetasuna eta gardentasuna islatzeko. 2023an erabilitako paleta \"laino\" batean oinarritzen da, kolore distiratsuak barne."
+      },
+      "more": {
+        "title": "Gehiago bila?",
+        "text": "Deskargatu Equestria.Dev marka osoa eta lortu gure logotipoa sortzeko erabili genituen baliabide guztietara, baldintza zehatzetan erabilitako aldaera bereziekin batera, prototipoen diseinuak eta bestelako diseinu orriak barne.",
+        "cta": "Deskargatu 3. bertsioa",
+        "notice": "1. eta 2. bertsioak ere barne hartzen ditu"
+      },
+      "page": "Branding Jarraibideak",
+      "title": "Equestria.Dev Branding jarraibideak",
+      "intro": "Equestria.Dev-en, gauzak hartzen ditugu eta gure marka serio irudikatzen duzu. Equestria.dev markak kalitate irekiko software kalitatea, sinplea eta pribatua irudikatu beharko luke. Gure markako aktiboak edozer erabiltzen badituzu, ziurtatu jarraibide hauek errespetatzen dituzula.",
+      "copyright": "Equestria.dev logotipoa eta produktuak Copyright-lege aplikagarriak babesten dituzte Frantzian, Estatu Batuetan eta beste herrialde batzuetan. Equestria.Dev-ek bere logotipoa erabiltzeko lizentziarik gabeko lizentziarik gabeko lizentziarik gabeko lizentziarik gabeko lizentziadun bat ematen dizu. Jarraibide hauek Equestria.DeV logotipoa ere erregulatzen dute gure zerbitzuetan. Aurrerantzean huts egitea zaletu.Dev-en jabetza intelektualaren gaineko arau-haustea da eta ekintza juridikoa ekarriko du."
+    },
+    "privacy": {
+      "sections": [
+        "Pribatutasuna Equestria.Dev lineako zerbitzuetan",
+        "Pribatutasuna Equestria.Dev aplikazioetan",
+        "Pribatutasuna Equestria.Dev-en lineako zerbitzuetan edo hirugarrenen osagaiekin integratzen diren aplikazioa",
+        "Equestria.Dev-ek erabiltzailearen datu pribatuak babesteko erantzukizuna"
+      ],
+      "text": [
+        [
+          "Equestria.Dev-ek esplizituki ematen digun informazioa soilik gordeko du (adibidez, izen emate formulario baten baitan). Ez da beste datu bat bilduko.",
+          "Hala ere, legea betearaztearen baitan, Equestria.Dev-ek IP helbideak eta beste arakatzailearen informazioa bilduko ditu (arakatzailearen izena, bertsioa, sistema eragilea, URLa eta data) 365 egun arte. Informazio hau urtero urtero ezabatzen da.",
+          "Gainera, Equestria.Dev-ek, bere zerbitzuen kalitatea eta fidagarritasuna hobetzeko, informazio anonimoa biltzeko, bisitatzen dituzun orriak barne, datu pertsonal potentzialak kenduta. Informazio hau anonimoa da estatistiketan sartu aurretik, eta jatorrizko informazioa 1§2 aipatu bezala gordetzen da (ikus goiko)."
+        ],
+        [
+          "Atal hau \"instalatuta\" dauden aplikazioei dagokie (Equestria.DeV-tik zerbitzu zehatzik gabe) erabiltzailearen gailura iristen da eta erabiltzaileak instalazio prozesua abiarazi bezain pronto.",
+          "Equestria.Dev aplikazioek ez dute inoiz kontrolatuko, gorde, asaldatu edo beste aplikazioen portaera ekidingo. Aplikazioa exekutatzen den edo ez da erabiltzaileari argi utziko uneoro.",
+          "Aplikazio batzuek, erabiltzaileak bere baimen esplizitua eta argia eman ondoren (erabiltzaileak bilduko diren datu mota bat onartu ondoren), datu estatistiko anonimoak bildu ditu aplikazio horien kalitatea eta fidagarritasuna hobetzeko. Erabiltzaileak beti ematen zaio estatistika horiek zaldiei bidaltzeko aukera uzteko aukera, aplikazioak nola jokatzen duen aldaketarik egin gabe."
+        ],
+        [
+          "Equestria.dev lineako zerbitzua edo aplikazioa hirugarrenen osagai batekin integratzen denean, hirugarrenen pribatutasun politikak hirugarrenen eraginpean eragina du hirugarrenak kudeatzen dituen eragiketa guztietan.",
+          "Hirugarrenen osagaia operazio nagusia da lineako zerbitzua edo aplikazio heldulekuak, hirugarrenen pribatutasun politika lehentasunez aplikatzen da. Hirugarrenen osagaia lineako zerbitzuaren edo aplikazioaren barruan bigarren mailako eragiketa bat da, Equestria.Dev-en pribatutasun politika aplikatzen da lehenengo.",
+          "Hirugarren baten pribatutasun politika, Equestria.Dev lineako zerbitzu edo aplikazioaren araberakoa izanez gero, aldaketen araberakoa da. Erabili lineako zerbitzua edo aplikazioa."
+        ],
+        [
+          "Equestria.Dev erantzukizuna da erabiltzailearen datu pribatu eta pertsonalak ziurtatzeaz (hirugarren batek prozesuan parte hartu ezean, kasu horretan, 3. atalean aipatu den moduan, hirugarrenen erantzukizuna hartzen da).",
+          "Informazio hori publiko bihurtzen da, adibidez, Equestria.Dev-en zerbitzarietako datuak deskargatzen dituen intrusek, erabiltzaileak lehenbailehen jakinaraziko dira, eta argibideak emango zaizkie behar izanez gero.",
+          "Equestria.Dev-ek ez du inolako interesik erabiltzaileen datuak saltzeko, oparitzeko edo erakusteko eta ez du inolako eragiketa hauetakoren bat saiatzeko."
+        ]
+      ],
+      "translation": [
+        "Deklinabidea:",
+        "Pribatutasun politika hau beste hizkuntza batera itzultzen bada, ingelesezko bertsioa soilik legez aplikagarria da. Itzulitako bertsioak informazio helburuetarako soilik ematen dira."
+      ],
+      "title": "Datuen pribatutasuna",
+      "bigtitle": "Equestria.dev Datuen pribatutasun arauak",
+      "intro": "Equestria.Dev-en, zure pribatutasuna baloratzen dugu. Espero duzun zerbitzua emateko ahalik eta datu txikiak biltzen saiatzen gara. Dena den, Equestria.Dev-en datuen tratamendua Europako Datuak Babesteko Europako Erregelamendu Orokorraren arabera egiten da."
+    },
+    "terms": {
+      "translation": [
+        "Deklinabidea:",
+        "Baldintza hauek beste hizkuntza batera itzultzen badira, ingelesezko bertsioa soilik legez aplikagarria da. Itzulitako bertsioak informazio helburuetarako soilik ematen dira."
+      ],
+      "sections": [
+        "Agurgai",
+        "Demografiak",
+        "Xedeak",
+        "Zuzenbidea betearaztea",
+        "Zerbitzuen kalitatea eta fidagarritasuna",
+        "Elkarrekiko errespetua eta berdintasuna"
+      ],
+      "text": [
+        [
+          "Baliteke erabiltzaile espezifikoak ezin izatea Equestria.Dev-en lineako zerbitzuak erabili kokapenaren edo egoera fisikoaren arabera.",
+          "Txinan, Ipar Korean eta beste herrialde batzuetan kokatuta dauden erabiltzaileak ezin dira lineako zerbitzuak erabili. Salbuespenak administratzaileek kasu bakoitzeko egin daitezke.",
+          "13 urte baino gutxiago dituzten legez gazteagoak diren gizabanakoak ezin dira lineako zerbitzuak erabili. Baliteke 21 urte baino gutxiago dituzten erabiltzaileek ez izatea funtzio zehatzetarako sarbidea."
+        ],
+        [
+          "Equestria.Dev-ek erabiltzaileei lineako zerbitzuetara sartzeko baimen berezia, ezegonkorra eta trukagarria da.",
+          "Irabaziak egiteko jardueretan lineako zerbitzuak erabiltzea baimenik ez dagoenean, edozein dela ere irabazi asko egiten da eta lineako zerbitzuetarako sarbidea berehala amaitzea ekarriko du."
+        ],
+        [
+          "Equestria.Dev-ek ostatatutako zerbitzua erabiltzen duzunean, erabiltzaile batek onartzen du Frantzian edo Estatu Batuetan legez kanpokoa den edozein eragiketarako zerbitzua ez erabiltzea. Gainera, erabiltzailearen eragiketek ez dituzte beste erabiltzaileek beren eragiketak egitea eragotzi behar.",
+          "Eduki gehiegikeria edo bortitza argitaratzea, kode edo software maltzurra edo lapurtutako edukia ez da onartzen eta berehala sarbidea amaitzea ekarriko du."
+        ],
+        [
+          "Lineako zerbitzuak ostatatzea konplexua da eta zaldizkoa da.Dev oso diru sarrera mugatua da.",
+          "Equestria.Dev garatzaileek eta administratzaileek ez dute erantzule izan behar lineako zerbitzua ez da funtzionatzen. Lineako plataforma guztiak zerbitzatzen dira, inolako bermerik ez duen moduan funtzionatuko duen moduan lan egiteko edo lan egiteko.",
+          "Equestria.Dev-ek estatatzen du ostalaritzako zerbitzuak motelak edo eskuraezinak izan daitezkeela denboran zehaztu gabeko puntuetan, abisatu gabe edo gabe. Administratzaileek ez dute promesik egiten urte osoan zehar zerbitzu jakin baterako erabilgarritasun portzentaje jakin bati dagokionez."
+        ],
+        [
+          "Gizarte elkarrekintzak daudenean, erabiltzaile guztiek bata bestea ez diskriminatzea onartzen dute beren iritziak barne, beren iritziak barne. Erabiltzaileak animatu egiten dira portaera desegokiak salatzera, plataformak guztiontzat seguru mantentzen laguntzeko.",
+          "Erabiltzaile guztiak libre daude nahi duten moduan identifikatzeko, beste erabiltzaileek zerbitzuarekin elkarreragiten ez duten moduan. Identitate guztiek balio dute edozein lekutatik.",
+          "Denek sartzen dira zerbitzu berdina lortzeko, edozein dela ere bizi diren lekuan (1. aplikagarria ez bada) eta nor diren. Equestria.Dev-ek asko balio du berdintasuna eta errespetua erabiltzaileen artean eta erabiltzaileek portaera desegokiak jakinarazi beharko lituzketela azpimarratu dute, zerbitzu-baldintza hauek urratzen dituen ala ez."
+        ]
+      ],
+      "title": "Baldintzak eta baldintzak",
+      "bigtitle": "Equestria.Dev ostatatutako zerbitzuak Baldintzak eta baldintzak",
+      "intro": "Honako erabilera baldintzak Equestria.Dev-ek ostatatutako lineako zerbitzuetan soilik aplikatuko dira, lineako zerbitzua hirugarren baten bidez sartzen bada. Equestria.Dev-ek antolatzen ez diren aplikazioak edo zerbitzuak ez dira erabilera baldintza hauek arautzen, hurrenez hurren, lizentzia hitzarmenak eta zerbitzu-ostalaritza hornitzaileak erabiltzeko baldintzak."
+    },
+    "license": {
+      "translation": [
+        "Deklinabidea:",
+        "Lizentzia horiek beste hizkuntza batera itzulita egonez gero, ingelesezko bertsioa legez aplikagarria da soilik. Itzulitako bertsioak informazio helburuetarako soilik ematen dira."
+      ],
+      "sections": [
+        "Doako, libre eta kode irekiko softwarea",
+        "Iturri itxia \"jabedun\" softwarea"
+      ],
+      "text": [
+        [
+          "\"Doako, libre eta kode irekiko\" jotzen da \"Dev-ek MIT lizentzia, edozein alternatiba edo guztiz egile-eskubideak diren domeinu publikoaren azpian kaleratzen dituen software guztiak. Lizentzia hitzarmen baten kopia softwarearen iturburu kodea bada, edo beste lizentzia bat aipatzen ez bada beste nonbait, softwarea zein iturburu kodea publikoki eskuragarri dago lizentzia baldintza hauen pean:",
+          "Mit lizentzia",
+          "Baimena ematen da, doakoa da, software honen kopia eta lotutako dokumentazio fitxategiak (\"softwarea\" kopia lortuz), softwarea murrizketarik gabe aurre egiteko, besteak beste, erabili beharreko eskubideak erabili, kopiatu, aldatu, aldatu , argitaratu, banatu, sublizzitu eta / edo softwarearen kopiak argitaratu, banatu, sublizzitu eta softwarea lortzeko, softwarea horretarako hornitzeko, baldintza hauen arabera:",
+          "Goiko copyright-oharra eta baimen-oharra softwarearen kopia edo zati garrantzitsuetan sartuko da.",
+          "Softwarea \"hala da\" ematen da, inolako inolako inolako bermerik gabe, adierazi edo inplizitu gabe, baina ez da merkatariaren bermeetara, helburu jakin baterako eta ez-bazterreko bermerik gabe. Ekitaldirik ez da egileek edo copyright titularrek erantzukizunik izango dute edozein erreklamazio, kalte edo bestelako erantzukizuna, kontratuaren ekintza, torturen edo bestela sortutakoa, softwarearekin edo erabilerarekin edo bestelako akordioekin lotuta Softwarea."
+        ],
+        [
+          "Zenbait kasutan, Equestria.DeV garatzaileek aukera dezakete software jakin baterako iturburu kodea ez kaleratzea. Hori erraz tratu txarrak edo gaizki erabilita egon liteke, plataforma pribatua erabiltzen duelako, informazio konfidentziala edo pribatua duelako edo beste arrazoi bat dituelako. Garatzaileek iturburu itxiko softwarea irekitzeko aukera izan dezakete geroago.",
+          "Softwarea deskargatu, instalatu, erosi edo erabilita, lizentzia baldintza hauek onartzen dituzu. Ez badituzu onartzen, ez erabili softwarea; Edo, kode irekiko aldaera eskuragarri badago, erabili iturburu irekiko aldaera.",
+          "Iturburu itxiko software kasu guztietan, erabiltzaileek honako hauek izan behar dituzte:",
+          "Erabili softwarea zorrotz helburu pertsonaletarako eta ez etekinik ateratzeko;",
+          "softwarea deskonpilatu, aldatu, argitaratu, argitaratu, banatu, saldu edo lizentziatzen saiatzea;",
+          "Ez erabili softwarea Frantzian edo Estatu Batuetan legez kanpokoa den modu batean;",
+          "ez erabili softwarea Equestria.Dev arriskuan jar zezakeen modu batean;",
+          "softwarea ez erakutsi erabiltzaileek erabil ditzaketen leku publikoetan, lizentzia hitzarmen hau adostu gabe",
+          "Ordaindutako software baten kasuan, erabiltzaileek ez dute softwareari sarbidea eman behar hirugarren bati doan. Softwarea erlatibo bihurtzea (lagun, familia, ...) zentzuzkotzat jotzen da, baina ez da 10 pertsona gainditu behar."
+        ]
+      ],
+      "title": "Software Lizentziak",
+      "bigtitle": "Equestria.dev Software eta Iturriak Lizentziak",
+      "intro": "Equestria.Dev-ek softwarea askatzen du lizentzia-eskemetan, gehienetan Libre Lizentzien arabera."
+    }
+  },
+  "_name": "Euskara",
+  "title": "Equestria.dev: Fidatu dezakezu software plataforma",
+  "language": "Hizkuntza hautatzailea"
+}

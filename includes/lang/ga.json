@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "an dara háit",
+      "soicind"
+    ],
+    "minute": [
+      "meamram",
+      "nóiméad"
+    ],
+    "hour": [
+      "uair",
+      "uair"
+    ],
+    "day": [
+      "tréimhse",
+      "lá ar"
+    ],
+    "week": [
+      "seachtain",
+      "seachtaine"
+    ],
+    "month": [
+      "mí",
+      "míonna"
+    ],
+    "year": [
+      "bliain",
+      "cian go raibh"
+    ],
+    "age": [
+      "tabhair chun cineáil",
+      "aois"
+    ],
+    "ago": "ó shin",
+    "later": "níos déanaí",
+    "now": "atá ann i láthair na huaire"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Tionscadal",
+      "network": "Líonra",
+      "contact": "Lionsa",
+      "legal": "De réir dlí"
+    },
+    "projects": {
+      "archives": "Féach ar ár dtionscadail chartlainne"
+    },
+    "network": {
+      "status": [
+        "Gach córas ag feidhmiú",
+        "Feidhmíocht Díghrádaithe",
+        "Mór -bhriseadh"
+      ],
+      "account": "Do chuntas",
+      "infra": "Infreastruchtúr",
+      "security": "Comhairleoirí Slándála",
+      "bugs": "Lorgaire fabht",
+      "blog": "Blagáil"
+    },
+    "legal": {
+      "terms": [
+        "Téarma",
+        "agus coinníollacha"
+      ],
+      "privacy": "Príobháideachas sonraí",
+      "license": "Ceadúnais Bogearraí",
+      "disclaimer": "Séanadh Dlíthiúil",
+      "branding": "Treoirlínte Brandála",
+      "support": "Tacaithe ag",
+      "version": "Leagan",
+      "made": "Déanta ag capaillíní le",
+      "phpstorm": "agus phpstorm",
+      "trademark": "Is trádmharcanna d'fhorbróirí Equestria.dev iad \"Equestria.dev\" agus ainmneacha gaolmhara sa Fhrainc agus i dtíortha eile. Cosnaítear na lógónna Equestria.dev agus Tionscadail faoi dhlíthe cóipchirt is infheidhme. Is trádmharcanna cláraithe de JetBrains S.R.O. iad JetBrains, na lógónna gaolmhara agus na hainmneacha gaolmhara, a úsáidtear faoi cheadúnas."
+    },
+    "contact": {
+      "email": "Seol ríomhphost chugainn"
+    }
+  },
+  "footer": {
+    "copyright": "Gach ceart ar cosaint."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Ardán bogearraí",
+        "Is féidir leat",
+        "ag brath ar"
+      ],
+      "cta": "Féach cad a dhéanaimid"
+    },
+    "categories": {
+      "dev": {
+        "title": "Forbairt",
+        "description": "Le breis agus 5 bliana de thaithí i bhforbairt bogearraí, i raon leathan teangacha - mar shampla meirge, javascript, kotlin nó php - is féidir leat a bheith cinnte go bhforbróimid bogearraí ardchaighdeáin chun cabhrú leat do chuid riachtanas a chomhlíonadh, cibé an gnó thú nó duine aonair.",
+        "cta": "Féach ar thionscadail"
+      },
+      "network": {
+        "title": "Líonrú",
+        "description": "An raibh a fhios agat go ndeachaigh an téacs seo trí 3 fhreastalaí Equestria.dev éagsúla ar a laghad sular shroich tú tú? Agus ár mblianta taithí againn maidir le freastalaithe a bhainistiú - Linux den chuid is mó - is féidir linn aon iarratas a bharrfheabhsú go hiomlán le feidhmiú ar a chuid is fearr beag beann ar ualach an fhreastalaí.",
+        "cta": "Amharc ar an mbonneagar"
+      },
+      "privacy": {
+        "title": "Príobháideachas",
+        "description": "Bhí príobháideachas, slándáil agus cosaint sonraí úsáideora i gcónaí ina gcroíluachanna. Nuair is féidir-agus is gá-, bainimid úsáid as teicneolaíocht chriptithe ghrád míleata láidir, agus déanaimid cinnte go bhfuil sonraí úsáideora sábháilte agus cosanta i gcónaí ó chineálacha éagsúla ionsaithe.",
+        "cta": "Doiciméid a léamh"
+      }
+    },
+    "contact": {
+      "title": "An bhfuil iarratas speisialta agat?",
+      "description": "Más mian leat go gcabhróimis le tionscadal de do chuid féin, cibé an bhfuil sé maidir le forbairt, freastalaithe nó príobháideachas agus slándáil a bhainistiú, is féidir linn cabhrú leat. Thig leat teachtaireacht a scaoileadh chugainn agus feicfimid cad is féidir linn a dhéanamh.",
+      "cta": "Seol teachtaireacht chugainn"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Iarratas neamhbhailí",
+      "401": "Teastaíonn fíordheimhniú",
+      "403": "Séantar iontráil",
+      "404": "Ní bhfuarthas an leathanach",
+      "500": "Earráid Freastalaí Inmheánach",
+      "501": "Níl sé ar fáil fós",
+      "502": "Earráid freastalaí in aghaidh srutha",
+      "503": "Tá an freastalaí neamh -inúsáidte",
+      "504": "Freastalaí in aghaidh srutha uainithe amach",
+      "default": "Earráid Chóras Anaithnid"
+    },
+    "descriptions": {
+      "400": "Tá iarracht déanta agat iarratas a sheoladh chuig an bhfreastalaí nach féidir leis a phróiseáil. Níor chóir go dtarlódh sé seo de ghnáth, ach d'fhéadfadh sé a bheith ina shaincheist le do bhrabhsálaí. Má theastaíonn cabhair uait chun é seo a shocrú, is féidir leat teagmháil a dhéanamh linn.",
+      "401": "Tá iarracht déanta agat leathanach a bhaint amach a éilíonn fíordheimhniú gan a bheith fíordheimhnithe. De ghnáth cabhraíonn an leathanach a athnuachan leis an gceist seo a shocrú. Mura bhfuil dintiúir agat chun an leathanach seo a fhíordheimhniú, is féidir leat dul ar ais go dtí an leathanach baile.",
+      "403": "Tá iarracht déanta agat teacht ar leathanach nach bhfuil inrochtana ón láithreán gréasáin seo. De ghnáth is amhlaidh atá i gcás comhad inmheánach a úsáidtear ar an bhfreastalaí. Má lean tú nasc ón suíomh gréasáin seo agus má tháinig tú anseo, ansin caithfidh rud éigin a bheith mícheart.",
+      "404": "Má lean tú nasc ón suíomh gréasáin seo, ansin caithfidh rud éigin a bheith mícheart. Má lean tú nasc seachtrach, ansin is féidir go bhfuil an nasc mícheart agus go gcaithfear é a nuashonrú. Má chuaigh tú isteach sa seoladh féin, is féidir go ndearna tú rud éigin a mhílitriú.",
+      "500": "Tharla earráid ar an bhfreastalaí agus tú ag iarraidh d'iarratas a phróiseáil nach mbaineann le cumraíocht do bhrabhsálaí. Is fabht nó saincheist shealadach é seo go ginearálta. Má mhaireann sé, is féidir leat a chur in iúl dúinn faoin gceist ionas gur féidir linn é a shocrú.",
+      "501": "Baineann an leathanach a rinne tú iarracht a bhaint amach úsáid as gné freastalaí nár cuireadh i bhfeidhm ar an láithreán gréasáin go fóill. Is iondúil gur obair idir lámha é an leathanach a bhfuil tú ag iarraidh a bhaint amach agus beidh sé ar fáil amach anseo.",
+      "502": "Braitheann an leathanach seo ar acmhainn nó ar fhreastalaí seachtrach nach bhfuil ar fáil ag an am seo. De ghnáth léiríonn sé seo briseadh ar cheann amháin nó níos mó dár bhfreastalaithe. Má mhaireann an tsaincheist, déan teagmháil linn ionas gur féidir linn é seo a shocrú.",
+      "503": "Braitheann an leathanach seo ar acmhainn inmheánach nach bhfuil ar fáil ag an am seo. Ciallaíonn sé seo go hiondúil go bhfuil an acmhainn, an láithreán gréasáin nó an freastalaí faoi chothabháil agus nach bhfuil sé ar fáil faoi láthair. Seiceáil ár leathanach stádais le haghaidh tuilleadh eolais.",
+      "504": "Braitheann an leathanach seo ar acmhainn nó ar fhreastalaí seachtrach nach raibh in ann teacht air in am. Is iondúil go léiríonn sé seo briseadh nó mall foriomlán. Má mhaireann an tsaincheist, déan teagmháil linn ionas gur féidir linn é seo a shocrú.",
+      "default": "Tharla earráid gan doiciméid. Nílimid cinnte cad a chuaigh mícheart, ach is féidir leis an gcód earráide cabhrú leat. Má theastaíonn cabhair uait, déan teagmháil linn le do thoil ionas gur féidir linn é seo a shocrú. Gabhaimid leithscéal ó chroí as an míchaoithiúlacht."
+    },
+    "actions": {
+      "home": "Téigh ar ais go dtí an leathanach baile",
+      "status": "Oscail an leathanach stádais",
+      "email": "Déan teagmháil linn trí ríomhphost"
+    },
+    "title": "Earráid"
+  },
+  "project": {
+    "actions": {
+      "source": "Cód foinse",
+      "website": "Suíomh gréasáin oifigiúil"
+    },
+    "update": "Nuashonraithe deireanach",
+    "archive": "Cartlannú le haghaidh"
+  },
+  "archive": {
+    "title": "Cartlann"
+  },
+  "status": {
+    "main": [
+      "Tá na seirbhísí go léir ag feidhmiú mar ainmniúil",
+      "Tá roinnt seirbhísí ag fulaingt díghrádaithe feidhmíochta",
+      "Tá roinnt seirbhísí ag baint le roinnt seirbhísí"
+    ],
+    "description": [
+      "Táimid tar éis breathnú ar fheidhmíocht ainmniúil agus mhaith na seirbhísí go léir arna n -óstáil ag Equestria.dev i láthair na huaire.",
+      "Tá sé tugtha faoi deara againn go bhfuil roinnt seirbhísí equestria.dev, cé go bhfuil siad feidhmiúil, níos moille ná mar is gnách.",
+      "Táimid tar éis an t -am a bhreathnú i roinnt seirbhísí equestria.dev, rud a fhágann nach féidir teacht orthu le tamall anuas."
+    ],
+    "affected": [
+      "Bíonn tionchar ag an eachtra seo ar an tseirbhís seo a leanas:",
+      "Bíonn tionchar ag an eachtra seo ar na seirbhísí seo a leanas:"
+    ],
+    "stats": {
+      "items": [
+        "Meán -latency Service:",
+        "Cuimhne iomlán a úsáidtear:",
+        "Stóráil Iomlán Úsáidte:",
+        "Iomlán an chumhacht ríofa atá ar fáil:",
+        "Taisce:",
+        "Uasmhéid I/O Latency:",
+        "croíleac",
+        "Córais oibriúcháin:",
+        "Próisis Iomlán"
+      ],
+      "title": "Staidreamh",
+      "used": "úsáid"
+    },
+    "title": "Stádas córas",
+    "page": "Féach ar an Leathanach Stádas Iomlán",
+    "update": "Nuashonraithe deireanach"
+  },
+  "months": [
+    "Mí Eanáir",
+    "Mí Feabhra",
+    "Márta",
+    "Mí Aibreáin",
+    "Ar mhaith leat?",
+    "Mí an Mheithimh",
+    "Mí Iúil",
+    "Lúnasa",
+    "Mí Mheán Fómhair",
+    "Deireadh Fómhair",
+    "Mí na Samhna",
+    "Mí na Nollag"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Bainistíocht Ábhar agus Séanadhóirí",
+        "Mura bhfuil ábhar cruthaithe ag an úsáideoir i láthair, tá an t-ábhar arna óstáil ar ardán Equestria.dev faoi fhreagracht",
+        "Cé go ndéanaimid an oiread iarrachta agus is féidir chun faisnéis chruinn a sholáthar d'úsáideoirí, ní féidir leis na forbróirí Equestria.Dev a ráthú maidir le beacht na faisnéise a sholáthraíonn ár n -ardáin. Dá bhrí sin, d'fhéadfadh an t -eolas ar ár n -ardáin a bheith neamhghníomhach nó as dáta."
+      ],
+      "title": "Séanadh Dlíthiúil",
+      "privacy": "Má theastaíonn níos mó sonraí uait riamh, déan teagmháil linn go díreach. Coinnítear roinnt faisnéise i bhfolach ar chúiseanna príobháideachais.",
+      "servers": "Suíomhanna freastalaí",
+      "locations": "Bainistíonn Equestria.Dev líonraí a chuireann sonraí úsáideora a aistriú sa Fhrainc, sa Ghearmáin agus sna Stáit Aontaithe. Ní luaitear líonraí nach n -úsáidtear ach chun críocha inmheánacha Equestria.dev agus nach luaitear sonraí úsáideora ar an leathanach seo.",
+      "property": "Freastalaithe faoi mhaoin:",
+      "physical": "Suíomh fisiciúil neas:",
+      "isp": "Soláthraí Seirbhíse Idirlín:",
+      "us": "Nasc do chónaitheoirí neamh-SAM",
+      "data": "Iarrataí ar shonraí úsáideora",
+      "howto": "Ar chóir do Equestria.dev Rochtain nó Scriosadh Sonraí Úsáideora, Ríomhphost ina bhfuil seoladh IP an úsáideora, aon aitheantóirí feiste (más infheidhme), ní mór ID Cuntais Equestria.dev (más infheidhme) a sheoladh ón seoladh ríomhphoist a bhaineann leis an gcuntas Equestria.dev (más infheidhme) leis an seoladh ríomhphoist seo a leanas:",
+      "law": "De réir na rialachán forfheidhmithe dlí, ní féidir le Equestria.dev logaí freastalaí atá níos lú ná 3 mhí d'aois a scriosadh.",
+      "gov": "Barántas canárach",
+      "pgp": "Is teachtaireacht PGP é seo a síníodh leis an eochair seo a leanas:",
+      "key": "Féach an eochair phoiblí iomlán",
+      "alt": "Foinse Malartach",
+      "plain": "Féach ar Chanary Barántas (osclaíonn sé i gcluaisín nua)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Ár lógó",
+        "message": "Ná cuir in eagar, athraigh, saobhadh, athchruthú, ná athchumrú an lógó equestria.dev."
+      },
+      "icon": {
+        "title": "Deilbhín amháin",
+        "message": "Bain úsáid astu seo ach amháin nuair a bhíonn an branda Equestria.dev le feiceáil go soiléir, tá sé bunaithe go maith in áiteanna eile ar an leathanach nó sa dearadh, nó ní cheadaíonn an spás an leagan iomlán a thaispeáint. Nuair a bhíonn amhras ort, bain úsáid as an gceann eile."
+      },
+      "spacing": {
+        "title": "Spásáil",
+        "message": "Bí cinnte go bhfuil meas agat ar na treoirlínte spásála seo agus an lógó Equestria.dev á úsáid agat. Ina theannta sin, déan cinnte go ndéanann tú an lógó mór go leor le bheith inléite agus in -idirdhealaithe.",
+        "scale": "x = \".DEV\" Airde téacs.",
+        "notice": "."
+      },
+      "dont": {
+        "messages": [
+          "Ná cuir an lógó nó an Wordmark in eagar, athraigh ná athchumrú",
+          "Ná déan an lógó nó an Wordmark a shaobhadh lena n -áirítear go neamhbheartaithe",
+          "Ná déan athchruthú nó cuir i bhfeidhm éifeachtaí amhairc ar an lógó nó ar an Wordmark",
+          "Ná cuir cliblíne ná aon ghné eile thar an lógó nó an focal Wordmark"
+        ],
+        "descriptions": [
+          "Áirítear leis seo gan an lógó a rothlú agus aon téacs nó cruth a athrú, chomh maith le spásáil a choinneáil idir na heilimintí éagsúla den lógó iomlán.",
+          "Ní féidir leat an lógó a shaobhadh ná a dhífhoirmiú ar bhealach ar bith, cibé an bhfuil sé i bhfráma 2D nó 3D. Ina theannta sin, déan cinnte go dtaispeántar an lógó i gceart i ngach cás.",
+          "Ní mór an lógó agus an Wordmark araon a choinneáil mar atá, gan aon athrú datha ar chor ar bith. Más gá duit liathscála a úsáid, bain úsáid as na leaganacha monacrómacha.",
+          "Cinntigh nach bhforluíonn na taglines (más infheidhme) aon ghné den lógó. Ina theannta sin, ná tacú le ceadú nó urraíocht nuair nach bhfuil aon cheann ann."
+        ],
+        "too": {
+          "text": [
+            "Cinntigh nach dtaispeántar an branda Equestria.dev níos suntasaí ná an t -ainm, an lógó nó an branda de do tháirge nó do sheirbhís féin.",
+            "D'fhéadfadh mearbhall a bheith mar thoradh ar \"an iomarca\" a dhéanamh agus a dhéanamh go gceapann úsáideoirí go bhfuil siad ag tabhairt aghaidh ar shuíomh gréasáin oifigiúil Equestria.dev, nó ar tháirge oifigiúil Equestria.dev."
+          ],
+          "title": "Ná déan an iomarca"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Lógó Equestria.dev:",
+              "a úsáidtear faoi cheadúnas"
+            ],
+            "product": [
+              "[Ainm an Tionscadail] Lógó",
+              "ainm an tionscadail"
+            ]
+          },
+          "title": "Ná húsáid gan sannadh",
+          "message": "Agus an lógó Equestria.dev nó aon lógó tionscadail á úsáid agat, tabhair sannadh i gcónaí le ceachtar de na téacsanna seo a leanas:"
+        },
+        "impersonation": {
+          "text": [
+            "Ní cheadaítear an branda Equestria.dev in ábhair neamh-HECESTRIA.DEV. Baineann an srian céanna le branda Equestria.dev a bheochan, agus é á chomhcheangal le haon fhocail, siombailí, íomhánna, nó dearaí eile, nó é a ionchorprú i mana nó i gcliblíne.",
+            "Ina theannta sin, tá cosc ​​iomlán ar ainm nó cosúlacht duine ó laistigh de Equestria.dev nó an grúpa ina iomláine in aon chuntas meán sóisialta nó sna meáin eile."
+          ],
+          "title": "Ná déan aithris ná neamhphearsanta"
+        },
+        "endorsement": {
+          "text": [
+            "Is mór againn, áfach, nach dtugann muid le fios ar bhealach ar bith cleamhnacht, urraíocht, formhuiniú nó ceadú do tháirgí nó do sheirbhísí le Equestria.dev gan cead sainráite Equestria.dev. Ní mór duit comhoibriú a bheith bunaithe go foirmiúil i scríbhinn le comhaontú ó Equestria.dev sula dtagraíonn tú don chomhoibriú sin le Equestria.dev.",
+            "Ciallaíonn sé seo nach gceadaítear an téacs amhail \"Faofa ag Equestria.dev\", \"Equestria.dev deimhnithe\" nó \"Molta ag Equestria.dev\"."
+          ],
+          "title": "Ná tabhair le tuiscint formhuiniú cá bhfuil aon cheann ann"
+        },
+        "title": "Ní dhéanann"
+      },
+      "color": {
+        "formats": {
+          "title": "Formáid Chód Dath:",
+          "oklch": "Oklch (próifíl srgb)",
+          "rgb": "RGB heicsidheachúlach (8-giotán)",
+          "cmyk": "Cmyk (caighdeánach)"
+        },
+        "list": [
+          "Solas an phríomhthaorach",
+          "Príomh -dorcha",
+          "Solas tánaisteach",
+          "Dorchadas tánaisteach",
+          "Cúlra",
+          "Ar chúlra",
+          "Solas dearfach",
+          "Dearfach Dorcha",
+          "Solas neodrach",
+          "Dorchadas neodrach",
+          "Solas diúltach",
+          "Dorcha dorcha",
+          "Tar chun tosaigh",
+          "Ar dromchla"
+        ],
+        "title": "Pailéad dathanna",
+        "intro": "Cruthaíodh an pailéad dathanna equestria.dev, darb ainm \"Brightdawn\" (tar éis Misty Brighdawn, an carachtar ó My Little Pony) chun ár gcroíluachanna a léiriú: cuimsitheacht, cairdeas agus trédhearcacht. Tá sé bunaithe ar an pailéad \"Misty\" bunaidh a úsáideadh i 2023 a nuashonraíodh chun dathanna níos gile a chur san áireamh."
+      },
+      "more": {
+        "title": "Ag lorg níos mó?",
+        "text": "Íoslódáil an trealamh branda Equestria.dev iomlán agus faigh rochtain ar na hacmhainní go léir a d'úsáid muid chun ár lógó a chruthú, mar aon le malairtí speisialta a úsáidtear i gcoinníollacha sonracha, lena n -áirítear dearaí fréamhshamhla agus bileoga dearaidh eile.",
+        "cta": "Íoslódáil leagan 3",
+        "notice": "Cuimsíonn sé leaganacha 1 agus 2 freisin"
+      },
+      "page": "Treoirlínte Brandála",
+      "title": "Treoirlínte Brandála Equestria.dev",
+      "intro": "Ag Equestria.dev, glacaimid rudaí agus conas a dhéanann tú ionadaíocht dáiríre ar ár mbranda. Ba chóir go mbeadh an branda Equestria.dev ina mbogearraí foinse oscailte ardchaighdeáin, simplí agus príobháideach. Má úsáideann tú ár sócmhainní brandála le haghaidh rud ar bith, bí cinnte go bhfuil meas agat ar na treoirlínte seo.",
+      "copyright": "Tá lógó agus táirgí Equestria.dev cosanta ag dlíthe cóipchirt is infheidhme sa Fhrainc, sna Stáit Aontaithe, agus i dtíortha eile. Tugann Equestria.dev ceadúnas teoranta saor ó ríchíosa, neamh-eisiach, saor ó ríchíosa a dheonú chun a lógó a úsáid mar atá sainithe ag na treoirlínte seo a leanas. Rialaíonn na treoirlínte seo freisin úsáid an lógó Equestria.dev ar fud ár seirbhísí féin. Meastar gur sárú ar mhaoin intleachtúil Equestria.dev é mainneachtain cloí leis agus go mbeidh caingean dlí mar thoradh air."
+    },
+    "privacy": {
+      "sections": [
+        "Príobháideacht ar na Seirbhísí Ar Líne Equestria.dev",
+        "Príobháideacht ar na hiarratais Equestria.dev",
+        "Príobháideacht ar Sheirbhísí nó Feidhm ar Líne Equestria.dev a chomhtháthaíonn le comhpháirteanna tríú páirtí",
+        "Freagracht Equestria.dev as sonraí príobháideacha úsáideora a chosaint"
+      ],
+      "text": [
+        [
+          "Ní shábhálfaidh Equestria.dev ach an t -eolas a thugann tú dúinn go sainráite (mar shampla, mar chuid de fhoirm chlárúcháin). Ní bhaileofar aon sonraí eile.",
+          "Mar chuid, mar chuid de fhorfheidhmiú an dlí, baileoidh Equestria.dev seoltaí IP agus faisnéis bhrabhsálaí eile (ainm an bhrabhsálaí, leagan, córas oibriúcháin, URL, agus dáta) ar feadh suas le 365 lá. Scriostar an fhaisnéis seo gach bliain i mí Eanáir.",
+          "Ina theannta sin, féadfaidh Equestria.dev, mar chuid de cháilíocht agus iontaofacht a chuid seirbhísí a fheabhsú, faisnéis gan ainm a bhailiú go hiomlán, lena n -áirítear na leathanaigh a dtugann tú cuairt orthu, gan aon sonraí pearsanta féideartha a áireamh. Déantar an fhaisnéis seo gan ainm sula ndéantar é a chomhiomlánú i staitisticí, agus stóráiltear an fhaisnéis bhunaidh mar a luadh i 1 §2 (féach thuas)."
+        ],
+        [
+          "Baineann an chuid seo le hiarratais atá \"suiteáilte\" (inrochtana fiú gan seirbhís shonrach ó equestria.dev) go gléas úsáideora, agus a luaithe a thosaíonn an t -úsáideoir an próiseas suiteála.",
+          "Ní dhéanfaidh iarratais Equestria.dev monatóireacht, stóráil, cur isteach nó cosc ​​ar iompar feidhmchlár eile. Cibé an bhfuil an t -iarratas ag rith nó gan a bheith soiléir don úsáideoir i gcónaí.",
+          "D'fhéadfadh roinnt iarratas, tar éis don úsáideoir a dtoiliú soiléir agus soiléir a thabhairt (lena n -áirítear tar éis don úsáideoir an cineál sonraí a bhaileofar a bhailiú), sonraí staitistice gan ainm a bhailiú mar chuid de cháilíocht agus iontaofacht na n -iarratas seo a fheabhsú. Tugtar an rogha i gcónaí d'úsáideoir stop a chur leis na staitisticí seo a sheoladh chuig Equestria.dev gan aon athrú ar an gcaoi a n -iompraíonn an t -iarratas."
+        ],
+        [
+          "Nuair a chomhtháthaíonn seirbhís nó feidhmchlár ar líne Equestria.dev le comhpháirt tríú páirtí, téann an Polasaí Príobháideachais ón tríú páirtí sin i bhfeidhm ar na hoibríochtaí go léir a láimhseálann an tríú páirtí seo.",
+          "Nuair a bhíonn an chomhpháirt tríú páirtí mar an phríomhoibríocht a dhéileálann an tseirbhís ar líne nó an feidhmchlár, tá feidhm ag an bpolasaí príobháideachais ón tríú páirtí. Nuair a bhíonn an chomhpháirt tríú páirtí ina oibríocht thánaisteach laistigh den tseirbhís nó an t -iarratas ar líne, tá feidhm ag beartas príobháideachais Equestria.dev ar dtús.",
+          "Sa chás go mbraitheann Polasaí Príobháideachta Tríú Páirtí le seirbhís nó feidhmchlár ar líne Equestria.dev ag brath ar athruithe, cuirfear úsáideoirí ar líne nó feidhmchlár ar líne Equestria.dev ar an eolas faoi na hathruithe agus an tionchar a bhíonn aige ar an mbealach a bhfuil siad acu Bain úsáid as an tseirbhís nó an feidhmchlár ar líne."
+        ],
+        [
+          "Tá Equestria.dev freagrach go hiomlán as sonraí príobháideacha agus pearsanta úsáideora a fháil (mura bhfuil baint ag tríú páirtí leis an bpróiseas, agus sa chás sin, mar a luadh i Roinn 3, glactar freagracht an tríú páirtí).",
+          "Sa chás go ndéantar an fhaisnéis sin a phoibliú, m.sh., trí ionraitheoirí a íoslódáil sonraí ó fhreastalaithe Equestria.dev, cuirfear úsáideoirí ar an eolas faoin gceist a luaithe is féidir, agus tabharfar treoracha dóibh más gá.",
+          "Níl aon spéis ag Equestria.dev sonraí úsáideora a dhíol, a thabhairt ar shiúl nó a nochtadh agus ní dhéanfaidh sé iarracht aon cheann de na hoibríochtaí seo a dhéanamh ag am ar bith."
+        ]
+      ],
+      "translation": [
+        "Séanadh:",
+        "Sa chás go n -aistrítear an polasaí príobháideachais seo go teanga eile, níl ach an leagan Béarla infheidhme go dlíthiúil. Cuirtear na leaganacha aistrithe ar fáil chun críocha faisnéise amháin."
+      ],
+      "title": "Príobháideachas sonraí",
+      "bigtitle": "Rialacha Príobháideachais Sonraí Equestria.dev",
+      "intro": "Ag Equestria.dev, is mór againn do phríobháideacht. Déanaimid iarracht an méid sonraí agus is féidir a bhailiú chun an tseirbhís a bhfuil súil agat a sholáthar duit. Ainneoin, déantar cóireáil sonraí Equestria.dev de réir an Rialachán um Chosaint Sonraí Ginearálta Eorpach."
+    },
+    "terms": {
+      "translation": [
+        "Séanadh:",
+        "Sa chás go n -aistrítear na téarmaí agus na coinníollacha seo go teanga eile, níl ach an leagan Béarla infheidhme go dlíthiúil. Cuirtear na leaganacha aistrithe ar fáil chun críocha faisnéise amháin."
+      ],
+      "sections": [
+        "Séanadh",
+        "Déimeagrafaic",
+        "Críosaí",
+        "Forfheidhmiú an dlí",
+        "Cáilíocht agus iontaofacht seirbhísí seirbhísí",
+        "Meas frithpháirteach agus comhionannas"
+      ],
+      "text": [
+        [
+          "B'fhéidir nach gceadófar d'úsáideoirí sonracha seirbhísí ar líne Equestria.dev a úsáid ag brath ar a suíomh nó a riocht fisiciúil.",
+          "Níl cead ag úsáideoirí atá lonnaithe sa tSín, sa Chóiré Thuaidh, agus i roinnt tíortha eile seirbhísí ar líne a úsáid. Is féidir leis na riarthóirí eisceachtaí a dhéanamh ar bhonn in aghaidh an cháis.",
+          "Níl cead ag daoine atá níos óige ná 13 bliana d'aois na seirbhísí ar líne a úsáid ar chor ar bith. B'fhéidir nach mbeidh rochtain ag úsáideoirí atá níos lú ná 21 bliain d'aois ar ghnéithe sonracha."
+        ],
+        [
+          "Tugann Equestria.dev cead uathúil, in-chúlghairthe, neamh-in-athraithe chun rochtain a fháil ar na seirbhísí ar líne.",
+          "Ní cheadaítear na seirbhísí ar líne a úsáid i ngníomhaíocht brabúis ar bith, is cuma cé mhéad brabúis a dhéantar, agus mar thoradh air sin cuirfear deireadh leis an rochtain ar na seirbhísí ar líne láithreach."
+        ],
+        [
+          "Agus seirbhís á húsáid ag Equestria.dev a úsáid, aontaíonn úsáideoir gan an tseirbhís a úsáid le haghaidh aon oibríochta atá mídhleathach sa Fhrainc nó sna Stáit Aontaithe. Thairis sin, ní féidir le hoibríochtaí úsáideora cosc ​​a chur ar úsáideoirí eile a gcuid oibríochtaí féin a dhéanamh.",
+          "Ní cheadaítear ábhar maslach nó foréigneach, cód mailíseach nó bogearraí, nó ábhar goidte agus mar thoradh air sin cuirfear deireadh le rochtain láithreach."
+        ],
+        [
+          "Tá sé casta seirbhísí ar líne a óstáil agus tá equestria.dev ag rith ar ioncam an -teoranta.",
+          "Níor cheart go mbeadh na forbróirí agus na riarthóirí Equestria.dev faoi dhliteanas sa chás nach bhfuil seirbhís ar líne ag obair mar a bhí beartaithe. Déantar gach ardán ar líne a sheirbheáil mar nach bhfuil aon bharántas ar bith ann go n -oibreoidh sé mar a bhí beartaithe nó go n -oibreoidh sé ar chor ar bith ar feadh aon tréimhse áirithe ama.",
+          "Deir Equestria.dev go bhféadfadh na seirbhísí a óstáil siad a bheith mall nó nach féidir a thuar ag pointí neamhshonraithe in am, le rabhadh nó gan rabhadh. Ní dhéanann na riarthóirí aon ghealltanas maidir le céatadán sonrach infhaighteachta do sheirbhís ar leith i rith na bliana."
+        ],
+        [
+          "Nuair a bhíonn idirghníomhaíochtaí sóisialta i láthair, aontaíonn gach úsáideoir gan idirdhealú a dhéanamh ar a chéile mar gheall ar a gcoinníollacha sóisialta, fisiciúla nó síceolaíocha, lena n -áirítear a dtuairimí. Spreagtar úsáideoirí chun iompar míchuí den sórt sin a thuairisciú chun cabhrú leis na hardáin a choinneáil sábháilte do gach duine.",
+          "Tá cead ag gach úsáideoir a aithint mar is mian leo chomh fada is nach dtéann sé i bhfeidhm ar an mbealach a idirghníomhaíonn úsáideoirí eile leis an tseirbhís. Tá na féiniúlachtaí go léir bailí is cuma cá bhfuil siad.",
+          "Faigheann gach duine rochtain ar an tseirbhís chéanna, beag beann ar an áit ina gcónaíonn siad (mura bhfuil 1. infheidhme) agus cé hiad féin. Is mór ag Equestria.dev go mór an comhionannas agus an meas idir úsáideoirí agus éilíonn sé gur chóir d'úsáideoirí iompar míchuí a thuairisciú, cibé acu an sáraíonn sé na Téarmaí Seirbhíse seo nó nach bhfuil."
+        ]
+      ],
+      "title": "Téarmaí agus Coinníollacha",
+      "bigtitle": "Equestria.dev Téarmaí agus Coinníollacha Seirbhísí Óstach",
+      "intro": "Ní bhaineann na téarmaí úsáide seo a leanas ach le seirbhísí ar líne arna n -óstáil ag Equestria.dev, lena n -áirítear má tá rochtain ar an tseirbhís ar líne trí thríú páirtí. Níl iarratais nó seirbhísí “áitiúla” nach bhfuil á n -óstáil ag Equestria.dev faoi rialú ag na Téarmaí Úsáide seo ach trí Chomhaontú Ceadúnais agus Téarmaí Úsáide Soláthraí Óstála na Seirbhíse faoi seach."
+    },
+    "license": {
+      "translation": [
+        "Séanadh:",
+        "Sa chás go n -aistrítear na ceadúnais seo go teanga eile, níl ach an leagan Béarla infheidhme go dlíthiúil. Cuirtear na leaganacha aistrithe ar fáil chun críocha faisnéise amháin."
+      ],
+      "sections": [
+        "Bogearraí saor in aisce, libre agus foinse oscailte",
+        "Bogearraí “dílsithe” foinse dúnta"
+      ],
+      "text": [
+        [
+          "Meastar go bhfuil gach bogearra \"saor in aisce, libre agus foinse oscailte\" a scaoileann equestria.dev faoin bhfearann ​​poiblí an ceadúnas MIT, aon rogha chomhoiriúnach, nó saor ó chóipcheart. Mura bhfuil cóip de chomhaontú ceadúnais i láthair i gcód foinse na mbogearraí, nó má tá tagairt ar cheadúnas eile i láthair in áiteanna eile, scaoiltear bogearraí a bhfuil an cód foinse inrochtana go poiblí faoi na téarmaí ceadúnais seo a leanas:",
+          "Ceadúnas MIT",
+          "Tugtar cead leis seo, saor in aisce, d'aon duine a fhaigheann cóip de na bogearraí seo agus comhaid doiciméadúcháin ghaolmhara (na “bogearraí”), chun déileáil leis na bogearraí gan srian, lena n -áirítear gan teorainn a chur leis na cearta le húsáid, cóipeáil, modhnú, cumasc, cumasc , cóipeanna de na bogearraí a fhoilsiú, a dháileadh, a dháileadh, agus/nó a dhíol, agus cead a thabhairt do dhaoine a bhfuil na bogearraí ar fáil dóibh é sin a dhéanamh, faoi réir na gcoinníollacha seo a leanas:",
+          "Cuirfear an fógra cóipchirt thuas agus an fógra cead seo san áireamh i ngach cóip nó i gcodanna substaintiúla de na bogearraí.",
+          "Soláthraítear na bogearraí “mar atá”, gan bharántas de chineál ar bith, sainráite nó intuigthe, lena n -áirítear ach gan a bheith teoranta do na barántais incheannaitheachta, aclaíocht chun críche áirithe agus neamh -chomhréiteach. Ní bheidh na húdair ná na sealbhóirí cóipchirt faoi dhliteanas i gcás ar bith as aon éileamh, damáistí nó dliteanas eile, cibé acu i ngníomh conartha, tort nó eile, ag eascairt as, as nó i dtaca leis na bogearraí nó an úsáid nó na déileálacha eile sa Bogearraí."
+        ],
+        [
+          "I gcásanna áirithe, is féidir le forbróirí Equestria.dev a roghnú gan an cód foinse a scaoileadh le haghaidh píosa bogearraí ar leith. D’fhéadfadh sé seo a bheith toisc go ndéantar mí -úsáid nó mí -úsáid go héasca air, toisc go n -úsáideann sé ardán príobháideach, toisc go bhfuil faisnéis rúnda nó phríobháideach ann, nó cúis eile. Is féidir le forbróirí rogha a dhéanamh chun foinse oscailte bogearraí foinse dúnta a dhéanamh níos déanaí.",
+          "Trí na bogearraí a íoslódáil, a shuiteáil, a cheannach nó a úsáid, glacann tú leis na téarmaí ceadúnais seo. Mura nglacann tú leo, ná húsáid na bogearraí; Nó, má tá leagan foinse oscailte ar fáil, bain úsáid as an leagan foinse oscailte.",
+          "I ngach cás de bhogearraí foinse dúnta, ní mór d'úsáideoirí:",
+          "Bain úsáid as na bogearraí go docht chun críocha pearsanta agus ní ar mhaithe le brabús;",
+          "gan iarracht a dhéanamh na bogearraí a dhíchoimisiúnú, a mhodhnú, a fhoilsiú, a dháileadh, a dhíol ná a cheadúnú;",
+          "gan na bogearraí a úsáid ar bhealach atá mídhleathach sa Fhrainc nó sna Stáit Aontaithe;",
+          "gan na bogearraí a úsáid ar bhealach a d'fhéadfadh Equestria.dev a chur i mbaol;",
+          "gan na bogearraí a nochtadh in áiteanna poiblí ina bhféadfadh úsáideoirí é a úsáid gan aontú leis an gcomhaontú ceadúnais seo ar dtús",
+          "I gcás bogearraí íoctha, ní féidir le húsáideoirí rochtain a thabhairt ar na bogearraí saor in aisce do thríú páirtí. Meastar go bhfuil rochtain ar na bogearraí do ghaol (cara, teaghlach, ...) réasúnta, ach níor cheart go mbeadh sé níos mó ná 10 duine."
+        ]
+      ],
+      "title": "Ceadúnais Bogearraí",
+      "bigtitle": "Ceadúnais Bogearraí agus Foinsí Equestria.dev",
+      "intro": "Scaoileann Equestria.dev bogearraí i scéimeanna éagsúla ceadúnaithe, an chuid is mó den am faoi cheadúnais Libre."
+    }
+  },
+  "_name": "Gaeilge",
+  "title": "Equestria.dev: Ardán Bogearraí is féidir leat brath air",
+  "language": "Roghnóir teanga"
+}

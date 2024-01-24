@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "sicondu",
+      "sicondi"
+    ],
+    "minute": [
+      "minutu",
+      "minuti"
+    ],
+    "hour": [
+      "ora",
+      "ore"
+    ],
+    "day": [
+      "ghjornu",
+      "ghjorni"
+    ],
+    "week": [
+      "settimana",
+      "settimane"
+    ],
+    "month": [
+      "mese",
+      "Mesi"
+    ],
+    "year": [
+      "annu",
+      "anni"
+    ],
+    "age": [
+      "età",
+      "età"
+    ],
+    "ago": "fa",
+    "later": "dopu",
+    "now": "avà"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Progetti",
+      "network": "Reta",
+      "contact": "Cuntattura",
+      "legal": "Legale"
+    },
+    "projects": {
+      "archives": "Vede i nostri prughjetti archiviati"
+    },
+    "network": {
+      "status": [
+        "Tutti i sistemi operativi",
+        "Rendimentu Degradatu",
+        "Outage principale"
+      ],
+      "account": "U vostru contu",
+      "infra": "INFORTRACTUTURA",
+      "security": "Cunsiglieri di sicurezza",
+      "bugs": "Tracker bug",
+      "blog": "Blog"
+    },
+    "legal": {
+      "terms": [
+        "Termini",
+        "È e cundizioni"
+      ],
+      "privacy": "A privacy di dati",
+      "license": "Licenze di software",
+      "disclaimer": "Disclaimers ghjuridichi",
+      "branding": "LUITE DI Branding",
+      "support": "Supportatu da",
+      "version": "Versione",
+      "made": "Fattu da poni cù",
+      "phpstorm": "è phpstorm",
+      "trademark": "\"Equestrusc.dedV\" è nome associate sò degracci di sviluppatori Eighterria.de in Francia è di Altri paesi. I loghi equestria.dev è prughjetti sò protetti sottu leggi di copyright applicabili. Jetbrains, l'logos assuciati è i nomi associati sò di quadri registrati di Jetbrains S.r.O., utilizate in licenza."
+    },
+    "contact": {
+      "email": "Mandateci un email"
+    }
+  },
+  "footer": {
+    "copyright": "Tutti i diritti riservati."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Piattaforma di software",
+        "poi",
+        "cunà nantu à"
+      ],
+      "cta": "Vede ciò chì facemu"
+    },
+    "categories": {
+      "dev": {
+        "title": "Sviluppu",
+        "description": "Cù più di 5 anni di sperienza in sviluppu software, in una larga gamma di lingue - cum'è ruggiu, javascar, kotlin o blotlin è fissà a vostra necessità, sia sì un impresa o un individuu.",
+        "cta": "Vede prughjetti"
+      },
+      "network": {
+        "title": "Rete",
+        "description": "Sapete chì stu testu hà attraversatu almenu 3 servitori di l'equestria diffirenti prima di ghjunghje? Cù i nostri anni di sperienza in servitori gestione - opinire principalmente - ottimite à qualsiasi applicazione per fà in u so megliu indipendente di a carica di u servitore.",
+        "cta": "Vede infrastruttura"
+      },
+      "privacy": {
+        "title": "A privacy",
+        "description": "A privacy, a sicurità è prutegge i dati d'utilizatori sò sempre stati di i nostri valori core. Ogni volta chì hè pussibule tecnulugia è necessità -, usemu tecnulugia di crescita di robuste, è femu chì l'usu di dati hè sempre sicuru è prutettu da vari tippi di attacchi.",
+        "cta": "Leghje documenti"
+      }
+    },
+    "contact": {
+      "title": "Avè una dumanda speciale?",
+      "description": "Se vulete chì ci aiuta cun un prugettu di sè stessu, sia hè in ricuperazione, i servitori di gestione o a privacy è a sicurità, pudemu aiutà. Sentite liberu di abbandunà un missaghju è videremu ciò chì pudemu fà.",
+      "cta": "Mandateci un missaghju"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Richiesta micca valida",
+      "401": "Autentificazione necessaria",
+      "403": "L'accessu hè ricusatu",
+      "404": "Pagina micca trovu",
+      "500": "Errore di servitore internu",
+      "501": "Micca dispunibule",
+      "502": "Errore di servitore upstream",
+      "503": "U servitore hè inaccessibile",
+      "504": "U servitore upstream hà timatu",
+      "default": "Errore di sistema scunnisciutu"
+    },
+    "descriptions": {
+      "400": "Avete pruvatu à mandà una dumanda à u servitore chì ùn pò micca prucessà. Questu ùn deve micca generalmente, ma puderia indica un prublema cù u vostru navigatore. Sè avete bisognu d'aiutu per risolve questu, sentite liberu di cuntattateci.",
+      "401": "Avete pruvatu à ghjunghje à una pagina chì esige l'autentificazione senza esse autentificatu. Rinfrescante a pagina di solitu aiuta à risolve questu prublema. Se ùn avete micca credenziali per autentificà per sta pagina, pudete turnà à a pagina di a casa.",
+      "403": "Avete pruvatu à ghjunghje à una pagina chì ùn hè micca accessibile da stu situ web. Questu hè generalmente u casu per i fugliali interni chì sò usati nantu à u servitore. Se avete seguitu un ligame da stu situ web è sò ghjuntu quì, allora qualchissia deve esse sbagliata.",
+      "404": "Sì avete seguitu un ligame da stu situ web, allora qualcosa deve esse sbagliatu. Se avete seguitu un ligame esternu, allora hè pussibile chì u ligame hè sbagliatu è hà bisognu à esse aghjurnatu. Sè avete intrutu in l'indirizzu sè stessu, hè pussibile sbagliate qualcosa.",
+      "500": "Un errore hè accadutu in u servitore mentre prova di processà a vostra dumanda chì ùn hè micca in relazione à a vostra cunfigurazione di u navigatore. Questu hè generalmente un bug o un prublema tempurale. Si persiste, pudete fà sapè di u prublema per pudemu risolve.",
+      "501": "A pagina chì avete pruvatu à ghjunghje à usa una funzione di u servitore chì ùn hè micca stata implementata in u situ web. Questu hè generalmente perchè a pagina chì prova di ghjunghje hè un travagliu in u prugressu è serà dispunibule in u futuru.",
+      "502": "Questa pagina dipende da una risorsa o un servitore esternu chì ùn hè micca dispunibule in questu momentu. Questu tipicamenti indica un outage nantu à una o più di i nostri servitori. Se u prublema persiste, cuntattateci cusì pudemu risolve questu.",
+      "503": "Questa pagina dipende da una risorsa interna chì ùn hè micca dispunibule in questu momentu. Stu tipicamenti significa chì u risorsu, u situ web o u servitore hè in mantenimentu è hè attualmente indisponibile. Verificate a nostra pagina di statutu per più infurmazione.",
+      "504": "Questa pagina dipende da una risorsa o un servitore esternu chì ùn era micca pussutu esse ghjunghje à tempu. Questu tipicamenti indica un vestitu o un in generale lento. Se u prublema persiste, cuntattateci cusì pudemu risolve questu.",
+      "default": "Un errore micca documentatu hè accadutu. Ùn sapemu micca micca chì andavanu male, ma l'errore di errore pò aiutà. Sè avete bisognu d'aiutu, per piacè cuntattateci cù noi per pudemu risolve questu. Scusemu sinceramente per l'inconveniente."
+    },
+    "actions": {
+      "home": "Vultà à a pagina di casa",
+      "status": "Apre a pagina di statutu",
+      "email": "Cuntattateci per email per email"
+    },
+    "title": "Errore"
+  },
+  "project": {
+    "actions": {
+      "source": "Codice di fonte",
+      "website": "Site Uffiziu Ufficiale"
+    },
+    "update": "Ultimu aghjurnatu",
+    "archive": "Archivatu per"
+  },
+  "archive": {
+    "title": "Archivi"
+  },
+  "status": {
+    "main": [
+      "Tutti i servizii operanu cum'è nominale",
+      "Certi servizii sò sperienze di degradazione di u rendiment",
+      "Alcune servizii sò sperienze una prestazione maiò"
+    ],
+    "description": [
+      "Avemu osservatu nominale è bonu rendimentu di tutti i servizii allughjati da Equestria.dev à u mumentu.",
+      "Avemu osservatu chì certi servizii Equestria.dev, mentre funziunali, sò più lagnori chì i solitu.",
+      "Avemu osservatu u tempu in certi servizii equestria.dev, chì facendu inaccessibili per qualchì tempu."
+    ],
+    "affected": [
+      "U seguente serviziu hè affettatu da questu incidente:",
+      "I seguenti servizii sò affettati da questu incidente:"
+    ],
+    "stats": {
+      "items": [
+        "Latenza media di serviziu:",
+        "Memoria Totale:",
+        "Storaghju Totale Usatu:",
+        "POWER TOTALE DISPONIBILE COMPLET:",
+        "cache:",
+        "Massimu I / O Latences:",
+        "Cores",
+        "Sistemi Operativi:",
+        "prucessi Totali"
+      ],
+      "title": "E salute",
+      "used": "Usatu"
+    },
+    "title": "Statutu di sistemi",
+    "page": "Vede a pagina di status completa",
+    "update": "Ultimu aghjurnatu"
+  },
+  "months": [
+    "Ghjinnaghju",
+    "Febbraiu",
+    "Marzu",
+    "Aprile",
+    "Maghju",
+    "Ghjugnu",
+    "Lugliu",
+    "Aostu",
+    "Sittembre",
+    "Ottobre",
+    "Nuvembre",
+    "Dicembre"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Management di u cuntenutu è i disclaimers",
+        "A menu chì in presenza di u cuntenutu creatu d'Usuariu, u cuntenutu hà ospitu nantu à a piattaforma di l'equestria.dev hè sottu a rispunsabilità di",
+        "Ancu se femu quant'è pussibule per furnisce l'utilizatori è u sviluppatori precarati, i sviluppatori Equestraria ùn pò micca garantisce a precisità di l'infurmazioni furnite da e nostre piattaforme. Dunque, l'infurmazioni nantu à e nostre piattaforme ponu esse inexacti o inutili."
+      ],
+      "title": "Disclaimers ghjuridichi",
+      "privacy": "Se avete mai bisognu di più dettagli, per piacè cuntattateci direttamente. Alcune informazioni sò mantenuti ammucciati per mutivi di privacy.",
+      "servers": "Locu di servitore",
+      "locations": "Equestria.dev Ganage Networks A transither a dati di utente in Francia, Germania è i Stati Uniti. A rete chì sò usati solu per i scopi interni equestria.V è chì ùn TRANCU DATE I dati d'utilizatori ùn sò micca citati in questa pagina.",
+      "property": "Servitori sottu a pruprietà di:",
+      "physical": "Situazione fisica apprussimativa:",
+      "isp": "Fornitore di servizii Internet:",
+      "us": "LINK PER RESIDENTI NON-US",
+      "data": "Richieste di dati d'utilizatori",
+      "howto": "In casu di l'accessu à l'utente di l'utente di l'utente equestria.DeV, un email chì cuntene l'indirizzu IP di l'utilizatore, qualsiasi identificatori di u dispositivu.de (se applicabile) deve esse mandatu da l'indirizzu email assuciatu cù u cuntu Equestria.dev (se applicabile) à u seguente indirizzu email:",
+      "law": "Sicondu a regulazione di i pretendimenti di a lege, Equestria.dev hè incapace di sguassà i ghjurnali di u servitore chì sò menu di 3 mesi.",
+      "gov": "Canaria ghjustificata",
+      "pgp": "Questu hè un messagiu PGP firmatu cù a seguente chjave:",
+      "key": "Vede a chjave publica completa",
+      "alt": "fonte alternativa",
+      "plain": "Vede Canary Canary (Apertura in una nova tabulazione)"
+    },
+    "branding": {
+      "logo": {
+        "title": "U nostru logo",
+        "message": "Per piacè ùn edità, cambià, distorte, ricolore, ricolore di u phobbiu Equestraria.deval."
+      },
+      "icon": {
+        "title": "Icona solu",
+        "message": "Aduprà questi solu quandu a marca Equestria.dev chjara hè chjaramente visibile, hè stata bella prima volta da quì a pagina o in u disignu, o spaziu ùn permettenu micca mostrà a versione completa. Quandu in dubbitu, aduprà l'altru."
+      },
+      "spacing": {
+        "title": "Spazzendu",
+        "message": "Assicuratevi di rispettà queste linee di spazii spaziali mentre utilizanu u Logo Equestria.ded. Inoltre, assicuratevi di fà u logu abbastanza grande per esse leggibile è distinguibili.",
+        "scale": "x = \".dev\" altezza di testu.",
+        "notice": "(A versione solu l'icona hè cunsigliata in spazi duve duvete mustrà u logò in dimensioni menu di 96 pixel o 52,8 millimetri, finu à 24 pixels)"
+      },
+      "dont": {
+        "messages": [
+          "Ùn edite micca, cambià o riconfigurate u logu o u wordmark",
+          "Ùn distortate u logu o a wordmark chì includenu senza intenzione",
+          "Ùn ricolate micca o applicà effetti visuale à u logu o a parolla",
+          "Ùn mette micca un tagline o qualsiasi altru elementu nantu à u logu o u wordmark"
+        ],
+        "descriptions": [
+          "Questu include micca rotare u logu è u cambiamentu di qualsiasi testu o forma, inseme cù u mantenimentu di i sfarenti elementi di u logò tutale.",
+          "Ùn deve micca distorsià o deformà u logu in ogni modu, sia in un quadru 2D o 3D. Inoltre, assicuratevi chì u logu hè visualizata bè in tutti i casi.",
+          "Tramindui u logu è wordmark deve esse mantenutu cum'è, cù nimu mudifica di culore in nunda. Sè avete bisognu d'utilizà grigia, utilizate i varianti monocromi.",
+          "Assicuratevi chì i tagline (se applicabile) ùn superanu mai ogni elementu di u logu. Inoltre, ùn appruvà micca l'approvazione o a sponsorizazione quandu ùn ci hè nimu."
+        ],
+        "too": {
+          "text": [
+            "Assicuratevi chì a marca Equestria.dev ùn hè micca affissata più prominente cà u nome, logò o marca di u vostru propiu pruduttu o serviziu.",
+            "Fate \"troppu\" puderia guidà à cunfusione è fà l'utilizatori chì facenu affruntà sia u situ ufficiale ucturale.de, o un pruduttu ufficiale.dev."
+          ],
+          "title": "Ùn fate micca troppu"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Logo EighRe.Vev:",
+              "usatu in licenza"
+            ],
+            "product": [
+              "[Logo di Prughjettu]",
+              "nomu di prughjettu"
+            ]
+          },
+          "title": "Ùn aduprate micca senza attribuzione",
+          "message": "Quandu aduprate u logo equestria.dev o qualsiasi logò di prughjettu, dà sempre l'attribuzione cù una di e seguenti testi:"
+        },
+        "impersonation": {
+          "text": [
+            "Immergendu a marca equestria.dev in i materiali non-equestria.dev ùn hè micca permessu. A stiscia ripressione si applica per anima a marca Egestraria.V, Combinendu da qualsiasi altre parole, cumminate micca, stampa, o disegno, o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline o tagline.",
+            "Inoltre, aduprendu u nome o a similitudine di un individuu da l'evanzia.dev o u gruppu in ogni contu di media suciale o altre media hè strettamente pruibita."
+          ],
+          "title": "Ùn imitate o impersonate"
+        },
+        "endorsement": {
+          "text": [
+            "L'invelaborazione di valore, però, ùn in ogni modu impicule, di sponsorida, entera o appruvazione di i vostri prudutti o servizii cù permissione di spessa di l'eccasione.5 $. Avete da avè una cuuperazione stabilita in scrittura cù un accordu da Equestria.dev prima di riferisce à una tale cooperazione cù Equestria.dev.",
+            "Questu significa testu cum'è \"appruvatu da iquestria.v\", \"equestria.dev certificata\" o \"rommata da equestria.dev\" ùn hè micca permessu."
+          ],
+          "title": "Ùn implica micca a fine induve ùn ci hè nimu"
+        },
+        "title": "Micca"
+      },
+      "color": {
+        "formats": {
+          "title": "Formatu di u Codice di Colore:",
+          "oklch": "Oklch (Profil SRGB)",
+          "rgb": "RGB hexadecimal (8-bit)",
+          "cmyk": "CMYK (standard)"
+        },
+        "list": [
+          "Luce primaria",
+          "Scuru scuru",
+          "Luce secundaria",
+          "Scuru secundariu",
+          "Fondo",
+          "Nantu à u fondo",
+          "Luce pusitiva",
+          "Scuru pusitivu",
+          "Luce neutrale",
+          "Scuru neutru",
+          "Luce negativa",
+          "Scuru negativu",
+          "Superficia",
+          "Nantu à a superficia"
+        ],
+        "title": "Paletta di culore",
+        "intro": "U palette egestria.dev, u caratteru di u mo Picculu PIAZZA \"(dopu ObTCETTA, hè stata creata per riflette i nostri valori core: inclusività, amicizia è trasparenza. Hè basatu nantu à a paletta originale \"Misty\" aduprata in 2023 aghjurnatu per include culori più brillanti."
+      },
+      "more": {
+        "title": "Cerchi più?",
+        "text": "Scarica u kit di a marca piena è attentre à tutti i risorse chì avemu usatu Stagno",
+        "cta": "Scaricà versione 3",
+        "notice": "Include ancu e versioni 1 è 2"
+      },
+      "page": "LUITE DI Branding",
+      "title": "Guida di BrandingVercia Equestria.V",
+      "intro": "A Equestria.dev, Pigliamu e cose è cumu ti rapprisenta a nostra marca in sessi. U marca Equestria.V deve rapprisintà a qualità, u software apertu simplice è privatu. Se utilizate i nostri assi di marca per qualcosa, assicuratevi di rispettà queste linee di guida.",
+      "copyright": "U logò è i prudutti equestrusce.V sò prutetti per legge di copyright applibili in Francia, i Stati Uniti, è altri paesi. Equestria.devr tirants voi un permessu micca trasferibile, non-esclusivu, Royalty-Free / Free Limited per aduprà u so logu cum'è definitu da e seguenti linee. Queste viidità regulanu questu usu di u logu Equestria.dev durante i nostri propri servizii. U fallimentu di abidire hè cunsideratu un violamentu nantu à a pruprietà intellettuale di l'equestria.Ve è purtà à l'azzione legale."
+    },
+    "privacy": {
+      "sections": [
+        "A privacy on The Equestria.dev Lister OnlineV",
+        "A privacy in l'applicazioni equestria.dev",
+        "A privacy in l'equestria.dev in ligna o l'applicazione chì integrà cù cumpunenti di terzu partitu",
+        "A responsabilità di l'equestria.dev in prutezzione di i dati privati ​​di un utilizatore"
+      ],
+      "text": [
+        [
+          "Equestria.dev.Varà solu l'infurmazioni vi dete esplicitamente (per esempiu, cum'è parte di una forma di registrazione). Nisun altru dati seranu racolti.",
+          "Eppuru, cum'è parte di a legge applicà l'indirizzu IP da custruisce l'indirizzi iP è di l'altri infurmazioni di navigatore (nome di u nubagliu, versione, sistema opermazione, url, è a data) per 365 ghjorni. Questa informazione hè eliminata ogni annu in ghjennaghju.",
+          "Inoltre, Equestria.decondiv, A volta di migliurà a qualità è a affidabilità di i so servizii, reagle infurmazioni anonimi, cumprese e pagine di dati persunali potenziale. Questa informazione hè fatta anonimata prima di esse agregatu in statistiche, è l'infurmazioni originali sò almacenati cum'è mencionati in 1§2 (vede sopra)."
+        ],
+        [
+          "Questa seccazzione hè applicata à l'applicazioni chì sò \"stallate ancu\" seria senza serviziu specificu da l'equestre.dev) à un utente di un utilizatore chì principia u prucessu d'installazione.",
+          "L'applicazioni Equestria.dev ùn anu mai monitorà, magazzinu, disturbà o prevene l'altri cumpurtamentu di l'applicazioni. Sia l'applicazione corre o ùn sarà micca chjaru à l'utilizatore à tuttu u tempu.",
+          "Alcune l'applicazioni maghju, dopu un utilizatore hà datu u so accunsentu esplicista è Clear (chì hà bisognu, un utilizatore chì hà ricunnisciutu datu dati in unaynosia cum'è parte di e migliurà di queste applicazioni. Un utilizatore hè sempre datu l'opzione di piantà di mandà queste statistiche à l'equestria.dev senza alcuna cambiamentu di ciò chì cumporta l'applicazione."
+        ],
+        [
+          "Quandu un serviziu in ligna o l'applicazione in linea equestria, l'applicazione di terzu, a pulitica di u terzu hà fattu l'effettu nantu à tutte e operazioni chì sò manipulati da stu terzu partitu.",
+          "Quandu u cumpunente terzu custituisce l'operazione principale di u serviziu in linea o e maniche di l'applicazione, a pulitica di privacy da a terza parte applica in priorità. Quandu u cumpunente di a terza parte custituisce una operazione secundaria in u serviziu in linea o l'applicazione, l'applicazione di a pulitica di privacy è l'equestria.Vi.",
+          "In casu chì a pulitica di privacy di un terzu dipende da un serviziu in ligna equestria.Vè in i cambiamenti, l'utilizatori di a SEMPRE E APPLICAZIONE ELESTRIA DI I CAMBIE E COME AFFETTA A VIA ENA Aduprà u serviziu o l'applicazione in linea."
+        ],
+        [
+          "Equestria.dev hè completamente rispunsevule di assicurà e dati privati ​​di un utilizatore (salvu chì un terzu hè participatu à u prucessu, in u quali casu, cum'è a so rispunsabilità di a Terza Partita).",
+          "In l'eventuale chì tanta infurmazione hè fatte publica ,..G., da intrudi à a scaricamentu di dati da i servitori Equestrori.devre.V's",
+          "Equestria.dee.dee.5v ùn hà interessu à Vendita, rinunzià o esponendu dati di l'utilizatori è ùn anu micca daderà alcuna di queste operazioni in ogni mumentu."
+        ]
+      ],
+      "translation": [
+        "Disclaimer:",
+        "In casu chì questa pulitica di privacy hè tradutta in un'altra lingua, solu a versione inglese hè legalmente applicabile. E versioni trasversali sò furnite solu per scopi d'infurmazioni."
+      ],
+      "title": "A privacy di dati",
+      "bigtitle": "Equestria.deeD.V di e regule di privacy di dati",
+      "intro": "À ETTRIA.CE.V, valore a vostra privacy. Pruvamu di cullà cum'è pocu dati pussibule per furniscevi u serviziu chì aspetta. Indipendentemente, u trattamentu di dati di i Equestria.V hè fatta in cunfurmità cù a regulazione di prutezzione di dati generale di dati di dati europeu."
+    },
+    "terms": {
+      "translation": [
+        "Disclaimer:",
+        "In casu chì questi Termini è Cundizioni sò traduzzioni in un'altra lingua, solu a versione inglese hè legalmente applicabile. E versioni trasversali sò furnite solu per scopi d'infurmazioni."
+      ],
+      "sections": [
+        "Disclaimer",
+        "Demografia",
+        "Scopi",
+        "Infurzamentu di a lege",
+        "I servizii di qualità è affidabilità",
+        "Rispettu mutuale è uguaglianza"
+      ],
+      "text": [
+        [
+          "L'utilizatori specifichi ùn ponu micca esse permessi di utilizà i servizii in linea di l'equestria.Vè in u so locu o cundizione fisica.",
+          "L'utilizatori chì si trovanu in Cina, Corea di u Nordu, è certi altri paesi ùn sò micca permessi di aduprà servizii in ligna. L'eccezzioni ponu esse fatta nantu à una basa per l'amministratori.",
+          "L'individui chì sò legalmente più ghjovani di 13 anni ùn sò micca permessi di aduprà i servizii in linea. Utilizatori chì sò menu di 21 anni ùn pò micca avè accessu à e caratteristiche specifiche."
+        ],
+        [
+          "L'equestria.devr identificati l'utilizatori unichi, permissione revucabile, micca scambiu di accede à i servizii in ligna.",
+          "Aduprendu i servizii in linea in una attività di prufittu ùn hè micca permessu, ùn importa quantu profittu hè fattu, è averanu da a terminazione immediata di l'accessu à i servizii in ligna."
+        ],
+        [
+          "Quandu utilizate un serviziu hosted da Equestria.dev, un utilizatore accunsente per ùn aduprà u serviziu per qualsiasi operazione chì hè illegale in Francia o di i Stati Uniti. Inoltre, l'operazioni d'utilizatore ùn deve micca impedisce chì l'altri utilizatori di fà e so propie operazioni.",
+          "Publicà un cuntenutu abusivu o viulente, codice maliziusu o u so prugrammu, o u cuntenutu arrubatu ùn hè micca permessu è resultarà in terminazione immediata di accessu."
+        ],
+        [
+          "I servizii in ligna Hosting hè cumplicatu è Equestria.dev hè in esecuzione in u redditu assai limitatu.",
+          "I sviluppatori è l'amministrazioni equestria ùn deve micca esse responsabili in l'eventu un serviziu in linea ùn hè micca travagliatu cum'è destinatu. Tutti i piatti in ligna sò servuti cum'è senza guaranzia chì hà da travaglià cum'è destinatu o travagliu per tuttu u periodu di tempu.",
+          "Equestria.dev i Stati chì i servizii chì ospitanu ponu esse lenti o inaccessibili in i punti micca specificati in u tempu, cù o senza avvisu. L'amministratori ùn facenu micca prumessu in quantu à un percentuale specificu di dispunibilità per un serviziu datu in tuttu l'annu."
+        ],
+        [
+          "Quandu l'interazzioni suciali sò presenti, tutti l'utilizatori accunsenu ùn discriminanu l'altre causavanu di e so cundizioni sociali, fisiche o psicologiche, cumprese e so opinioni. L'utilizatori sò incuraghjiti à rapportà un tali cumpurtamentu inappropriatu per aiutà à mantene e piattaforme sicura per tutti.",
+          "Tutti l'utilizatori sò liberi di identificà cumu si volenu quantunque ùn afecta micca u modu chì l'altri utilizatori interagiscenu cù u serviziu. Tutte l'identità sò validi ùn importa induve sò.",
+          "Tuttu u mondu face l'accessu à u listessu serviziu esattamente, independentemente da induve campanu (salvu chì 1. hè applicabile) è quale sò. Equestration.devond neur valurale ugualità è rispettu trà l'utilizatori è l'insistii chì anu da rapportà cumpurtamentu inappropriatu, sia viola questi Termini di serviziu o micca."
+        ]
+      ],
+      "title": "Termini è Cundizioni",
+      "bigtitle": "Termini è cundizioni di servizii è e cundizioni di servizii è e cundizioni",
+      "intro": "I seguenti termini applicanu solu in servizii in ligna accolta da equilire.dev, cumprese si u serviziu online hè accessu à un terzu. \"Applicazioni\" Locali \"o servizii chì ùn sò micca ospiti da Equestria.dev ùn sò micca guvernati da questi Termini d'Utilizà Ma Per u so Accordu di Licenza è u Provender di u serviziu"
+    },
+    "license": {
+      "translation": [
+        "Disclaimer:",
+        "In casu chì questi licenzii sò struiti in un'altra lingua, solu a versione inglese hè legalmente applicabile. E versioni trasversali sò furnite solu per scopi d'infurmazioni."
+      ],
+      "sections": [
+        "Libera, libre è software di fonte aperta",
+        "Software di u Proprietariu \"Chiusu\""
+      ],
+      "text": [
+        [
+          "Hè cunsideratu \"libera, libre è opera\" tutti i software chì sortasa chì eluscate i suttoriati sottu, sia u duminiu publicu mit, ogni licenza compustizia-gratis. A menu chì una copia di un accordu di licenza hè presente in u codice fonte di u prugrammu, o una minittuariu di una altra licenza hè prisente in altre cosa, u sodware chì codice fonte hè liberatu sottu i seguenti Termini:",
+          "Mit licenza",
+          "Permissione hè quì Dite, Gratuitu, à qualsiasi Persona di uttene una Copia di stu software è i fugliali di documenti è di soft \", per trattà senza restrizione, cumprese senza limitazione i diritti , Publite, distribuisce, subità, è / o vende copie di u prugrammu, è per permettenu à e persone à quale u software hè furnitu cusì",
+          "L'avvisu di copyright sopra è questu avvisu di permissione deve esse inclusu in tutte e copie o porzioni sustanziale di u software.",
+          "U prugrammu hè fatturatu \"cum'è hè\", senza garanzia di ogni tipu, espressa o implicata, cumprese, ma micca limitata à e garanzii di a cumpitenza è di un pocu particulare. In nisun avvenimentu deve esse responsabili o copyright per qualsiasi dichjarazione, danni o altre responsabilità, sia in una azione di cuntrattu, tort o in cunnessione o di l'altri tratti in u Software."
+        ],
+        [
+          "In certi casi, ucestria.devali sviluppatori puderanu sceglie di ùn piacè u codice di fonte per un pezzu specificu. Questu pò perchè hè facilmente abusu o miseditu, perchè usa una piattaforma privata, perchè cuntene infurmazione cunfidenziale o privata, o altra ragione. I sviluppatori ponu sceglie di fà un software di u software di fonte chjusu dopu.",
+          "Scaricendu, installazione, acquistendu o aduprendu u software, accettate questi termini di licenza. Se ùn l'accetta micca, ùn utilizate micca u software; O sè un variante apertu hè dispunibule, aduprate a variante aperta.",
+          "In tutti i casi di software di fonte chjusu, l'utilizatori devenu:",
+          "Aduprate u software strettamente per scopi persunali è micca per u prufittu;",
+          "micca tentativu di decompile, mudificà, publicà, distribuite, vende o licenza u software;",
+          "ùn aduprate micca u prugrammu in una manera illegale in Francia o di i Stati Uniti;",
+          "ùn aduprate micca u software in un modu chì puderia mette l'equestria.dev à u risicu;",
+          "Ùn espone micca u software in i posti publichi induve l'utilizatori puderanu usà senza prima d'accordu à questu accordu di licenza",
+          "In casu di un software pagatu, l'utilizatori ùn deve micca dà l'accessu à u prugrammu per un terzu di terzu. Dendu accessu à u prugrammu per un parente (amicu, famiglia, ...) hè cunsideratu razionalizatu, ma ùn deve micca soprattuttu 10 persone."
+        ]
+      ],
+      "title": "Licenze di software",
+      "bigtitle": "U software equestria.dev è licenze di fonti",
+      "intro": "Equestria.devate.Vigazione software in una varietà di schema di leczia, a maiò parte di u tempu sottu à i licenze di libre."
+    }
+  },
+  "_name": "Corsu",
+  "title": "Equestria.dev: Platform di Software pudete cunfidassi",
+  "language": "Selettore di lingua"
+}

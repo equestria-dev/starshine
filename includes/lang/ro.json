@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "al doilea",
+      "secunde"
+    ],
+    "minute": [
+      "minut",
+      "minute"
+    ],
+    "hour": [
+      "ora",
+      "ore"
+    ],
+    "day": [
+      "zi",
+      "zile"
+    ],
+    "week": [
+      "săptămână",
+      "săptămâni"
+    ],
+    "month": [
+      "lună",
+      "luni"
+    ],
+    "year": [
+      "an",
+      "ani"
+    ],
+    "age": [
+      "vârstă",
+      "vârste"
+    ],
+    "ago": "în urmă",
+    "later": "mai tarziu",
+    "now": "acum"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Proiecte",
+      "network": "Reţea",
+      "contact": "a lua legatura",
+      "legal": "Legal"
+    },
+    "projects": {
+      "archives": "Vedeți proiectele noastre arhivate"
+    },
+    "network": {
+      "status": [
+        "Toate sistemele operaționale",
+        "Performanță degradată",
+        "Întrerupere majoră"
+      ],
+      "account": "Contul tău",
+      "infra": "Infrastructură",
+      "security": "Consilieri de securitate",
+      "bugs": "Bug Tracker",
+      "blog": "Blog"
+    },
+    "legal": {
+      "terms": [
+        "Termeni",
+        "și condiții"
+      ],
+      "privacy": "Confidențialitatea datelor",
+      "license": "Licențe software",
+      "disclaimer": "Renunțări legale",
+      "branding": "Ghiduri de branding",
+      "support": "Susținut de",
+      "version": "Versiune",
+      "made": "Făcut de ponei cu",
+      "phpstorm": "și phpstorm",
+      "trademark": "„Equestria.dev” și numele asociate sunt mărci comerciale ale dezvoltatorilor Equestria.dev din Franța și în alte țări. Logo -urile Equestria.Dev și proiecte sunt protejate în conformitate cu legile aplicabile ale drepturilor de autor. JetBrains, logo -urile asociate și numele asociate sunt mărci comerciale înregistrate ale JetBrains S.R.O., utilizate sub licență."
+    },
+    "contact": {
+      "email": "Trimite-ne un e-mail"
+    }
+  },
+  "footer": {
+    "copyright": "Toate drepturile rezervate."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Platforma software",
+        "puteți",
+        "a te baza pe"
+      ],
+      "cta": "Vedeți ce facem"
+    },
+    "categories": {
+      "dev": {
+        "title": "Dezvoltare",
+        "description": "Cu peste 5 ani de experiență în dezvoltarea de software, într -o gamă largă de limbi - cum ar fi Rust, JavaScript, Kotlin sau PHP -, puteți fi sigur că vom dezvolta software de calitate pentru a vă ajuta să vă îndepliniți nevoile, indiferent dacă sunteți o afacere sau un individ.",
+        "cta": "Vizualizați proiecte"
+      },
+      "network": {
+        "title": "Rețele",
+        "description": "Știați că acest text a trecut prin cel puțin 3 servere Equestria.dev diferite înainte de a vă ajunge? Cu anii noștri de experiență în gestionarea serverelor - în principal Linux -, putem optimiza pe deplin orice aplicație pentru a efectua cel mai bine, indiferent de încărcarea serverului.",
+        "cta": "Vizualizați infrastructura"
+      },
+      "privacy": {
+        "title": "Confidențialitate",
+        "description": "Confidențialitatea, securitatea și protejarea datelor utilizatorilor au fost întotdeauna cele ale valorilor noastre de bază. Ori de câte ori este posibil-și este necesar-, folosim tehnologie robustă de criptare de calitate militară și ne asigurăm că datele utilizatorilor sunt întotdeauna sigure și protejate de diferite tipuri de atacuri.",
+        "cta": "Citiți documente"
+      }
+    },
+    "contact": {
+      "title": "Aveți o cerere specială?",
+      "description": "Dacă doriți să vă ajutăm cu un proiect propriu, fie că este vorba despre dezvoltare, gestionare a serverelor sau a confidențialității și securității, vă putem ajuta. Simțiți -vă liber să ne aruncați un mesaj și vom vedea ce putem face.",
+      "cta": "Trimite-ne un mesaj"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Cerere invalida",
+      "401": "Autentificare necesara",
+      "403": "Accesul este interzis",
+      "404": "Pagina nu a fost gasita",
+      "500": "Internal Server Error",
+      "501": "Nu este disponibil încă",
+      "502": "Eroare la server în amonte",
+      "503": "Serverul este de neatins",
+      "504": "Serverul din amonte a expirat",
+      "default": "Eroare de sistem necunoscută"
+    },
+    "descriptions": {
+      "400": "Ați încercat să trimiteți o solicitare către server pe care nu o poate procesa. În general, acest lucru nu ar trebui să se întâmple, dar ar putea indica o problemă cu browserul dvs. Dacă aveți nevoie de ajutor pentru a remedia acest lucru, nu ezitați să ne contactați.",
+      "401": "Ați încercat să ajungeți la o pagină care necesită autentificare fără a fi autentificat. Reîmprospătarea paginii ajută de obicei la rezolvarea acestei probleme. Dacă nu aveți acreditări pentru autentificare pentru această pagină, puteți reveni la pagina principală.",
+      "403": "Ați încercat să ajungeți la o pagină care nu este accesibilă de pe acest site web. Acesta este de obicei cazul fișierelor interne care sunt utilizate pe server. Dacă ați urmat un link de pe acest site web și ați ajuns aici, atunci ceva trebuie să fie greșit.",
+      "404": "Dacă ați urmat un link de pe acest site web, atunci ceva trebuie să fie greșit. Dacă ați urmat o legătură externă, atunci este posibil ca linkul să fie incorect și să fie actualizat. Dacă ați introdus singur adresa, este posibil să fiți greșit ceva.",
+      "500": "A apărut o eroare pe server în timp ce încercați să prelucrați solicitarea dvs. care nu are legătură cu configurația browserului. Aceasta este, în general, o eroare sau o problemă temporară. Dacă persistă, ne puteți informa despre această problemă, astfel încât să o putem remedia.",
+      "501": "Pagina pe care ați încercat să o atingeți folosește o caracteristică de server care nu a fost implementată încă pe site -ul web. Acest lucru se datorează de obicei pentru că pagina pe care încercați să o atingeți este o lucrare în curs și va fi disponibilă în viitor.",
+      "502": "Această pagină depinde de o resursă externă sau de un server care nu este disponibilă în acest moment. Acest lucru indică de obicei o întrerupere pe unul sau mai multe dintre serverele noastre. Dacă problema persistă, contactați -ne pentru a putea rezolva acest lucru.",
+      "503": "Această pagină depinde de o resursă internă care nu este disponibilă în acest moment. Acest lucru înseamnă, de obicei, că resursa, site -ul sau serverul este sub întreținere și este în prezent indisponibil. Verificați pagina noastră de stare pentru mai multe informații.",
+      "504": "Această pagină depinde de o resursă externă sau de un server care nu a putut fi contactată la timp. Acest lucru indică de obicei o întrerupere sau o încetinire generală. Dacă problema persistă, contactați -ne pentru a putea rezolva acest lucru.",
+      "default": "A apărut o eroare fără documente. Nu suntem siguri ce a mers greșit, dar codul de eroare vă poate ajuta. Dacă aveți nevoie de ajutor, vă rugăm să luați legătura cu noi, astfel încât să putem rezolva acest lucru. Ne cerem scuze sincer pentru neplăceri."
+    },
+    "actions": {
+      "home": "Reveniți la pagina principală",
+      "status": "Deschideți pagina de stare",
+      "email": "Contactați -ne prin e -mail"
+    },
+    "title": "Eroare"
+  },
+  "project": {
+    "actions": {
+      "source": "Cod sursa",
+      "website": "Site oficial"
+    },
+    "update": "Ultima actualizare",
+    "archive": "Arhivat pentru"
+  },
+  "archive": {
+    "title": "Arhive"
+  },
+  "status": {
+    "main": [
+      "Toate serviciile funcționează ca nominal",
+      "Unele servicii se confruntă cu degradarea performanței",
+      "Unele servicii se confruntă cu o întrerupere majoră"
+    ],
+    "description": [
+      "Am observat o performanță nominală și bună a tuturor serviciilor găzduite de Equestria.dev în acest moment.",
+      "Am observat că unele servicii Equestria.dev, în timp ce sunt funcționale, sunt mai lente decât de obicei.",
+      "Am observat timp în unele servicii Equestria.dev, ceea ce le face inaccesibile de ceva timp."
+    ],
+    "affected": [
+      "Următorul serviciu este afectat de acest incident:",
+      "Următoarele servicii sunt afectate de acest incident:"
+    ],
+    "stats": {
+      "items": [
+        "Latența medie a serviciului:",
+        "Memorie totală folosită:",
+        "Depozitare totală utilizată:",
+        "Power de calcul total disponibil:",
+        "Cache:",
+        "Latență maximă I/O:",
+        "nuclee",
+        "Sisteme de operare:",
+        "procese totale"
+      ],
+      "title": "Statistici",
+      "used": "folosit"
+    },
+    "title": "Starea sistemelor",
+    "page": "Vizualizați pagina de stare completă",
+    "update": "Ultima actualizare"
+  },
+  "months": [
+    "ianuarie",
+    "februarie",
+    "Martie",
+    "Aprilie",
+    "Mai",
+    "iunie",
+    "iulie",
+    "August",
+    "Septembrie",
+    "octombrie",
+    "noiembrie",
+    "decembrie"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Gestionarea conținutului și renunțările",
+        "Cu excepția cazului în care în prezența conținutului creat de utilizator, conținutul găzduit pe platforma Equestria.Dev este sub responsabilitatea",
+        "Chiar dacă depunem cât mai mult efort pentru a oferi utilizatorilor informații exacte, dezvoltatorii Equestria.dev nu pot garanta precisitatea informațiilor furnizate de platformele noastre. Prin urmare, informațiile de pe platformele noastre pot fi inexacte sau depășite."
+      ],
+      "title": "Renunțări legale",
+      "privacy": "Dacă aveți vreodată nevoie de mai multe detalii, vă rugăm să ne contactați direct. Unele informații sunt păstrate ascunse din motive de confidențialitate.",
+      "servers": "Locațiile serverului",
+      "locations": "Equestria.Dev gestionează rețelele care tranzitează datele utilizatorilor în Franța, Germania și Statele Unite. Rețelele care sunt utilizate doar pentru scopurile interne ale Equestria.dev și care nu tranzitează datele utilizatorilor nu sunt menționate pe această pagină.",
+      "property": "Servere sub proprietatea:",
+      "physical": "Locație fizică aproximativă:",
+      "isp": "Furnizor de servicii de internet:",
+      "us": "Link pentru rezidenții non-americani",
+      "data": "Cereri de date ale utilizatorilor",
+      "howto": "În cazul în care orice Equestria.dev solicită accesul sau ștergerea datelor utilizatorului, un e -mail care conține adresa IP a utilizatorului, orice identificator de dispozitiv (dacă este cazul), un ID de cont Equestria.dev (dacă este cazul) trebuie să fie trimis de la adresa de e -mail Asociat cu contul Equestria.dev (dacă este cazul) la următoarea adresă de e -mail:",
+      "law": "Conform reglementărilor de aplicare a legii, Equestria.Dev nu este în măsură să șteargă jurnalele de server care au mai puțin de 3 luni.",
+      "gov": "Garantează Canary",
+      "pgp": "Acesta este un mesaj PGP semnat cu următoarea cheie:",
+      "key": "Vizualizați cheia publică completă",
+      "alt": "sursă alternativă",
+      "plain": "Vizualizare Canary Warjd (se deschide într -o nouă filă)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Logo -ul nostru",
+        "message": "Vă rugăm să nu editați, să schimbați, să denaturați, să recolorați sau să reconfigurați logo -ul Equestria.dev."
+      },
+      "icon": {
+        "title": "Doar pictogramă",
+        "message": "Utilizați acestea numai atunci când marca Equestria.dev este clar vizibilă, a fost bine stabilită în altă parte pe pagină sau în design, sau spațiul nu permite să arate versiunea completă. Când aveți îndoieli, folosiți -l pe celălalt."
+      },
+      "spacing": {
+        "title": "Distanțare",
+        "message": "Asigurați -vă că respectați aceste orientări de distanțare în timp ce utilizați logo -ul Equestria.dev. În plus, asigurați -vă că faceți logo -ul suficient de mare pentru a fi lizibil și distinctiv.",
+        "scale": "x = \".dev\" Înălțimea textului.",
+        "notice": "(Versiunea doar pictograma este recomandată în spații în care trebuie să arătați logo -ul la dimensiuni mai mici de 96 de pixeli sau 52,8 milimetri, până la 24 de pixeli sau 13,2 milimetri)"
+      },
+      "dont": {
+        "messages": [
+          "Nu editați, modificați sau reconfigurați logo -ul sau Wordmark",
+          "Nu denaturați logo -ul sau semnul de cuvânt, inclusiv în mod neintenționat",
+          "Nu recolorați și nu aplicați efecte vizuale pe logo sau pemarcul Wordmark",
+          "Nu așezați o linie de etichetă sau orice alt element prin logo sau Wordmark"
+        ],
+        "descriptions": [
+          "Aceasta include faptul că nu rotiți logo -ul și schimbarea vreunui text sau formă, împreună cu menținerea distanțării între diferitele elemente ale logo -ului complet.",
+          "Nu trebuie să denaturați sau să deformați logo -ul în vreun fel, indiferent dacă este într -un cadru 2D sau 3D. În plus, asigurați -vă că logo -ul este afișat corect în toate cazurile.",
+          "Atât logo -ul, cât și Wordmark trebuie păstrat așa cum este, fără modificări de culoare. Dacă aveți nevoie să utilizați GraysCale, utilizați variantele monocrome.",
+          "Asigurați -vă că etichetele (dacă este cazul) nu se suprapun niciodată niciun element al logo -ului. În plus, nu susțineți aprobarea sau sponsorizarea atunci când nu există."
+        ],
+        "too": {
+          "text": [
+            "Asigurați -vă că marca Equestria.dev nu este afișată mai proeminent decât numele, logo -ul sau marca propriului produs sau serviciu.",
+            "A face „prea mult” ar putea duce la confuzie și îi poate face pe utilizatori să creadă că se confruntă fie cu site -ul oficial Equestria.dev, fie un produs oficial Equestria.dev."
+          ],
+          "title": "Nu face prea mult"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Equestria.Dev logo:",
+              "folosit sub licență"
+            ],
+            "product": [
+              "[Nume proiect] Logo",
+              "Denumirea proiectului"
+            ]
+          },
+          "title": "Nu folosiți fără atribuire",
+          "message": "Când utilizați logo -ul Equestria.dev sau orice logo al proiectului, acordați întotdeauna atribuire cu oricare dintre următoarele texte:"
+        },
+        "impersonation": {
+          "text": [
+            "Imitarea mărcii Equestria.dev în materiale non-equestria.dev nu este permisă. Aceeași restricție se aplică pentru animarea mărcii Equestria.dev, combinarea acesteia cu orice alte cuvinte, simboluri, imagini sau modele sau încorporarea acesteia într -un slogan sau o linie de etichetă.",
+            "În plus, utilizarea numelui sau asemănării unei persoane din Equestria.dev sau a grupului în ansamblu în orice cont de social media sau în alte media este strict interzisă."
+          ],
+          "title": "Nu imitați și nu vă improvizați"
+        },
+        "endorsement": {
+          "text": [
+            "Cu toate acestea, evaluăm colaborarea nu implică în niciun fel apartenența, sponsorizarea, aprobarea sau aprobarea produselor sau serviciilor dvs. cu Equestria.dev fără permisiunea expresă a Equestria.dev. Trebuie să aveți o cooperare stabilită oficial în scris cu un acord de la Equestria.dev înainte de a vă referi la o astfel de cooperare cu Equestria.dev.",
+            "Aceasta înseamnă că un text precum „Aprobat de Equestria.Dev”, „Equestria.Dev certificat” sau „Recomandat de Equestria.dev” nu este permis."
+          ],
+          "title": "Nu implicați aprobarea acolo unde nu există niciunul"
+        },
+        "title": "Nu"
+      },
+      "color": {
+        "formats": {
+          "title": "Format cod de culoare:",
+          "oklch": "OKLCH (profilul SRGB)",
+          "rgb": "RGB hexadecimal (8 biți)",
+          "cmyk": "CMYK (Standard)"
+        },
+        "list": [
+          "Lumina primară",
+          "Întuneric primar",
+          "Lumina secundară",
+          "Întuneric secundar",
+          "fundal",
+          "Pe fundal",
+          "Lumină pozitivă",
+          "Întuneric pozitiv",
+          "Lumina neutră",
+          "Întuneric neutru",
+          "Lumină negativă",
+          "Întuneric negativ",
+          "Suprafaţă",
+          "Pe suprafață"
+        ],
+        "title": "Paleta de culori",
+        "intro": "Paleta de culori Equestria.dev, numită „Brightdawn” (după Misty Brightdawn, personajul din My Little Pony) a fost creat pentru a reflecta valorile noastre de bază: incluziunea, prietenia și transparența. Se bazează pe paleta originală „Misty” folosită în 2023 actualizată pentru a include culori mai strălucitoare."
+      },
+      "more": {
+        "title": "Căutați mai multe?",
+        "text": "Descărcați kitul complet de marcă Equestria.dev și accesați toate resursele pe care le -am folosit pentru a crea logo -ul nostru, împreună cu variante speciale utilizate în condiții specifice, inclusiv proiecte de prototipuri și alte foi de proiectare.",
+        "cta": "Descărcați versiunea 3",
+        "notice": "Include, de asemenea, versiunile 1 și 2"
+      },
+      "page": "Ghiduri de branding",
+      "title": "Equestria.Dev Ghid de branding",
+      "intro": "La Equestria.Dev, luăm lucrurile și cum vă reprezentați în serios brandul. Brandul Equestria.Dev ar trebui să reprezinte software de calitate, simplă și privată open-source. Dacă utilizați activele noastre de branding pentru orice, vă rugăm să vă asigurați că respectați aceste orientări.",
+      "copyright": "Logo -ul și produsele Equestria.dev sunt protejate de legile aplicabile ale drepturilor de autor aplicabile în Franța, Statele Unite și alte țări. Equestria.Dev vă acordă o licență limitată netransmisibilă, neexclusivă, fără drepturi de autor pentru a-și utiliza logo-ul, așa cum este definit de următoarele orientări. Aceste orientări reglementează, de asemenea, utilizarea logo -ului Equestria.dev în întregul nostru servicii. Nerespectarea este considerată o încălcare a proprietății intelectuale a Equestria.Dev și va duce la acțiuni legale."
+    },
+    "privacy": {
+      "sections": [
+        "Confidențialitate pe serviciile online equestria.dev",
+        "Confidențialitate pe aplicațiile Equestria.dev",
+        "Confidențialitate pe serviciile online Equestria.dev sau aplicația care se integrează cu componentele terților",
+        "Responsabilitatea Equestria.Dev de a proteja datele private ale utilizatorului"
+      ],
+      "text": [
+        [
+          "Equestria.Dev va salva doar informațiile pe care ni le oferiți în mod explicit (de exemplu, ca parte a unui formular de înregistrare). Nu vor fi colectate alte date.",
+          "Cu toate acestea, ca parte a aplicării legii, Equestria.Dev va colecta adrese IP și alte informații ale browserului (numele browserului, versiunea, sistemul de operare, adresa URL și data) până la 365 de zile. Aceste informații sunt șterse în fiecare an în ianuarie.",
+          "Mai mult, Equestria.Dev poate, ca parte a îmbunătățirii calității și fiabilității serviciilor sale, să colecteze informații complet anonime, inclusiv paginile pe care le vizitați, excluzând orice date personale potențiale. Aceste informații sunt făcute anonime înainte de a fi agregate în statistici, iar informațiile originale sunt stocate așa cum este menționat în 1§2 (vezi mai sus)."
+        ],
+        [
+          "Această secțiune se aplică aplicațiilor care sunt „instalate” (accesibile chiar și fără un serviciu specific de la equestria.dev) pe dispozitivul unui utilizator și de îndată ce utilizatorul începe procesul de instalare.",
+          "Aplicațiile Equestria.Dev nu vor monitoriza, stoca, deranja sau împiedica comportamentul altor aplicații. Indiferent dacă aplicația rulează sau nu va fi clar pentru utilizator în permanență.",
+          "Unele aplicații pot, după ce un utilizator și -a dat consimțământul explicit și clar (inclusiv după ce un utilizator a recunoscut tipul de date care vor fi colectate), colectează date statistice anonime ca parte a îmbunătățirii calității și fiabilității acestor aplicații. Utilizatorului i se oferă întotdeauna opțiunea de a opri trimiterea acestor statistici către Equestria.dev fără nicio modificare a modului în care se comportă aplicația."
+        ],
+        [
+          "Atunci când un serviciu sau o aplicație online Equestria.dev se integrează cu o componentă terță parte, Politica de confidențialitate de la terțul intră în vigoare asupra tuturor operațiunilor care sunt gestionate de această terță parte.",
+          "Atunci când componenta terță parte constituie principala operațiune pe care serviciul online sau aplicația se ocupă, Politica de confidențialitate de la terță parte se aplică în prioritate. Când componenta terță parte constituie o operațiune secundară în cadrul serviciului sau cererii online, Politica de confidențialitate a Equestria.Dev se aplică mai întâi.",
+          "În cazul în care politica de confidențialitate a unei terțe părți depinde de un serviciu sau cerere online Equestria.dev depinde de modificări, utilizatorii serviciului sau cererii online Equestria.dev vor fi conștienți de modificări și de modul în care afectează modul în care acestea Utilizați serviciul online sau aplicația."
+        ],
+        [
+          "Equestria.Dev este în întregime responsabil pentru asigurarea datelor private și personale ale utilizatorului (cu excepția cazului în care un terț este implicat în proces, caz în care, așa cum este menționat în secțiunea 3, responsabilitatea terților este luată).",
+          "În cazul în care aceste informații sunt făcute publice, de exemplu, de către intrusi care descarcă date de pe serverele Equestria.dev, utilizatorii vor fi conștienți de această problemă cât mai curând posibil și li se va oferi instrucțiuni, dacă este necesar.",
+          "Equestria.Dev nu are niciun interes să vândă, să ofere sau să expună datele utilizatorilor și nu va încerca niciuna dintre aceste operații în niciun moment."
+        ]
+      ],
+      "translation": [
+        "Renunțare la răspundere:",
+        "În cazul în care această politică de confidențialitate este tradusă într -o altă limbă, numai versiunea engleză este aplicabilă legal. Versiunile traduse sunt furnizate numai în scopuri de informare."
+      ],
+      "title": "Confidențialitatea datelor",
+      "bigtitle": "Equestria.Dev Reguli privind confidențialitatea datelor",
+      "intro": "La Equestria.Dev, vă prețuim confidențialitatea. Încercăm să colectăm cât mai puține date pentru a vă oferi serviciul pe care îl așteptați. Indiferent, tratamentul de date al Equestria.Dev se face în conformitate cu Regulamentul european de protecție a datelor."
+    },
+    "terms": {
+      "translation": [
+        "Renunțare la răspundere:",
+        "În cazul în care acești termeni și condiții sunt traduse într -o altă limbă, numai versiunea engleză este aplicabilă legal. Versiunile traduse sunt furnizate numai în scopuri de informare."
+      ],
+      "sections": [
+        "Renunțare",
+        "Demografie",
+        "Scopuri",
+        "Aplicarea legii",
+        "Calitatea și fiabilitatea serviciilor",
+        "Respect reciproc și egalitate"
+      ],
+      "text": [
+        [
+          "Este posibil ca utilizatorii specifici să nu li se permită să utilizeze serviciile online ale Equestria.Dev în funcție de locația sau starea lor fizică.",
+          "Utilizatorii care se află în China, Coreea de Nord și în alte țări nu au voie să utilizeze servicii online. Administratorii pot fi făcute pe un loc pe loc.",
+          "Persoanele care au mai tânăr legal de 13 ani nu au voie să utilizeze deloc serviciile online. Utilizatorii care au mai puțin de 21 de ani este posibil să nu aibă acces la caracteristici specifice."
+        ],
+        [
+          "Equestria.dev acordă utilizatorilor o permisiune unică, revocabilă, neexchimbabilă pentru a accesa serviciile online.",
+          "Utilizarea serviciilor online într-o activitate de profit, nu este permisă, indiferent cât de mult se va face profit și va duce la încetarea imediată a accesului la serviciile online."
+        ],
+        [
+          "Atunci când utilizează un serviciu găzduit de Equestria.dev, un utilizator este de acord să nu utilizeze serviciul pentru nicio operație care este ilegală în Franța sau Statele Unite. Mai mult, operațiunile unui utilizator nu trebuie să împiedice alți utilizatori să își facă propriile operațiuni.",
+          "Publicarea conținutului abuziv sau violent, cod sau software rău intenționat sau conținut furat nu este permisă și va duce la încetarea imediată a accesului."
+        ],
+        [
+          "Găzduirea serviciilor online este complicată, iar Equestria.Dev funcționează pe un venit foarte limitat.",
+          "Dezvoltatorii și administratorii Equestria.Dev nu ar trebui să fie răspunzători în cazul în care un serviciu online nu funcționează așa cum intenționează. Toate platformele online sunt deservite, fără nicio garanție, că va funcționa așa cum este prevăzut sau va funcționa deloc pentru o anumită perioadă de timp.",
+          "Equestria.Dev afirmă că serviciile pe care le găzduiesc pot fi lente sau de neatins în puncte nespecificate în timp, cu sau fără avertisment. Administratorii nu fac nicio promisiune cu privire la un procent specific de disponibilitate pentru un anumit serviciu pe tot parcursul anului."
+        ],
+        [
+          "Când sunt prezente interacțiuni sociale, toți utilizatorii sunt de acord să nu se discrimineze reciproc din cauza condițiilor lor sociale, fizice sau psihologice, inclusiv a opiniilor lor. Utilizatorii sunt încurajați să raporteze un astfel de comportament necorespunzător pentru a ajuta la păstrarea platformelor în siguranță pentru toată lumea.",
+          "Toți utilizatorii sunt liberi să se identifice așa cum doresc, atât timp cât nu afectează modul în care alți utilizatori interacționează cu serviciul. Toate identitățile sunt valabile indiferent de unde sunt.",
+          "Toată lumea are acces la același serviciu, indiferent de locul în care locuiesc (cu excepția cazului în care 1. este aplicabil) și cine sunt. Equestria.dev apreciază foarte mult egalitatea și respectul dintre utilizatori și insistă că utilizatorii ar trebui să raporteze un comportament necorespunzător, indiferent dacă încalcă sau nu acești Termeni de serviciu."
+        ]
+      ],
+      "title": "Termeni și condiții",
+      "bigtitle": "Equestria.dev a găzduit Termeni și condiții de servicii",
+      "intro": "Următorii termeni de utilizare se aplică numai serviciilor online găzduite de Equestria.dev, inclusiv dacă serviciul online este accesat prin intermediul unui terț. Aplicațiile sau serviciile locale ”care nu sunt găzduite de Equestria.Dev nu sunt reglementate de acești Termeni de utilizare, ci de acordul lor de licență și de Termenii de utilizare a furnizorului de găzduire al Serviciului."
+    },
+    "license": {
+      "translation": [
+        "Renunțare la răspundere:",
+        "În cazul în care aceste licențe sunt traduse într -o altă limbă, doar versiunea engleză este aplicabilă legal. Versiunile traduse sunt furnizate numai în scopuri de informare."
+      ],
+      "sections": [
+        "Software gratuit, libre și open-source",
+        "Software „proprietar” cu sursă închisă"
+      ],
+      "text": [
+        [
+          "Este considerat „gratuit, libre și open-source” Toate software-ul pe care Equestria.Dev îl lansează fie în domeniul public Licența MIT, orice alternativă compatibilă, fie în întregime fără drepturi de autor. Cu excepția cazului în care o copie a unui acord de licență nu este prezentă în codul sursă al software -ului sau o mențiune a unei alte licențe este prezentă în altă parte, software care este accesibil publicului accesibil publicului este eliberat în următoarele condiții de licență:",
+          "Licență MIT",
+          "Prin prezenta, permisiunea este acordată, gratuit, oricărei persoane care obține o copie a acestui software și a fișierelor de documentare asociate („software -ul”), pentru a face față software -ului fără restricții, inclusiv fără limitare a drepturilor de utilizare, copiere, modificare, îmbinare , publică, distribuie, sublicense și/sau vinde copii ale software -ului și pentru a permite persoanelor cărora le este furnizat software -ul pentru a face acest lucru, sub rezerva următoarelor condiții:",
+          "Notificarea dreptului de autor de mai sus și această notificare de permis este inclusă în toate copiile sau porțiuni substanțiale ale software -ului.",
+          "Software -ul este furnizat „așa cum este”, fără garanție de niciun fel, expres sau implicit, inclusiv, dar fără a se limita la garanțiile de comercializare, fitness pentru un anumit scop și neincring. În niciun caz, autorii sau deținătorii de drepturi de autor nu vor fi răspunzători pentru orice cerere, daune sau altă răspundere, indiferent dacă este într -o acțiune de contract, delict sau altfel, care rezultă din, din sau în legătură cu software -ul sau cu utilizarea sau alte relații din Software."
+        ],
+        [
+          "În unele cazuri, dezvoltatorii equestria.dev pot alege să nu elibereze codul sursă pentru o anumită software. Acest lucru s -ar putea întâmpla pentru că este ușor abuzat sau folosit greșit, deoarece folosește o platformă privată, deoarece conține informații confidențiale sau private sau un alt motiv. Dezvoltatorii pot alege să facă mai târziu un software cu sursă închisă mai târziu.",
+          "Descărcarea, instalarea, achiziționarea sau utilizarea software -ului, acceptați acești termeni de licență. Dacă nu le acceptați, nu utilizați software -ul; Sau, dacă este disponibilă o variantă open-source, utilizați varianta open-source.",
+          "În toate cazurile de software cu sursă închisă, utilizatorii trebuie:",
+          "Utilizați software -ul strict în scopuri personale și nu pentru profit;",
+          "Nu încercați să decompilați, să modificați, să publicați, să distribuiți, să vindeți sau să licențiați software -ul;",
+          "nu folosiți software -ul într -un mod care este ilegal în Franța sau în Statele Unite;",
+          "nu folosiți software -ul într -un mod care ar putea pune Equestria.dev în pericol;",
+          "nu expune software -ul în locuri publice în care utilizatorii l -ar putea folosi fără să fie mai întâi de acord cu acest acord de licență",
+          "În cazul unui software plătit, utilizatorii nu trebuie să dea acces la software gratuit unui terț. Acordarea accesului la software unei rude (prieten, familiei, ...) este considerată rezonabilă, dar nu ar trebui să depășească 10 persoane."
+        ]
+      ],
+      "title": "Licențe software",
+      "bigtitle": "Licențe Equestria.Dev software și surse",
+      "intro": "Equestria.Dev lansează software într -o varietate de scheme de licențiere, de cele mai multe ori sub licențe Libre."
+    }
+  },
+  "_name": "Română",
+  "title": "Equestria.dev: platforma software pe care vă puteți baza",
+  "language": "Selector de limbă"
+}

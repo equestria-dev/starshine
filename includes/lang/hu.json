@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "második",
+      "másodpercek"
+    ],
+    "minute": [
+      "perc",
+      "percek"
+    ],
+    "hour": [
+      "óra",
+      "órák"
+    ],
+    "day": [
+      "nap",
+      "napok"
+    ],
+    "week": [
+      "hét",
+      "hetek"
+    ],
+    "month": [
+      "hónap",
+      "hónapok"
+    ],
+    "year": [
+      "év",
+      "évek"
+    ],
+    "age": [
+      "kor",
+      "korosztály"
+    ],
+    "ago": "ezelőtt",
+    "later": "a későbbiekben",
+    "now": "Most"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projektek",
+      "network": "Hálózat",
+      "contact": "Kapcsolatba lépni",
+      "legal": "Jogi"
+    },
+    "projects": {
+      "archives": "Nézze meg archivált projektjeinket"
+    },
+    "network": {
+      "status": [
+        "Minden rendszer működik",
+        "Leromlott teljesítmény",
+        "Fő leállás"
+      ],
+      "account": "Fiókja",
+      "infra": "Infrastruktúra",
+      "security": "Biztonsági tanácsok",
+      "bugs": "Rovarkövető",
+      "blog": "Blog"
+    },
+    "legal": {
+      "terms": [
+        "Kifejezés",
+        "és feltételek"
+      ],
+      "privacy": "Adatvédelem",
+      "license": "Szoftver engedélyek",
+      "disclaimer": "Jogi nyilatkozatok",
+      "branding": "Márkanév -iránymutatások",
+      "support": "Támogatta",
+      "version": "Változat",
+      "made": "Póni készítette",
+      "phpstorm": "és phpstorm",
+      "trademark": "Az \"Equestria.dev\" és a kapcsolódó nevek az Equestria.Dev fejlesztők védjegyei Franciaországban és más országokban. Az Equestria.Dev és a Projects logókat az alkalmazandó szerzői jogi törvények védik. A JetBrains, a kapcsolódó logók és a kapcsolódó nevek a Jetbrains S.R.O. regisztrált védjegyei, amelyeket licenc alapján használnak."
+    },
+    "contact": {
+      "email": "Küldjön nekünk egy e -mailt"
+    }
+  },
+  "footer": {
+    "copyright": "Minden jog fenntartva."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Szoftverplatform",
+        "tudsz",
+        "támaszkodik rá"
+      ],
+      "cta": "Nézze meg, mit csinálunk"
+    },
+    "categories": {
+      "dev": {
+        "title": "Fejlesztés",
+        "description": "Több mint öt éves tapasztalattal rendelkezik a szoftverfejlesztés terén, számos nyelven - például a Rust, JavaScript, Kotlin vagy PHP -, biztos lehet benne, hogy minőségi szoftvert fejlesztünk ki igényeinek kielégítésére, függetlenül attól, hogy vállalkozás -e vagy egyén.",
+        "cta": "Projektek megtekintése"
+      },
+      "network": {
+        "title": "Hálózatépítés",
+        "description": "Tudta, hogy ez a szöveg legalább 3 különféle Equestria.DEV szerveren ment keresztül, mielőtt eljutottál? A szerverek - elsősorban a Linux - kezelésének éves tapasztalatával, minden alkalmazást teljes mértékben optimalizálhatjuk, hogy a legjobban teljesítsük, a szerver terhelésétől függetlenül.",
+        "cta": "Infrastruktúra megtekintése"
+      },
+      "privacy": {
+        "title": "Magánélet",
+        "description": "A magánélet, a biztonság és a felhasználói adatok védelme mindig is alapvető értékeink voltak. Amikor csak lehetséges-és szükség van-, robusztus katonai minőségű titkosítási technológiát használunk, és gondoskodunk arról, hogy a felhasználói adatok mindig biztonságban legyenek és védenek a különféle támadásoktól.",
+        "cta": "Olvassa el a dokumentumokat"
+      }
+    },
+    "contact": {
+      "title": "Van különleges kérése?",
+      "description": "Ha azt szeretné, hogy segítsünk egy saját projektben, függetlenül attól, hogy a fejlesztés, a szerverek kezelése, akár a magánélet és a biztonság vonatkozik, segíthetünk. Nyugodtan dobjon el nekünk egy üzenetet, és meglátjuk, mit tehetünk.",
+      "cta": "Küldjön nekünk egy üzenetet"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Érvénytelen kérelem",
+      "401": "Azonosítás szükséges",
+      "403": "Hozzáférés megtagadva",
+      "404": "Az oldal nem található",
+      "500": "Belső Szerverhiba",
+      "501": "Még nem elérhető",
+      "502": "Upstream szerver hiba",
+      "503": "A szerver elérhetetlen",
+      "504": "Az upstream szerver időzített",
+      "default": "Ismeretlen rendszerhiba"
+    },
+    "descriptions": {
+      "400": "Megpróbált egy kérést elküldeni a szervernek, amelyet nem tud feldolgozni. Ennek általában nem kell megtörténnie, de ez jelezheti a böngészővel kapcsolatos problémát. Ha segítségre van szüksége ennek kijavításához, bátran forduljon hozzánk.",
+      "401": "Megpróbált elérni egy olyan oldalt, amely hitelesítést igényel, anélkül, hogy hitelesítené. Az oldal frissítése általában segíti a problémát. Ha nem rendelkezik hitelesítő adatokkal, hogy hitelesítse ezt az oldalt, akkor térhet vissza a kezdőlapra.",
+      "403": "Megpróbált elérni egy olyan oldalt, amely nem érhető el a weboldalon. Ez általában a kiszolgálón használt belső fájlok esetében. Ha követt egy linket a weboldalról, és ide került, akkor valami rossznak kell lennie.",
+      "404": "Ha követte a weboldal linket, akkor valaminek kell lennie. Ha egy külső linket követt, akkor lehetséges, hogy a link helytelen, és frissíteni kell. Ha maga adta meg a címet, akkor lehetséges, hogy rosszul írta valamit.",
+      "500": "Hiba történt a szerveren, miközben megpróbálja feldolgozni a böngésző konfigurációjához kapcsolódó kérését. Ez általában hiba vagy ideiglenes kérdés. Ha továbbra is fennáll, akkor tudathatja velünk a problémát, hogy megjavítsuk.",
+      "501": "Az az oldal, amelyet megpróbált elérni, olyan szerver funkciót használ, amelyet még nem vezettek be a weboldalon. Ez általában azért van, mert az az oldal, amelyet elérni próbál, folyamatban lévő munka, és a jövőben elérhető lesz.",
+      "502": "Ez az oldal egy külső erőforrástól vagy szervertől függ, amely jelenleg nem érhető el. Ez általában egy vagy több kiszolgálónk kizárását jelzi. Ha a probléma továbbra is fennáll, vegye fel velünk a kapcsolatot, hogy ezt kijavítsuk.",
+      "503": "Ez az oldal egy belső erőforrástól függ, amely jelenleg nem érhető el. Ez általában azt jelenti, hogy az erőforrás, a weboldal vagy a szerver karbantartás alatt áll, és jelenleg nem érhető el. További információkért ellenőrizze az állapotoldalunkat.",
+      "504": "Ez az oldal egy külső erőforrástól vagy szervertől függ, amelyet nem lehetett időben elérni. Ez általában egy leállást vagy általános lassítást jelez. Ha a probléma továbbra is fennáll, vegye fel velünk a kapcsolatot, hogy ezt kijavítsuk.",
+      "default": "Nem dokumentált hiba történt. Nem vagyunk biztosak benne, hogy mi történt rosszul, de a hibakód segíthet. Ha segítségre van szüksége, kérjük, vegye fel velünk a kapcsolatot, hogy ezt kijavítsuk. Őszintén elnézést kérünk a kellemetlenségért."
+    },
+    "actions": {
+      "home": "Menj vissza a kezdőlapra",
+      "status": "Nyissa meg az állapotoldalt",
+      "email": "Vegye fel velünk a kapcsolatot e -mailben"
+    },
+    "title": "Hiba"
+  },
+  "project": {
+    "actions": {
+      "source": "Forráskód",
+      "website": "Hivatalos honlapján"
+    },
+    "update": "Utolsó frissítés",
+    "archive": "Archivált"
+  },
+  "archive": {
+    "title": "Levéltár"
+  },
+  "status": {
+    "main": [
+      "Az összes szolgáltatás névlegesként működik",
+      "Egyes szolgáltatások a teljesítmény romlását tapasztalják",
+      "Egyes szolgáltatások jelentős leállást tapasztalnak"
+    ],
+    "description": [
+      "Jelenleg megfigyeltük az Equestria.Dev által üzemeltetett összes szolgáltatás névleges és jó teljesítményét.",
+      "Megfigyeltük, hogy néhány Equestria.dev szolgáltatás, bár funkcionális, a szokásosnál lassabb.",
+      "Megfigyeltük az időt néhány Equestria.dev szolgáltatásban, így egy ideig hozzáférhetetlenné váltak."
+    ],
+    "affected": [
+      "Ez az esemény befolyásolja a következő szolgáltatást:",
+      "Ez az esemény érinti a következő szolgáltatásokat:"
+    ],
+    "stats": {
+      "items": [
+        "Átlagos szolgáltatási késleltetés:",
+        "Teljes használt memória:",
+        "Teljesen használt tároló:",
+        "Teljes rendelkezésre álló számítási teljesítmény:",
+        "Cache:",
+        "Maximális I/O késés:",
+        "magvak",
+        "Operációs rendszer:",
+        "A folyamatok összesen"
+      ],
+      "title": "Statisztika",
+      "used": "használt"
+    },
+    "title": "Rendszer állapota",
+    "page": "A teljes állapotoldal megtekintése",
+    "update": "Utolsó frissítés"
+  },
+  "months": [
+    "január",
+    "február",
+    "március",
+    "április",
+    "Lehet",
+    "június",
+    "július",
+    "augusztus",
+    "szeptember",
+    "október",
+    "november",
+    "december"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Tartalomkezelés és nyilatkozatok",
+        "Kivéve, ha a felhasználó által létrehozott tartalom jelenlétében az Equestria.dev platformon tárolt tartalom a felelősség alá tartozik",
+        "Annak ellenére, hogy minél több erőfeszítést teszünk a felhasználók pontos információk biztosítására, az Equestria.Dev fejlesztők nem garantálhatják a platformok által szolgáltatott információk pontosságát. Ezért a platformon található információk lehetnek pontatlanok vagy elavultak."
+      ],
+      "title": "Jogi nyilatkozatok",
+      "privacy": "Ha valaha további részletekre van szüksége, kérjük, vegye fel velünk a kapcsolatot közvetlenül. Néhány információt magánélet védelme miatt rejtve tartanak.",
+      "servers": "Szerver helyek",
+      "locations": "Az Equestria.dev kezeli a felhasználói adatokat áthaladó hálózatokat Franciaországban, Németországban és az Egyesült Államokban. Azokat a hálózatokat, amelyeket csak az Equestria.Dev belső céljaira használnak, és amelyek nem tranzitja a felhasználói adatokat, nem említik ezen az oldalon.",
+      "property": "Szerverek a következő tulajdonában:",
+      "physical": "Hozzávetőleges fizikai hely:",
+      "isp": "Internet szolgáltató:",
+      "us": "Link a nem amerikai lakosok számára",
+      "data": "Felhasználói adatkérések",
+      "howto": "Ha bármilyen Equestria.DEV felhasználói kérést kér vagy törölje a felhasználói adatokhoz való hozzáférést vagy törlést, egy e -mailt, amely a felhasználó IP -címét tartalmazza, bármely eszköz azonosítókat (ha alkalmazható), az Equestria.Dev Fiók azonosítóját (ha alkalmazható) el kell küldeni az e -mail címről Az Equestria.dev -fiókhoz társítva (ha van) a következő e -mail címhez:",
+      "law": "A bűnüldözési rendeletek szerint az Equestria.Dev nem tudja törölni a 3 hónapos kevesebb szerver naplókat.",
+      "gov": "Garantál",
+      "pgp": "Ez egy PGP üzenet, amelyet a következő kulcsmal írtak alá:",
+      "key": "Tekintse meg a teljes nyilvános kulcsot",
+      "alt": "alternatív forrás",
+      "plain": "A CANARY ORSZÁG megtekintése (új lapon nyílik meg)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Logónk",
+        "message": "Kérjük, ne szerkesztje, változtassa meg, torzítsa, ne állítsa át vagy újrakonálja az Equestria.dev logót."
+      },
+      "icon": {
+        "title": "Csak ikon",
+        "message": "Csak akkor használja ezeket, ha az Equestria.dev márka jól látható, az oldalon vagy a formatervezésben másutt jól beváltott, vagy a tér nem engedélyezi a teljes verzió megjelenítését. Ha kétségei vannak, használja a másikat."
+      },
+      "spacing": {
+        "title": "Távolság",
+        "message": "Ügyeljen arra, hogy tartsa tiszteletben ezeket a távolsági irányelveket az Equestria.dev logó használata közben. Ezenkívül ügyeljen arra, hogy a logót elég nagy legyen, hogy olvasható és megkülönböztethető legyen.",
+        "scale": "x = \".dev\" szövegmagasság.",
+        "notice": "(Csak az ikon verziója ajánlott olyan terekben, ahol a logót 96 pixelnél vagy 52,8 milliméternél kevesebb méretben kell bemutatni, 24 pixel vagy 13,2 milliméterre)"
+      },
+      "dont": {
+        "messages": [
+          "Ne szerkesztje, változtassa meg és nem újrakonálja a logót vagy a szójelet",
+          "Ne torzítsa a logót vagy a szójelet, beleértve véletlenül",
+          "Ne tekerje fel, és ne alkalmazza a vizuális effektusokat a logóra vagy a szóra",
+          "Ne helyezzen címkéket vagy más elemet a logóra vagy a szójelre"
+        ],
+        "descriptions": [
+          "Ez magában foglalja a logó elforgatását és a szöveget vagy az alak megváltoztatását, valamint a teljes logó különböző elemei közötti távolság fenntartását.",
+          "Semmilyen módon nem torzíthatja vagy deformálhatja a logót, akár 2D, akár 3D keretben. Ezenkívül ellenőrizze, hogy a logó minden esetben megfelelően megjelenik -e.",
+          "Mind a logót, mind a szójelet úgy kell tartani, ahogy van, egyáltalán nincs színváltozás. Ha szürkeárnyalatot kell használnia, használja a monokróm variánsokat.",
+          "Győződjön meg arról, hogy a címkék (ha alkalmazható) soha nem fedik át a logó egyik elemét. Ezenkívül ne hagyja jóvá a jóváhagyást vagy a szponzorálást, ha nincs."
+        ],
+        "too": {
+          "text": [
+            "Győződjön meg arról, hogy az Equestria.Dev márka nem jelenik meg kiemelkedőbben, mint a saját termék vagy szolgáltatás neve, logója vagy márkája.",
+            "A \"túl sok\" elvégzése zavart okozhat, és arra készteti a felhasználókat, hogy a hivatalos Equestria.dev webhelyen, vagy egy hivatalos Equestria.dev termékkel szembesüljenek."
+          ],
+          "title": "Ne csinálj túl sokat"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Equestria.dev logó:",
+              "engedély alapján használják"
+            ],
+            "product": [
+              "[Projekt neve] logó",
+              "Projekt neve"
+            ]
+          },
+          "title": "Ne használjon hozzárendelés nélkül",
+          "message": "Az Equestria.dev logó vagy bármely projekt logó használatakor mindig adjon hozzárendelést a következő szövegek bármelyikével:"
+        },
+        "impersonation": {
+          "text": [
+            "Az Equestria.dev márka utánozása a nem oquestria.dev anyagokban nem engedélyezett. Ugyanez a korlátozás vonatkozik az Equestria.dev márka animálására, más szavakkal, szimbólumokkal, képekkel vagy mintákkal kombinálva, vagy beépítve azt egy szlogenbe vagy címkékbe.",
+            "Ezenkívül szigorúan tilos az egyén nevének vagy hasonlóságának használata az Equestria.dev -ből vagy a csoportban, mint bármely közösségi média fiókban vagy más médiában."
+          ],
+          "title": "Ne utánozza és ne megszemélyesítse"
+        },
+        "endorsement": {
+          "text": [
+            "Nagyra értékeljük az együttműködést, azonban semmilyen módon nem jelenti a hovatartozást, a szponzorálást, a termékek vagy szolgáltatások jóváhagyását az equestria.dev -vel az Equestria.dev kifejezett engedély nélkül. Az Equestria.Dev megállapodással hivatalosan létre kell hoznia az együttműködést, mielőtt az Equestria.Dev -vel folytatott ilyen együttműködésre hivatkozna.",
+            "Ez azt jelenti, hogy olyan szöveg, mint például az \"Equestria.Dev jóváhagyása\", \"Equestria.Dev Certified\" vagy \"Az Equestria.Dev ajánlása\" nem engedélyezett."
+          ],
+          "title": "Ne jelentse a jóváhagyást, ahol nincs ilyen"
+        },
+        "title": "Nem"
+      },
+      "color": {
+        "formats": {
+          "title": "Színkód formátuma:",
+          "oklch": "Oklch (SRGB profil)",
+          "rgb": "Hexadecimális RGB (8-bites)",
+          "cmyk": "CMYK (szabvány)"
+        },
+        "list": [
+          "Elsődleges fény",
+          "Elsődleges sötét",
+          "Másodlagos fény",
+          "Másodlagos sötét",
+          "Háttér",
+          "Háttéren",
+          "Pozitív fény",
+          "Pozitív sötét",
+          "Semleges fény",
+          "Semleges sötét",
+          "Negatív fény",
+          "Negatív sötét",
+          "Felület",
+          "Felszínen"
+        ],
+        "title": "Szín paletta",
+        "intro": "Az Equestria.dev színpaletta, a \"BrightDawn\" (Misty BrightDawn után a Little Pony karakterét) úgy hozták létre, hogy tükrözze alapvető értékeinket: befogadás, barátság és átláthatóság. Az eredeti \"Misty\" palettán alapul, amelyet 2023 -ban használtak, hogy a fényesebb színeket tartalmazzák."
+      },
+      "more": {
+        "title": "Többet keres?",
+        "text": "Töltse le a Full Equestria.Dev márkakészletet, és kapjon hozzáférést az összes erőforráshoz, amelyet a logónk létrehozásához használtunk, valamint a speciális körülmények között használt speciális változatokat, beleértve a prototípus mintákat és más tervezési lapokat.",
+        "cta": "Töltse le a 3. verziót",
+        "notice": "Tartalmazza az 1. és 2. verziót is"
+      },
+      "page": "Márkanév -iránymutatások",
+      "title": "Equestria.dev márkanév iránymutatások",
+      "intro": "Az Equestria.dev -nél a dolgokat és azt, hogy miként képviseljük a márkánkat. Az Equestria.Dev márkának a minőségi, egyszerű és magán nyílt forráskódú szoftvert kell képviselnie. Ha bármihez használja márkajelzési eszközeinket, kérjük, tartsa tiszteletben ezeket az irányelveket.",
+      "copyright": "Az Equestria.dev logót és a termékeket az alkalmazandó szerzői jogi törvények védik Franciaországban, az Egyesült Államokban és más országokban. Az Equestria.Dev nem átruházható, nem kizárólagos, jogdíjmentes licencet biztosít a logójának a következő iránymutatások szerinti használatához. Ezek az iránymutatások szabályozzák az Equestria.dev logó használatát is a saját szolgáltatásaink során. A tartózkodás elmulasztása az Equestria.Dev szellemi tulajdonának megsértésének tekinthető, és jogi lépéseket eredményez."
+    },
+    "privacy": {
+      "sections": [
+        "Adatvédelem az Equestria.Dev Online szolgáltatásokon",
+        "Adatvédelem az Equestria.dev alkalmazásokon",
+        "Adatvédelem az Equestria.dev online szolgáltatásokon vagy alkalmazáson, amelyek integrálódnak a harmadik féltől származó összetevőkhöz",
+        "Equestria.Dev felelőssége a felhasználó magánadatainak védelmében"
+      ],
+      "text": [
+        [
+          "Az Equestria.Dev csak azokat az információkat menti, amelyeket kifejezetten ad nekünk (például a regisztrációs űrlap részeként). Más adatot nem gyűjtünk.",
+          "A bűnüldözés részeként azonban az Equestria.Dev akár 365 napig gyűjti az IP -címeket és más böngészőinformációkat (böngészőnév, verzió, operációs rendszer, URL és dátum). Ezt az információt minden évben januárban törlik.",
+          "Ezenkívül az Equestria.Dev szolgáltatásainak minőségének és megbízhatóságának javításának részeként teljes anonim információkat gyűjthet, beleértve a meglátogatott oldalakat, kivéve a lehetséges személyes adatokat. Ezt az információt anonimvá teszik, mielőtt statisztikává alakítják, és az eredeti információkat az 1§2 -ben említettük (lásd fent)."
+        ],
+        [
+          "Ez a szakasz a \"telepített\" alkalmazásokra vonatkozik (még az equestria.dev -től is hozzáférhető a felhasználó eszközére is, és amint a felhasználó elindítja a telepítési folyamatot.",
+          "Az Equestria.DEV alkalmazások soha nem fogják figyelni, tárolni, zavarni vagy megakadályozni az egyéb alkalmazások viselkedését. Az, hogy az alkalmazás fut -e vagy sem, a felhasználó számára minden időben világossá válik.",
+          "Egyes alkalmazások, miután a felhasználó kifejezetten és egyértelmű beleegyezését adta (ideértve azt is, hogy a felhasználó elismerte az összegyűjtött adatok fajtáját), anonim statisztikai adatokat gyűjtött az ezen alkalmazások minőségének és megbízhatóságának javításának részeként. A felhasználónak mindig lehetősége van arra, hogy abbahagyja ezeket a statisztikák küldését az Equestria.Dev -hez, anélkül, hogy az alkalmazás viselkedésében megváltoztatná."
+        ],
+        [
+          "Amikor az Equestria.DEV online szolgáltatás vagy alkalmazás integrálódik egy harmadik fél komponenssel, akkor az adott harmadik fél adatvédelmi politikája hatályba lép minden olyan műveletre, amelyet ez a harmadik fél kezeli.",
+          "Amikor a harmadik fél alkatrésze az online szolgáltatás vagy az alkalmazás kezeli a fő műveletet, a harmadik fél adatvédelmi politikája prioritásként alkalmazandó. Amikor a harmadik fél alkatrésze másodlagos műveletet alkot az online szolgáltatáson vagy alkalmazáson belül, az Equestria.Dev adatvédelmi irányelve először érvényes.",
+          "Abban az esetben, ha egy harmadik fél adatvédelmi politikája az Equestria.DEV online szolgáltatás vagy alkalmazás függ a változásoktól, az említett Equestria.DEV online szolgáltatás vagy alkalmazás felhasználói tudatosítják a változásokat és azt, hogy ez hogyan befolyásolja azt, ahogyan ők hogyan befolyásolják. Használja az online szolgáltatást vagy az alkalmazást."
+        ],
+        [
+          "Az Equestria.dev teljes mértékben felelős a felhasználó magán- és személyes adatainak biztosításáért (kivéve, ha egy harmadik fél vesz részt a folyamatban, ebben az esetben, amint azt a 3. szakaszban említik, a harmadik fél felelősségvállalása).",
+          "Abban az esetben, ha az ilyen információkat nyilvánosságra hozzák, például a betolakodók, akik az Equestria.DEV szervereit letöltik, a felhasználókat a lehető leghamarabb tudatosítják a problémáról, és szükség esetén utasításokat kapnak.",
+          "Az Equestria.devnek nincs érdeke a felhasználói adatok eladásában, átadásában vagy kitettségében, és ezen műveletek egyikét sem próbálja meg."
+        ]
+      ],
+      "translation": [
+        "Jogi nyilatkozat:",
+        "Abban az esetben, ha ezt az adatvédelmi politikát egy másik nyelvre fordítják, csak az angol verzió jogilag alkalmazható. A lefordított verziók csak információs célokra szolgálnak."
+      ],
+      "title": "Adatvédelem",
+      "bigtitle": "Equestria.Dev Data adatvédelmi szabályok",
+      "intro": "Az Equestria.dev oldalon értékeljük az Ön adatvédelmét. Megpróbáljuk a lehető legkevesebb adatgyűjtést gyűjteni, hogy a várt szolgáltatást nyújtsuk. Függetlenül attól, az Equestria.Dev adatkezelését az Európai Általános Adatvédelmi Szabályozásnak megfelelően végezzük."
+    },
+    "terms": {
+      "translation": [
+        "Jogi nyilatkozat:",
+        "Abban az esetben, ha ezeket a feltételeket egy másik nyelvre fordítják, akkor csak az angol verzió alkalmazható. A lefordított verziók csak információs célokra szolgálnak."
+      ],
+      "sections": [
+        "Nyilatkozat",
+        "Demográfia",
+        "Célok",
+        "Bűnüldözés",
+        "Szolgáltatások minősége és megbízhatósága",
+        "Kölcsönös tisztelet és egyenlőség"
+      ],
+      "text": [
+        [
+          "Lehetséges, hogy az egyes felhasználók nem engedhetik meg az Equestria.Dev online szolgáltatásait, helyüktől vagy fizikai állapotuktól függően.",
+          "Azok a felhasználók, akik Kínában, Észak -Koreában és néhány más országban találhatók, nem használhatják az online szolgáltatásokat. Kivételeket lehet az adminisztrátorok esetenként megtenni.",
+          "A 13 évesnél fiatalabb személyek, akiknek legálisan fiatalabbak, egyáltalán nem használhatják az online szolgáltatásokat. Lehet, hogy a 21 évesnél fiatalabb felhasználók nem férnek hozzá az egyes szolgáltatásokhoz."
+        ],
+        [
+          "Az Equestria.Dev egyedi, visszavonható, nem cserélhető engedélyt biztosít a felhasználók számára az online szolgáltatások eléréséhez.",
+          "Az online szolgáltatások felhasználása a profitszerzési tevékenységben, bármiféle módon nem megengedett, függetlenül attól, hogy mekkora nyereséget eredményez, és az online szolgáltatásokhoz való hozzáférés azonnali megszüntetését eredményezi."
+        ],
+        [
+          "Az Equestria.dev által üzemeltetett szolgáltatás használatakor a felhasználó vállalja, hogy a szolgáltatást nem használja a franciaországi vagy az Egyesült Államokban illegális műveletekhez. Sőt, a felhasználó műveletei nem akadályozhatják meg a többi felhasználót a saját műveleteik elvégzésében.",
+          "A visszaélésszerű vagy erőszakos tartalom, a rosszindulatú kód vagy a szoftver, vagy az ellopott tartalom közzététele nem megengedett, és a hozzáférés azonnali megszüntetését eredményezi."
+        ],
+        [
+          "Az online szolgáltatások tárolása bonyolult, és az Equestria.Dev nagyon korlátozott jövedelemmel jár.",
+          "Az Equestria.DEV fejlesztőknek és adminisztrátoroknak nem kell felelősségre vonniuk, ha az online szolgáltatás nem működik a kívánt módon. Az összes online platformot úgy szolgálják, mint amennyire nincs garancia arra, hogy a tervezettnek vagy egy adott ideig egyáltalán működni fog.",
+          "Az Equestria.Dev kijelenti, hogy az általuk üzemeltetett szolgáltatások lassúak vagy elérhetetlenek lehetnek a meghatározatlan időpontokban, figyelmeztetés nélkül vagy anélkül. Az adminisztrátorok nem tesznek ígéretet az adott szolgáltatás rendelkezésre állásának meghatározott százalékára egész évben."
+        ],
+        [
+          "Ha társadalmi interakciók vannak jelen, minden felhasználó beleegyezik abba, hogy társadalmi, fizikai vagy pszichológiai állapotaik miatt, ideértve a véleményüket is, megkülönbözteti egymást. A felhasználókat arra ösztönzik, hogy jelentsék az ilyen nem megfelelő viselkedést, hogy segítsék a platformok biztonságát mindenki számára.",
+          "Minden felhasználó szabadon azonosíthatja, amennyire csak kívánja, mindaddig, amíg ez nem befolyásolja a többi felhasználó kapcsolatát a szolgáltatással. Minden identitás érvényes, függetlenül attól, hogy honnan származnak.",
+          "Mindenki hozzáférést kap ugyanazon szolgáltatáshoz, függetlenül attól, hogy hol él (kivéve, ha 1. alkalmazható) és kik ők. Az Equestria.Dev nagymértékben értékeli a felhasználók közötti egyenlőséget és tiszteletet, és ragaszkodik ahhoz, hogy a felhasználóknak be kell jelenteniük a nem megfelelő magatartást, függetlenül attól, hogy megsérti -e a jelen Szolgáltatási feltételeket."
+        ]
+      ],
+      "title": "Felhasználási feltételek",
+      "bigtitle": "Equestria.Dev Hosted Szolgáltatási Feltételek",
+      "intro": "A következő felhasználási feltételek csak az Equestria.dev által üzemeltetett online szolgáltatásokra vonatkoznak, ideértve azt is, hogy ha az online szolgáltatást harmadik féltől kapják. A \"helyi\" alkalmazásokat vagy szolgáltatásokat, amelyeket az Equestria.Dev nem üzemeltet, nem a jelen Felhasználási Feltételek, hanem a licencszerződés és a Szolgáltatás tárhely -szolgáltatói használati feltételei szabályozzák."
+    },
+    "license": {
+      "translation": [
+        "Jogi nyilatkozat:",
+        "Abban az esetben, ha ezeket az engedélyeket egy másik nyelvre fordítják, csak az angol változat jogilag alkalmazható. A lefordított verziók csak információs célokra szolgálnak."
+      ],
+      "sections": [
+        "Ingyenes, libre és nyílt forráskódú szoftver",
+        "Zárt forrású \"védett\" szoftver"
+      ],
+      "text": [
+        [
+          "\"Ingyenes, libre és nyílt forráskódú\" minden olyan szoftvernek tekintik, amelyet az Equestria.Dev felszabadít a MIT licenc nyilvános domain alatt, bármilyen kompatibilis alternatíva vagy teljesen szerzői jogmentes. Hacsak a licencszerződés másolata nem jelenik meg a szoftver forráskódjában, vagy ha másutt jelennek meg egy másik licenc, a szoftver, amelyben a forráskód nyilvánosan elérhető, a következő licenc feltételek szerint jelenik meg:",
+          "MIT licenc",
+          "Az engedélyt ingyenesen adják meg minden olyan személy számára, aki megszerezte a szoftver és a kapcsolódó dokumentációs fájlok másolatát (a „szoftver”), hogy korlátozás nélkül foglalkozzon a szoftverbe, ideértve a használat, a másolás, a módosítás, a módosítás, az egyesítés jogát is. , a szoftver másolatának közzététele, terjesztése, allicense és/vagy eladása, és megengedi azokat a személyeket, akiknek a szoftvert erre a következő feltételek alapján bocsátják meg:",
+          "A fenti szerzői jogi közleményt és ezt az engedélyezési értesítést a szoftver minden példányába vagy jelentős részébe kell tartalmazni.",
+          "A szoftvert „ahogy van”, bármilyen garancia nélkül, kifejezetten vagy hallgatólagos garancia nélkül, ideértve, de nem kizárólag a forgalmazhatóság, az adott cél és a nem betöltéshez való alkalmasság garanciájára. A szerzők vagy a szerzői jogi tulajdonosok semmilyen esetben nem vállalnak felelősségre, károkért vagy egyéb felelősségért, akár szerződéses, károkozás vagy más módon, a szoftverből vagy a szoftverből származó vagy más ügyletekből származnak, vagy a SZOFTVER."
+        ],
+        [
+          "Egyes esetekben az Equestria.Dev fejlesztők dönthetnek úgy, hogy nem bocsátják ki egy adott szoftver forráskódját. Ennek oka az lehet, hogy könnyen visszaélhet vagy visszaélhet, mert magánplatformot használ, mert bizalmas vagy magáninformációkat vagy más okokat tartalmaz. A fejlesztők dönthetnek úgy, hogy később nyílt forráskódúak készítenek egy zárt forrású szoftvert.",
+          "A szoftver letöltésével, telepítésével, beszerzésével vagy használatával elfogadja ezeket a licenc feltételeket. Ha nem fogadja el őket, ne használja a szoftvert; Vagy ha rendelkezésre áll nyílt forráskódú változat, használja a nyílt forráskódú változatot.",
+          "A zárt forrású szoftverek minden esetében a felhasználóknak:",
+          "Használja a szoftvert szigorúan személyes célokra, és nem profit céljából;",
+          "ne próbáljon bontani, módosítani, közzétenni, terjeszteni, eladni vagy engedélyezni a szoftvert;",
+          "ne használja a szoftvert oly módon, hogy illegális legyen Franciaországban vagy az Egyesült Államokban;",
+          "ne használja a szoftvert oly módon, hogy az Equestria.dev veszélybe kerülhessen;",
+          "Ne tegye ki a szoftvert olyan nyilvános helyeken, ahol a felhasználók felhasználhatják anélkül, hogy először elfogadnák ezt a licencszerződést",
+          "Fizetett szoftver esetén a felhasználók nem adhatnak hozzá hozzáférést a szoftverhez egy harmadik fél számára. Ésszerűnek tekinthető a szoftverhez való hozzáférés egy rokonhoz (barát, család, ...), de nem haladhatja meg a 10 embert."
+        ]
+      ],
+      "title": "Szoftver engedélyek",
+      "bigtitle": "Equestria.dev szoftver és források licencek",
+      "intro": "Az Equestria.Dev különféle licencrendszerekben bocsátja ki a szoftvert, a Libre licencek nagy részében."
+    }
+  },
+  "_name": "Magyar",
+  "title": "Equestria.dev: Szoftverplatform, amelyre támaszkodhat",
+  "language": "Nyelvválasztó"
+}

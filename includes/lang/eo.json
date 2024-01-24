@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "Due",
+      "sekundoj"
+    ],
+    "minute": [
+      "minuto",
+      "Minutoj"
+    ],
+    "hour": [
+      "horo",
+      "horoj"
+    ],
+    "day": [
+      "tago",
+      "tagoj"
+    ],
+    "week": [
+      "Semajno",
+      "Semajnoj"
+    ],
+    "month": [
+      "Monato",
+      "monatoj"
+    ],
+    "year": [
+      "jaro",
+      "jaroj"
+    ],
+    "age": [
+      "Aĝo",
+      "aĝoj"
+    ],
+    "ago": "Antaŭe",
+    "later": "poste",
+    "now": "nun"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projektoj",
+      "network": "Reto",
+      "contact": "Kontakto",
+      "legal": "Jura"
+    },
+    "projects": {
+      "archives": "Vidu niajn arkivitajn projektojn"
+    },
+    "network": {
+      "status": [
+        "Ĉiuj sistemoj funkciantaj",
+        "Degradita agado",
+        "Grava interrompo"
+      ],
+      "account": "Via Konto",
+      "infra": "Infrastrukturo",
+      "security": "Sekurecaj konsiloj",
+      "bugs": "Cim -spuristo",
+      "blog": "Blogo"
+    },
+    "legal": {
+      "terms": [
+        "Kondiĉoj",
+        "kaj kondiĉoj"
+      ],
+      "privacy": "Datuma Privateco",
+      "license": "Programaj Permesiloj",
+      "disclaimer": "Juraj Malgaranĉoj",
+      "branding": "Gvidlinioj pri markado",
+      "support": "Subtenata de",
+      "version": "Versio",
+      "made": "Farita de poneoj kun",
+      "phpstorm": "kaj phpstorm",
+      "trademark": "\"Equestria.Dev\" kaj asociitaj nomoj estas varmarkoj de Equestria.Dev -programistoj en Francio kaj aliaj landoj. La logotipoj Equestria.Dev kaj Projektoj estas protektitaj laŭ aplikeblaj kopirajtaj leĝoj. JetBrains, la asociitaj logotipoj kaj la asociitaj nomoj estas registritaj markoj de JetBrains S.R.O., uzataj sub licenco."
+    },
+    "contact": {
+      "email": "Sendu al ni retpoŝton"
+    }
+  },
+  "footer": {
+    "copyright": "Ĉiuj rajtoj rezervitaj."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Softvara platformo",
+        "vi povas",
+        "fidi"
+      ],
+      "cta": "Vidu, kion ni faras"
+    },
+    "categories": {
+      "dev": {
+        "title": "Disvolviĝo",
+        "description": "Kun pli ol 5 jaroj da sperto pri programado, en vasta gamo de lingvoj - kiel rusto, JavaScript, Kotlin aŭ PHP -, vi povas esti trankviligita, ke ni disvolvos kvalitan programon por helpi plenumi viajn bezonojn, ĉu vi estas komerco aŭ individuo.",
+        "cta": "Vidi projektojn"
+      },
+      "network": {
+        "title": "Interkonektado",
+        "description": "Ĉu vi sciis, ke ĉi tiu teksto trapasis almenaŭ 3 malsamajn servilojn Equestria.Dev antaŭ ol atingi vin? Kun niaj jaroj da sperto pri administrado de serviloj - ĉefe Linukso - ni povas plene optimumigi ajnan aplikon por plenumi sian plej bonan sendepende de la servila ŝarĝo.",
+        "cta": "Vidi Infrastrukturon"
+      },
+      "privacy": {
+        "title": "Privateco",
+        "description": "Privateco, sekureco kaj protektado de uzantaj datumoj ĉiam estis el niaj kernaj valoroj. Kiam ajn eblas-kaj necesas-, ni uzas fortikan milit-gradan ĉifradan teknologion, kaj ni certigas, ke uzantaj datumoj estas ĉiam sekuraj kaj protektataj de diversaj specoj de atakoj.",
+        "cta": "Legu dokumentojn"
+      }
+    },
+    "contact": {
+      "title": "Havas specialan peton?",
+      "description": "Se vi ŝatus, ke ni helpu kun via propra projekto, ĉu temas pri disvolviĝo, administri servilojn aŭ privatecon kaj sekurecon, ni povas helpi. Bonvolu sendi al ni mesaĝon kaj ni vidos, kion ni povas fari.",
+      "cta": "Sendu al ni mesaĝon"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Nevalida Peto",
+      "401": "Aŭtentikigo bezonata",
+      "403": "Aliro estas rifuzita",
+      "404": "Paĝo ne trovita",
+      "500": "Interna servila eraro",
+      "501": "Ankoraŭ ne havebla",
+      "502": "Altnivela servila eraro",
+      "503": "Servilo estas neatingebla",
+      "504": "Supra servilo tempigita",
+      "default": "Nekonata Sistemo -Eraro"
+    },
+    "descriptions": {
+      "400": "Vi provis sendi peton al la servilo, kiun ĝi ne povas prilabori. Ĉi tio ĝenerale ne okazu, sed ĝi povus indiki problemon kun via retumilo. Se vi bezonas helpon por ripari ĉi tion, bonvolu kontakti nin.",
+      "401": "Vi provis atingi paĝon, kiu postulas aŭtentikigon sen esti aŭtentikigita. Refreŝigi la paĝon kutime helpas solvi ĉi tiun problemon. Se vi ne havas akreditojn por aŭtentigi ĉi tiun paĝon, vi povas reiri al la ĉefpaĝo.",
+      "403": "Vi provis atingi paĝon ne atingeblan de ĉi tiu retejo. Ĉi tio kutime okazas por internaj dosieroj uzataj en la servilo. Se vi sekvis ligon de ĉi tiu retejo kaj alvenis ĉi tien, tiam io devas esti malĝusta.",
+      "404": "Se vi sekvis ligon de ĉi tiu retejo, tiam io devas esti malĝusta. Se vi sekvis eksteran ligon, tiam eblas ke ligo estas malĝusta kaj bezonas esti ĝisdatigita. Se vi mem enigis la adreson, eblas ke vi misliterumis ion.",
+      "500": "Eraro okazis en la servilo provante prilabori vian peton, kiu ne rilatas al via retumila agordo. Ĉi tio ĝenerale estas eraro aŭ provizora afero. Se ĝi persistas, vi povas sciigi nin pri la problemo, por ke ni povu ripari ĝin.",
+      "501": "La paĝo, kiun vi provis atingi, uzas servilan funkcion, kiu ankoraŭ ne estis efektivigita en la retejo. Ĉi tio kutime estas ĉar la paĝo, kiun vi provas atingi, estas laboro en progreso kaj estos disponebla en la estonteco.",
+      "502": "Ĉi tiu paĝo dependas de ekstera rimedo aŭ servilo, kiu ne haveblas nuntempe. Ĉi tio tipe indikas ĉesigon de unu aŭ pluraj el niaj serviloj. Se la problemo persistas, kontaktu nin por ke ni povu ripari ĉi tion.",
+      "503": "Ĉi tiu paĝo dependas de interna rimedo, kiu ne haveblas nuntempe. Ĉi tio kutime signifas, ke la rimedo, retejo aŭ servilo estas sub bontenado kaj nuntempe ne disponeblas. Kontrolu nian statusan paĝon por pliaj informoj.",
+      "504": "Ĉi tiu paĝo dependas de ekstera rimedo aŭ servilo, kiu ne povis esti atingita ĝustatempe. Ĉi tio tipe indikas interrompon aŭ entute malrapidiĝon. Se la problemo persistas, kontaktu nin por ke ni povu ripari ĉi tion.",
+      "default": "Nedokumentita eraro okazis. Ni ne certas, kio iris malbone, sed la erara kodo povas helpi vin. Se vi bezonas helpon, bonvolu kontakti nin por ke ni povu ripari ĉi tion. Ni sincere pardonpetas pro la ĝeno."
+    },
+    "actions": {
+      "home": "Reiru al la ĉefpaĝo",
+      "status": "Malfermu la statusan paĝon",
+      "email": "Kontaktu nin per retpoŝto"
+    },
+    "title": "Eraro"
+  },
+  "project": {
+    "actions": {
+      "source": "Fontkodo",
+      "website": "Oficiala Retejo"
+    },
+    "update": "Laste ĝisdatigita",
+    "archive": "Arkivita por"
+  },
+  "archive": {
+    "title": "Arkivoj"
+  },
+  "status": {
+    "main": [
+      "Ĉiuj servoj funkcias kiel nominalaj",
+      "Iuj servoj spertas rendimentan degeneron",
+      "Iuj servoj spertas gravan interrompon"
+    ],
+    "description": [
+      "Ni observis nominalan kaj bonan agadon de ĉiuj servoj gastigitaj de Equestria.Dev nuntempe.",
+      "Ni observis, ke iuj servoj pri razo.dev, kvankam funkciaj, estas pli malrapidaj ol kutime.",
+      "Ni observis malsupren tempon en iuj equestria.dev -servoj, igante ilin neatingeblaj dum iom da tempo."
+    ],
+    "affected": [
+      "La sekva servo estas tuŝita de ĉi tiu incidento:",
+      "La jenaj servoj estas tuŝitaj de ĉi tiu incidento:"
+    ],
+    "stats": {
+      "items": [
+        "Meza Serva Latencia:",
+        "Tuta uzata memoro:",
+        "Tuta uzata stokado:",
+        "Tuta disponebla komputila potenco:",
+        "kaŝaĵo:",
+        "Maksimuma I/O -latenco:",
+        "kernoj",
+        "Operaciumoj:",
+        "Procezoj Tuta"
+      ],
+      "title": "Statistiko",
+      "used": "uzata"
+    },
+    "title": "Sistemaj Statuso",
+    "page": "Vidu plenan statusan paĝon",
+    "update": "Laste ĝisdatigita"
+  },
+  "months": [
+    "Januaro",
+    "Februaro",
+    "Marto",
+    "Aprilo",
+    "Majo",
+    "junio",
+    "Julio",
+    "Aŭgusto",
+    "Septembro",
+    "Oktobro",
+    "Novembro",
+    "Decembro"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Enhavo -Administrado kaj Malgaranĉoj",
+        "Krom se en ĉeesto de uzant-kreita enhavo, la enhavo gastigita sur la platformo de Equestria.Dev estas sub la respondeco de",
+        "Kvankam ni klopodas kiel eble plej multe por provizi al uzantoj precizajn informojn, la programistoj de Equestria.Dev ne povas garantii la precizecon de la informoj donitaj de niaj platformoj. Tial la informoj pri niaj platformoj povas esti neaktivaj aŭ malaktualaj."
+      ],
+      "title": "Juraj Malgaranĉoj",
+      "privacy": "Se vi iam bezonas pli da detaloj, bonvolu kontakti nin rekte. Iuj informoj estas kaŝitaj pro privatecaj kialoj.",
+      "servers": "Servilaj Lokoj",
+      "locations": "Equestrie.dev administras retojn transirantajn datumojn de uzantoj en Francio, Germanio kaj Usono. Retoj uzataj nur por la internaj celoj de Equestria.Dev kaj kiuj ne transigas uzantajn datumojn ne estas menciitaj en ĉi tiu paĝo.",
+      "property": "Serviloj sub la posedaĵo de:",
+      "physical": "Proksimuma fizika loko:",
+      "isp": "Interreta Serva Provizanto:",
+      "us": "Ligilo por ne-usonaj loĝantoj",
+      "data": "Petoj pri Uzantaj Datumoj",
+      "howto": "Ĉu iu ajn rajda.dev -uzanto -peto aliro aŭ forigo de uzantaj datumoj, retpoŝto enhavanta la IP -adreson de la uzanto, ajnaj aparataj identigiloj (se aplikeble), identigilo de equestria.dev (se aplikeble) devas esti sendita de la retpoŝta adreso asociita kun la konto equestria.dev (se aplikeble) al la sekva retpoŝta adreso:",
+      "law": "Laŭ regularoj pri leĝo, equestria.dev ne kapablas forigi servilajn ŝtipojn, kiuj havas malpli ol 3 monatojn.",
+      "gov": "Garantia Kanario",
+      "pgp": "Jen PGP -mesaĝo subskribita kun la sekva ŝlosilo:",
+      "key": "Rigardu plenan publikan ŝlosilon",
+      "alt": "Alternativa fonto",
+      "plain": "Vidi Garantian Kanarion (Malfermiĝas en Nova langeto)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Nia Logo",
+        "message": "Bonvolu ne redakti, ŝanĝi, distordi, rekoloron aŭ agordi la logo de Equestria.Dev."
+      },
+      "icon": {
+        "title": "Ikono Nur",
+        "message": "Uzu ĉi tiujn nur kiam la marko Equestria.Dev estas klare videbla, estis bone establita aliloke sur la paĝo aŭ en la dezajno, aŭ spaco ne permesas montri la plenan version. Kiam vi dubas, uzu la alian."
+      },
+      "spacing": {
+        "title": "Interspacigo",
+        "message": "Certigu respekti ĉi tiujn interspacajn gvidliniojn dum uzado de la logo de Equestria.Dev. Aldone, certigu, ke vi faras la logoon sufiĉe granda por esti legebla kaj distingebla.",
+        "scale": "x = \".dev\" teksta alteco.",
+        "notice": "(La ikono nur versio estas rekomendita en spacoj, kie vi devas montri la logoon je grandecoj malpli ol 96 rastrumeroj aŭ 52,8 milimetroj, ĝis 24 rastrumeroj aŭ 13,2 milimetroj)"
+      },
+      "dont": {
+        "messages": [
+          "Ne redaktu, ŝanĝu aŭ rekonfiguru la logoon aŭ la vortmarkon",
+          "Ne distordu la logoon aŭ la vortmarkon inkluzive de neintence",
+          "Ne repagu aŭ apliku vidajn efikojn al la logo aŭ al la vortmarko",
+          "Ne metu etikedon aŭ iun alian elementon super la logo aŭ vortmarko"
+        ],
+        "descriptions": [
+          "Ĉi tio inkluzivas ne turni la logoon kaj ŝanĝi ajnan tekston aŭ formon, kune kun konservado de interspacoj inter la diversaj elementoj de la plena logo.",
+          "Vi ne devas distordi aŭ deformi la logotipo iel ajn, ĉu ĝi estas en 2D aŭ 3D -kadro. Aldone, certigu, ke la logo estas montrita ĝuste en ĉiuj kazoj.",
+          "Ambaŭ la logo kaj Wordmark devas esti konservitaj kiel estas, sen neniu koloroŝanĝo. Se vi bezonas uzi skalon, uzu la monokromajn variantojn.",
+          "Certigu, ke la etikedoj (se aplikeble) neniam interkovras iun ajn elementon de la logo. Aldone, ne aprobu aprobon aŭ sponsoradon kiam ne ekzistas."
+        ],
+        "too": {
+          "text": [
+            "Certigu, ke la marko Equestria.Dev ne montriĝas pli elstare ol la nomo, logo aŭ marko de via propra produkto aŭ servo.",
+            "Fari \"tro multe\" povus konduki al konfuzo kaj igi uzantojn opinii, ke ili alfrontas aŭ la oficialan retejon Equestria.Dev, aŭ oficialan produkton Equestria.Dev."
+          ],
+          "title": "Ne faru tro multe"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Equestria.Dev Logo:",
+              "Uzita sub Permesilo"
+            ],
+            "product": [
+              "[Projekta nomo] Logo",
+              "Projekta Nomo"
+            ]
+          },
+          "title": "Ne uzu sen atribuo",
+          "message": "Kiam vi uzas la logo de equestria.dev aŭ iu ajn projekta logoo, ĉiam donu atribuon kun ambaŭ el la jenaj tekstoj:"
+        },
+        "impersonation": {
+          "text": [
+            "Imitante la markon Equestria.Dev en ne-exestria.Dev-materialoj ne estas permesita. La sama limigo validas por vigligi la markon Equestria.Dev, kombinante ĝin kun iuj aliaj vortoj, simboloj, bildoj aŭ projektoj, aŭ korpigante ĝin en slogano aŭ etikedo.",
+            "Aldone, uzante la nomon aŭ similecon de individuo de ene de Equestria.Dev aŭ la grupo entute en iu ajn socia amaskomunikilaro aŭ alia amaskomunikilaro estas strikte malpermesita."
+          ],
+          "title": "Ne imitu aŭ senscie"
+        },
+        "endorsement": {
+          "text": [
+            "Ni taksas kunlaboron, tamen, neniel implicas aliĝon, sponsoradon, aprobon aŭ aprobon de viaj produktoj aŭ servoj kun Equestria.dev sen la ekspresa permeso de Equestria.Dev. Vi bezonas havi kunlaboron formale establitan skribe kun interkonsento de Equestria.Dev antaŭ ol raporti al tia kunlaboro kun Equestria.Dev.",
+            "Ĉi tio signifas tekston kiel \"aprobita de Equestria.dev\", \"Equestria.dev atestita\" aŭ \"rekomendita de Equestria.dev\" ne estas permesita."
+          ],
+          "title": "Ne implicas aprobon, kie estas neniu"
+        },
+        "title": "Don'ts"
+      },
+      "color": {
+        "formats": {
+          "title": "Kolora kodformato:",
+          "oklch": "Oklch (SRGB -profilo)",
+          "rgb": "Heksadekima RGB (8-bit)",
+          "cmyk": "CMYK (normo)"
+        },
+        "list": [
+          "Primara lumo",
+          "Primara mallumo",
+          "Malĉefa lumo",
+          "Malĉefa mallumo",
+          "Fono",
+          "Sur fono",
+          "Pozitiva lumo",
+          "Pozitiva Mallumo",
+          "Neŭtrala lumo",
+          "Neŭtrala Mallumo",
+          "Negativa lumo",
+          "Negativa mallumo",
+          "Surfaco",
+          "Sur surfaco"
+        ],
+        "title": "Kolora paletro",
+        "intro": "La kolora paletro de Equestria.Dev, nomata \"Brightdawn\" (post Misty Brightdawn, la karaktero de My Little Pony) estis kreita por reflekti niajn kernajn valorojn: inkluziveco, amikeco kaj travidebleco. Ĝi baziĝas sur la originala \"Misty\" paletro uzata en 2023 ĝisdatigita por inkludi pli brilajn kolorojn."
+      },
+      "more": {
+        "title": "Ĉu vi serĉas pli?",
+        "text": "Elŝutu la plenan markon -kiton Equestria.Dev kaj ricevu aliron al ĉiuj rimedoj, kiujn ni uzis por krei nian logoon, kune kun specialaj variantoj uzataj en specifaj kondiĉoj, inkluzive de prototipaj projektoj kaj aliaj dezajnaj folioj.",
+        "cta": "Elŝutu Version 3",
+        "notice": "Ankaŭ inkluzivas versiojn 1 kaj 2"
+      },
+      "page": "Gvidlinioj pri markado",
+      "title": "Equestria.Dev -markaj gvidlinioj",
+      "intro": "Ĉe Equestria.Dev, ni prenas aferojn kaj kiel vi reprezentas nian markon serioze. La marko Equestria.Dev devas reprezenti kvalitan, simplan kaj privatan malferman fontan programon. Se vi uzas niajn markajn valoraĵojn por io ajn, bonvolu certigi respekti ĉi tiujn gvidliniojn.",
+      "copyright": "La logo kaj produktoj de Equestria.Dev estas protektataj de aplikeblaj leĝoj pri kopirajto en Francio, Usono kaj aliaj landoj. Equestrie.Dev donas al vi netransireblan, ne ekskluzivan, senregulan liman licencon por uzi ĝian logoon kiel difinita per la sekvaj gvidlinioj. Ĉi tiuj gvidlinioj ankaŭ reguligas uzon de la logo de Equestria.Dev tra niaj propraj servoj. Malsukceso resti estas konsiderata malobservo de la intelekta proprieto de Equestria.Dev kaj kondukos al jura agado."
+    },
+    "privacy": {
+      "sections": [
+        "Privateco pri la Interretaj Servoj de Equestria.Dev",
+        "Privateco pri la petoj de Equestria.Dev",
+        "Privateco pri la Interretaj Servoj aŭ Apliko de Equestria.Dev, kiuj integriĝas kun triaj komponentoj",
+        "La respondeco de Equestria.Dev pri protektado de privataj datumoj de uzanto"
+      ],
+      "text": [
+        [
+          "Equestrie.dev nur konservos la informojn, kiujn vi eksplicite donas al ni (ekzemple, kiel parto de aliĝilo). Neniuj aliaj datumoj estos kolektitaj.",
+          "Tamen, kiel parto de leĝprojekto, Equestria.Dev kolektos IP -adresojn kaj aliajn retumilajn informojn (retumila nomo, versio, operaciumo, URL kaj dato) ĝis 365 tagoj. Ĉi tiuj informoj estas forigitaj ĉiujare en januaro.",
+          "Plue, Equestria.Dev povas, kiel parto de plibonigado de la kvalito kaj fidindeco de siaj servoj, kolekti tute anonimajn informojn, inkluzive de la paĝoj, kiujn vi vizitas, ekskludante eblajn personajn datumojn. Ĉi tiu informo fariĝas anonima antaŭ ol esti agregita en statistiko, kaj la originalaj informoj estas stokitaj kiel menciite en 1§2 (vidu supre)."
+        ],
+        [
+          "Ĉi tiu sekcio validas por aplikoj, kiuj estas \"instalitaj\" (alireblaj eĉ sen specifa servo de equestria.dev) al aparato de uzanto, kaj tuj kiam la uzanto ekigos la instalan procezon.",
+          "Equestrie.DEV -aplikoj neniam monitoros, stokos, ĝenos aŭ malhelpos la konduton de aliaj aplikoj. Ĉu la aplikaĵo funkcias aŭ ne evidentiĝos al la uzanto ĉiumomente.",
+          "Iuj aplikoj povas, post kiam uzanto donis sian eksplicitan kaj klaran konsenton (inkluzive post kiam uzanto agnoskis la specon de datumoj, kiuj estos kolektitaj), kolektu anonimajn statistikajn datumojn kiel parton de plibonigado de la kvalito kaj fidindeco de ĉi tiuj aplikoj. Uzanto ĉiam ricevas la eblon ĉesi sendi ĉi tiujn statistikojn al Equestria.Dev sen ia ŝanĝo pri kiel la apliko kondutas."
+        ],
+        [
+          "Kiam interreta servo aŭ aplikaĵo de Equestria.Dev integriĝas kun triaparta ero, la privateca politiko de tiu tria ekvalidas ĉiujn operaciojn pritraktitajn de ĉi tiu tria.",
+          "Kiam la triaparta komponento konsistigas la ĉefan operacion la interreta servo aŭ aplikaĵo, la privateca politiko de la tria validas en prioritato. Kiam la triaparta komponento konsistigas malĉefan operacion ene de la interreta servo aŭ apliko, la Privateca Politiko de Equestria.Dev validas unue.",
+          "En la okazo, ke la privateca politiko de tria dependita de equeststria.dev interreta servo aŭ apliko dependas de ŝanĝoj, uzantoj de dirita Equestria.Dev interreta servo aŭ apliko konsciiĝos pri la ŝanĝoj kaj kiel ĝi influas la manieron kiel ili Uzu la interretan servon aŭ aplikon."
+        ],
+        [
+          "Equestrie.dev estas tute respondeca pri sekurigado de privataj kaj personaj datumoj de uzanto (krom se tria partio estas engaĝita en la procezo, en kiu kazo, kiel menciite en Sekcio 3, la respondeco de la tria estas prenita).",
+          "En la okazo ke tiaj informoj fariĝas publikaj, ekz., De entruduloj elŝutante datumojn de la serviloj de Equestria.dev, uzantoj konscios pri la afero kiel eble plej baldaŭ, kaj ricevos instrukciojn se ĝi bezonos.",
+          "Equestrie.dev havas neniun intereson vendi, fordoni aŭ elmontri datumojn de uzantoj kaj ne provos iun ajn el ĉi tiuj operacioj en ajna momento."
+        ]
+      ],
+      "translation": [
+        "Malgarantio:",
+        "En la okazo ke ĉi tiu Privateca Politiko estas tradukita al alia lingvo, nur la angla versio laŭleĝe aplikeblas. La tradukitaj versioj estas provizitaj nur por informaj celoj."
+      ],
+      "title": "Datuma Privateco",
+      "bigtitle": "Reguloj pri Privatecaj Datumoj de Equestria.Dev",
+      "intro": "Ĉe Equestria.Dev, ni taksas vian privatecon. Ni provas kolekti kiel eble plej malmulte da datumoj por havigi al vi la servon, kiun vi atendas. Sendepende, la datumtraktado de Equestria.Dev estas farita konforme al la Eŭropa Ĝenerala Reglamento pri Protekto de Datumoj."
+    },
+    "terms": {
+      "translation": [
+        "Malgarantio:",
+        "En la okazo ke ĉi tiuj terminoj kaj kondiĉoj estas tradukitaj al alia lingvo, nur la angla versio laŭleĝe aplikeblas. La tradukitaj versioj estas provizitaj nur por informaj celoj."
+      ],
+      "sections": [
+        "Malgarantio",
+        "Demografioj",
+        "Celoj",
+        "Leĝo",
+        "Servaj kvalito kaj fidindeco",
+        "Reciproka respekto kaj egaleco"
+      ],
+      "text": [
+        [
+          "Specifaj uzantoj eble ne rajtas uzi la interretajn servojn de Equestria.Dev depende de sia loko aŭ fizika kondiĉo.",
+          "Uzantoj situantaj en Ĉinio, Nord -Koreio kaj iuj aliaj landoj ne rajtas uzi interretajn servojn. Esceptoj povas esti farataj per-kazo de la administrantoj.",
+          "Individuoj, kiuj estas laŭleĝe pli junaj ol 13 -jaraj, tute ne rajtas uzi la interretajn servojn. Uzantoj, kiuj havas malpli ol 21 jarojn, eble ne havas aliron al specifaj funkcioj."
+        ],
+        [
+          "Equestrie.Dev donas al uzantoj unikan, revokan, neŝanĝeblan permeson aliri la interretajn servojn.",
+          "Uzante la interretajn servojn en profita agado, kio ajn ne estas permesata, negrave kiom da profito estas farita, kaj rezultigos tujan ĉesigon de la aliro al la interretaj servoj."
+        ],
+        [
+          "Kiam vi uzas servon gastigitan de Equestria.Dev, uzanto konsentas ne uzi la servon por iu ajn operacio kontraŭleĝa en Francio aŭ Usono. Plie, la operacioj de uzanto ne devas malhelpi aliajn uzantojn fari siajn proprajn operaciojn.",
+          "Eldoni misuzan aŭ perfortan enhavon, malican kodon aŭ programon, aŭ ŝtelitan enhavon ne estas permesata kaj rezultigos tujan ĉesigon de aliro."
+        ],
+        [
+          "Gastigi interretajn servojn estas komplika kaj equestria.dev funkcias kun tre limigita enspezo.",
+          "La programistoj kaj administrantoj de Equestrie.Dev ne respondecas pri la interreta servo ne funkcias kiel celite. Ĉiuj interretaj platformoj estas servataj kiel kun neniu garantio, ke ĝi funkcios kiel celite aŭ funkcios entute dum iu difinita tempodaŭro.",
+          "Equestria.Dev deklaras, ke la servoj, kiujn ili gastigas, povas esti malrapidaj aŭ neatingeblaj ĉe nespecifitaj punktoj en tempo, kun aŭ sen averto. La administrantoj ne promesas pri specifa procento de havebleco por donita servo dum la tuta jaro."
+        ],
+        [
+          "Kiam sociaj interagoj ĉeestas, ĉiuj uzantoj konsentas ne diskriminacii unu la alian pro siaj sociaj, fizikaj aŭ psikologiaj kondiĉoj, inkluzive de iliaj opinioj. Uzantoj estas instigitaj raporti tian netaŭgan konduton por helpi konservi la platformojn sekuraj por ĉiuj.",
+          "Ĉiuj uzantoj estas liberaj identigi, kiel ili deziras, se ĝi ne influas la manieron kiel aliaj uzantoj interagas kun la servo. Ĉiuj identecoj validas negrave de kie ili estas.",
+          "Ĉiuj ricevas aliron al la preciza sama servo, sendepende de kie ili loĝas (krom se 1. aplikeblas) kaj kiuj ili estas. Equestria.Dev tre taksas egalecon kaj respekton inter uzantoj kaj insistas, ke uzantoj devas raporti netaŭgan konduton, ĉu ĝi malobservas ĉi tiujn servojn aŭ ne."
+        ]
+      ],
+      "title": "Terminoj kaj Kondiĉoj",
+      "bigtitle": "Equestria.Dev Gastigitaj Servaj Kondiĉoj kaj Kondiĉoj",
+      "intro": "La sekvaj uzokondiĉoj validas nur por interretaj servoj gastigitaj de equestria.dev, inkluzive se la interreta servo estas alirita per tria. \"Lokaj\" aplikoj aŭ servoj, kiuj ne estas gastigitaj de Equestria.Dev, ne estas regataj de ĉi tiuj Kondiĉoj de Uzo, sed respektive ilia licenca interkonsento kaj la uzado de uzado de la Servo."
+    },
+    "license": {
+      "translation": [
+        "Malgarantio:",
+        "En la okazo ke ĉi tiuj licencoj estas tradukitaj al alia lingvo, nur la angla versio laŭleĝe aplikeblas. La tradukitaj versioj estas provizitaj nur por informaj celoj."
+      ],
+      "sections": [
+        "Senpaga, Libera kaj Malferma Programaro",
+        "Fermita \"Proprieta\" Programaro"
+      ],
+      "text": [
+        [
+          "Estas konsiderata \"senpaga, libera kaj malferma-fonta\" ĉiuj programoj, kiujn Equestria.dev liberigas sub la publika havaĵo la MIT-licencon, ajnan kongruan alternativon, aŭ tute kopirajtan. Krom se kopio de licenca interkonsento ĉeestas en la fontkodo de la programaro, aŭ mencio de alia permesilo ĉeestas aliloke, programaro, kiu fontkodo estas publike alirebla, estas publikigita laŭ la sekvaj licencaj terminoj:",
+          "MIT -Permesilo",
+          "Permeso estas donita, senpage, al iu ajn ricevanta kopion de ĉi tiu programaro kaj asociitajn dokumentajn dosierojn (la \"Programaro\"), por trakti la programon sen limigo, inkluzive sen limigo de la rajtoj uzi, kopii, modifi, kunfandiĝi , eldoni, distribui, sublicenci, kaj/aŭ vendi kopiojn de la programaro kaj permesi al homoj, al kiuj la programaro estas provizita por fari tion, sub la jenaj kondiĉoj:",
+          "La ĉi -supra kopirajta avizo kaj ĉi tiu permeso -avizo estas inkluzivitaj en ĉiuj kopioj aŭ substancaj porcioj de la programaro.",
+          "La programaro estas provizita \"kiel estas\", sen garantio de ia ajn speco, esprima aŭ implicita, inkluzive sed ne limigita al la garantioj de komercebleco, taŭgeco por aparta celo kaj neinfringemo. En neniu okazo la aŭtoroj aŭ posedantoj de kopirajto respondecos pri iu ajn aserto, damaĝoj aŭ alia respondeco, ĉu en ago de kontrakto, torturo aŭ alie, devenanta de, ekster aŭ rilate al la programaro aŭ la uzo aŭ aliaj traktadoj en la Programaro."
+        ],
+        [
+          "En iuj kazoj, programistoj de Equestria.Dev povas elekti ne liberigi la fontkodon por specifa peco de programaro. Ĉi tio povus esti ĉar ĝi estas facile misuzita aŭ misuzita, ĉar ĝi uzas privatan platformon, ĉar ĝi enhavas konfidencajn aŭ privatajn informojn, aŭ alian kialon. Ellaborantoj povas elekti fari fermitan fontan programon malfermfontan poste.",
+          "Elŝutante, instalante, aĉetante aŭ uzante la programon, vi akceptas ĉi tiujn licencajn terminojn. Se vi ne akceptas ilin, ne uzu la programon; aŭ, se malferma fonta varianto haveblas, uzu la malferman fontan varianton.",
+          "En ĉiuj kazoj de fermita fonta programaro, uzantoj devas:",
+          "Uzu la programon strikte por personaj celoj kaj ne por profito;",
+          "ne provu malkompili, modifi, eldoni, distribui, vendi aŭ rajtigi la programon;",
+          "Ne uzu la programon en maniero kontraŭleĝa en Francio aŭ Usono;",
+          "ne uzu la programon en maniero, kiu povus riski equestria.dev;",
+          "ne elmontru la programon en publikaj lokoj, kie uzantoj povus uzi ĝin sen unue konsenti pri ĉi tiu permesila interkonsento",
+          "En kazo de pagita programaro, uzantoj ne devas doni aliron al la programaro senpage al tria. Doni aliron al la programaro al parenco (amiko, familio, ...) estas konsiderata akceptebla, sed ne devas superi 10 homojn."
+        ]
+      ],
+      "title": "Programaj Permesiloj",
+      "bigtitle": "Equestria.Dev Programaro kaj Fontoj -Permesiloj",
+      "intro": "Equestrie.Dev liberigas programojn en diversaj licencaj skemoj, plejofte sub licencoj Libre."
+    }
+  },
+  "_name": "Esperanto",
+  "title": "Equestria.dev: Softvara platformo, kiun vi povas fidi",
+  "language": "Lingva Selektilo"
+}

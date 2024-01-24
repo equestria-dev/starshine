@@ -219,7 +219,7 @@
       "isp": "Proveedor de servicios de Internet:",
       "us": "enlace para residentes no estadounidenses",
       "data": "Solicitudes de datos de usuario",
-      "howto": "En caso de que cualquier Equestria.dev Solicite el acceso o la eliminación de los datos del usuario, se debe enviar un correo electrónico que contenga la dirección IP del usuario, cualquier identificador de dispositivo (si corresponde), una ID de cuenta Equestria.dev (si corresponde) desde la dirección de correo electrónico asociado con la cuenta Equestria.dev (si corresponde) a la siguiente dirección de correo electrónico:",
+      "howto": "Si cualquier Equestria.dev Solicitud del usuario de acceso o eliminación de datos del usuario, un correo electrónico que contiene la dirección IP del usuario, cualquier identificador de dispositivo (si corresponde), una ID de cuenta Equestria.dev (si corresponde) debe enviarse desde la dirección de correo electrónico asociado con la cuenta Equestria.dev (si corresponde) a la siguiente dirección de correo electrónico:",
       "law": "Según las regulaciones de aplicación de la ley, Equestria.dev no puede eliminar registros de servidores que tienen menos de 3 meses.",
       "gov": "Orden canario",
       "pgp": "Este es un mensaje PGP firmado con la siguiente clave:",
@@ -426,7 +426,7 @@
           "El software se proporciona \"tal cual\", sin garantía de ningún tipo, expresa o implícita, incluidas, entre otros, las garantías de comerciabilidad, idoneidad para un propósito particular y no infracción. En ningún caso los autores o titulares de derechos de autor serán responsables de cualquier reclamo, daños u otro responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, derivado, de o en relación con el software o el uso u otros tratos en el SOFTWARE."
         ],
         [
-          "En algunos casos, los desarrolladores de Equestria.dev pueden optar por no lanzar el código fuente para una pieza específica de software. Esto podría deberse a que se abusa o se usa fácilmente, porque utiliza una plataforma privada, porque contiene información confidencial o privada u otra razón. Los desarrolladores pueden optar por hacer un software de código cerrado de código abierto más adelante.",
+          "En algunos casos, los desarrolladores de Equestria.dev pueden optar por no lanzar el código fuente para una pieza específica de software. Esto podría deberse a que se abusa o se usa fácilmente, porque usa una plataforma privada, porque contiene información confidencial o privada u otra razón. Los desarrolladores pueden optar por hacer un software de código cerrado de código abierto más adelante.",
           "Al descargar, instalar, comprar o usar el software, acepta estos términos de licencia. Si no los acepta, no use el software; O, si hay una variante de código abierto disponible, use la variante de código abierto.",
           "En todos los casos de software de código cerrado, los usuarios deben:",
           "Use el software estrictamente para fines personales y no con fines de lucro;",

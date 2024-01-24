@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "seconde",
+      "seconden"
+    ],
+    "minute": [
+      "minuut",
+      "minuten"
+    ],
+    "hour": [
+      "uur",
+      "uren"
+    ],
+    "day": [
+      "dag",
+      "dagen"
+    ],
+    "week": [
+      "week",
+      "weken"
+    ],
+    "month": [
+      "maand",
+      "maanden"
+    ],
+    "year": [
+      "jaar",
+      "jaar"
+    ],
+    "age": [
+      "leeftijd",
+      "leeftijden"
+    ],
+    "ago": "geleden",
+    "later": "later",
+    "now": "nu"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projecten",
+      "network": "Netwerk",
+      "contact": "Contact",
+      "legal": "Wettelijk"
+    },
+    "projects": {
+      "archives": "Zie onze gearchiveerde projecten"
+    },
+    "network": {
+      "status": [
+        "Alle systemen operationeel",
+        "Gedegradeerde prestaties",
+        "Grote storing"
+      ],
+      "account": "Jouw rekening",
+      "infra": "Infrastructuur",
+      "security": "Beveiligingsadviezen",
+      "bugs": "Bug Tracker",
+      "blog": "Blog"
+    },
+    "legal": {
+      "terms": [
+        "Voorwaarden",
+        "en voorwaarden"
+      ],
+      "privacy": "Data Privacy",
+      "license": "Softwarelicenties",
+      "disclaimer": "Wettelijke disclaimers",
+      "branding": "Brandingrichtlijnen",
+      "support": "Gesteund door",
+      "version": "Versie",
+      "made": "Gemaakt door pony's met",
+      "phpstorm": "en phpstorm",
+      "trademark": "\"Equestria.dev\" en bijbehorende namen zijn handelsmerken van Equestria.Dev -ontwikkelaars in Frankrijk en andere landen. De logo's van Equestria.Dev en Projects zijn beschermd onder toepasselijke auteursrechtwetten. Jetbrains, de bijbehorende logo's en de bijbehorende namen zijn geregistreerde handelsmerken van JetBrains S.R.O., gebruikt onder licentie."
+    },
+    "contact": {
+      "email": "Stuur ons een e-mail"
+    }
+  },
+  "footer": {
+    "copyright": "Alle rechten voorbehouden."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Softwareplatform",
+        "jij kan",
+        "vertrouwen op"
+      ],
+      "cta": "Kijk wat we doen"
+    },
+    "categories": {
+      "dev": {
+        "title": "Ontwikkeling",
+        "description": "Met meer dan 5 jaar ervaring in softwareontwikkeling, in een breed scala van talen - zoals Rust, JavaScript, Kotlin of PHP -, kunt u er zeker van zijn dat we kwaliteitssoftware zullen ontwikkelen om aan uw behoeften te voldoen, of u nu een bedrijf bent of een individu.",
+        "cta": "Projecten bekijken"
+      },
+      "network": {
+        "title": "Netwerk",
+        "description": "Wist je dat deze tekst minstens 3 verschillende Equestria.DEV -servers doorging voordat je je bereikte? Met onze jarenlange ervaring in het beheren van servers - voornamelijk Linux -, kunnen we elke applicatie volledig optimaliseren om op zijn best te presteren, ongeacht de serverbelasting.",
+        "cta": "Bekijk infrastructuur"
+      },
+      "privacy": {
+        "title": "Privacy",
+        "description": "Privacy, beveiliging en bescherming van gebruikersgegevens zijn altijd van onze kernwaarden geweest. Waar mogelijk-en nodig-, gebruiken we robuuste coderingstechnologie voor militaire kwaliteit en zorgen we ervoor dat gebruikersgegevens altijd veilig en beschermd zijn tegen verschillende soorten aanvallen.",
+        "cta": "Lees documenten"
+      }
+    },
+    "contact": {
+      "title": "Heeft u een speciaal verzoek?",
+      "description": "Als u wilt dat we helpen met een eigen project, of het nu gaat om ontwikkeling, het beheren van servers of privacy en beveiliging, kunnen we helpen. Voel je vrij om ons een bericht te sturen en we zullen zien wat we kunnen doen.",
+      "cta": "zend ons een bericht"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Ongeldig verzoek",
+      "401": "Verificatie vereist",
+      "403": "Toegang is geweigerd",
+      "404": "Pagina niet gevonden",
+      "500": "Interne Server Fout",
+      "501": "Nog niet verkrijgbaar",
+      "502": "Upstream -serverfout",
+      "503": "Server is onbereikbaar",
+      "504": "Stroomopwaartse server getimed",
+      "default": "Onbekende systeemfout"
+    },
+    "descriptions": {
+      "400": "U hebt geprobeerd een verzoek naar de server te sturen die deze niet kan verwerken. Dit zou over het algemeen niet moeten gebeuren, maar het kan een probleem met uw browser aangeven. Als u hulp nodig hebt om dit op te lossen, neem dan gerust contact met ons op.",
+      "401": "U hebt geprobeerd een pagina te bereiken die authenticatie vereist zonder te worden geverifieerd. Het vernieuwen van de pagina helpt meestal dit probleem op te lossen. Als u geen referenties hebt om voor deze pagina te authenticeren, kunt u teruggaan naar de startpagina.",
+      "403": "U hebt geprobeerd een pagina te bereiken die niet toegankelijk is op deze website. Dit is meestal het geval voor interne bestanden die op de server worden gebruikt. Als je een link van deze website hebt gevolgd en hier bent gekomen, moet er iets mis zijn.",
+      "404": "Als u een link van deze website hebt gevolgd, moet er iets mis zijn. Als u een externe link hebt gevolgd, is het mogelijk dat de link onjuist is en moet worden bijgewerkt. Als u het adres zelf hebt ingevoerd, is het mogelijk dat u iets verkeerd hebt gespeld.",
+      "500": "Er is een fout opgetreden op de server terwijl u probeert uw verzoek te verwerken die niet gerelateerd is aan uw browserconfiguratie. Dit is over het algemeen een bug of een tijdelijk probleem. Als het aanhoudt, kunt u ons op de hoogte stellen van het probleem, zodat we het kunnen oplossen.",
+      "501": "De pagina die u hebt geprobeerd te bereiken, maakt gebruik van een serverfunctie die nog niet op de website is geïmplementeerd. Dit komt meestal omdat de pagina die u probeert te bereiken een werk in uitvoering is en in de toekomst beschikbaar zal zijn.",
+      "502": "Deze pagina hangt af van een externe bron of server die op dit moment niet beschikbaar is. Dit duidt meestal op een storing op een of meer van onze servers. Als het probleem aanhoudt, neem dan contact met ons op, zodat we dit kunnen oplossen.",
+      "503": "Deze pagina hangt af van een interne bron die op dit moment niet beschikbaar is. Dit betekent meestal dat de bron, website of server onderhoud is en momenteel niet beschikbaar is. Controleer onze statuspagina voor meer informatie.",
+      "504": "Deze pagina hangt af van een externe bron of server die niet op tijd kon worden bereikt. Dit duidt meestal op een storing of een algehele vertraging. Als het probleem aanhoudt, neem dan contact met ons op, zodat we dit kunnen oplossen.",
+      "default": "Er is een fout zonder papieren opgetreden. We weten niet zeker wat er mis is gegaan, maar de foutcode kan u helpen. Als u hulp nodig hebt, neem dan contact met ons op, zodat we dit kunnen repareren. Onze excuses voor het ongemak."
+    },
+    "actions": {
+      "home": "Ga terug naar de startpagina",
+      "status": "Open de statuspagina",
+      "email": "Neem contact met ons op via e -mail"
+    },
+    "title": "Fout"
+  },
+  "project": {
+    "actions": {
+      "source": "Broncode",
+      "website": "Officiële website"
+    },
+    "update": "Laatst bijgewerkt",
+    "archive": "Gearchiveerd voor"
+  },
+  "archive": {
+    "title": "Archieven"
+  },
+  "status": {
+    "main": [
+      "Alle diensten werken als nominaal",
+      "Sommige diensten ervaren degradatie van prestaties",
+      "Sommige diensten ervaren een grote storing"
+    ],
+    "description": [
+      "We hebben op dit moment nominale en goede prestaties waargenomen van alle diensten georganiseerd door Equestria.Dev.",
+      "We hebben opgemerkt dat sommige Equestria.DEV -diensten, hoewel functioneel zijn, langzamer zijn dan normaal.",
+      "We hebben in sommige Equestria.DEV -services downtime waargenomen, waardoor ze een tijdje ontoegankelijk zijn."
+    ],
+    "affected": [
+      "De volgende service wordt beïnvloed door dit incident:",
+      "De volgende diensten worden beïnvloed door dit incident:"
+    ],
+    "stats": {
+      "items": [
+        "Gemiddelde servicelatentie:",
+        "Totaal gebruikt geheugen:",
+        "Totaal gebruikte opslag:",
+        "Totaal beschikbare rekenkracht:",
+        "Cache:",
+        "Maximale I/O -latentie:",
+        "kernen",
+        "Besturingssystemen:",
+        "processen totaal"
+      ],
+      "title": "Statistieken",
+      "used": "gebruikt"
+    },
+    "title": "Systeemstatus",
+    "page": "Bekijk de volledige statuspagina",
+    "update": "Laatst bijgewerkt"
+  },
+  "months": [
+    "Januari",
+    "Februari",
+    "Maart",
+    "april",
+    "Kunnen",
+    "juni",
+    "juli",
+    "augustus",
+    "september",
+    "oktober",
+    "November",
+    "December"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Contentbeheer en disclaimers",
+        "Tenzij in aanwezigheid van door gebruikers gecreëerde inhoud, is de inhoud die wordt gehost op het platform van Equestria.Dev onder de verantwoordelijkheid van",
+        "Hoewel we zoveel mogelijk moeite doen om gebruikers nauwkeurige informatie te verstrekken, kunnen de Equestria.DEV -ontwikkelaars niet garanderen dat de precieze informatie wordt verstrekt door onze platforms. Daarom kan de informatie op onze platforms onnauwkeurig of verouderd zijn."
+      ],
+      "title": "Wettelijke disclaimers",
+      "privacy": "Als u ooit meer details nodig hebt, neem dan rechtstreeks contact met ons op. Sommige informatie wordt verborgen gehouden om privacyredenen.",
+      "servers": "Serverlocaties",
+      "locations": "Equestria.Dev beheert netwerken die gebruikersgegevens doorbrengen in Frankrijk, Duitsland en de Verenigde Staten. Netwerken die alleen worden gebruikt voor de interne doeleinden van Equestria.DEV en die geen gegevens over transitgebruikers worden genoemd, worden niet op deze pagina vermeld.",
+      "property": "Servers onder het eigendom van:",
+      "physical": "Geschatte fysieke locatie:",
+      "isp": "Internet Service Provider:",
+      "us": "link voor niet-Amerikaanse inwoners",
+      "data": "Gebruikersgegevensverzoeken",
+      "howto": "Mochten een equestria.dev -gebruikersverzoektoegang of verwijdering van gebruikersgegevens, een e -mail met het IP -adres van de gebruiker, alle apparaat -identificatiegegevens (indien van toepassing), moet een equestria.dev -account -ID (indien van toepassing) vanuit het e -mailadres worden verzonden geassocieerd met de Equestria.Dev -account (indien van toepassing) aan het volgende e -mailadres:",
+      "law": "Volgens voorschriften voor wetshandhaving kan Equestria.Dev geen serverlogboeken verwijderen die minder dan 3 maanden oud zijn.",
+      "gov": "Warrant Canary",
+      "pgp": "Dit is een PGP -bericht dat is ondertekend met de volgende sleutel:",
+      "key": "Bekijk de volledige openbare sleutel",
+      "alt": "alternatieve bron",
+      "plain": "Bekijk Warrant Canary (opent op een nieuw tabblad)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Ons logo",
+        "message": "Bewerk, wijzigen, vervormen, vervormen, recolor of herconfigureer het equestria.dev -logo."
+      },
+      "icon": {
+        "title": "Alleen icoon",
+        "message": "Gebruik deze alleen wanneer het merk Equestria.dev duidelijk zichtbaar is, elders op de pagina of in het ontwerp goed is ingeburgerd, of de ruimte staat niet toe dat de volledige versie wordt weergegeven. Gebruik bij twijfel de andere."
+      },
+      "spacing": {
+        "title": "Spatiëring",
+        "message": "Zorg ervoor dat u deze afstandsrichtlijnen respecteert tijdens het gebruik van het equestria.dev -logo. Zorg er bovendien voor dat u het logo groot genoeg maakt om leesbaar en te onderscheiden te zijn.",
+        "scale": "x = \".dev\" teksthoogte.",
+        "notice": "(De alleen -pictogram -versie wordt aanbevolen in ruimtes waar u het logo moet tonen met maten minder dan 96 pixels of 52,8 millimeter, tot 24 pixels of 13,2 millimeter)"
+      },
+      "dont": {
+        "messages": [
+          "Bewerk het logo of het woordmark niet bewerken, wijzigen of opnieuw configureren",
+          "Vervorm het logo of het woordmark niet inclusief onbedoeld",
+          "Recolor niet of pas visuele effecten toe op het logo of het woordmark",
+          "Plaats geen slogan of een ander element op het logo of een woordmark"
+        ],
+        "descriptions": [
+          "Dit omvat het niet roteren van het logo en het wijzigen van tekst of vorm, samen met het handhaven van afstand tussen de verschillende elementen van het volledige logo.",
+          "U mag het logo op geen enkele manier vervormen of vervormen, of het nu in een 2D- of 3D -frame is. Zorg er bovendien voor dat het logo in alle gevallen correct wordt weergegeven.",
+          "Zowel het logo als het woordmark moeten worden bewaard zoals het is, zonder kleurverandering. Als u Grayscale moet gebruiken, gebruikt u de monochrome varianten.",
+          "Zorg ervoor dat de taglines (indien van toepassing) nooit een element van het logo overlappen. Start bovendien geen goedkeuring of sponsoring als er geen is."
+        ],
+        "too": {
+          "text": [
+            "Zorg ervoor dat het merk Equestria.dev niet prominenter wordt weergegeven dan de naam, het logo of het merk van uw eigen product of service.",
+            "Het doen van \"te veel\" kan leiden tot verwarring en gebruikers laten denken dat ze worden geconfronteerd met de officiële Equestria.DEV -website, of een officieel Equestria.dev -product."
+          ],
+          "title": "Doe niet te veel"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Equestria.dev logo:",
+              "gebruikt onder licentie"
+            ],
+            "product": [
+              "[Projectnaam] Logo",
+              "Naam van het project"
+            ]
+          },
+          "title": "Gebruik niet zonder toeschrijving",
+          "message": "Wanneer u het Equestria.dev -logo of een projectlogo gebruikt, geeft u altijd toeschrijving met een van de volgende teksten:"
+        },
+        "impersonation": {
+          "text": [
+            "Het merk Equestria.dev in het merk Equestria.dev in niet-equestria.dev is niet toegestaan. Dezelfde beperking is van toepassing op het animeren van het merk Equestria.dev, het combineren met andere woorden, symbolen, afbeeldingen of ontwerpen, of het opnemen in een slogan of slogan.",
+            "Bovendien is het gebruik van de naam of gelijkenis van een individu vanuit Equestria.dev of de groep als geheel in een sociale media -account of andere media ten strengste verboden."
+          ],
+          "title": "Imiteer of imiteer niet"
+        },
+        "endorsement": {
+          "text": [
+            "Wij waarderen de samenwerking echter op geen enkele manier impliceren aansluiting, sponsoring, goedkeuring of goedkeuring van uw producten of diensten met Equestria.DEV zonder de uitdrukkelijke toestemming van Equestria.Dev. U moet een samenwerking formeel schriftelijk vaststellen met een overeenkomst van Equestria.Dev voordat u verwijst naar een dergelijke samenwerking met Equestria.Dev.",
+            "Dit betekent dat tekst zoals \"goedgekeurd door Equestria.Dev\", \"Equestria.dev Certified\" of \"aanbevolen door Equestria.Dev\" is niet toegestaan."
+          ],
+          "title": "Impliceer geen goedkeuring waar er geen is"
+        },
+        "title": "Niet"
+      },
+      "color": {
+        "formats": {
+          "title": "Kleurcode -indeling:",
+          "oklch": "Oklch (SRGB -profiel)",
+          "rgb": "Hexadecimale RGB (8-bit)",
+          "cmyk": "CMYK (standaard)"
+        },
+        "list": [
+          "Primair licht",
+          "Primair donker",
+          "Secundair licht",
+          "Secundair donker",
+          "Achtergrond",
+          "Op de achtergrond",
+          "Positief licht",
+          "Positief donker",
+          "Neutraal licht",
+          "Neutraal donker",
+          "Negatief licht",
+          "Negatief donker",
+          "Oppervlak",
+          "Op het oppervlak"
+        ],
+        "title": "Kleurenpalet",
+        "intro": "Het Equestria.Dev -kleurenpalet, genaamd \"Brightdawn\" (naar Misty Brightdawn, het personage van mijn kleine pony) is gemaakt om onze kernwaarden weer te geven: inclusiviteit, vriendschap en transparantie. Het is gebaseerd op het originele \"Misty\" -palet dat in 2023 wordt bijgewerkt om helderdere kleuren op te nemen."
+      },
+      "more": {
+        "title": "Op zoek naar meer?",
+        "text": "Download de volledige equestria.dev -merkkit en krijg toegang tot alle bronnen die we hebben gebruikt om ons logo te maken, samen met speciale varianten die worden gebruikt in specifieke omstandigheden, inclusief prototype -ontwerpen en andere ontwerpbladen.",
+        "cta": "Download versie 3",
+        "notice": "Bevat ook versies 1 en 2"
+      },
+      "page": "Brandingrichtlijnen",
+      "title": "Equestria.dev Branding -richtlijnen",
+      "intro": "Bij Equestria.Dev nemen we dingen en hoe u ons merk serieus vertegenwoordigt. Het merk Equestria.dev moet kwaliteitsvolle, eenvoudige en privé-open-source software vertegenwoordigen. Als u onze merkactiva voor iets gebruikt, zorg er dan voor dat u deze richtlijnen respecteert.",
+      "copyright": "Het Equestria.DEV -logo en producten worden beschermd door toepasselijke auteursrechtwetten in Frankrijk, de Verenigde Staten en andere landen. Equestria.dev verleent u een niet-overdraagbare, niet-exclusieve, royaltyvrije beperkte licentie om het logo te gebruiken zoals gedefinieerd door de volgende richtlijnen. Deze richtlijnen regelen ook het gebruik van het Equestria.DEV -logo in onze eigen diensten. Het niet naleven wordt beschouwd als een inbreuk op het intellectuele eigendom van Equestria.DEV en zal leiden tot juridische stappen."
+    },
+    "privacy": {
+      "sections": [
+        "Privacy op de online services van Equestria.dev",
+        "Privacy op de Equestria.DEV -applicaties",
+        "Privacy op de Equestria.dev online services of applicatie die integreren met componenten van derden",
+        "Equestria.Dev's verantwoordelijkheid bij het beschermen van de privégegevens van een gebruiker"
+      ],
+      "text": [
+        [
+          "Equestria.dev zal alleen de informatie opslaan die u ons expliciet geeft (bijvoorbeeld als onderdeel van een registratieformulier). Er worden geen andere gegevens verzameld.",
+          "Als onderdeel van de wetshandhaving zal Equestria.Dev IP -adressen en andere browserinformatie (browsernaam, versie, besturingssysteem en datum) echter tot 365 dagen verzamelen. Deze informatie wordt elk jaar in januari verwijderd.",
+          "Bovendien kan Equestria.Dev, als onderdeel van het verbeteren van de kwaliteit en betrouwbaarheid van haar diensten, volledig anonieme informatie verzamelen, inclusief de pagina's die u bezoekt, exclusief mogelijke persoonlijke gegevens. Deze informatie wordt anoniem gemaakt voordat hij wordt geaggregeerd in statistieken en de oorspronkelijke informatie wordt opgeslagen zoals vermeld in 1§2 (zie hierboven)."
+        ],
+        [
+          "Deze sectie is van toepassing op applicaties die worden \"geïnstalleerd\" (zelfs zonder specifieke service van equestria.dev) naar het apparaat van een gebruiker, en zodra de gebruiker het installatieproces start.",
+          "Equestria.DEV -toepassingen zullen het gedrag van andere toepassingen nooit bewaken, opslaan, storen of voorkomen. Of de applicatie actief is of niet, wordt altijd duidelijk gemaakt voor de gebruiker.",
+          "Sommige applicaties kunnen, nadat een gebruiker zijn expliciete en duidelijke toestemming heeft gegeven (ook nadat een gebruiker het soort gegevens heeft bevestigd dat zal worden verzameld), anonieme statistische gegevens verzamelen als onderdeel van het verbeteren van de kwaliteit en betrouwbaarheid van deze applicaties. Een gebruiker krijgt altijd de optie om te stoppen met het verzenden van deze statistieken naar equestria.dev zonder enige wijziging in hoe de toepassing zich gedraagt."
+        ],
+        [
+          "Wanneer een Equestria.Dev Online Service of Application integreert met een component van derden, wordt het privacybeleid van die derde van kracht op alle operaties die door deze derde worden afgehandeld.",
+          "Wanneer de component van derden de belangrijkste bewerking vormt die de online service of applicatie behandelt, is het privacybeleid van de derde partij prioriteit van toepassing. Wanneer de component van derden een secundaire bewerking vormt binnen de online service of aanvraag, is het privacybeleid van Equestria.Dev eerst van toepassing.",
+          "In het geval dat het privacybeleid van een derde afhankelijk was door een Equestria.Dev Online Service of Application hangt af van wijzigingen, gebruikers van genoemde Equestria.Dev Online Service of Application worden op de hoogte gebracht van de wijzigingen en hoe dit de manier waarop zij beïnvloedt Gebruik de online service of applicatie."
+        ],
+        [
+          "Equestria.dev is volledig verantwoordelijk voor het beveiligen van de privé- en persoonlijke gegevens van een gebruiker (tenzij een derde partij bij het proces betrokken is, in welk geval, zoals vermeld in sectie 3, de verantwoordelijkheid van de derde wordt genomen).",
+          "In het geval dat dergelijke informatie openbaar wordt gemaakt, bijvoorbeeld door indringers die gegevens van de servers van Equestria.DEV downloaden, worden gebruikers zo snel mogelijk op de hoogte gebracht van het probleem en krijgen ze indien nodig instructies.",
+          "Equestria.dev heeft geen interesse in het verkopen, weggeven of blootleggen van gebruikersgegevens en zal op geen enkel moment een van deze bewerkingen proberen."
+        ]
+      ],
+      "translation": [
+        "Vrijwaring:",
+        "In het geval dat dit privacybeleid wordt vertaald in een andere taal, is alleen de Engelse versie wettelijk van toepassing. De vertaalde versies worden alleen voor informatiedoeleinden verstrekt."
+      ],
+      "title": "Data Privacy",
+      "bigtitle": "Equestria.dev Data Privacy regels",
+      "intro": "Bij Equestria.dev waarderen wij uw privacy. We proberen zo min mogelijk gegevens te verzamelen om u de service te bieden die u verwacht. Hoe dan ook, de gegevensbehandeling van Equestria.Dev wordt gemaakt in overeenstemming met de Europese algemene verordening gegevensbescherming."
+    },
+    "terms": {
+      "translation": [
+        "Vrijwaring:",
+        "In het geval dat deze algemene voorwaarden worden vertaald in een andere taal, is alleen de Engelse versie wettelijk van toepassing. De vertaalde versies worden alleen voor informatiedoeleinden verstrekt."
+      ],
+      "sections": [
+        "Vrijwaring",
+        "Demografie",
+        "Doelen",
+        "Politie",
+        "Services Kwaliteit en betrouwbaarheid",
+        "Wederzijds respect en gelijkheid"
+      ],
+      "text": [
+        [
+          "Specifieke gebruikers mogen de online services van Equestria.Dev niet gebruiken, afhankelijk van hun locatie of fysieke conditie.",
+          "Gebruikers die zijn gevestigd in China, Noord -Korea en sommige andere landen mogen geen online diensten gebruiken. Uitzonderingen kunnen per geval worden gemaakt door de beheerders.",
+          "Personen die wettelijk jonger dan 13 jaar oud zijn, mogen de online diensten helemaal niet gebruiken. Gebruikers die minder dan 21 jaar oud zijn, hebben mogelijk geen toegang tot specifieke functies."
+        ],
+        [
+          "Equestria.dev verleent gebruikers een unieke, herroepbare, niet-uitwisselbare toestemming om toegang te krijgen tot de online services.",
+          "Het gebruik van de online services in een winstgevende activiteit is helemaal niet toegestaan, ongeacht hoeveel winst wordt gemaakt, en zal leiden tot onmiddellijke beëindiging van de toegang tot de online diensten."
+        ],
+        [
+          "Bij het gebruik van een service gehost door Equestria.DEV stemt een gebruiker ermee in de service niet te gebruiken voor een bewerking die illegaal is in Frankrijk of de Verenigde Staten. Bovendien mogen de activiteiten van een gebruiker niet voorkomen dat andere gebruikers hun eigen bewerkingen doen.",
+          "Het publiceren van beledigende of gewelddadige inhoud, kwaadaardige code of software of gestolen inhoud is niet toegestaan ​​en zal leiden tot onmiddellijke toegang tot toegang."
+        ],
+        [
+          "Het hosten van online services is ingewikkeld en Equestria.dev heeft een zeer beperkte inkomsten.",
+          "De Equestria.DEV -ontwikkelaars en beheerders mogen niet aansprakelijk zijn in het geval dat een online service niet werkt zoals bedoeld. Alle online platforms worden geserveerd zoals zonder garantie dat het voor een bepaalde periode zal werken zoals bedoeld of überhaupt werkt.",
+          "Equestria.Dev stelt dat de diensten die zij organiseren, langzaam of onbereikbaar kan zijn op niet -gespecificeerde tijdstippen, met of zonder waarschuwing. De beheerders doen geen belofte over een specifiek percentage beschikbaarheid voor een bepaalde service het hele jaar door."
+        ],
+        [
+          "Wanneer sociale interacties aanwezig zijn, stemmen alle gebruikers ermee in elkaar niet te discrimineren vanwege hun sociale, fysieke of psychologische aandoeningen, inclusief hun meningen. Gebruikers worden aangemoedigd om dergelijk ongepast gedrag te melden om de platforms voor iedereen veilig te houden.",
+          "Alle gebruikers zijn vrij om te identificeren zoals ze wensen, zolang het geen invloed heeft op de manier waarop andere gebruikers omgaan met de service. Alle identiteiten zijn geldig, waar ze ook vandaan komen.",
+          "Iedereen krijgt toegang tot exact dezelfde service, ongeacht waar ze wonen (tenzij 1. van toepassing is) en wie ze zijn. Equestria.dev waardeert veel gelijkheid en respect tussen gebruikers en staat erop dat gebruikers ongepast gedrag moeten melden, of het deze servicevoorwaarden in strijd is of niet."
+        ]
+      ],
+      "title": "Voorwaarden",
+      "bigtitle": "Equestria.dev Hosted Services Algemene voorwaarden",
+      "intro": "De volgende gebruiksvoorwaarden zijn alleen van toepassing op online services gehost door Equestria.Dev, inclusief of de online service toegankelijk is via een derde partij. \"Lokale\" aanvragen of diensten die niet worden gehost door Equestria.DEV, worden niet beheerst door deze gebruiksvoorwaarden, maar door respectievelijk hun licentieovereenkomst en de gebruiksvoorwaarden van de dienstverlener."
+    },
+    "license": {
+      "translation": [
+        "Vrijwaring:",
+        "In het geval dat deze licenties in een andere taal worden vertaald, is alleen de Engelse versie wettelijk van toepassing. De vertaalde versies worden alleen voor informatiedoeleinden verstrekt."
+      ],
+      "sections": [
+        "Gratis, libre en open-source software",
+        "Software voor \"eigen\" software voor gesloten branden"
+      ],
+      "text": [
+        [
+          "Wordt beschouwd als \"gratis, libre en open-source\" alle software die equestria.dev vrijgeeft op grond van het publieke domein, de MIT-licentie, elk compatibel alternatief of volledig auteursrechtenvrij. Tenzij een kopie van een licentieovereenkomst aanwezig is in de broncode van de software, of een vermelding van een andere licentie elders aanwezig is, wordt software die broncode openbaar toegankelijk is vrijgegeven onder de volgende licentievoorwaarden:",
+          "MIT -licentie",
+          "Toestemming wordt hierbij gratis verleend aan elke persoon die een kopie van deze software en bijbehorende documentatiebestanden (de \"software\") verkrijgt, om zonder beperking in de software af te handelen, inclusief zonder beperking , publiceren, distribueren, sublicentie en/of verkopen kopieën van de software, en om personen toe te staan ​​aan wie de software wordt ingericht, onderworpen aan de volgende voorwaarden:",
+          "De bovenstaande copyright -kennisgeving en deze machtigingsbericht worden opgenomen in alle kopieën of substantiële delen van de software.",
+          "De software wordt verstrekt \"zoals het is\", zonder enige vorm van enige garantie, expliciet of impliciet, inclusief maar niet beperkt tot de garanties van verkoopbaarheid, geschiktheid voor een bepaald doel en niet -inbreuk. In geen geval zijn de auteurs of auteursrechthouders aansprakelijk voor enige claim, schade of andere aansprakelijkheid, hetzij in een contract, onrechtmatige daad of anderszins, voortkomend uit, uit of in verband met de software of het gebruik of andere transacties in de SOFTWARE."
+        ],
+        [
+          "In sommige gevallen kunnen Equestria.DEV -ontwikkelaars ervoor kiezen om de broncode niet uit te brengen voor een specifiek stukje software. Dit kan zijn omdat het gemakkelijk wordt misbruikt of misbruikt, omdat het een privéplatform gebruikt, omdat het vertrouwelijke of privé -informatie bevat, of een andere reden. Ontwikkelaars kunnen ervoor kiezen om later een gesloten source software open-source te maken.",
+          "Door de software te downloaden, te installeren, te kopen, te kopen of te gebruiken, accepteert u deze licentievoorwaarden. Als u ze niet accepteert, gebruik dan de software niet; Of, als een open-source variant beschikbaar is, gebruik dan de open-source variant.",
+          "In alle gevallen van software met gesloten bron moeten gebruikers:",
+          "gebruik de software strikt voor persoonlijke doeleinden en niet voor winst;",
+          "niet proberen om de software te decompileren, wijzigen, publiceren, verspreiden, distribueren, verkopen of licentiëren;",
+          "gebruik de software niet op een manier die illegaal is in Frankrijk of de Verenigde Staten;",
+          "gebruik de software niet op een manier die Equestria.dev in gevaar zou kunnen brengen;",
+          "de software niet blootstellen op openbare plaatsen waar gebruikers het kunnen gebruiken zonder eerst in te stemmen met deze licentieovereenkomst",
+          "In het geval van betaalde software mogen gebruikers geen gratis toegang geven tot de software aan een derde partij. Toegang tot de software geven aan een familielid (vriend, familie, ...) wordt als redelijk beschouwd, maar mag niet meer dan 10 mensen overschrijden."
+        ]
+      ],
+      "title": "Softwarelicenties",
+      "bigtitle": "Equestria.dev software en bronnen licenties",
+      "intro": "Equestria.dev brengt software uit in verschillende licentieregelingen, meestal onder libre -licenties."
+    }
+  },
+  "_name": "Nederlands",
+  "title": "Equestria.dev: softwareplatform waarop u kunt vertrouwen",
+  "language": "Taalkiezer"
+}

@@ -1,0 +1,448 @@
+{
+  "time": {
+    "second": [
+      "druhý",
+      "sekundy"
+    ],
+    "minute": [
+      "drobný",
+      "minúta"
+    ],
+    "hour": [
+      "hodina",
+      "hodiny"
+    ],
+    "day": [
+      "deň",
+      "dni"
+    ],
+    "week": [
+      "týždeň",
+      "týždne"
+    ],
+    "month": [
+      "mesiac",
+      "mesiace"
+    ],
+    "year": [
+      "rok",
+      "roky"
+    ],
+    "age": [
+      "Vek",
+      "vekové veky"
+    ],
+    "ago": "pred",
+    "later": "neskôr",
+    "now": "teraz"
+  },
+  "navigation": {
+    "headers": {
+      "projects": "Projekty",
+      "network": "Sieť",
+      "contact": "Kontakt",
+      "legal": "Legálny"
+    },
+    "projects": {
+      "archives": "Pozrite si naše archivované projekty"
+    },
+    "network": {
+      "status": [
+        "Všetky systémy prevádzkové",
+        "Degradovaný výkon",
+        "Hlavný výpadok"
+      ],
+      "account": "Váš účet",
+      "infra": "Infraštruktúra",
+      "security": "Bezpečnostné poradenstvo",
+      "bugs": "Sledovač chýb",
+      "blog": "Blog"
+    },
+    "legal": {
+      "terms": [
+        "Podmienky",
+        "a podmienky"
+      ],
+      "privacy": "Ochrana osobnosti",
+      "license": "Softvérové ​​licencie",
+      "disclaimer": "Vylúčenie zodpovednosti",
+      "branding": "Pokyny pre značky",
+      "support": "Podporovaný",
+      "version": "Verzia",
+      "made": "Vyrobené poníkmi s",
+      "phpstorm": "a phpstorm",
+      "trademark": "„Equestria.Dev“ a súvisiace názvy sú ochranné známky vývojárov spoločnosti Equestria.Dev vo Francúzsku a ďalších krajinách. Logos Equestria.Dev a Projekty sú chránené podľa platných zákonov o autorských právach. Jetbrains, súvisiace logá a súvisiace názvy sú registrované ochranné známky JetBrains S.R.O., ktoré sa používajú na základe licencie."
+    },
+    "contact": {
+      "email": "Pošlite nám e -mail"
+    }
+  },
+  "footer": {
+    "copyright": "Všetky práva vyhradené."
+  },
+  "home": {
+    "hero": {
+      "title": [
+        "Softvérová platforma",
+        "môžeš",
+        "spoliehať sa na"
+      ],
+      "cta": "Zistite, čo robíme"
+    },
+    "categories": {
+      "dev": {
+        "title": "Rozvoj",
+        "description": "S viac ako 5 -ročnými skúsenosťami s vývojom softvéru, v širokej škále jazykov - napríklad Rust, JavaScript, Kotlin alebo PHP - si môžete byť istí, že vyvinieme kvalitný softvér, ktorý pomôže splniť vaše potreby, či už ste obchodný alebo jednotlivec.",
+        "cta": "Zobraziť projekty"
+      },
+      "network": {
+        "title": "Vytváranie sietí",
+        "description": "Vedeli ste, že tento text prešiel najmenej 3 rôznymi servermi Equestria.Dev predtým, ako sa k vám dostanete? Vďaka našim dlhoročným skúsenostiam s riadením serverov - hlavne Linux - môžeme plne optimalizovať akúkoľvek aplikáciu, aby sme vykonali čo najlepšie bez ohľadu na zaťaženie servera.",
+        "cta": "Prezerať infraštruktúru"
+      },
+      "privacy": {
+        "title": "Súkromie",
+        "description": "Ochrana osobných údajov, zabezpečenie a ochrana údajov používateľov boli vždy tým, čo boli našimi základnými hodnotami. Vždy, keď je to možné-a potrebné-používame robustnú technológiu šifrovania vojenského stupňa a zabezpečujeme, aby údaje používateľa boli vždy bezpečné a chránené pred rôznymi typmi útokov.",
+        "cta": "Čítanie dokumentov"
+      }
+    },
+    "contact": {
+      "title": "Máte osobitnú žiadosť?",
+      "description": "Ak by ste chceli, aby sme pomohli s vlastným projektom, či už ide o vývoj, správu serverov alebo súkromia a bezpečnosť, môžeme vám pomôcť. Neváhajte a odovzdajte nám správu a uvidíme, čo môžeme urobiť.",
+      "cta": "Pošlite nám správu"
+    }
+  },
+  "error": {
+    "messages": {
+      "400": "Neplatná požiadavka",
+      "401": "Vyžaduje sa autentifikácia",
+      "403": "Prístup je zamietnutý",
+      "404": "Stránka nenájdená",
+      "500": "Chyba interného servera",
+      "501": "Zatiaľ nie je k dispozícii",
+      "502": "Chyba proti prúdu servera",
+      "503": "Server je nedosiahnuteľný",
+      "504": "Načasovaný server proti prúdu",
+      "default": "Neznáma systémová chyba"
+    },
+    "descriptions": {
+      "400": "Pokúsili ste sa poslať žiadosť na server, že nemôže spracovať. Vo všeobecnosti by sa to nemalo stať, ale môže to naznačovať problém s prehliadačom. Ak potrebujete pomoc, aby ste to napravili, neváhajte nás kontaktovať.",
+      "401": "Pokúsili ste sa dosiahnuť stránku, ktorá vyžaduje overenie bez overovania. Obnovenie stránky zvyčajne pomáha vyriešiť tento problém. Ak nemáte poverenia na overenie pre túto stránku, môžete sa vrátiť na domovskú stránku.",
+      "403": "Pokúsili ste sa osloviť stránku, ktorá nie je prístupná z tejto webovej stránky. Zvyčajne to platí pre interné súbory, ktoré sa používajú na serveri. Ak ste sledovali odkaz z tejto webovej stránky a dostali ste sa sem, potom musí byť niečo v poriadku.",
+      "404": "Ak ste sledovali odkaz z tejto webovej stránky, musí byť niečo v poriadku. Ak ste sa riadili externým odkazom, potom je možné, že odkaz je nesprávny a je potrebné ho aktualizovať. Ak ste sami zadali adresu, je možné, že ste niečo nesprávne napísali.",
+      "500": "Na serveri sa vyskytla chyba pri pokuse o spracovanie vašej žiadosti, ktorá nesúvisí s konfiguráciou vášho prehliadača. Toto je spravidla chyba alebo dočasný problém. Ak to pretrváva, môžete nám informovať o tomto probléme, aby sme ho mohli vyriešiť.",
+      "501": "Stránka, ktorú ste sa pokúsili dosiahnuť, používa funkciu servera, ktorá ešte nebola implementovaná na webovej stránke. Je to zvyčajne preto, že stránka, ktorú sa snažíte dosiahnuť, je prebiehajúca práca a bude k dispozícii v budúcnosti.",
+      "502": "Táto stránka závisí od externého prostriedku alebo servera, ktorý v súčasnosti nie je k dispozícii. To zvyčajne naznačuje výpadok na jednom alebo viacerých našich serveroch. Ak problém pretrváva, kontaktujte nás, aby sme to mohli napraviť.",
+      "503": "Táto stránka závisí od interného zdroja, ktorý v súčasnosti nie je k dispozícii. To zvyčajne znamená, že zdroj, webová stránka alebo server je v údržbe a v súčasnosti nie je k dispozícii. Ďalšie informácie nájdete v našej stránke stavu.",
+      "504": "Táto stránka závisí od externého zdroja alebo servera, ktorý sa nedal dosiahnuť včas. To zvyčajne naznačuje výpadok alebo celkové spomalenie. Ak problém pretrváva, kontaktujte nás, aby sme to mohli napraviť.",
+      "default": "Vyskytla sa nezdokumentovaná chyba. Nie sme si istí, čo sa pokazilo, ale kód chyby vám môže pomôcť. Ak potrebujete pomoc, spojte sa s nami, aby sme to mohli napraviť. Úprimne sa ospravedlňujeme za nepríjemnosti."
+    },
+    "actions": {
+      "home": "Vráťte sa na domovskú stránku",
+      "status": "Otvorte stránku stavu",
+      "email": "Kontaktujte nás prostredníctvom e -mailu"
+    },
+    "title": "Chyba"
+  },
+  "project": {
+    "actions": {
+      "source": "Zdrojový kód",
+      "website": "Oficiálna web stránka"
+    },
+    "update": "Naposledy aktualizovaný",
+    "archive": "Archivovaný"
+  },
+  "archive": {
+    "title": "Archív"
+  },
+  "status": {
+    "main": [
+      "Všetky služby fungujú ako nominálne",
+      "Niektoré služby zažívajú degradáciu výkonu",
+      "Niektoré služby zažívajú hlavný výpadok"
+    ],
+    "description": [
+      "Momentálne sme pozorovali nominálny a dobrý výkon všetkých služieb, ktoré organizuje spoločnosť Equestria.Dev.",
+      "Zistili sme, že niektoré služby Equestria.Dev, hoci sú funkčné, sú pomalšie ako obvykle.",
+      "V niektorých službách Equestria.Dev sme pozorovali prestávku, vďaka čomu sú nejaký čas neprístupné."
+    ],
+    "affected": [
+      "Týmto incidentom je ovplyvnená nasledujúca služba:",
+      "Týmto incidentom sú ovplyvnené nasledujúce služby:"
+    ],
+    "stats": {
+      "items": [
+        "Priemerná latencia služieb:",
+        "Celková použitá pamäť:",
+        "Celkom použité úložisko:",
+        "Celkový dostupný výpočtový výkon:",
+        "vyrovnávacia pamäť:",
+        "Maximálna latencia I/O:",
+        "jadro",
+        "Operačné systémy:",
+        "Celkom procesy"
+      ],
+      "title": "Štatistika",
+      "used": "použitý"
+    },
+    "title": "Stavový stav",
+    "page": "Zobraziť stránku úplného stavu",
+    "update": "Naposledy aktualizovaný"
+  },
+  "months": [
+    "Január",
+    "Február",
+    "Pochod",
+    "Apríl",
+    "Smieť",
+    "Jún",
+    "Júl",
+    "August",
+    "September",
+    "Október",
+    "November",
+    "December"
+  ],
+  "legal": {
+    "notices": {
+      "webmasters": [
+        "Správa obsahu a vylúčenie zodpovednosti",
+        "Pokiaľ v prítomnosti obsahu vytvoreného používateľom, obsah, ktorý sa koná na platforme Equestria.Dev",
+        "Aj keď vynakladáme čo najväčšie úsilie o poskytovanie presných informácií používateľom, vývojári spoločnosti Equestria.Dev nemôžu zaručiť presnosť informácií poskytnutých našimi platformami. Informácie o našich platformách preto môžu byť nepresné alebo zastarané."
+      ],
+      "title": "Vylúčenie zodpovednosti",
+      "privacy": "Ak niekedy potrebujete ďalšie podrobnosti, kontaktujte nás priamo. Niektoré informácie sa uchovávajú skryté z dôvodov ochrany osobných údajov.",
+      "servers": "Polohy servera",
+      "locations": "Equestria.Dev spravuje siete prechádzajúce údaje používateľov vo Francúzsku, Nemecku a Spojených štátoch. Siete, ktoré sa používajú iba na interné účely spoločnosti Equestria.Dev a ktoré nepreplnia údaje o používateľoch, sa na tejto stránke neuvádzajú.",
+      "property": "Servery pod vlastnou vlastnosťou:",
+      "physical": "Približné fyzické umiestnenie:",
+      "isp": "Poskytovateľ internetových služieb:",
+      "us": "odkaz pre obyvateľov mimo USA",
+      "data": "Žiadosti o užívateľské údaje",
+      "howto": "Ak by žiadna adresa používateľa Equestria.Dev požiadala o prístup alebo vymazanie používateľských údajov, e -mail obsahujúci IP adresu používateľa, akékoľvek identifikátory zariadenia (ak je to použiteľné), musí byť z e -mailovej adresy odoslaný z účtu Equestria.Dev) spojené s účtom Equestria.Dev (ak je to uplatniteľné) na nasledujúcu e -mailovú adresu:",
+      "law": "Podľa predpisov o presadzovaní práva spoločnosť Equestria.Dev nedokáže vymazať protokoly servera, ktoré majú menej ako 3 mesiace.",
+      "gov": "Zaručovať",
+      "pgp": "Toto je správa PGP podpísaná s nasledujúcim kľúčom:",
+      "key": "Zobraziť celý verejný kľúč",
+      "alt": "alternatívny zdroj",
+      "plain": "Zobraziť príkaz Canary (otvára sa na novej karte)"
+    },
+    "branding": {
+      "logo": {
+        "title": "Naše logo",
+        "message": "Neupravujte, nezmeňte, skreslite, rekord alebo rekonfiguráciu loga Equestria.Dev."
+      },
+      "icon": {
+        "title": "Iba ikona",
+        "message": "Používajte ich iba vtedy, keď je značka Equestria.Dev jasne viditeľná, bola dobre zavedená inde na stránke alebo v dizajne, alebo priestor neumožňuje zobrazenie úplnej verzie. Ak máte pochybnosti, použite druhý."
+      },
+      "spacing": {
+        "title": "Rozstup",
+        "message": "Pri používaní loga spoločnosti Equestria.Dev nezabudnite rešpektovať tieto pokyny pre rozmiestnenie. Okrem toho sa uistite, že je logo dostatočne veľké na to, aby bolo čitateľné a rozlíšiteľné.",
+        "scale": "X = \".Dev\" Výška textu.",
+        "notice": "(Verzia iba ikony sa odporúča v priestoroch, kde musíte ukázať logo vo veľkostiach menších ako 96 pixelov alebo 52,8 milimetrov, až do 24 pixelov alebo 13,2 milimetrov)"
+      },
+      "dont": {
+        "messages": [
+          "Nepravujte, nezmeňte ani neprekonfigurujte logo alebo WordMark",
+          "Nedávajte skreslenie loga alebo wordmark vrátane neúmyselne",
+          "Nepre recirujte ani neuplatňujte vizuálne efekty na logo alebo na WordMark",
+          "Nerobte slogan alebo žiadny iný prvok na logo alebo WordMark"
+        ],
+        "descriptions": [
+          "Zahŕňa to neotáčanie loga a zmenu akéhokoľvek textu alebo tvaru, spolu s udržiavaním odstupov medzi rôznymi prvkami plného loga.",
+          "Nesmiete akýmkoľvek spôsobom skresliť alebo deformovať logo, či už je v rámci 2D alebo 3D. Okrem toho sa uistite, že sa logo zobrazí správne vo všetkých prípadoch.",
+          "Logo aj WordMark sa musia uchovávať tak, ako je, bez zmeny farby. Ak potrebujete používať šedúcale, použite monochromatické varianty.",
+          "Uistite sa, že značky (ak je to uplatniteľné) nikdy neprekrývajú žiadny prvok loga. Okrem toho neschvaľujte schválenie ani sponzorstvo, keď nie je."
+        ],
+        "too": {
+          "text": [
+            "Uistite sa, že značka Equestria.Dev sa nezobrazí výraznejšie ako názov, logo alebo značka vášho vlastného produktu alebo služby.",
+            "„Príliš veľa“ by mohlo viesť k zmätku a prinútiť používateľov, aby si mysleli, že čelia buď oficiálnej webovej stránke spoločnosti Equestria.Dev, alebo oficiálnym produktom Equestria.Dev."
+          ],
+          "title": "Nerob príliš veľa"
+        },
+        "attribution": {
+          "copyright": {
+            "global": [
+              "Logo Equestria.Dev:",
+              "Používa sa na základe licencie"
+            ],
+            "product": [
+              "[Názov projektu] logo",
+              "Názov projektu"
+            ]
+          },
+          "title": "Nepoužívajte bez pripisovania",
+          "message": "Pri použití loga Equestria.Dev alebo akéhokoľvek loga projektu vždy uveďte pripisovanie niektorým z nasledujúcich textov:"
+        },
+        "impersonation": {
+          "text": [
+            "Napodobňovanie značky Equestria.Dev v Non-Equestria.Dev Materiály nie sú povolené. Rovnaké obmedzenie sa vzťahuje na oživenie značky Equestria.Dev, ktorá ju kombinuje s akýmikoľvek inými slovami, symbolmi, obrázkami alebo dizajnom alebo ich začlenení do sloganu alebo sloganu.",
+            "Okrem toho je prísne zakázané použitie názvu alebo podoby jednotlivca z spoločnosti Equestria.Dev alebo skupiny ako"
+          ],
+          "title": "Nepíšte ani neosobníte"
+        },
+        "endorsement": {
+          "text": [
+            "Vážime si však spoluprácu žiadnym spôsobom neznamená, že pridruženie, sponzorstvo, schválenie alebo schválenie vašich výrobkov alebo služieb s Equestria.Dev bez výslovného súhlasu spoločnosti Equestria.Dev. Pred odvolaním sa na takúto spoluprácu so spoločnosťou Equestria.Dev musíte mať formálnu spoluprácu s dohodou od spoločnosti Equestria.Dev.",
+            "To znamená, že text, ako napríklad „Schválené spoločnosťou Equestria.dev“, „Certified“ alebo „Odporúčané spoločnosťou Equestria.dev“, nie je povolený."
+          ],
+          "title": "Neznamená to, že tam nie je"
+        },
+        "title": "Nemal"
+      },
+      "color": {
+        "formats": {
+          "title": "Formát farebného kódu:",
+          "oklch": "OKLCH (profil SRGB)",
+          "rgb": "Hexadecimal RGB (8-bit)",
+          "cmyk": "CMYK (štandard)"
+        },
+        "list": [
+          "Primárne svetlo",
+          "Primárna tma",
+          "Sekundárne svetlo",
+          "Sekundárna tma",
+          "Pozadie",
+          "Na pozadí",
+          "Pozitívne svetlo",
+          "Pozitívna tma",
+          "Neutrálne svetlo",
+          "Neutrálny temný",
+          "Záporné svetlo",
+          "Negatívny",
+          "Povrch",
+          "Na povrchu"
+        ],
+        "title": "Farebná paleta",
+        "intro": "Paleta Equestria.Dev, pomenovaná „Brightdawn“ (po Misty Brightdawn, postava z môjho malého poníka) bola vytvorená tak, aby odrážala naše základné hodnoty: inkluzívnosť, priateľstvo a transparentnosť. Je založená na pôvodnej „hmlistej“ palete použitej v roku 2023 aktualizovaná tak, aby obsahovala jasnejšie farby."
+      },
+      "more": {
+        "title": "Hľadáte viac?",
+        "text": "Stiahnite si celú súpravu značky Equestria.Dev a získajte prístup ku všetkým zdrojom, ktoré sme použili na vytvorenie nášho loga, spolu so špeciálnymi variantmi používanými v konkrétnych podmienkach vrátane prototypových návrhov a iných dizajnových listov.",
+        "cta": "Stiahnite si verziu 3",
+        "notice": "Zahŕňa tiež verzie 1 a 2"
+      },
+      "page": "Pokyny pre značky",
+      "title": "Pokyny pre značky Equestria.Dev",
+      "intro": "V spoločnosti Equestria.Dev berieme veci a ako vážne zastupujete našu značku. Značka Equestria.Dev by mala predstavovať kvalitný, jednoduchý a súkromný softvér s otvoreným zdrojom. Ak pre čokoľvek použijete naše aktíva značky, nezabudnite si tieto pokyny rešpektovať.",
+      "copyright": "Logo a výrobky spoločnosti Equestria.Dev sú chránené platnými zákonmi o autorských právach vo Francúzsku, Spojených štátoch a ďalších krajinách. Equestria.Dev vám poskytuje neprenosnú, nevýhradnú licenciu licenciu bez licenčných poplatkov na použitie svojho loga, ako je definované v nasledujúcich usmerneniach. Tieto usmernenia tiež regulujú použitie loga Equestria.Dev v našich vlastných službách. Nedodržanie sa považuje za porušenie duševného vlastníctva spoločnosti Equestria.Dev a povedie k právnemu konaniu."
+    },
+    "privacy": {
+      "sections": [
+        "Ochrana osobných údajov na online službách spoločnosti Equestria.Dev",
+        "Súkromie na aplikáciách Equestria.Dev",
+        "Ochrana osobných údajov na online službách alebo aplikácii Equestria.Dev, ktoré sa integrujú s komponentmi tretích strán",
+        "Zodpovednosť spoločnosti Equestria.Dev pri ochrane súkromných údajov používateľa"
+      ],
+      "text": [
+        [
+          "Equestria.Dev uloží iba informácie, ktoré nám výslovne poskytnete (napríklad v rámci registračného formulára). Nebudú sa zbierať žiadne ďalšie údaje.",
+          "V rámci orgánov činných v trestnom konaní však spoločnosť Equestria.Dev zhromažďuje adresy IP a ďalšie informácie prehľadávača (názov prehliadača, verzia, operačný systém, adresa URL a dátum) až 365 dní. Tieto informácie sa vymaže každý rok v januári.",
+          "Okrem toho spoločnosť Equestria.Dev môže v rámci zlepšenia kvality a spoľahlivosti svojich služieb zbierať úplne anonymné informácie vrátane stránok, ktoré navštevujete, s výnimkou akýchkoľvek potenciálnych osobných údajov. Tieto informácie sú anonymné pred agregáciou do štatistík a pôvodné informácie sa ukladajú tak, ako je uvedené v 1§2 (pozri vyššie)."
+        ],
+        [
+          "Táto časť sa vzťahuje na aplikácie, ktoré sú „nainštalované“ (prístupné aj bez konkrétnej služby od spoločnosti Equestria.dev) na zariadenie používateľa a hneď ako používateľ spustí proces inštalácie.",
+          "Aplikácie Equestria.Dev nikdy nebudú monitorovať, ukladať, narúšať alebo zabrániť správaniu iných aplikácií. Či je aplikácia spustená alebo nie, bude používateľovi vždy jasné.",
+          "Niektoré aplikácie môžu po tom, čo užívateľ dal svoj explicitný a jasný súhlas (vrátane po tom, čo používateľ potvrdil druh údajov, ktoré sa zbierajú), zbierajte anonymné štatistické údaje v rámci zlepšenia kvality a spoľahlivosti týchto aplikácií. Používateľovi je vždy poskytnutá možnosť prestať odosielať tieto štatistiky spoločnosti Equestria.Dev bez akejkoľvek zmeny v tom, ako sa aplikácia správa."
+        ],
+        [
+          "Keď sa online služba alebo aplikácia spoločnosti Equestria.Dev integruje s komponentom tretej strany, politiky ochrany osobných údajov od tejto tretej strany nadobúda účinnosť na všetky operácie, ktoré rieši táto tretia strana.",
+          "Ak komponent tretej strany predstavuje hlavnú operáciu, ktorú online služba alebo aplikácia zaobchádza, politiky ochrany osobných údajov od tretej strany sa uplatňujú priority. Ak komponent tretej strany predstavuje sekundárnu operáciu v rámci online služby alebo aplikácie, politiky ochrany osobných údajov spoločnosti Equestria.Dev sa uplatňujú ako prvé.",
+          "V prípade, že zásady ochrany osobných údajov tretej strany závisí od online služby alebo aplikácie spoločnosti Equestria.Dev, závisí od zmien, používatelia spoločnosti Equestria.Dev online služba alebo aplikácia budú informovaní o zmenách a o tom, ako ovplyvňuje spôsob, akým sú Používajte online službu alebo aplikáciu."
+        ],
+        [
+          "Spoločnosť Equestria.Dev je úplne zodpovedná za zabezpečenie súkromných a osobných údajov používateľa (pokiaľ sa do procesu nezúčastňuje tretia strana, v takom prípade, ako je uvedené v oddiele 3, sa prevzala zodpovednosť tretej strany).",
+          "V prípade, že sa takéto informácie zverejnia, napr. Votrelcami sťahovaním údajov z serverov spoločnosti Equestria.Dev, budú používatelia informovaní o tomto probléme čo najskôr a v prípade potreby dostanú pokyny.",
+          "Equestria.Dev nemá záujem o predaj, rozdávanie alebo odhalenie údajov o používateľoch a nebude sa pokúšať žiadna z týchto operácií kedykoľvek."
+        ]
+      ],
+      "translation": [
+        "Zrieknutie sa:",
+        "V prípade, že sa tieto zásady ochrany osobných údajov prekladajú do iného jazyka, legálne je uplatniteľná iba anglická verzia. Preložené verzie sa poskytujú iba na informačné účely."
+      ],
+      "title": "Ochrana osobnosti",
+      "bigtitle": "Equestria.Dev Pravidlá ochrany osobných údajov",
+      "intro": "V spoločnosti Equestria.Dev si vážime vaše súkromie. Snažíme sa zhromažďovať čo najmenšie údaje, aby sme vám poskytli službu, ktorú očakávate. Bez ohľadu na to sa spoločnosť Equestria.Dev's Data Liečba vykonáva v súlade s európskym reguláciou všeobecnej ochrany údajov."
+    },
+    "terms": {
+      "translation": [
+        "Zrieknutie sa:",
+        "V prípade, že sa tieto podmienky prekladajú do iného jazyka, legálne je použiteľná iba anglická verzia. Preložené verzie sa poskytujú iba na informačné účely."
+      ],
+      "sections": [
+        "Zrieknutie sa",
+        "Demografia",
+        "Účely",
+        "Presadzovania práva",
+        "Kvalita a spoľahlivosť služieb",
+        "Vzájomný rešpekt a rovnosť"
+      ],
+      "text": [
+        [
+          "Konkrétnymi používateľmi nemusí byť povolené používať online služby spoločnosti Equestria.Dev v závislosti od ich polohy alebo fyzickej podmienky.",
+          "Používatelia, ktorí sa nachádzajú v Číne, Severnej Kórei a niektorých ďalších krajinách, nemôžu využívať online služby. Výnimky môžu vykonať správcovia na základe prípadu.",
+          "Jednotlivci, ktorí majú legálne mladší ako 13 rokov, nemôžu vôbec používať online služby. Používatelia, ktorí majú menej ako 21 rokov, nemusia mať prístup k konkrétnym funkciám."
+        ],
+        [
+          "Equestria.Dev udeľuje používateľom jedinečné, odvolateľné a nevymeniteľné povolenie na prístup k online službám.",
+          "Využívanie online služieb v ziskovej činnosti vôbec nie je povolené, bez ohľadu na to, do akej miery sa dosiahne zisk, a bude mať za následok okamžité ukončenie prístupu k online službám."
+        ],
+        [
+          "Pri používaní služby hostenej spoločnosťou Equestria.Dev používateľ súhlasí s tým, že túto službu nepoužíva na akúkoľvek operáciu, ktorá je nezákonná vo Francúzsku alebo Spojených štátoch. Operácie používateľa navyše nesmú brániť iným používateľom v vykonávaní vlastných operácií.",
+          "Publikovanie urážlivého alebo násilného obsahu, škodlivého kódu alebo softvéru alebo ukradnutého obsahu nie je povolené a bude mať za následok okamžité ukončenie prístupu."
+        ],
+        [
+          "Hosting Online Services je komplikovaný a spoločnosť Equestria.Dev prevádzkuje veľmi obmedzený príjem.",
+          "Vývojári a administrátori spoločnosti Equestria.Dev by nemali byť zodpovední v prípade, že online služba nefunguje podľa plánu. Všetky online platformy sa podávajú tak, ako je bez záruky, že bude fungovať podľa plánu alebo bude fungovať vôbec pre dané časové obdobie.",
+          "Spoločnosť Equestria.Dev uvádza, že služby, ktoré hostili, môžu byť pomalé alebo nedosiahnuteľné v nešpecifikovaných bodoch v čase, s varovaním alebo bez neho. Správcovia nedosahujú žiadny sľub, pokiaľ ide o konkrétne percento dostupnosti pre danú službu počas celého roka."
+        ],
+        [
+          "Ak sú prítomné sociálne interakcie, všetci používatelia súhlasia, že sa navzájom nediskriminujú kvôli svojim sociálnym, fyzickým alebo psychologickým podmienkam vrátane ich názorov. Používateľom sa odporúča, aby nahlásili také nevhodné správanie, aby pomohli udržať platformy v bezpečí pre všetkých.",
+          "Všetci používatelia môžu slobodne identifikovať tak, ako si želajú, pokiaľ to neovplyvní spôsob, akým ostatní používatelia interagujú so službou. Všetky identity sú platné bez ohľadu na to, odkiaľ pochádzajú.",
+          "Každý má prístup k presne rovnakej službe, bez ohľadu na to, kde žije (pokiaľ nie je použiteľné) a kto sú. Equestria.Dev veľmi oceňuje rovnosť a rešpekt medzi používateľmi a trvá na tom, že používatelia by mali nahlásiť nevhodné správanie, či už porušuje tieto podmienky služby alebo nie."
+        ]
+      ],
+      "title": "Podmienky",
+      "bigtitle": "Equestria.Dev Hostiteľské podmienky služieb",
+      "intro": "Nasledujúce podmienky používania sa vzťahujú iba na online služby hostiteľom spoločnosť Equestria.Dev, vrátane prípadu, že k online službe je prístup k tretej strane. „Miestne“ aplikácie alebo služby, ktoré nie sú hosťované spoločnosťou Equestria.Dev, sa neriadia týmito podmienkami používania, ale podľa ich licenčnej zmluvy a podmienok poskytovateľa poskytovateľa služby služieb."
+    },
+    "license": {
+      "translation": [
+        "Zrieknutie sa:",
+        "V prípade, že sa tieto licencie prekladajú do iného jazyka, legálne je použiteľná iba anglická verzia. Preložené verzie sa poskytujú iba na informačné účely."
+      ],
+      "sections": [
+        "Softvér ZADARMO, LIBRE A OTVORIŤ SDINIEK",
+        "„Proprietárny“ softvér s uzavretým zdrojom"
+      ],
+      "text": [
+        [
+          "Sa považuje za „bezplatný, libre a otvorený zdroj“ všetok softvér, ktorý spoločnosť Equestria.Dev vydáva buď v rámci verejnej domény licencie MIT, akákoľvek kompatibilná alternatíva alebo úplne bez autorských práv. Pokiaľ nie je v zdrojovom kóde softvéru prítomná kópia licenčnej zmluvy alebo je uvedená zmienka o inej licencii inde, softvér, ktorý je zdrojový kód verejne prístupný, sa zverejňuje za nasledujúcich licenčných podmienok:",
+          "Licencia",
+          "Povolenie sa týmto bezplatne udeľuje, akejkoľvek osobe, ktorá získa kópiu tohto softvéru a súvisiace dokumentačné súbory (ďalej len „softvér“), na riešenie softvéru bez obmedzenia, a to bez obmedzenia práv na používanie, kopírovanie, úpravu, zlúčenie, zlúčenie, zlúčenie , publikovať, distribuovať, sublicenciu a/alebo predávať kópie softvéru a povoliť osobám, ktorým je softvér poskytnutý na to, s výhradou nasledujúcich podmienok:",
+          "Vyššie uvedené oznámenie o autorských právach a toto oznámenie o povolení sa zahrnie do všetkých kópií alebo podstatných častí softvéru.",
+          "Softvér sa poskytuje „tak, ako je“, bez záruky akéhokoľvek druhu, výslovného alebo predpokladaného, ​​vrátane, ale nielen, záruk obchodovateľnosti, vhodnosti na konkrétny účel a neinringovanie. V žiadnom prípade nesmie byť autori alebo držitelia autorských práv zodpovední za akékoľvek nároky, škody alebo inú zodpovednosť, či už v konaní zmluvy, deliktu alebo inak, vyplývajúce zo softvéru alebo v súvislosti so softvérom alebo iným rokovania Softvér."
+        ],
+        [
+          "V niektorých prípadoch sa vývojári spoločnosti Equestria.Dev môžu rozhodnúť neuvoľňovať zdrojový kód pre konkrétny softvér. Dôvodom by mohlo byť to, že sa ľahko zneužíva alebo zneužíva, pretože používa súkromnú platformu, pretože obsahuje dôverné alebo súkromné ​​informácie alebo iný dôvod. Vývojári sa môžu rozhodnúť, že neskôr vytvorí otvorený zdroj softvéru na uzavretý zdroj.",
+          "Stiahnutím, inštaláciou, nákupom alebo používaním softvéru akceptujete tieto licenčné podmienky. Ak ich neakceptujete, nepoužívajte softvér; Alebo, ak je k dispozícii variant s otvoreným zdrojom, použite variant s otvoreným zdrojom.",
+          "Vo všetkých prípadoch softvéru s uzavretým zdrojom musia používatelia:",
+          "používať softvér striktne na osobné účely a nie na zisk;",
+          "Nesnažte sa dekompilovať, upravovať, publikovať, distribuovať, predávať alebo licenovať softvér;",
+          "nepoužívajte softvér spôsobom, ktorý je vo Francúzsku alebo Spojených štátoch nezákonný;",
+          "nepoužívajte softvér spôsobom, ktorý by mohol ohroziť spoločnosť Equestria.Dev;",
+          "nevystavujte softvér na verejných miestach, kde ho používatelia môžu používať bez toho, aby sa najprv dohodli na tejto licenčnej zmluve",
+          "V prípade plateného softvéru nesmú používatelia poskytnúť prístup k softvéru zadarmo tretej strane. Poskytovanie prístupu k softvéru k príbuznému (priateľ, rodine, ...) sa považuje za primeraný, ale nemalo by prekročiť 10 ľudí."
+        ]
+      ],
+      "title": "Softvérové ​​licencie",
+      "bigtitle": "Equestria.dev Softvér a zdroje licencie",
+      "intro": "Equestria.Dev vydáva softvér v rôznych licenčných schémach, väčšinou v rámci licencií Libre."
+    }
+  },
+  "_name": "Slovenský",
+  "title": "Equestria.dev: Softvérová platforma, na ktorú sa môžete spoľahnúť",
+  "language": "Výberový výber"
+}
