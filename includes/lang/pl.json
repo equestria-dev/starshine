@@ -9,7 +9,7 @@
     "minute": ["minuta", "minut"],
     "hour": ["godzina", "godzin"],
     "day": ["dzień", "dni"],
-    "week": ["tydzień", "tygodni"],
+    "week": ["tydzień", "tygodnie"],
     "month": ["miesiąc", "miesiące"],
     "year": ["rok", "lat"],
     "age": ["rok", "lat"]
@@ -22,7 +22,7 @@
       "legal": "Informacje prawne"
     },
     "projects": {
-      "archives": "Zobacz nasze zarchiwizowane projekty."
+      "archives": "Zobacz nasze projekty archiwalne"
     },
     "network": {
       "status": [
@@ -49,7 +49,7 @@
       "trademark": "\"Equestria.dev\" i powiązane nazwy są znakami towarowymi Deweloperów Equestria.dev we Francji i innych krajach. Equestria.dev i loga projektów są chronione zgodnie z obowiązującymi prawami autorskimi. JetBrains, i powiązane loga i powiązane nazwy są zarejestrowanymi znakami towarowymi JetBrains s.r.o., używane zgodnie z licencją."
     },
     "contact": {
-      "email": "Wyślij nam emaila."
+      "email": "Wyślij nam emaila"
     }
   },
   "footer": {
@@ -57,7 +57,7 @@
   },
   "home": {
     "hero": {
-      "title": ["Platforma oprogramowania", "możesz", "polegać na"],
+      "title": ["Platforma na której", "możesz", "polegać"],
       "cta": "Zobacz czym się zajmujemy"
     },
     "categories": {
@@ -153,9 +153,9 @@
         "Całkowita dostępna moc obliczeniowa:",
         "pamięć podręczna:",
         "Maksymalne opóźnienie I/O:",
-        "rdzenie",
+        "rdzeni",
         "Systemy operacyjne:",
-        "Procesów ogółem"
+        "procesów ogółem"
       ],
       "used": "używane"
     },
@@ -274,29 +274,29 @@
         "formats": {
           "title": "Format kodów kolorów:",
           "oklch": "OKLCH (profil sRGB)",
-          "rgb": "Hexadecimal RGB (8-bit)",
+          "rgb": "Heksadecymalny RGB (8-bit)",
           "cmyk": "CMYK (standardowy)"
         },
         "list": [
           "Podstawowy Jasny",
           "Podstawowy Ciemny",
-          "Drugorzędny Jasny",
-          "Drugorzędny Ciemny",
+          "Dodatkowy Jasny",
+          "Dodatkowy Ciemny",
           "Tło",
           "Na Tle",
-          "Ciepły Jasny",
-          "Ciepły Ciemny",
+          "Dodatni Jasny",
+          "Dodatni Ciemny",
           "Neutralny Jasny",
           "Neutralny Ciemny",
-          "Chłodny Jasny",
-          "Chłodny Ciemny",
+          "Negatyw Jasny",
+          "Negatyw Ciemny",
           "Powierzchnia",
           "Na Powierzchni"
         ]
       },
       "more": {
-        "title": "Chcesz więcej?",
-        "text": "Pobierz pełny zestaw marki Equestria.dev i uzyskaj dostęp do wszystkich zasobów, których użyliśmy do stworzenia naszego logo, wraz ze specjalnymi wariantami używanymi w określonych warunkach, w tym projektami prototypów i innymi arkuszami projektowymi.",
+        "title": "Potrzebujesz więcej?",
+        "text": "Pobierz pełny zestaw marki Equestria.dev i uzyskaj dostęp do wszystkich zasobów, których użyliśmy do stworzenia naszego loga, wraz ze specjalnymi wariantami używanymi w określonych warunkach, w tym projektami prototypów i innymi arkuszami projektowymi.",
         "cta": "Pobierz wersję 3",
         "notice": "Zawiera również wersje 1 i 2"
       }
