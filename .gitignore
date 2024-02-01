@@ -7,3 +7,5 @@ includes/lang/pseudo.js
 includes/lang/node_modules
 includes/lang/package.json
 includes/lang/package-lock.json
+.vercel
+out

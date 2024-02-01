@@ -1,5 +1,24 @@
 [
     {
+        "id": "4e3e68e1e9a5868485b386dbbba08cb1",
+        "owner": "equestria.dev",
+        "name": "stupidgpt",
+        "display_name": "StupidGPT",
+        "description": "A very experimental limitless AI engine with undefined (and sometimes funny) responses.",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/stupidgpt",
+        "icon": null,
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/stupidgpt",
+        "size": 4791,
+        "language": "Python",
+        "languages": {
+            "Python": 100
+        },
+        "update": 1705936397,
+        "commit": 1705936372,
+        "archive": false,
+        "readme": null
+    },
+    {
         "id": "45c8596458d58ba0e6d16f02d4db9cae",
         "owner": "equestria.dev",
         "name": "starshine",
@@ -8,16 +27,16 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
-        "size": 77549323,
+        "size": 486411,
         "language": "PHP",
         "languages": {
-            "PHP": 67.56,
-            "CSS": 24.97,
-            "JavaScript": 6.83,
-            "Shell": 0.64
+            "PHP": 68.91,
+            "CSS": 23.97,
+            "JavaScript": 6.51,
+            "Shell": 0.61
         },
-        "update": 1704143216,
-        "commit": 1704143197,
+        "update": 1706459124,
+        "commit": 1706459120,
         "archive": false,
         "readme": null
     },
@@ -49,14 +68,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/cometos",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/cometos",
-        "size": 1353508,
+        "size": 1353958,
         "language": "Rust",
         "languages": {
-            "Rust": 99.94,
-            "Lua": 0.06
+            "Rust": 100
         },
-        "update": 1704143115,
-        "commit": 1704143103,
+        "update": 1706459118,
+        "commit": 1706459102,
         "archive": false,
         "readme": null
     },
@@ -92,15 +110,15 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/168\/logo2.jpg",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
-        "size": 104410994,
+        "size": 197775260,
         "language": "HTML",
         "languages": {
-            "HTML": 63.32,
-            "JavaScript": 36.12,
-            "Shell": 0.55
+            "HTML": 63.2,
+            "JavaScript": 36.61,
+            "Shell": 0.19
         },
-        "update": 1704406004,
-        "commit": 1704405994,
+        "update": 1705935746,
+        "commit": 1705935735,
         "archive": false,
         "readme": null
     },
@@ -135,16 +153,16 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/sunny-starbot",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/163\/icon.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/sunny-starbot",
-        "size": 69936898,
+        "size": 69933779,
         "language": "PHP",
         "languages": {
-            "PHP": 90.78,
-            "Python": 6.15,
-            "JavaScript": 2.83,
-            "Shell": 0.24
+            "PHP": 87.54,
+            "Python": 7.25,
+            "JavaScript": 4.98,
+            "Shell": 0.23
         },
-        "update": 1704406007,
-        "commit": 1704405999,
+        "update": 1706429893,
+        "commit": 1706429883,
         "archive": false,
         "readme": null
     },
@@ -258,15 +276,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/103\/violette.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
-        "size": 5424263,
-        "language": "PHP",
+        "size": 8492391,
+        "language": "Rust",
         "languages": {
-            "PHP": 60.56,
-            "CSS": 20.09,
-            "JavaScript": 19.36
+            "Rust": 100
         },
-        "update": 1704406016,
-        "commit": 1704406002,
+        "update": 1706647443,
+        "commit": 1706647472,
         "archive": false,
         "readme": null
     },
@@ -483,14 +499,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/powertools",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/91\/powertools.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/powertools",
-        "size": 3730395,
+        "size": 4046057,
         "language": "JavaScript",
         "languages": {
             "JavaScript": 97.97,
             "Shell": 2.03
         },
-        "update": 1704406002,
-        "commit": 1704405991,
+        "update": 1705936196,
+        "commit": 1705936296,
         "archive": false,
         "readme": null
     },
@@ -770,14 +786,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/74\/chatroom.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
-        "size": 252807246,
+        "size": 252819742,
         "language": "JavaScript",
         "languages": {
-            "JavaScript": 57.52,
-            "HTML": 42.48
+            "JavaScript": 60.82,
+            "HTML": 39.18
         },
-        "update": 1704153091,
-        "commit": 1704153084,
+        "update": 1706429855,
+        "commit": 1706429841,
         "archive": false,
         "readme": null
     },
@@ -992,17 +1008,17 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/53\/cold-haze.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
-        "size": 131946608,
+        "size": 131940958,
         "language": "PHP",
         "languages": {
-            "PHP": 88.98,
-            "CSS": 5.25,
-            "Pawn": 2.33,
-            "JavaScript": 2.22,
-            "HTML": 1.22
+            "PHP": 86.98,
+            "CSS": 6.28,
+            "JavaScript": 2.66,
+            "Pawn": 2.54,
+            "HTML": 1.54
         },
-        "update": 1704405983,
-        "commit": 1704405976,
+        "update": 1706429887,
+        "commit": 1706429875,
         "archive": false,
         "readme": null
     },

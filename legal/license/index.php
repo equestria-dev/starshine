@@ -31,7 +31,7 @@
 
         <p><?= l("lang.legal.license.text.1.8") ?></p>
 
-        <?php if (lp() === "en"): ?>
+        <?php if (lp() !== "en"): ?>
         <hr>
         <p><i><b><?= l("lang.legal.license.translation.0") ?></b> <?= l("lang.legal.license.translation.1") ?></i></p>
         <?php endif; ?>

@@ -230,7 +230,7 @@
           "This includes not rotating the logo and changing any text or shape, along with maintaining spacing between the different elements of the full logo.",
           "You must not distort or deform the logo in any way, whether it is in a 2D or 3D frame. Additionally, make sure the logo is displayed properly in all cases.",
           "Both the logo and wordmark must be kept as is, with no color change at all. If you need to use grayscale, use the monochrome variants.",
-          "Ensure that the taglines (if applicable) never overlap any element of the logo. Additionally, do not endorse approval or sponsorship when there is none."
+          "Ensure that the taglines (if applicable) never overlap any element of the logo. Additionally, do not imply approval or sponsorship when there is none."
         ],
         "too": {
           "title": "Don't do too much",
@@ -325,7 +325,7 @@
         [
           "When an Equestria.dev online service or application integrates with a third party component, the privacy policy from that third party takes effect on all operations that are handled by this third party.",
           "When the third party component constitutes the main operation the online service or application handles, the privacy policy from the third party applies in priority. When the third party component constitutes a secondary operation within the online service or application, Equestria.dev's privacy policy applies first.",
-          "In the event that the privacy policy of a third party depended upon by an Equestria.dev online service or application depends on changes, users of said Equestria.dev online service or application will be made aware of the changes and how it affects the way they use the online service or application."
+          "In the event that the privacy policy of a third party depended upon by an Equestria.dev online service or application changes, users of said Equestria.dev online service or application will be made aware of the changes and how it affects the way they use the online service or application."
         ],
         [
           "Equestria.dev is entirely responsible for securing a user's private and personal data (unless a third party is involved in the process, in which case, as mentioned in section 3, the third party's responsibility is taken).",

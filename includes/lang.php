@@ -26,9 +26,10 @@ function l($key) {
 }
 
 global $realLang;
+
 if (!isset($realLang)) {
     $useLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? "en", 0, 2) ?? "en";
-    $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang" . $useLang . ".json") ? $useLang : "en";
+    $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/" . $useLang . ".json") ? $useLang : "en";
 }
 
 if ($realLang === "package" || $realLang === "package-lock") $realLang = "en";

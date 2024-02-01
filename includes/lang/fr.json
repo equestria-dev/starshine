@@ -200,216 +200,216 @@
       "plain": "Voir le message de demandes gouvernementales (ouvre un nouvel onglet)"
     },
     "branding": {
-      "page": "Branding guidelines",
-      "title": "Equestria.dev branding guidelines",
-      "intro": "At Equestria.dev, we take things and how you represent our brand seriously. The Equestria.dev brand should represent quality, simple and private open-source software. If you use our branding assets for anything, please make sure to respect these guidelines.",
-      "copyright": "The Equestria.dev logo and products are protected by applicable copyright laws in France, the United States, and other countries. Equestria.dev grants you a non-transferable, non-exclusive, royalty-free limited license to use its logo as defined by the following guidelines. These guidelines also regulate use of the Equestria.dev logo throughout our own services. Failure to abide is considered an infringement on Equestria.dev's intellectual property and will lead to legal action.",
+      "page": "Règles de marque",
+      "title": "Règles de marque de Equestria.dev",
+      "intro": "À Equestria.dev, nous prenons les chôses et la façon dont vous représentez notre marque très au sérieux. La marque Equestria.dev doit être signe de logiciel libre qualitatif, simple et privé. Si vous utilisez nos ressources de marque pour quoi que ce soit, assurez-vous de respecter ces règles.",
+      "copyright": "Le logo de Equestria.dev et des produits sont protégés par les lois sur les droits d'auteurs applicables en France, aux États-Unis et dans d'autres pays. Equestria.dev vous donne un droit non-transférable, non-exclusif et gratuit limité d'utiliser son logo tel que défini dans les suivantes règles. Ces règles régulent aussi l'utilisation du logo de Equestria.dev au travers de nos propres services. Un manquement est considéré comme une violation de la propriété intellectuelle de Equestria.dev et mènera à des poursuites judiciaires.",
       "logo": {
-        "title": "Our logo",
-        "message": "Please do not edit, change, distort, recolor, or reconfigure the Equestria.dev logo."
+        "title": "Notre logo",
+        "message": "Merci de ne pas modifier, changer, déformer, colorier ou reconfigurer le logo de Equestria.dev."
       },
       "icon": {
-        "title": "Icon only",
-        "message": "Use these only when the Equestria.dev brand is clearly visible, has been well established elsewhere on the page or in the design, or space does not permit showing the full version. When in doubt, use the other one."
+        "title": "Icône uniquement",
+        "message": "Utilisez ceux-ci uniquement lorsque la marque Equestria.dev est clairement visible, a déjà été établie autre part sur la page ou la publication, ou que l'espace ne permet pas d'afficher la version complète. En cas de doute, utilisez l'autre."
       },
       "spacing": {
-        "title": "Spacing",
-        "message": "Make sure to respect these spacing guidelines while using the Equestria.dev logo. Additionally, make sure you make the logo big enough to be legible and distinguishable.",
-        "scale": "x = \".dev\" text height.",
-        "notice": "(the icon only version is recommended in spaces where you have to show the logo at sizes less than 96 pixels or 52.8 millimeters, down to 24 pixels or 13.2 millimeters)"
+        "title": "Espacement",
+        "message": "Assurez-vous de respecter ces règles d'espacement lorsque vous utilisez le logo de Equestria.dev. De plus, assurez-vous que le logo soit assez grand pour être lisible et distinguable.",
+        "scale": "x = hauteur du texte \".dev\".",
+        "notice": "(la version avec icône uniquement est recommandée dans les espaces où vous devez afficher le logo à des dimensions de moins de 96 pixels ou 52,8 millimètres, jusqu'à 24 pixels ou 13,2 millimètres)"
       },
       "dont": {
-        "title": "Don'ts",
+        "title": "À éviter",
         "messages": [
-          "Do not edit, change or reconfigure the logo or the wordmark",
-          "Do not distort the logo or the wordmark including unintentionally",
-          "Do not recolor or apply visual effects to the logo or the wordmark",
-          "Do not place a tagline or any other element over the logo or wordmark"
+          "Ne modifiez, changez ou reconfigurez pas le logo ou le texte",
+          "Ne déformez pas le logo ou le texte même accidentellement",
+          "Ne coloriez pas ou n'appliquez pas d'effets au logo ou au texte",
+          "Ne placez pas de slogan ou autre élément sur le logo ou le texte"
         ],
         "descriptions": [
-          "This includes not rotating the logo and changing any text or shape, along with maintaining spacing between the different elements of the full logo.",
-          "You must not distort or deform the logo in any way, whether it is in a 2D or 3D frame. Additionally, make sure the logo is displayed properly in all cases.",
-          "Both the logo and wordmark must be kept as is, with no color change at all. If you need to use grayscale, use the monochrome variants.",
-          "Ensure that the taglines (if applicable) never overlap any element of the logo. Additionally, do not endorse approval or sponsorship when there is none."
+          "Cela inclut ne pas faire tourner le logo ou modifier un texte ou une forme, et aussi le maintien de l'espace entre les différents éléments du logo complet.",
+          "Vous ne devez pas déformer le logo de quelque façon, que ce soit dans un repère en 2 ou 3 dimensions. De plus, assurez-vous que le logo soit affiché correctement tout le temps.",
+          "Le logo et le texte doivent être gardés tels quel, sans aucun changement de couleur. Si vous avez besoin de nuances de gris, utilisez les variantes monochrome.",
+          "Assurez-vous que les slogans (si applicable) n'interfèrent pas avec un élément du logo. Aussi, n'impliquez pas d'approbation ou de sponsor si il n'y en a pas."
         ],
         "too": {
-          "title": "Don't do too much",
+          "title": "N'en faites pas trop",
           "text": [
-            "Ensure that the Equestria.dev brand is not displayed more prominently than the name, logo or brand of your own product or service.",
-            "Doing \"too much\" could lead to confusion and make users think they are facing either the official Equestria.dev website, or an official Equestria.dev product."
+            "Assurez-vous que la marque de Equestria.dev n'est pas mise en avant plus que le nom, logo ou marque de votre propre produit ou service.",
+            "En « faire trop » peut mener à la confusion et faire penser les utilisateurs qu'ils sont en face de soit un site officiel de Equestria.dev, ou un produit officiel de Equestria.dev."
           ]
         },
         "attribution": {
-          "title": "Don't use without attribution",
-          "message": "When using the Equestria.dev logo or any project logo, always give attribution with either of the following texts:",
+          "title": "N'utilisez pas sans créditer",
+          "message": "En utilisant le logo de Equestria.dev ou d'un projet, créditez toujours avec l'un des textes suivants :",
           "copyright": {
             "global": [
-              "Equestria.dev logo:",
-              "used under license"
+              "Logo Equestria.dev :",
+              "utilisé sous license"
             ],
             "product": [
-              "[project name] logo",
-              "project name"
+              "Logo de [nom du projet]",
+              "nom du projet"
             ]
           }
         },
         "impersonation": {
-          "title": "Don't imitate or impersonate",
+          "title": "N'imitez et n'usurpez pas",
           "text": [
-            "Mimicking the Equestria.dev brand in non-Equestria.dev materials is not allowed. The same restriction applies for animating the Equestria.dev brand, combining it with any other words, symbols, images, or designs, or incorporating it into a slogan or tagline.",
-            "Additionally, using the name or likeness of an individual from within Equestria.dev or the group as whole in any social media account or other media is strictly prohibited."
+            "Imiter la marque Equestria.dev dans des publications non-Equestria.dev n'est pas autorisé. La même restriction s'applique aux animations de la marque Equestria.dev, à la combination avec d'autres mots, symboles, images, ou publications, ou l'incorporation dans un slogan.",
+            "De plus, l'utilisation du nom ou de la ressemblance d'un individu au sein de Equestria.dev ou du groupe en général sur un compte de réseau social ou tout autre média est strictement interdit."
           ]
         },
         "endorsement": {
-          "title": "Don't imply endorsement where there is none",
+          "title": "N'impliquez pas d'approbations lorsqu'il n'y en a pas",
           "text": [
-            "We value collaboration, however, do not in any way imply affiliation, sponsorship, endorsement or approval of your products or services with Equestria.dev without Equestria.dev's express permission. You need to have a cooperation formally established in writing with an agreement from Equestria.dev before referring to such cooperation with Equestria.dev.",
-            "This means text such as \"Approved by Equestria.dev\", \"Equestria.dev Certified\" or \"Recommended by Equestria.dev\" is not allowed."
+            "Nous apprécions la collaboration, cependant, n'impliquez pas une quelconque affiliation, un partenariat, ou une approbation de vos produits ou services avec Equestria.dev sans la permission expresse de Equestria.dev. Vous devez avoir une coopération formellement établie dans un contrat écrit par Equestria.dev avant de faire référence à une collaboration avec Equestria.dev.",
+            "Cela signifie que les textes tels que « Approuvé par Equestria.dev », « Certifié par Equestria.dev » ou « Recommandé par Equestria.dev » ne sont pas autorisés."
           ]
         }
       },
       "color": {
-        "title": "Color palette",
-        "intro": "The Equestria.dev color palette, named \"Brightdawn\" (after Misty Brightdawn, the character from My Little Pony) has been created to reflect our core values: inclusiveness, friendship and transparency. It is based on the original \"Misty\" palette used in 2023 updated to include brighter colors.",
+        "title": "Palette de couleur",
+        "intro": "La palette de couleur de Equestria.dev, nommée « Brightdawn » (d'après Misty Brightdawn, le personnage de My Little Pony) a été créé pour représenter nos valeurs fondamentales : inclusivité, amitié et transparence. Elle est basée sur la palette originale « Misty » utilisée en 2023 mise à jour pour inclure des couleurs plus lumineuses.",
         "formats": {
-          "title": "Color code format:",
-          "oklch": "OKLCH (sRGB profile)",
-          "rgb": "Hexadecimal RGB (8-bit)",
+          "title": "Format de code couleur :",
+          "oklch": "OKLCH (profil sRGB)",
+          "rgb": "RGB hexadécimal (8 bits)",
           "cmyk": "CMYK (standard)"
         },
         "list": [
-          "Primary Light",
-          "Primary Dark",
-          "Secondary Light",
-          "Secondary Dark",
-          "Background",
-          "On Background",
-          "Positive Light",
-          "Positive Dark",
-          "Neutral Light",
-          "Neutral Dark",
-          "Negative Light",
-          "Negative Dark",
+          "Primaire clair",
+          "Primaire sombre",
+          "Secondaire clair",
+          "Secondaire sombre",
+          "Arrière plan",
+          "Sur arrière plan",
+          "Positive clair",
+          "Positive sombre",
+          "Neutre clair",
+          "Neutre sombre",
+          "Négative clair",
+          "Négative sombre",
           "Surface",
-          "On Surface"
+          "Sur surface"
         ]
       },
       "more": {
-        "title": "Looking for more?",
-        "text": "Download the full Equestria.dev brand kit and get access to all the resources we used to create our logo, along with special variants used in specific conditions, including prototype designs and other design sheets.",
-        "cta": "Download version 3",
-        "notice": "Also includes versions 1 and 2"
+        "title": "Vous cherchez plus ?",
+        "text": "Téléchargez le kit de marque de Equestria.dev complet et ayez accès à toutes les ressources que nous avons utilisées pour créer notre logo, avec en plus des variantes spéciales utilisées sous certaines conditions, dont des versions de prototypes et d'autres documents de conception.",
+        "cta": "Télécharger la version 3",
+        "notice": "Inclut aussi les versions 1 et 2"
       }
     },
     "privacy": {
-      "title": "Data privacy",
+      "title": "Confidentialité",
       "bigtitle": "Equestria.dev data privacy rules",
-      "intro": "At Equestria.dev, we value your privacy. We try to collect as little data as possible to provide you with the service you expect. Regardless, Equestria.dev's data treatment is made in accordance with the European General Data Protection Regulation.",
+      "intro": "Chez Equestria.dev, nous accordons de l'importance à votre confidentialité. Nous nous efforçons de collecter le moins de données possible pour vous fournir le service auquel vous vous attendez. Dans tous les cas, le traitement des données de Equestria.dev est effectué dans le respect du Règlement Général sur la Protection des Données européen.",
       "sections": [
-        "Privacy on the Equestria.dev online services",
-        "Privacy on the Equestria.dev applications",
-        "Privacy on the Equestria.dev online services or application that integrate with third party components",
-        "Equestria.dev's responsibility in protecting a user's private data"
+        "Confidentialité sur les services en ligne de Equestria.dev",
+        "Confidentialité sur les applications de Equestria.dev",
+        "Confidentialité sur les services en ligne ou applications Equestria.dev qui s'intègrent avec des composants tiers",
+        "La responsabilité de Equestria.dev dans la protection des données personnelles d'un utilisateur"
       ],
       "text": [
         [
-          "Equestria.dev will only save the information you explicitly give us (for instance, as part of a registration form). No other data will be collected.",
-          "However, as part of law enforcement, Equestria.dev will collect IP addresses and other browser information (browser name, version, operating system, URL, and date) for up to 365 days. This information is deleted every year in January.",
-          "Furthermore, Equestria.dev may, as part of improving the quality and reliability of its services, collect entirely anonymous information, including the pages you visit, excluding any potential personal data. This information is made anonymous before being aggregated into statistics, and the original information is stored as mentioned in 1§2 (see above)."
+          "Equestria.dev enregistrera uniquement les informations que vous nous fournissez explicitement (par exemple, dans le cadre d'un formulaire d'inscription). Aucune autre donnée ne sera collectée.",
+          "Cependant, dans le cadre de l'application de la loi, Equestria.dev collectera les adresses IP et d'autres informations sur le navigateur (nom du navigateur, version, système d'exploitation, URL et date) pendant une durée maximale de 365 jours. Ces informations sont supprimées chaque année en janvier.",
+          "Par ailleurs, Equestria.dev peut, dans le cadre de l'amélioration de la qualité et de la fiabilité de ses services, collecter des informations entièrement anonymes, y compris sur les pages que vous visitez, à l'exclusion de toute donnée personnelle potentielle. Ces informations sont anonymisées avant d'être agrégées en statistiques, et les informations originales sont conservées comme mentionné au 1§2 (voir ci-dessus)."
         ],
         [
-          "This section applies to applications that are \"installed\" (accessible even without specific service from Equestria.dev) to a user's device, and as soon as the user starts the installation process.",
-          "Equestria.dev applications will never monitor, store, disturb or prevent other applications' behavior. Whether the application is running or not will be made clear to the user at all time.",
-          "Some applications may, after a user has given their explicit and clear consent (including after a user has acknowledged the kind of data that will be collected), collect anonymous statistic data as part of improving the quality and reliability of these applications. A user is always given the option to stop sending these statistics to Equestria.dev without any change in how the application behaves."
+          "Cette section s'applique aux applications « installées » (accessibles même sans service spécifique d'Equestria.dev) sur l'appareil d'un utilisateur, et dès que l'utilisateur démarre le processus d'installation.",
+          "Les applications Equestria.dev ne surveilleront, ne stockeront, ne perturberont ou n'empêcheront jamais le comportement d'autres applications. Le fait que l'application soit en cours d'exécution ou non sera clairement indiqué à l'utilisateur à tout moment.",
+          "Certaines applications peuvent, après qu'un utilisateur a donné son consentement explicite et clair (y compris après qu'un utilisateur a reconnu le type de données qui seront collectées), collecter des données statistiques anonymes dans le cadre de l'amélioration de la qualité et de la fiabilité de ces applications. Un utilisateur a toujours la possibilité d'arrêter d'envoyer ces statistiques à Equestria.dev sans aucun changement dans le comportement de l'application."
         ],
         [
-          "When an Equestria.dev online service or application integrates with a third party component, the privacy policy from that third party takes effect on all operations that are handled by this third party.",
-          "When the third party component constitutes the main operation the online service or application handles, the privacy policy from the third party applies in priority. When the third party component constitutes a secondary operation within the online service or application, Equestria.dev's privacy policy applies first.",
-          "In the event that the privacy policy of a third party depended upon by an Equestria.dev online service or application depends on changes, users of said Equestria.dev online service or application will be made aware of the changes and how it affects the way they use the online service or application."
+          "Lorsqu'un service ou une application en ligne Equestria.dev s'intègre à un composant tiers, la politique de confidentialité de ce tiers prend effet sur toutes les opérations traitées par ce tiers.",
+          "Lorsque le composant tiers constitue l'opération principale assurée par le service ou l'application en ligne, la politique de confidentialité du tiers s'applique en priorité. Lorsque le composant tiers constitue une opération secondaire au sein du service ou de l'application en ligne, la politique de confidentialité d'Equestria.dev s'applique en premier.",
+          "Dans le cas où la politique de confidentialité d'un tiers dont dépend un service ou une application en ligne d'Equestria.dev change, les utilisateurs dudit service ou de cette application en ligne d'Equestria.dev seront informés des changements et de la manière dont ils affectent la façon dont ils utilisent le service ou application en ligne."
         ],
         [
-          "Equestria.dev is entirely responsible for securing a user's private and personal data (unless a third party is involved in the process, in which case, as mentioned in section 3, the third party's responsibility is taken).",
-          "In the event that such information is made public, e.g., by intruders downloading data from Equestria.dev's servers, users will be made aware of the issue as soon as possible, and will be given instructions if required.",
-          "Equestria.dev has no interest in selling, giving away or exposing user data and will not attempt any of these operations at any time."
+          "Equestria.dev est entièrement responsable de la sécurisation des données privées et personnelles d'un utilisateur (sauf si un tiers est impliqué dans le processus, auquel cas, comme mentionné à l'article 3, la responsabilité du tiers est engagée).",
+          "Dans le cas où de telles informations seraient rendues publiques, par exemple par des intrus téléchargeant des données depuis les serveurs d'Equestria.dev, les utilisateurs seront informés du problème dès que possible et recevront des instructions si nécessaire.",
+          "Equestria.dev n'a aucun intérêt à vendre, donner ou exposer les données des utilisateurs et ne tentera à aucun moment aucune de ces opérations."
         ]
       ],
       "translation": [
-        "Disclaimer:",
-        "In the event that this privacy policy is translated into another language, only the English version is legally applicable. The translated versions are provided for information purposes only."
+        "Avertissement :",
+        "Dans l'éventualité où cette politique de confidentialité serait traduite dans une autre langue, seule la version en anglais est légalement applicable. Les versions traduites ne sont fournies qu'à titre indicatif."
       ]
     },
     "terms": {
-      "title": "Terms and conditions",
-      "bigtitle": "Equestria.dev hosted services terms and conditions",
+      "title": "Termes et conditions",
+      "bigtitle": "Termes et conditions des services hébergés de Equestria.dev",
       "translation": [
-        "Disclaimer:",
-        "In the event that these terms and conditions are translated into another language, only the English version is legally applicable. The translated versions are provided for information purposes only."
+        "Avertissement :",
+        "Dans l'éventualité où ces termes et conditions seraient traduites dans une autre langue, seule la version en anglais est légalement applicable. Les versions traduites ne sont fournies qu'à titre indicatif."
       ],
       "sections": [
-        "Disclaimer",
-        "Demographics",
-        "Purposes",
-        "Law enforcement",
-        "Services quality and reliability",
-        "Mutual respect and equality"
+        "Avertissement",
+        "Démographie",
+        "Intérêts",
+        "Respect des lois",
+        "Qualité et fiabilité de service",
+        "Respect mutuel et égalité"
       ],
-      "intro": "The following terms of use only apply to online services hosted by Equestria.dev, including if the online service is accessed through a third party. \"Local\" applications or services which are not hosted by Equestria.dev are not governed by these terms of use but by respectively their license agreement and the service's hosting provider terms of use.",
+      "intro": "Les conditions d'utilisation suivantes s'appliquent uniquement aux services en ligne hébergés par Equestria.dev, y compris si le service en ligne est accessible via un tiers. Les applications ou services « locaux » qui ne sont pas hébergés par Equestria.dev ne sont pas régis par les présentes conditions d'utilisation mais respectivement par leur contrat de licence et les conditions d'utilisation de l'hébergeur du service.",
       "text": [
         [
-          "Specific users may not be allowed to use Equestria.dev's online services depending on their location or physical condition.",
-          "Users who are located in China, North Korea, and some other countries are not allowed to use online services. Exceptions can be made on a per-case basis by the administrators.",
-          "Individuals who are legally younger than 13 years old are not allowed to use the online services at all. Users who are less than 21 years old may not have access to specific features."
+          "Des utilisateurs spécifiques peuvent ne pas être autorisés à utiliser les services en ligne d'Equestria.dev en fonction de leur emplacement ou de leur condition physique.",
+          "Les utilisateurs résidant en Chine, en Corée du Nord et dans certains autres pays ne sont pas autorisés à utiliser les services en ligne. Des exceptions peuvent être faites au cas par cas par les administrateurs.",
+          "Les personnes légalement âgées de moins de 13 ans ne sont pas du tout autorisées à utiliser les services en ligne. Les utilisateurs de moins de 21 ans peuvent ne pas avoir accès à certaines fonctionnalités."
         ],
         [
-          "Equestria.dev grants users a unique, revocable, non-exchangeable permission to access the online services.",
-          "Using the online services in a profit-making activity whatsoever is not permitted, no matter how much profit is made, and will result in immediate termination of the access to the online services."
+          "Equestria.dev accorde aux utilisateurs une autorisation unique, révocable et non échangeable d'accéder aux services en ligne.",
+          "L'utilisation des services en ligne dans le cadre d'une activité lucrative quelle qu'elle soit n'est pas autorisée, quel que soit le montant du profit réalisé, et entraînera la résiliation immédiate de l'accès aux services en ligne."
         ],
         [
-          "When using a service hosted by Equestria.dev, a user agrees not to use the service for any operation that is illegal in France or the United States. Moreover, a user's operations must not prevent other users from doing their own operations.",
-          "Publishing abusive or violent content, malicious code or software, or stolen content is not permitted and will result in immediate termination of access."
+          "Lors de l'utilisation d'un service hébergé par Equestria.dev, l'utilisateur s'engage à ne pas utiliser le service pour toute opération illégale en France ou aux Etats-Unis. De plus, les opérations d'un utilisateur ne doivent pas empêcher les autres utilisateurs d'effectuer leurs propres opérations.",
+          "La publication de contenu abusif ou violent, de code ou logiciel malveillant, ou de contenu volé n'est pas autorisée et entraînera la résiliation immédiate de l'accès."
         ],
         [
-          "Hosting online services is complicated and Equestria.dev is running on very limited income.",
-          "The Equestria.dev developers and administrators should not be liable in the event an online service is not working as intended. All online platforms are served as is with no warranty whatsoever that it will work as intended or work at all for any given period of time.",
-          "Equestria.dev states that the services they host may be slow or unreachable at unspecified points in time, with or without warning. The administrators make no promise as to a specific percentage of availability for a given service throughout the year."
+          "L'hébergement de services en ligne est compliqué et Equestria.dev fonctionne avec des revenus très limités.",
+          "Les développeurs et administrateurs d'Equestria.dev ne sauraient être tenus responsables dans le cas où un service en ligne ne fonctionnerait pas comme prévu. Toutes les plateformes en ligne sont servies telles quelles, sans aucune garantie qu'elles fonctionneront comme prévu ou fonctionneront du tout pendant une période de temps donnée.",
+          "Equestria.dev déclare que les services qu'ils hébergent peuvent être lents ou inaccessibles à des moments indéterminés, avec ou sans avertissement. Les administrateurs ne font aucune promesse quant à un pourcentage précis de disponibilité pour un service donné tout au long de l'année."
         ],
         [
-          "When social interactions are present, all users agree to not discriminate each other because of their social, physical or psychological conditions, including their opinions. Users are encouraged to report such inappropriate behavior to help keep the platforms safe for everyone.",
-          "All users are free to identify as they wish as long as it doesn't affect the way other users interact with the service. All identities are valid no matter where they are from.",
-          "Everyone gets access to the exact same service, regardless of where they live (unless 1. is applicable) and who they are. Equestria.dev greatly values equality and respect between users and insists that users should report inappropriate behavior, whether it violates these terms of service or not."
+          "Lorsque des interactions sociales sont présentes, tous les utilisateurs s'engagent à ne pas se discriminer en raison de leurs conditions sociales, physiques ou psychologiques, y compris leurs opinions. Les utilisateurs sont encouragés à signaler tout comportement inapproprié afin de garantir la sécurité des plateformes pour tous.",
+          "Tous les utilisateurs sont libres de s'identifier comme ils le souhaitent tant que cela n'affecte pas la façon dont les autres utilisateurs interagissent avec le service. Toutes les identités sont valables, quelle que soit leur origine.",
+          "Tout le monde a accès exactement au même service, quel que soit l’endroit où il réside (sauf si le point 1. s’applique) et qui il est. Equestria.dev accorde une grande importance à l'égalité et au respect entre les utilisateurs et insiste pour que les utilisateurs signalent tout comportement inapproprié, qu'il viole ou non ces conditions d'utilisation."
         ]
       ]
     },
     "license": {
-      "title": "Software licenses",
-      "bigtitle": "Equestria.dev software and sources licenses",
+      "title": "Licences logicielles",
+      "bigtitle": "Licences des logiciels et codes sources de Equestria.dev",
       "translation": [
-        "Disclaimer:",
-        "In the event that these licenses are translated into another language, only the English version is legally applicable. The translated versions are provided for information purposes only."
+        "Avertissement :",
+        "Dans l'éventualité où ces licences seraient traduites dans une autre langue, seule la version en anglais est légalement applicable. Les versions traduites ne sont fournies qu'à titre indicatif."
       ],
-      "intro": "Equestria.dev releases software in a variety of licensing schemes, most of the time under libre licenses.",
+      "intro": "Equestria.dev publie des logiciels selon de nombreux types de licence, la plupart du temps des licences libres.",
       "sections": [
-        "Free, libre and open-source software",
-        "Closed-source \"proprietary\" software"
+        "Logiciel libre, gratuit et à code source ouvert",
+        "Logiciel à code source fermé « propriétaire »"
       ],
       "text": [
         [
-          "Is considered \"free, libre and open-source\" all software that Equestria.dev releases under either the public domain the MIT license, any compatible alternative, or entirely copyright-free. Unless a copy of a license agreement is present in the software's source code, or a mention of another license is present elsewhere, software which source code is publicly accessible is released under the following license terms:",
-          "MIT License",
-          "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:",
-          "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
-          "THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+          "Est considéré comme « logiciel libre, gratuit et à code source ouvert » tout logiciel que Equestria.dev publie dans le domaine public ou sous licence MIT, une alternative compatible, ou entièrement sans droits d'auteurs. À moins qu'une copie d'un contrat de licence soit présente dans le code source du logiciel, ou que la mention d'une autre licence soit présente autre part, tout logiciel dont le code source est accessible publiquement est publié selon les termes de licence suivants :",
+          "Licence MIT",
+          "L'autorisation est par la présente accordée, gratuitement, à toute personne obtenant une copie de ce logiciel et des fichiers de documentation associés (le « Logiciel »), d'utiliser le Logiciel sans restriction, y compris, sans limitation, les droits d'utiliser, copier, modifier, fusionner, publier, distribuer, accorder des sous-licences et/ou vendre des copies du Logiciel, et permettre aux personnes à qui le Logiciel est fourni de le faire, sous réserve des conditions suivantes :",
+          "L'avis de droit d'auteur ci-dessus et cet avis d'autorisation doivent être inclus dans toutes les copies ou parties substantielles du Logiciel.",
+          "LE LOGICIEL EST FOURNI « TEL QUEL », SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS MAIS SANS LIMITATION LES GARANTIES DE QUALITÉ MARCHANDE, D'ADAPTATION À UN USAGE PARTICULIER ET DE NON-VIOLATION. EN AUCUN CAS LES AUTEURS OU LES TITULAIRES DES DROITS D'AUTEUR NE SERONT RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGES OU AUTRE RESPONSABILITÉ, QUE CE SOIT DANS UNE ACTION CONTRACTUELLE, DÉLIT OU AUTRE, DÉCOULANT DE, OU EN RELATION AVEC LE LOGICIEL OU L'UTILISATION OU D'AUTRES TRANSACTIONS DANS LE LOGICIEL."
         ],
         [
-          "In some cases, Equestria.dev developers may choose not to release the source code for a specific piece of software. This could be because it is easily abused or misused, because it uses a private platform, because it contains confidential or private information, or another reason. Developers can choose to make a closed-source software open-source later on.",
-          "By downloading, installing, purchasing or using the software, you accept these license terms. If you don't accept them, do not use the software; or, if an open-source variant is available, use the open-source variant.",
-          "In all cases of closed-source software, users must:",
-          "use the software strictly for personal purposes and not for profit;",
-          "not attempt to decompile, modify, publish, distribute, sell or license the software;",
-          "not use the software in a way that is illegal in France or the United States;",
-          "not use the software in a way that could put Equestria.dev at risk;",
-          "not expose the software in public places where users could use it without first agreeing to this license agreement",
-          "In case of a paid software, users must not give access to the software for free to a third party. Giving access to the software to a relative (friend, family, ...) is considered reasonable, but should not exceed 10 people."
+          "Dans certains cas, les développeurs de Equestria.dev peuvent choisir de ne pas publier le code source d'un logiciel en particulier. Cela peut être car il peut facilement mener à des abus ou être mal utilisé, car il utilise une plateforme privée, car il contient des informations personnel ou confidentielles, ou tout autre raison. Les développeurs peuvent choisir de rendre un logiciel fermé ouvert plus tard.",
+          "En téléchargeant, installant, achetant ou utilisant le logiciel, vous acceptez ces termes de licence. Si vous ne les acceptez pas, n'utilisez pas le logiciel ; ou, si une variante ouverte est disponible, utilisez la variante ouverte.",
+          "Dans tous les cas de logiciel fermé, les utilisateurs doivent :",
+          "utiliser le logiciel strictement à des fins personnelles et non professionnelles ;",
+          "ne pas tenter de décompiler, modifier, publier, distribuer ou vendre le logiciel ;",
+          "ne pas utiliser le logiciel d'une façon qui est illégale en France ou aux États-Unis ;",
+          "ne pas utiliser le logiciel d'une façon qui pourrait mettre en danger Equestria.dev ;",
+          "ne pas exposer le logiciel dans des lieux publics où les utilisateurs pourraient l'utiliser sans préalablement accepter ce contrat de licence",
+          "Dans le cas de logiciel payant, les utilisateurs ne doivent pas donner l'accès au logiciel gratuitement à un tiers. Donner l'accès au logiciel à un proche (ami, famille, ...) est considéré raisonnable, mais ne devrait pas excéder 10 personnes."
         ]
       ]
     }

@@ -291,9 +291,18 @@ body.animated #hero-inner {
     animation-delay: 0s;
 }
 
+video::-internal-media-controls-overlay-cast-button {
+    display: none;
+}
+
 @media (max-width: 900px) {
     #hero-inner {
         grid-template-columns: 1fr;
+    }
+
+    #hero-logo {
+        grid-column-start: 1;
+        grid-row-start: 1;
     }
 
     #hero-tagline {

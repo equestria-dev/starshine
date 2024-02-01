@@ -68,14 +68,14 @@ if (isset($parts[0])) {
                 require_once $_SERVER['DOCUMENT_ROOT'] . "/" . $resourcePath . "/index.php";
             } else {
                 $useLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? "en", 0, 2) ?? "en";
-                $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang" . $useLang . ".json") ? $useLang : "en";
+                $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/" . $useLang . ".json") ? $useLang : "en";
                 header("Location: /$realLang/" . implode("/", $parts));
                 die();
             }
         } else {
             global $realLang;
             $useLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? "en", 0, 2) ?? "en";
-            $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang" . $useLang . ".json") ? $useLang : "en";
+            $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/" . $useLang . ".json") ? $useLang : "en";
             header("Location: /$realLang/" . implode("/", $parts));
             die();
         }
@@ -83,7 +83,7 @@ if (isset($parts[0])) {
 } else {
     global $realLang;
     $useLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? "en", 0, 2) ?? "en";
-    $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang" . $useLang . ".json") ? $useLang : "en";
+    $realLang = file_exists($_SERVER['DOCUMENT_ROOT'] . "/includes/lang/" . $useLang . ".json") ? $useLang : "en";
     header("Location: /$realLang");
     die();
 }
