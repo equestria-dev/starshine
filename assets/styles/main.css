@@ -9,13 +9,13 @@
 @import "./legal.css";
 
 @font-face {
-    src: url("/assets/fonts/font.ttf");
+    src: url("https://cdn.equestria.dev/starshine/fonts/font.ttf");
     font-family: "Urbanist";
     font-style: normal;
 }
 
 @font-face {
-    src: url("/assets/fonts/font-italic.ttf");
+    src: url("https://cdn.equestria.dev/starshine/fonts/font-italic.ttf");
     font-family: "Urbanist";
     font-style: italic;
 }
