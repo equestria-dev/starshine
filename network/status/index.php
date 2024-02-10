@@ -41,7 +41,7 @@
         1 => "warn",
         default => "fail"
     } ?>">
-        <b><?= count($status["services"]["outages"]) === 1 ? l("lang.status.affected.0") : l("lang.status.affected.0") ?></b>
+        <b><?= count($status["services"]["outages"]) === 1 ? l("lang.status.affected.0") : l("lang.status.affected.1") ?></b>
         <ul id="status-affected-list">
             <?php foreach ($status["services"]["outages"] as $service): ?>
             <li><?= $service[1] ?></li>
