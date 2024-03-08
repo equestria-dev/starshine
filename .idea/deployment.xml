@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="zephyrheights" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="dabssi" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="zephyrheights">
+      <paths name="dabssi">
         <serverdata>
           <mappings>
             <mapping deploy="/pool/web/starshine" local="$PROJECT_DIR$" web="/" />

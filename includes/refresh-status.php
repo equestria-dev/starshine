@@ -5,10 +5,9 @@ if (!isset($_SERVER['argv'])) die("This script can only be run in a CLI environm
 // Status
 
 $servers = [
-    json_decode(exec("ssh -p 2222 root@zephyrheights.equestria.dev starshine-status"), true),
-    //json_decode(exec("ssh -p 2224 root@zephyrheights-testing.equestria.dev starshine-status"), true),
-    json_decode(exec("ssh -p 2223 root@maretimebay.equestria.dev starshine-status"), true),
-    json_decode(exec("ssh -p 22 fedora@bridlewood.equestria.dev starshine-status"), true),
+    json_decode(exec("ssh -p 2253 root@nat4.equestria.dev starshine-status"), true),
+    json_decode(exec("ssh -p 2252 root@nat4.equestria.dev starshine-status"), true),
+    json_decode(exec("ssh -p 22 fedora@51.68.173.117 starshine-status"), true),
 ];
 
 $total = [

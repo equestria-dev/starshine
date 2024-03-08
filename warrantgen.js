@@ -19,7 +19,7 @@ Special note should be taken if these messages ever cease being updated, or are 
 
 %%
 
-https://equestria.dev/pubkey | https://gist.github.com/RaindropsSys/ab3630a316a86bf3eecde5e5f1670396
+https://equestria.dev/pubkey | https://github.com/RaindropsSys.gpg | https://gitlab.com/RaindropsSys.gpg
 
 Notes:
 

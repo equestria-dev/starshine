@@ -32,7 +32,7 @@
         <p><?= l("lang.legal.notices.howto") ?> <a class="legal-link" href="mailto:raindrops@equestria.dev">raindrops@equestria.dev</a>. <?= l("lang.legal.notices.law") ?></p>
 
         <h3><?= l("lang.legal.notices.gov") ?></h3>
-        <p><?= l("lang.legal.notices.pgp") ?><code>AEA7 73DB 0620 C57C FFB0 7A91 EFBD C684 35A5 74B7</code> (<a href="/pubkey" target="_blank" class="legal-link"><?= l("lang.legal.notices.key") ?></a>, <a href="https://gist.github.com/RaindropsSys/ab3630a316a86bf3eecde5e5f1670396" target="_blank" class="legal-link"><?= l("lang.legal.notices.alt") ?></a>).</p>
+        <p><?= l("lang.legal.notices.pgp") ?><code>AEA7 73DB 0620 C57C FFB0 7A91 EFBD C684 35A5 74B7</code> (<a href="/pubkey" target="_blank" class="legal-link"><?= l("lang.legal.notices.key") ?></a>, <a href="https://github.com/RaindropsSys.git" target="_blank" class="legal-link"><?= l("lang.legal.notices.alt") ?></a>).</p>
         <a class="legal-link" href="/warrant" target="_blank"><?= l("lang.legal.notices.plain") ?></a>
     </div>
 </div>

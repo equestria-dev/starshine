@@ -10,7 +10,9 @@
 
 @keyframes hero-bg-inner {
     0% {
-        background-color: oklch(100% 0 0 / 1);
+        /* Chrome does not like OKLCH color so this is the only RGB color on this website!
+           Love you Google! */
+        background-color: rgb(255, 255, 255);
     }
 
     50% {
@@ -105,6 +107,7 @@
 #hero-logo-img {
     width: 25vw;
     height: 25vw;
+    background-color: transparent;
 }
 
 #hero-tagline-underline {
@@ -291,6 +294,7 @@ body.animated #hero-inner {
     animation-delay: 0s;
 }
 
+/*noinspection CssInvalidPseudoSelector*/
 video::-internal-media-controls-overlay-cast-button {
     display: none;
 }
