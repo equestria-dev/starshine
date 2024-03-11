@@ -1,0 +1,133 @@
+:root {
+    --theme-main-bg: oklch(100% 0 0 / 1);
+    --theme-main-bg-rgb: rgb(255, 255, 255);
+    --theme-main-bg-00: oklch(100% 0 0 / 0);
+    --theme-main-bg-25: oklch(100% 0 0 / .25);
+    --theme-main-bg-75: oklch(100% 0 0 / .75);
+    --theme-main-bg-80: oklch(100% 0 0 / .8);
+
+    --theme-main-text-base: 0% 0 0;
+    --theme-main-text: oklch(0% 0 0 / 1);
+    --theme-main-text-00: oklch(0% 0 0 / 0);
+    --theme-main-text-05: oklch(0% 0 0 / .05);
+    --theme-main-text-07: oklch(0% 0 0 / .075);
+    --theme-main-text-10: oklch(0% 0 0 / .1);
+    --theme-main-text-25: oklch(0% 0 0 / .25);
+    --theme-main-text-30: oklch(0% 0 0 / .3);
+    --theme-main-text-50: oklch(0% 0 0 / .5);
+    --theme-main-text-75: oklch(0% 0 0 / .75);
+
+    --theme-announcement-1: oklch(40.86% 0.115 308.9 / 1);
+    --theme-announcement-2: oklch(19.2% 0.114 294.97 / 1);
+    --theme-announcement-3: oklch(23.67% 0.101 256.51 / 1);
+    --theme-announcement-4: oklch(44.85% 0.087 188.81 / 1);
+
+    --theme-btn-hover: oklch(59.2% 0.114 294.97 / 1);
+    --theme-btn-hover-25: oklch(59.2% 0.114 294.97 / .25);
+    --theme-btn-light: oklch(80.86% 0.115 308.9 / 1);
+    --theme-btn-light-25: oklch(80.86% 0.115 308.9 / .25);
+    --theme-btn-light-00: oklch(80.86% 0.115 308.9 / 0);
+    --theme-btn-active: oklch(19.2% 0.114 294.97 / 1);
+    --theme-btn-text: var(--theme-main-text);
+
+    --theme-footer-bg: oklch(94.91% 0 0 / 1);
+
+    --theme-hero-bg-1: oklch(80.86% 0.115 308.9 / 0);
+    --theme-hero-bg-2: oklch(59.2% 0.114 294.97 / 0);
+    --theme-hero-bg-3: oklch(63.67% 0.101 256.51 / 0);
+    --theme-hero-bg-4: oklch(80.86% 0.115 308.9 / .25);
+    --theme-hero-bg-5: oklch(59.2% 0.114 294.97 / .25);
+    --theme-hero-bg-6: oklch(63.67% 0.101 256.51 / .25);
+    --theme-hero-bg-7: oklch(84.85% 0.087 188.81 / .25);
+
+    --theme-header-1: oklch(80.86% 0.115 308.9 / 1);
+    --theme-header-2: oklch(59.2% 0.114 294.97 / 1);
+    --theme-header-3: oklch(63.67% 0.101 256.51 / 1);
+    --theme-header-4: oklch(84.85% 0.087 188.81 / 1);
+
+    --theme-state-negative-base: 55.39% 0.245 336.05;
+    --theme-state-negative: oklch(55.39% 0.245 336.05 / 1);
+    --theme-state-negative-50: oklch(55.39% 0.245 336.05 / .5);
+    --theme-state-negative-00: oklch(55.39% 0.245 336.05 / 0);
+
+    --theme-state-neutral-base: 72.58% 0.169 20.96;
+    --theme-state-neutral: oklch(72.58% 0.169 20.96 / 1);
+    --theme-state-neutral-50: oklch(72.58% 0.169 20.96 / .5);
+    --theme-state-neutral-00: oklch(72.58% 0.169 20.96 / 0);
+
+    --theme-state-positive-base: 33.76% 0.18 293.93;
+    --theme-state-positive: oklch(33.76% 0.18 293.93 / 1);
+    --theme-state-positive-50: oklch(33.76% 0.18 293.93 / .5);
+    --theme-state-positive-00: oklch(33.76% 0.18 293.93 / 0);
+
+    --theme-menu-bg: var(--theme-main-text-10);
+    --theme-menu-shadow: var(--theme-main-text-10);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-main-bg: oklch(20% 0 0 / 1);
+        --theme-main-bg-rgb: rgb(22, 22, 22);
+        --theme-main-bg-00: oklch(20% 0 0 / 0);
+        --theme-main-bg-25: oklch(20% 0 0 / .25);
+        --theme-main-bg-75: oklch(20% 0 0 / .75);
+        --theme-main-bg-80: oklch(20% 0 0 / .8);
+
+        --theme-main-text-base: 95% 0 0;
+        --theme-main-text: oklch(95% 0 0 / 1);
+        --theme-main-text-00: oklch(95% 0 0 / 0);
+        --theme-main-text-05: oklch(95% 0 0 / .05);
+        --theme-main-text-07: oklch(95% 0 0 / .075);
+        --theme-main-text-10: oklch(95% 0 0 / .1);
+        --theme-main-text-25: oklch(95% 0 0 / .25);
+        --theme-main-text-30: oklch(95% 0 0 / .3);
+        --theme-main-text-50: oklch(95% 0 0 / .5);
+        --theme-main-text-75: oklch(95% 0 0 / .75);
+
+        --theme-announcement-1: oklch(40.86% 0.115 308.9 / 1);
+        --theme-announcement-2: oklch(19.2% 0.114 294.97 / 1);
+        --theme-announcement-3: oklch(23.67% 0.101 256.51 / 1);
+        --theme-announcement-4: oklch(44.85% 0.087 188.81 / 1);
+
+        --theme-btn-hover: oklch(80.86% 0.115 308.9 / 1);
+        --theme-btn-hover-25: oklch(80.86% 0.115 308.9 / .25);
+        --theme-btn-light: oklch(59.2% 0.114 294.97 / 1);
+        --theme-btn-light-25: oklch(59.2% 0.114 294.97 / .25);
+        --theme-btn-light-00: oklch(59.2% 0.114 294.97 / 0);
+        --theme-btn-active: oklch(19.2% 0.114 294.97 / 1);
+        --theme-btn-text: var(--theme-main-bg);
+
+        --theme-footer-bg: oklch(25% 0 0 / 1);
+
+        --theme-hero-bg-1: oklch(80.86% 0.115 308.9 / 0);
+        --theme-hero-bg-2: oklch(59.2% 0.114 294.97 / 0);
+        --theme-hero-bg-3: oklch(63.67% 0.101 256.51 / 0);
+        --theme-hero-bg-4: oklch(80.86% 0.115 308.9 / .25);
+        --theme-hero-bg-5: oklch(59.2% 0.114 294.97 / .25);
+        --theme-hero-bg-6: oklch(63.67% 0.101 256.51 / .25);
+        --theme-hero-bg-7: oklch(84.85% 0.087 188.81 / .25);
+
+        --theme-header-1: oklch(80.86% 0.115 308.9 / 1);
+        --theme-header-2: oklch(59.2% 0.114 294.97 / 1);
+        --theme-header-3: oklch(63.67% 0.101 256.51 / 1);
+        --theme-header-4: oklch(84.85% 0.087 188.81 / 1);
+
+        --theme-state-negative-base: 85.39% 0.245 336.05;
+        --theme-state-negative: oklch(85.39% 0.245 336.05 / 1);
+        --theme-state-negative-50: oklch(85.39% 0.245 336.05 / .5);
+        --theme-state-negative-00: oklch(85.39% 0.245 336.05 / 0);
+
+        --theme-state-neutral-base: 82.58% 0.169 20.96;
+        --theme-state-neutral: oklch(82.58% 0.169 20.96 / 1);
+        --theme-state-neutral-50: oklch(82.58% 0.169 20.96 / .5);
+        --theme-state-neutral-00: oklch(82.58% 0.169 20.96 / 0);
+
+        --theme-state-positive-base: 73.76% 0.18 293.93;
+        --theme-state-positive: oklch(73.76% 0.18 293.93 / 1);
+        --theme-state-positive-50: oklch(73.76% 0.18 293.93 / .5);
+        --theme-state-positive-00: oklch(73.76% 0.18 293.93 / 0);
+
+        --theme-menu-bg: var(--theme-main-bg-25);
+        --theme-menu-shadow: var(--theme-main-bg-25);
+    }
+}

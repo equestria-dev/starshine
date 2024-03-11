@@ -1,3 +1,4 @@
+@import "./palette.css";
 @import "./navigation.css";
 @import "./home.css";
 @import "./footer.css";
@@ -25,11 +26,14 @@ html, body {
     font-family: "Urbanist", sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    background-color: var(--theme-main-bg);
+    color: var(--theme-main-text);
 }
 
 main {
     margin-top: 58px;
-    background-color: oklch(100% 0 0 / 1);
+    background-color: var(--theme-main-bg);
+    color: var(--theme-main-text);
 }
 
 main.with-announcement {

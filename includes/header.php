@@ -1,4 +1,4 @@
-<?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/lang.php"; ?>
+<?php global $start; $start = microtime(true); require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/lang.php"; ?>
 <!doctype html>
 <html lang="en">
 <head>

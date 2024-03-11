@@ -8,8 +8,8 @@
             <mapping deploy="/pool/web/starshine" local="$PROJECT_DIR$" web="/" />
           </mappings>
           <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/../../starshine/includes/serverinfo" />
-            <excludedPath local="true" path="$PROJECT_DIR$/../../starshine/includes/lang/node_modules" />
+            <excludedPath local="true" path="$PROJECT_DIR$/includes/serverinfo" />
+            <excludedPath local="true" path="$PROJECT_DIR$/includes/lang/node_modules" />
           </excludedPaths>
         </serverdata>
       </paths>

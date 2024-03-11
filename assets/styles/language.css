@@ -19,7 +19,7 @@
 }
 
 .language-item {
-    color: oklch(0% 0 0 / 1);
+    color: var(--theme-main-text);
     text-decoration: none;
 }
 

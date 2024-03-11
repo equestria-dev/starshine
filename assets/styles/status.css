@@ -1,6 +1,6 @@
 #status-decoration {
     position: absolute;
-    background-image: radial-gradient(circle, oklch(0% 0 0 / 1) 0%, oklch(0% 0 0 / 0) 50%);
+    background-image: radial-gradient(circle, var(--theme-main-text) 0%, var(--theme-main-text-00) 50%);
     width: 150vh;
     height: 150vh;
     right: -75vh;
@@ -15,15 +15,15 @@
 }
 
 #status-decoration.status-decoration-ok {
-    background-image: radial-gradient(circle, oklch(33.76% 0.18 293.93 / .5) 0%, oklch(33.76% 0.18 293.93 / 0) 50%);
+    background-image: radial-gradient(circle, var(--theme-state-positive-50) 0%, var(--theme-state-positive-00) 50%);
 }
 
 #status-decoration.status-decoration-warn {
-    background-image: radial-gradient(circle, oklch(72.58% 0.169 20.96 / .5) 0%, oklch(72.58% 0.169 20.96 / 0) 50%);
+    background-image: radial-gradient(circle, var(--theme-state-neutral-50) 0%, var(--theme-state-neutral-00) 50%);
 }
 
 #status-decoration.status-decoration-fail {
-    background-image: radial-gradient(circle, oklch(55.39% 0.245 336.05 / .5) 0%, oklch(55.39% 0.245 336.05 / 0) 50%);
+    background-image: radial-gradient(circle, var(--theme-state-negative-50) 0%, var(--theme-state-negative-00) 50%);
 }
 
 #status-container {
@@ -64,22 +64,22 @@
     margin-left: 36px;
     margin-top: 15px;
     padding: 10px 20px;
-    border-left: 2px solid oklch(0% 0 0 / 1);
+    border-left: 2px solid var(--theme-main-text);
 }
 
 .status-overview-ok, .status-affected-ok {
-    color: oklch(33.76% 0.18 293.93 / 1);
-    border-color: oklch(33.76% 0.18 293.93 / 1) !important;
+    color: var(--theme-state-positive);
+    border-color: var(--theme-state-positive) !important;
 }
 
 .status-overview-warn, .status-affected-warn {
-    color: oklch(72.58% 0.169 20.96 / 1);
-    border-color: oklch(72.58% 0.169 20.96 / 1) !important;
+    color: var(--theme-state-neutral);
+    border-color: var(--theme-state-neutral) !important;
 }
 
 .status-overview-fail, .status-affected-fail {
-    color: oklch(55.39% 0.245 336.05 / 1);
-    border-color: oklch(55.39% 0.245 336.05 / 1) !important;
+    color: var(--theme-state-negative);
+    border-color: var(--theme-state-negative) !important;
 }
 
 #status-affected-list {
@@ -87,22 +87,22 @@
 }
 
 #status-cta:hover {
-    box-shadow: 10px 10px 0 0 rgba(214,172,249,0.25);
-    background-color: oklch(80.86% 0.115 308.9 / 1);
-    border-color: oklch(80.86% 0.115 308.9 / 1);
-    color: oklch(0% 0 0 / 1);
+    box-shadow: 10px 10px 0 0 var(--theme-btn-light-25);
+    background-color: var(--theme-btn-light);
+    border-color: var(--theme-btn-light);
+    color: var(--theme-main-text);
 }
 
 #status-cta {
     display: inline-block;
-    box-shadow: 0 0 0 0 oklch(80.86% 0.115 308.9 / .25);
+    box-shadow: 0 0 0 0 var(--theme-btn-light-25);
     transition: box-shadow 200ms, background-color 200ms, color 200ms, border-color 200ms;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     font-size: 14px;
-    border: 1px solid oklch(59.2% 0.114 294.97 / 1);
-    color: oklch(59.2% 0.114 294.97 / 1);
+    border: 1px solid var(--theme-btn-hover);
+    color: var(--theme-btn-hover);
     width: max-content;
     padding: 10px 20px;
     cursor: pointer;

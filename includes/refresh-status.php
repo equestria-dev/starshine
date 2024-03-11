@@ -7,7 +7,7 @@ if (!isset($_SERVER['argv'])) die("This script can only be run in a CLI environm
 $servers = [
     json_decode(exec("ssh -p 2253 root@nat4.equestria.dev starshine-status"), true),
     json_decode(exec("ssh -p 2252 root@nat4.equestria.dev starshine-status"), true),
-    json_decode(exec("ssh -p 22 fedora@51.68.173.117 starshine-status"), true),
+    json_decode(exec("ssh -p 22 root@51.68.173.117 starshine-status"), true),
 ];
 
 $total = [
@@ -76,8 +76,14 @@ $total = [
 
 var_dump($total);
 
+$statusArray = [];
+exec("curl https://status.equestria.dev/status.json", $statusArray);
+$status = json_decode(implode("\n", $statusArray), true);
+
+var_dump($status);
+
 file_put_contents("./data/status.json", json_encode([
-    "services" => json_decode(file_get_contents("https://status.equestria.dev/status.json"), true),
+    "services" => $status,
     "servers" => $total,
     "updated" => time()
 ]));

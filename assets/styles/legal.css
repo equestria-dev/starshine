@@ -5,7 +5,7 @@
 }
 
 .legal-link {
-    color: oklch(0% 0 0 / 1);
+    color: var(--theme-main-text);
 }
 
 .legal-link:hover {
@@ -130,7 +130,7 @@
 }
 
 .asset-download-dark {
-    color: oklch(100% 0 0 / 1);
+    color: var(--theme-main-bg);
 }
 
 .legal-card-body {
@@ -168,7 +168,7 @@
 }
 
 .legal-copyright {
-    background-color: oklch(0% 0 0 / .1);
+    background-color: var(--theme-main-text-10);
     padding: 10px 20px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -179,21 +179,21 @@
 }
 
 #legal-branding-cta:hover {
-    box-shadow: 10px 10px 0 0 oklch(80.86% 0.115 308.9 / .25);
-    background-color: oklch(80.86% 0.115 308.9 / 1);
-    border-color: oklch(80.86% 0.115 308.9 / 1);
-    color: oklch(0% 0 0 / 1);
+    box-shadow: 10px 10px 0 0 var(--theme-btn-light-25);
+    background-color: var(--theme-btn-light);
+    border-color: var(--theme-btn-light);
+    color: var(--theme-main-text);
 }
 
 #legal-branding-cta {
     display: inline-block;
-    box-shadow: 0 0 0 0 oklch(80.86% 0.115 308.9 / .25);
+    box-shadow: 0 0 0 0 var(--theme-btn-light-25);
     transition: box-shadow 200ms, background-color 200ms, color 200ms, border-color 200ms;
     margin-top: 5px;
     margin-right: 10px;
     font-size: 14px;
-    border: 1px solid oklch(59.2% 0.114 294.97 / 1);
-    color: oklch(59.2% 0.114 294.97 / 1);
+    border: 1px solid var(--theme-btn-hover);
+    color: var(--theme-btn-hover);
     width: max-content;
     padding: 10px 20px;
     cursor: pointer;
@@ -201,7 +201,7 @@
 }
 
 .legal-copyright-placeholder {
-    color: oklch(59.2% 0.114 294.97 / 1);
+    color: var(--theme-btn-hover);
 }
 
 .legal-branding-spacing {
@@ -251,7 +251,7 @@
 }
 
 .legal-color-bordered {
-    outline: 1px solid oklch(0% 0 0 / 1);
+    outline: 1px solid var(--theme-main-text);
     margin: 1px;
 }
 
@@ -285,7 +285,7 @@
 #legal-license {
     padding-left: 20px;
     margin-left: 10px;
-    border-left: 2px solid oklch(80.86% 0.115 308.9 / 1);
+    border-left: 2px solid var(--theme-btn-light);
     padding-top: 10px;
     padding-bottom: 10px;
 }

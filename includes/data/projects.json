@@ -8,13 +8,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/stupidgpt",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/stupidgpt",
-        "size": 4791,
+        "size": 5513,
         "language": "Python",
         "languages": {
             "Python": 100
         },
-        "update": 1705936397,
-        "commit": 1705936372,
+        "update": 1706822065,
+        "commit": 1706822054,
         "archive": false,
         "readme": null
     },
@@ -27,16 +27,16 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
         "icon": null,
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
-        "size": 486411,
+        "size": 554547,
         "language": "PHP",
         "languages": {
-            "PHP": 68.91,
-            "CSS": 23.97,
-            "JavaScript": 6.51,
-            "Shell": 0.61
+            "PHP": 65.27,
+            "CSS": 22.98,
+            "JavaScript": 11.17,
+            "Shell": 0.58
         },
-        "update": 1706459124,
-        "commit": 1706459120,
+        "update": 1706822058,
+        "commit": 1706822015,
         "archive": false,
         "readme": null
     },
@@ -276,13 +276,13 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/103\/violette.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
-        "size": 8492391,
+        "size": 8494611,
         "language": "Rust",
         "languages": {
             "Rust": 100
         },
-        "update": 1706647443,
-        "commit": 1706647472,
+        "update": 1706822069,
+        "commit": 1706822058,
         "archive": false,
         "readme": null
     },
@@ -786,14 +786,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/74\/chatroom.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
-        "size": 252819742,
+        "size": 252829801,
         "language": "JavaScript",
         "languages": {
-            "JavaScript": 60.82,
-            "HTML": 39.18
+            "JavaScript": 61.07,
+            "HTML": 38.93
         },
-        "update": 1706429855,
-        "commit": 1706429841,
+        "update": 1706822000,
+        "commit": 1706821950,
         "archive": false,
         "readme": null
     },
@@ -1008,7 +1008,7 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/53\/cold-haze.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
-        "size": 131940958,
+        "size": 131946136,
         "language": "PHP",
         "languages": {
             "PHP": 86.98,
@@ -1017,8 +1017,8 @@
             "Pawn": 2.54,
             "HTML": 1.54
         },
-        "update": 1706429887,
-        "commit": 1706429875,
+        "update": 1706822008,
+        "commit": 1706822001,
         "archive": false,
         "readme": null
     },
