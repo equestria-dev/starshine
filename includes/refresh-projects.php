@@ -22,18 +22,6 @@ while (count($current) > 0) {
     array_push($gitea, ...$current);
 }
 
-print("GitLab > equestria.dev/delta-tech\n");
-
-$page = 1;
-$current = json_decode(file_get_contents("https://source.equestria.dev/api/v4/groups/174/projects?page=$page&private_token=" . $secrets["gitlab"], false, stream_context_create(["ssl"=>["verify_peer"=>false,"verify_peer_name"=>false]])), true);
-array_push($gitea, ...$current);
-
-while (count($current) > 0) {
-    $page++;
-    $current = json_decode(file_get_contents("https://source.equestria.dev/api/v4/groups/174/projects?page=$page&private_token=" . $secrets["gitlab"], false, stream_context_create(["ssl"=>["verify_peer"=>false,"verify_peer_name"=>false]])), true);
-    array_push($gitea, ...$current);
-}
-
 foreach ($gitea as $project) {
     if ($project["visibility"] !== "public") continue;
 
