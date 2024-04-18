@@ -1,4 +1,6 @@
 :root {
+    --theme-announcement-text: var(--theme-main-bg);
+
     --theme-main-bg: oklch(100% 0 0 / 1);
     --theme-main-bg-rgb: rgb(255, 255, 255);
     --theme-main-bg-00: oklch(100% 0 0 / 0);
@@ -66,6 +68,8 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --theme-announcement-text: var(--theme-main-text);
+
         --theme-main-bg: oklch(20% 0 0 / 1);
         --theme-main-bg-rgb: rgb(22, 22, 22);
         --theme-main-bg-00: oklch(20% 0 0 / 0);

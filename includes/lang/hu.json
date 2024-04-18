@@ -419,8 +419,8 @@
       ],
       "text": [
         [
-          "\"Ingyenes, libre és nyílt forráskódú\" minden olyan szoftvernek tekintik, amelyet az Equestria.Dev felszabadít a MIT licenc nyilvános domain alatt, bármilyen kompatibilis alternatíva vagy teljesen szerzői jogmentes. Hacsak a licencszerződés másolata nem jelenik meg a szoftver forráskódjában, vagy ha másutt jelennek meg egy másik licenc, a szoftver, amelyben a forráskód nyilvánosan elérhető, a következő licenc feltételek szerint jelenik meg:",
-          "MIT licenc",
+          "\"Ingyenes, libre és nyílt forráskódú\" minden olyan szoftvernek tekintik, amelyet az Equestria.Dev felszabadít a GNU AGPLv3 licenc nyilvános domain alatt, bármilyen kompatibilis alternatíva vagy teljesen szerzői jogmentes. Hacsak a licencszerződés másolata nem jelenik meg a szoftver forráskódjában, vagy ha másutt jelennek meg egy másik licenc, a szoftver, amelyben a forráskód nyilvánosan elérhető, a következő licenc feltételek szerint jelenik meg:",
+          "GNU AGPLv3 licenc",
           "Az engedélyt ingyenesen adják meg minden olyan személy számára, aki megszerezte a szoftver és a kapcsolódó dokumentációs fájlok másolatát (a „szoftver”), hogy korlátozás nélkül foglalkozzon a szoftverbe, ideértve a használat, a másolás, a módosítás, a módosítás, az egyesítés jogát is. , a szoftver másolatának közzététele, terjesztése, allicense és/vagy eladása, és megengedi azokat a személyeket, akiknek a szoftvert erre a következő feltételek alapján bocsátják meg:",
           "A fenti szerzői jogi közleményt és ezt az engedélyezési értesítést a szoftver minden példányába vagy jelentős részébe kell tartalmazni.",
           "A szoftvert „ahogy van”, bármilyen garancia nélkül, kifejezetten vagy hallgatólagos garancia nélkül, ideértve, de nem kizárólag a forgalmazhatóság, az adott cél és a nem betöltéshez való alkalmasság garanciájára. A szerzők vagy a szerzői jogi tulajdonosok semmilyen esetben nem vállalnak felelősségre, károkért vagy egyéb felelősségért, akár szerződéses, károkozás vagy más módon, a szoftverből vagy a szoftverből származó vagy más ügyletekből származnak, vagy a SZOFTVER."

@@ -419,8 +419,8 @@
       ],
       "text": [
         [
-          "Pidetään \"ilmaisena, libre ja avoimen lähdekoodin\" kaikki ohjelmistot, jotka Equestria.dev julkaisee joko julkisen alueen MIT-lisenssin, kaiken yhteensopivan vaihtoehdon tai täysin tekijänoikeuksien vapaan. Ellei kopio lisenssisopimuksesta ole ohjelmiston lähdekoodissa tai muualla on läsnä olevaa lisenssiä, ohjelmisto, johon lähdekoodi on julkisesti saatavilla, julkaistaan ​​seuraavilla lisenssillä:",
-          "MIT -lisenssi",
+          "Pidetään \"ilmaisena, libre ja avoimen lähdekoodin\" kaikki ohjelmistot, jotka Equestria.dev julkaisee joko julkisen alueen GNU AGPLv3-lisenssin, kaiken yhteensopivan vaihtoehdon tai täysin tekijänoikeuksien vapaan. Ellei kopio lisenssisopimuksesta ole ohjelmiston lähdekoodissa tai muualla on läsnä olevaa lisenssiä, ohjelmisto, johon lähdekoodi on julkisesti saatavilla, julkaistaan ​​seuraavilla lisenssillä:",
+          "GNU AGPLv3 -lisenssi",
           "Lupa myönnetään ilmaiseksi jokaiselle henkilölle, joka saa kopion tästä ohjelmistosta ja niihin liittyvistä dokumentaatiotiedostoista (”ohjelmisto”) ohjelmiston käsittelemiseksi ilman rajoituksia, mukaan lukien rajoittamatta oikeuksia käyttää, kopioida, muokata, yhdistää , julkaista, levittää, alilisense ja/tai myy ohjelmiston kopioita ja sallia henkilöiden, joille ohjelmisto on toimitettu, seuraavien ehtojen mukaisesti:",
           "Yllä oleva tekijänoikeusilmoitus ja tämä lupailmoitus on sisällytettävä kaikkiin ohjelmistojen kopioihin tai merkittäviin osiin.",
           "Ohjelmisto tarjotaan \"sellaisenaan\" ilman minkäänlaista takuuta, nimenomaista tai implisiittisiä, mukaan lukien, mutta rajoittumatta, kaupallisuuden takuut, tiettyyn tarkoitukseen ja ilman vaikutusta. Kirjailijat tai tekijänoikeuksien haltijat eivät missään tapauksessa ole vastuussa vaatimuksista, vahingoista tai muusta vastuusta riippumatta OHJELMISTO."

@@ -21,7 +21,7 @@
     $clickable = false;
     if (str_contains($announcement, "%%")) $clickable = true; ?>
 <header id="announcement" <?php if ($clickable): ?> class="announcement-clickable"<?php endif; ?>>
-    <?= $clickable ? '<a href="' . str_replace("@@", lp(), explode("%%", $announcement)[0]) . '" id="announcement-inner">' : '<div id="announcement-inner">' ?>
+    <?= $clickable ? '<a target="_blank" href="' . str_replace("@@", lp(), explode("%%", $announcement)[0]) . '" id="announcement-inner">' : '<div id="announcement-inner">' ?>
     <?= $clickable ? explode("%%", $announcement)[1] . '<i class="bi bi-chevron-right" id="announcement-chevron"></i>' : $announcement ?>
     <?= $clickable ? "</a>" : "</div>" ?>
 </header>

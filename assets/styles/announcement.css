@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(139deg, var(--theme-announcement-1), var(--theme-announcement-2), var(--theme-announcement-3), var(--theme-announcement-4));
-    color: var(--theme-main-bg);
+    color: var(--theme-announcement-text);
 }
 
 #announcement-inner {

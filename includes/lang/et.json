@@ -419,8 +419,8 @@
       ],
       "text": [
         [
-          "Peetakse \"tasuta, libre ja avatud lähtekoodiga\" kogu tarkvara, mille Equestria.DEV vabastab kas MIT-litsentsi alusel, mis tahes ühilduva alternatiivi või täiesti autoriõiguseta. Kui tarkvara lähtekoodis pole litsentsilepingu koopiat või mujal on olemas mõne muu litsentsi mainimine, avaldatakse tarkvara, millist lähtekoodi avalikult juurdepääsetavaks on, järgmiste litsentsitingimuste alusel:",
-          "MIT -litsents",
+          "Peetakse \"tasuta, libre ja avatud lähtekoodiga\" kogu tarkvara, mille Equestria.DEV vabastab kas GNU AGPLv3-litsentsi alusel, mis tahes ühilduva alternatiivi või täiesti autoriõiguseta. Kui tarkvara lähtekoodis pole litsentsilepingu koopiat või mujal on olemas mõne muu litsentsi mainimine, avaldatakse tarkvara, millist lähtekoodi avalikult juurdepääsetavaks on, järgmiste litsentsitingimuste alusel:",
+          "GNU AGPLv3 -litsents",
           "Käesolevaga antakse luba tasuta igale inimesele, kes hankivad selle tarkvara koopiat ja sellega seotud dokumentatsioonifailide (tarkvara), et tegeleda tarkvaraga ilma piiranguteta, sealhulgas ilma piiramiseta õigused kasutada, kopeerida, muuta, ühineda , avaldage, levitage, alamjooksu ja/või müüge tarkvara koopiaid ning lubage isikutel, kellele tarkvara on selleks ette nähtud, vastavalt järgmistele tingimustele:",
           "Ülaltoodud autoriõiguse teatis ja see loa teade sisalduvad tarkvara kõigisse koopiatesse või olulistesse osadesse.",
           "Tarkvara on varustatud sellisena, nagu see on, ilma igasuguse selgesõnalise või kaudse garantiita, sealhulgas, kuid mitte ainult, kaupletavuse garantiide, konkreetse eesmärgi sobivuse ja rikkumiseta. Mingil juhul ei vastuta autorid või autoriõiguse omanikud mis tahes nõude, kahju või muu vastutuse eest, olgu see siis lepingu, tühja või muul viisil, mis tuleneb tarkvarast või sellega seotud või sellega seoses Tarkvara."

@@ -419,8 +419,8 @@
       ],
       "text": [
         [
-          "Betragtes som \"fri, libre og open source\" al software, der ridese.dev frigiver under enten Public Domain MIT-licensen, ethvert kompatibelt alternativ eller helt copyright-fri. Medmindre en kopi af en licensaftale er til stede i softwarens kildekode, eller en omtale af en anden licens er til stede andetsteds, frigives software, som kildekode er offentligt tilgængelig under følgende licensbetingelser:",
-          "MIT -licens",
+          "Betragtes som \"fri, libre og open source\" al software, der ridese.dev frigiver under enten Public Domain GNU AGPLv3-licensen, ethvert kompatibelt alternativ eller helt copyright-fri. Medmindre en kopi af en licensaftale er til stede i softwarens kildekode, eller en omtale af en anden licens er til stede andetsteds, frigives software, som kildekode er offentligt tilgængelig under følgende licensbetingelser:",
+          "GNU AGPLv3 -licens",
           "Tilladelse tildeles herved gratis til enhver person, der får en kopi af denne software og tilknyttede dokumentationsfiler (\"Software\") til at håndtere softwaren uden begrænsning, herunder uden begrænsning De rettigheder til brug, kopiering, ændring, fusion , offentliggøre, distribuere, underlicensere og/eller sælge kopier af softwaren og for at tillade personer, som softwaren er møbleret til at gøre det, underlagt følgende betingelser:",
           "Ovenstående meddelelse om ophavsret og denne tilladelsesmeddelelse skal inkluderes i alle kopier eller betydelige dele af softwaren.",
           "Softwaren leveres \"som den er\" uden garanti af nogen art, udtrykkeligt eller underforstået, herunder men ikke begrænset til garantierne om salgbarhed, egnethed til et bestemt formål og ikke -indtrængen. Under ingen omstændigheder skal forfatterne eller ophavsretsindehaverne være ansvarlige for ethvert krav, skader eller andet ansvar, hvad enten det drejer sig om kontrakt, erstatning eller på anden måde, der stammer fra, ud af eller i forbindelse med softwaren eller brugen eller andre omgang i Software."

@@ -419,8 +419,8 @@
       ],
       "text": [
         [
-          "Regnes som \"gratis, libre og open source\" all programvare som Equestria.dev slipper under enten det offentlige domene MIT-lisensen, ethvert kompatibelt alternativ eller helt copyright-gratis. Med mindre en kopi av en lisensavtale er til stede i programvarens kildekode, eller en omtale av en annen lisens er til stede andre steder, er programvare hvilken kildekode som er offentlig tilgjengelig, utgis under følgende lisensvilkår:",
-          "MIT -lisens",
+          "Regnes som \"gratis, libre og open source\" all programvare som Equestria.dev slipper under enten det offentlige domene GNU AGPLv3-lisensen, ethvert kompatibelt alternativ eller helt copyright-gratis. Med mindre en kopi av en lisensavtale er til stede i programvarens kildekode, eller en omtale av en annen lisens er til stede andre steder, er programvare hvilken kildekode som er offentlig tilgjengelig, utgis under følgende lisensvilkår:",
+          "GNU AGPLv3 -lisens",
           "Tillatelse gis herved, gratis, til enhver person som skaffer seg en kopi av denne programvaren og tilhørende dokumentasjonsfiler (\"programvaren\"), for å håndtere programvaren uten begrensning, inkludert uten begrensning rettighetene til å bruke, kopiere, endre, slå sammen , publisere, distribuere, underlisensiere og/eller selge kopier av programvaren, og for å tillate personer som programvaren er møblert for å gjøre det, underlagt følgende betingelser:",
           "Ovennevnte varsel om opphavsrett og denne tillatelsesvarselet skal inkluderes i alle kopier eller betydelige deler av programvaren.",
           "Programvaren leveres \"som den er\", uten garanti av noe slag, uttrykkelig eller underforstått, inkludert, men ikke begrenset til garantiene for salgbarhet, egnethet til et bestemt formål og ikke -krans. Forfatterne eller copyright -innehaverne skal under ingen omstendigheter være ansvarlige for noe krav, skader eller annet ansvar, enten det er i en handling av kontrakt, erstatning eller på annen måte, som oppstår fra, ut av eller i forbindelse med programvaren eller bruken eller andre omganger i den Programvare."
