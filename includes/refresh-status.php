@@ -81,7 +81,7 @@ $total = [
 echo("Fetching status\n");
 
 $statusArray = [];
-exec("curl https://status.equestria.dev/status.json", $statusArray);
+exec("curl -L https://status.equestria.dev/status.json", $statusArray);
 $status = json_decode(implode("\n", $statusArray), true);
 
 echo("Saving\n");
