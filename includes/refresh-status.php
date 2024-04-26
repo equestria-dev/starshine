@@ -7,9 +7,9 @@ if (!isset($_SERVER['argv'])) die("This script can only be run in a CLI environm
 echo("Fetching servers\n");
 
 $servers = [
-    json_decode(exec("ssh root@dabssi starshine-status"), true),
-    json_decode(exec("ssh root@hudgens starshine-status"), true),
-    json_decode(exec("ssh root@watson starshine-status"), true),
+    json_decode(exec("ssh root@dabssi.net.equestria.dev starshine-status"), true),
+    json_decode(exec("ssh root@hudgens.net.equestria.dev starshine-status"), true),
+    json_decode(exec("ssh root@watson.net.equestria.dev starshine-status"), true),
 ];
 
 echo("Processing statistics\n");
