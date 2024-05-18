@@ -9,3 +9,6 @@ includes/lang/package.json
 includes/lang/package-lock.json
 .vercel
 out
+.buildroot
+build.zip
+build.tar.xz
