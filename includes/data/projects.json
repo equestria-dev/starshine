@@ -1,5 +1,89 @@
 [
     {
+        "id": "307c34e214b9dd5db1198bbee5231a7d",
+        "owner": "equestria.dev",
+        "name": "atomic",
+        "display_name": "Atomic Platform",
+        "description": "A drop-in replacement for Electron to build lighter web-based applications for the desktop",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/atomic",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/186\/Atomic-full.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/atomic",
+        "size": 475345772,
+        "language": "Rich Text Format",
+        "languages": {
+            "Rich Text Format": 82.51,
+            "Rust": 8.38,
+            "JavaScript": 4.72,
+            "Shell": 4.39
+        },
+        "update": 1715697823,
+        "commit": 1715527134,
+        "archive": false,
+        "readme": "# Atomic\n\n> **WARNING:** Not for production use, breaking changes WILL occur across versions.\n"
+    },
+    {
+        "id": "6c2c2d809ae47d6b002dd3c51fab1dfb",
+        "owner": "equestria.dev",
+        "name": "libprisbeam",
+        "display_name": "libprisbeam",
+        "description": "A TypeScript library to work with [Prisbeam](\/equestria.dev\/prisbeam) databases in first-party as well as third-party consumers.",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/libprisbeam",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/185\/libprisbeam-full.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/libprisbeam",
+        "size": 53994,
+        "language": "TypeScript",
+        "languages": {
+            "TypeScript": 100
+        },
+        "update": 1715697775,
+        "commit": 1714840498,
+        "archive": false,
+        "readme": null
+    },
+    {
+        "id": "eb1c38f242568579f3a32c5b6b25e517",
+        "owner": "equestria.dev",
+        "name": "axis",
+        "display_name": "Axis",
+        "description": "An experimental interpreted programming language written in Rust",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/axis",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/179\/Axis-full.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/axis",
+        "size": 81412,
+        "language": "Rust",
+        "languages": {
+            "Rust": 91.82,
+            "Nix": 8.04,
+            "Shell": 0.15
+        },
+        "update": 1715697808,
+        "commit": 1713464136,
+        "archive": false,
+        "readme": null
+    },
+    {
+        "id": "342283189202d77bc72a51c7e19d8a38",
+        "owner": "equestria.dev",
+        "name": "where-rs",
+        "display_name": "where-rs",
+        "description": "A small Rust client (`where`) and server (`whered`) program to access a list of logged in users on multiple systems at once, similarly to who(1).",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/where-rs",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/178\/where-rs-full.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/where-rs",
+        "size": 8720308,
+        "language": "Rust",
+        "languages": {
+            "Rust": 85.46,
+            "Shell": 8.6,
+            "Nix": 5.19,
+            "OpenRC runscript": 0.76
+        },
+        "update": 1715527171,
+        "commit": 1715527168,
+        "archive": false,
+        "readme": null
+    },
+    {
         "id": "4e3e68e1e9a5868485b386dbbba08cb1",
         "owner": "equestria.dev",
         "name": "stupidgpt",
@@ -13,30 +97,30 @@
         "languages": {
             "Python": 100
         },
-        "update": 1706822065,
+        "update": 1707575266,
         "commit": 1706822054,
-        "archive": false,
+        "archive": true,
         "readme": null
     },
     {
         "id": "45c8596458d58ba0e6d16f02d4db9cae",
         "owner": "equestria.dev",
         "name": "starshine",
-        "display_name": "Starshine",
-        "description": "The latest (and greatest) in Equestria.dev web development",
+        "display_name": "Starshine - Web13",
+        "description": "Equestria.dev's new 2024 website",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
-        "icon": null,
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/175\/Starshine-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/starshine",
-        "size": 554547,
+        "size": 60334630,
         "language": "PHP",
         "languages": {
-            "PHP": 65.27,
-            "CSS": 22.98,
-            "JavaScript": 11.17,
-            "Shell": 0.58
+            "PHP": 62.74,
+            "CSS": 26.53,
+            "JavaScript": 10.18,
+            "Shell": 0.55
         },
-        "update": 1706822058,
-        "commit": 1706822015,
+        "update": 1716039907,
+        "commit": 1716039862,
         "archive": false,
         "readme": null
     },
@@ -54,9 +138,9 @@
         "languages": {
             "HTML": 100
         },
-        "update": 1704143150,
+        "update": 1707045333,
         "commit": 1704143143,
-        "archive": false,
+        "archive": true,
         "readme": null
     },
     {
@@ -73,9 +157,9 @@
         "languages": {
             "Rust": 100
         },
-        "update": 1706459118,
+        "update": 1707045302,
         "commit": 1706459102,
-        "archive": false,
+        "archive": true,
         "readme": null
     },
     {
@@ -106,21 +190,23 @@
         "owner": "equestria.dev",
         "name": "prisbeam",
         "display_name": "Prisbeam",
-        "description": "A browser and search engine for local copies of Derpibooru",
+        "description": "A browser and search engine for local copies of various image boards (Derpibooru, Furbooru, e621, ...)",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/168\/logo2.jpg",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/168\/Prisbeam-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/prisbeam",
-        "size": 197775260,
-        "language": "HTML",
+        "size": 1335515763,
+        "language": "TypeScript",
         "languages": {
-            "HTML": 63.2,
-            "JavaScript": 36.61,
-            "Shell": 0.19
+            "TypeScript": 48.51,
+            "JavaScript": 23.39,
+            "HTML": 14.65,
+            "Python": 6.11,
+            "CSS": 5.24
         },
-        "update": 1705935746,
-        "commit": 1705935735,
+        "update": 1715892082,
+        "commit": 1715892079,
         "archive": false,
-        "readme": null
+        "readme": "# Prisbeam\nA browser and search engine for local copies of various image boards (Derpibooru, Furbooru, e621, ...)\n\n## Development\nAssuming you are using macOS or Linux. Other POSIX systems won't work as Electron does not have binaries for these.\n\n### Cloning\n```\ngit clone https:\/\/source.equestria.dev\/equestria.dev\/prisbeam\n```\n\n### Setup\n```\n# Note: this will install TypeScript globally\nnpm install\n```\n\n### Running\n```\n# For the app itself:\nnpm run debug\n\n# For the updater:\nnpm run debug-updater\n```\n\n### Building\n```\n# This will run 'npm audit fix' and 'npm install' to update dependencies if needed\nnpm run release\n```\n"
     },
     {
         "id": "fa84d0d3109c603d7f2258f6ebff0468",
@@ -151,18 +237,18 @@
         "display_name": "Sunny Starbot",
         "description": "An AI model trained to reproduce Sunny Starscout's voice accurately",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/sunny-starbot",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/163\/icon.png",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/163\/Sunny_Starbot-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/sunny-starbot",
-        "size": 69933779,
+        "size": 75176884,
         "language": "PHP",
         "languages": {
-            "PHP": 87.54,
-            "Python": 7.25,
-            "JavaScript": 4.98,
-            "Shell": 0.23
+            "PHP": 83.63,
+            "Python": 9.5,
+            "JavaScript": 6.58,
+            "Shell": 0.3
         },
-        "update": 1706429893,
-        "commit": 1706429883,
+        "update": 1715697630,
+        "commit": 1713704203,
         "archive": false,
         "readme": null
     },
@@ -271,18 +357,19 @@
         "id": "e050d4143030c5b3f7eb2c7ddc0aa80b",
         "owner": "equestria.dev",
         "name": "violette",
-        "display_name": "Codename Violette",
+        "display_name": "Violette",
         "description": "Raindrops's personal website project, with a major focus on design and UI",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/103\/violette.png",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/103\/Violette-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/violette",
-        "size": 8494611,
+        "size": 8169290,
         "language": "Rust",
         "languages": {
-            "Rust": 100
+            "Rust": 99.16,
+            "Shell": 0.84
         },
-        "update": 1706822069,
-        "commit": 1706822058,
+        "update": 1716039912,
+        "commit": 1716039910,
         "archive": false,
         "readme": null
     },
@@ -433,18 +520,19 @@
         "display_name": "status.equestria.dev",
         "description": "A real-time status page and automated poller for Equestria.dev",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/status",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/95\/status.png",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/95\/Status-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/status",
-        "size": 5132036,
-        "language": "HTML",
+        "size": 5244251,
+        "language": "JavaScript",
         "languages": {
-            "HTML": 94.83,
-            "EJS": 3.1,
-            "JavaScript": 1.91,
-            "CSS": 0.16
+            "JavaScript": 49.26,
+            "HTML": 25.42,
+            "CSS": 18.21,
+            "PHP": 6.49,
+            "Shell": 0.62
         },
-        "update": 1704406008,
-        "commit": 1704405997,
+        "update": 1715697629,
+        "commit": 1715459844,
         "archive": false,
         "readme": null
     },
@@ -497,16 +585,16 @@
         "display_name": "Power Tools",
         "description": "A set of command-line utilities made for Equestria.dev",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/powertools",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/91\/powertools.png",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/91\/Power_Tools-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/powertools",
-        "size": 4046057,
+        "size": 739927060,
         "language": "JavaScript",
         "languages": {
-            "JavaScript": 97.97,
-            "Shell": 2.03
+            "JavaScript": 93.45,
+            "Shell": 6.55
         },
-        "update": 1705936196,
-        "commit": 1705936296,
+        "update": 1716039859,
+        "commit": 1716040015,
         "archive": false,
         "readme": null
     },
@@ -538,18 +626,18 @@
         "display_name": "Ponypush",
         "description": "A fork of the ntfy Android app made for Equestria.dev's notifications platform",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponypush",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/89\/ponypush.png",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/89\/Ponypush-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponypush",
-        "size": 58085574,
+        "size": 58185704,
         "language": "Kotlin",
         "languages": {
-            "Kotlin": 99.04,
-            "Java": 0.96
+            "Kotlin": 99,
+            "Java": 1
         },
-        "update": 1704405991,
-        "commit": 1704405987,
+        "update": 1715697714,
+        "commit": 1715459831,
         "archive": false,
-        "readme": "# Ponypush\nThis is a fork of the [ntfy Android app](https:\/\/github.com\/binwiederhier\/ntfy) ([ntfy.sh](https:\/\/ntfy.sh)) made to work with Equestria.dev's notification servers and other technologies. It is not meant to be used outside of Equestria.dev's services.\n\n## Build\n\n### Building without Firebase (\"F-Droid flavor\", using WebSockets)\nIn Android Studio, go to Build > Generate Signed Bundle\/APK and select `fdroidDebug` or `fdroidRelease`.\n\n### Building with Firebase (\"Google Play flavor\", using Firebase Cloud Messaging)\nTo build your own version with Firebase, you must:\n* Create a Firebase account and create an Android app on it\n* Place your account file at `app\/google-services.json`\n* In Android Studio, go to Build > Generate Signed Bundle\/APK and select `playDebug` or `playRelease`.\n\n## Notable differences\n- Revamped UI, with a lot of options removed\n  - Most notably, it is not possible to use a third-party server other than notifications.equestria.dev\n- Integration with Equestria.dev's tags\n- Firebase Cloud Messaging support for notifications.equestria.dev\n\n## Upstream integration\nWhen notable changes are made upstream (on the official ntfy app), Ponypush will attempt to integrate such changes as much as possible. However, we cannot guarantee that the implemented features will work the same as with the official ntfy app.\n\n## License\nThis is a fork of ntfy by [Philipp C. Heckel](https:\/\/heckel.io), distributed under the [Apache License 2.0](LICENSE) like the original project."
+        "readme": "# Haven\nThis app started as a fork of the [ntfy Android app](https:\/\/github.com\/binwiederhier\/ntfy) ([ntfy.sh](https:\/\/ntfy.sh)) made to work with Equestria.dev's notification servers and other technologies and eventually turned into a mobile app for various Equestria.dev services. It is not meant to be used outside of Equestria.dev and will not work without the Equestria.dev servers.\n\n> **Note for Ponypush users:** Upgrading from Ponypush (`dev.equestria.notifications`) is not possible as Haven (`dev.equestria.haven`) uses a different package name. Therefore, you will need to uninstall Ponypush and then install Haven (or keep both installed). \n\n## Build\nIn Android Studio, go to Build > Generate Signed Bundle\/APK and select `fdroidDebug` or `fdroidRelease`.\n\n## Notable differences with upstream ntfy\n- Revamped UI, with a lot of options removed\n  - Most notably, it is not possible to use a third-party server other than notifications.equestria.dev\n- Integration with Equestria.dev's tags\n- Targets Android 15 instead of the upstream Android 13\n- Requires Android 9 or later instead of Android 5.0 or later\n- Up-to-date dependencies\n\n## Upstream integration\nWhen notable changes are made to the official ntfy app, Haven will attempt to integrate such changes as much as possible. However, we cannot guarantee that the implemented features will work the same as with the official ntfy app.\n\n## License\nThis is a fork of ntfy by [Philipp C. Heckel](https:\/\/heckel.io), originally distributed under the Apache License 2.0. This modified application is released under the [GNU Affero General Public License version 3](LICENSE) as per Equestria.dev's policy. "
     },
     {
         "id": "f89da7720a8e40ec2019f74637f7fc96",
@@ -570,29 +658,6 @@
         "update": 1693812473,
         "commit": 1692280118,
         "archive": true,
-        "readme": null
-    },
-    {
-        "id": "e9734795bd2cff8d768523daef846477",
-        "owner": "equestria.dev",
-        "name": "ponycon",
-        "display_name": "PonyCon Countdown",
-        "description": "A countdown to various My Little Pony-themed conventions around the globe",
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponycon",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/87\/ponycon.png",
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponycon",
-        "size": 14062448,
-        "language": "CSS",
-        "languages": {
-            "CSS": 56.33,
-            "JavaScript": 35.15,
-            "PHP": 3.84,
-            "EJS": 2.91,
-            "TypeScript": 1.76
-        },
-        "update": 1704186108,
-        "commit": 1704186086,
-        "archive": false,
         "readme": null
     },
     {
@@ -724,18 +789,18 @@
         "display_name": "Maretime Sans",
         "description": "A font based on the 2022 My Little Pony logo",
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/maretimesans",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/78\/maretimesans.png",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/78\/Maretime_Sans-full.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/maretimesans",
-        "size": 91639950,
+        "size": 92072166,
         "language": "JavaScript",
         "languages": {
             "JavaScript": 55.31,
             "HTML": 44.69
         },
-        "update": 1704153155,
-        "commit": 1704153149,
+        "update": 1714834360,
+        "commit": 1713789966,
         "archive": false,
-        "readme": "# ![Maretime Sans](.\/docs\/logo\/banner.jpg)\n\n![Badge](.\/docs\/badge.svg)\n\nMaretime Sans is a font based on the 2022 My Little Pony logo. It is built on a re-creation of the text found in various Hasbro marketing material.\n\n## Currently available characters\n![Currently available characters](.\/docs\/state.png)\n\n## Overview\n\n### Maretime Sans is...\n* A childish-looking font\n* A font to show your appreciation towards My Little Pony\n* A font to represent everypony\n* A cool font to use for your titles\n\n### Maretime Sans is not...\n* **An official Hasbro asset or product**\n* A font to use for paragraphs of text\n* A font to use for non-title headings\n* A font to recreate official Hasbro artwork\n\n## Installation\n\nThe font will appear as `MLPMaretimeSans` once installed on a system, so it can go along with the Find Your Sparkle* (`MLPFindYourSparkle`) font.\n\n**Find Your Sparkle is an official proprietary font made by Hasbro and is not provided in this repository.*\n\n### Windows\n* [Download the font](.\/export.otf)\n* In Windows Explorer, right click it\n* Click on \"Install\" or \"Install for all users\" (depending on what you want)\n\n### macOS\n* [Download the font](.\/export.otf)\n* Open the Font Book app\n* Drag-and-drop the downloaded file to the Font Book app\n\n### Linux (GNOME\/Ubuntu)\n* [Download the font](.\/export.otf)\n* Open the downloaded file with the Fonts application\n* Click on \"Install\" in the top right corner\n\n### Linux (KDE Plasma)\n* [Download the font](.\/export.otf)\n* Open System Settings, and go to the Fonts page\n* Go to \"Personal Fonts\" (or \"System Fonts\" if you want to install it system-wide)\n* Click on \"Install from File...\" and select the downloaded file\n\n### CSS\n* [Download the font](.\/export.otf) to your website (here, it is assumed to be `\/assets\/font.otf`)\n* Add the following CSS code:\n```css\n@font-face {\n    src: url(\"\/assets\/font.otf\");\n    font-family: \"MLPMaretimeSans\";\n    font-style: normal;\n    font-weight: normal;\n}\n```\n* Now, you can use the following rule: `font-family: \"MLPMaretimeSans\", sans-serif;`\n\n## License\nThe assets used in this font are inspired by Hasbro's assets for My Little Pony, therefore, they fall into Fair Use. However, using this font to infringe on Hasbro's trademark(s) is considered counterfeit and is illegal.\n\nAs for the font itself, you can use it freely for all your hobby projects and not-for-profit projects; however, please avoid using it in commercial settings. Also avoid claiming it as your own or removing copyright notices in the font file.\n\n## Troubleshooting\nIf you encounter an issue with this font, uninstall it and reinstall it. If the issue persists, [contact the developers](https:\/\/equestria.horse\/contact).\n\n## Get involved\nIf you want to add new characters to the font, report\/fix issues, or just about anything, please create an issue on [Equestria.dev's issue tracker](https:\/\/bugs.equestria.dev\/issues\/MRNS)."
+        "readme": "# ![Maretime Sans](.\/docs\/logo\/banner.jpg)\n\n![Badge](.\/docs\/badge.svg)\n\nMaretime Sans is a font based on the 2022 My Little Pony logo. It is built on a re-creation of the text found in various Hasbro marketing material.\n\n## Currently available characters\n![Currently available characters](.\/docs\/state.png)\n\n## Overview\n\n### Maretime Sans is...\n* A childish-looking font\n* A font to show your appreciation towards My Little Pony\n* A font to represent everypony\n* A cool font to use for your titles\n\n### Maretime Sans is not...\n* **An official Hasbro asset or product**\n* A font to use for paragraphs of text\n* A font to use for non-title headings\n* A font to recreate official Hasbro artwork\n\n## Installation\n\nThe font will appear as `MLPMaretimeSans` once installed on a system, so it can go along with the Find Your Sparkle* (`MLPFindYourSparkle`) font.\n\n**Find Your Sparkle is an official proprietary font made by Hasbro and is not provided in this repository.*\n\n### Windows\n* [Download the font](.\/export.otf)\n* In Windows Explorer, right click it\n* Click on \"Install\" or \"Install for all users\" (depending on what you want)\n\n### macOS\n* [Download the font](.\/export.otf)\n* Open the Font Book app\n* Drag-and-drop the downloaded file to the Font Book app\n\n### Linux (GNOME\/Ubuntu)\n* [Download the font](.\/export.otf)\n* Open the downloaded file with the Fonts application\n* Click on \"Install\" in the top right corner\n\n### Linux (KDE Plasma)\n* [Download the font](.\/export.otf)\n* Open System Settings, and go to the Fonts page\n* Go to \"Personal Fonts\" (or \"System Fonts\" if you want to install it system-wide)\n* Click on \"Install from File...\" and select the downloaded file\n\n### CSS\n* [Download the font](.\/export.otf) to your website (here, it is assumed to be `\/assets\/font.otf`)\n* Add the following CSS code:\n```css\n@font-face {\n    src: url(\"\/assets\/font.otf\");\n    font-family: \"MLPMaretimeSans\";\n    font-style: normal;\n    font-weight: normal;\n}\n```\n* Now, you can use the following rule: `font-family: \"MLPMaretimeSans\", sans-serif;`\n\n## License\nThe assets used in this font are inspired by Hasbro's assets for My Little Pony, therefore, they fall into Fair Use. However, using this font to infringe on Hasbro's trademark(s) is considered counterfeit and is illegal.\n\nAs for the font itself, you can use it freely for all your hobby projects and not-for-profit projects; however, please avoid using it in commercial settings. Also avoid claiming it as your own or removing copyright notices in the font file.\n\n## Troubleshooting\nIf you encounter an issue with this font, uninstall it and reinstall it. If the issue persists, [contact the developers](https:\/\/equestria.horse\/contact).\n\n## Get involved\nIf you want to add new characters to the font, report\/fix issues, or just about anything, please create an issue on this repository.\n"
     },
     {
         "id": "98ebdffb2338e75e2e707593fd56039e",
@@ -775,26 +840,6 @@
         "update": 1692646560,
         "commit": 1672779553,
         "archive": true,
-        "readme": null
-    },
-    {
-        "id": "690bac3698f018edf597d7a999e9fb17",
-        "owner": "equestria.dev",
-        "name": "chatroom",
-        "display_name": "Chatroom",
-        "description": "Secure self-hosted chat platform for use at school on the Matrix protocol",
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/74\/chatroom.png",
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/chatroom",
-        "size": 252829801,
-        "language": "JavaScript",
-        "languages": {
-            "JavaScript": 61.07,
-            "HTML": 38.93
-        },
-        "update": 1706822000,
-        "commit": 1706821950,
-        "archive": false,
         "readme": null
     },
     {
@@ -845,17 +890,17 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/horses",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/70\/horses.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/horses",
-        "size": 623511062,
+        "size": 623515007,
         "language": "PHP",
         "languages": {
-            "PHP": 78.5,
-            "JavaScript": 17.4,
-            "CSS": 3.63,
+            "PHP": 78.48,
+            "JavaScript": 17.39,
+            "CSS": 3.66,
             "Shell": 0.47
         },
-        "update": 1704153115,
-        "commit": 1704153108,
-        "archive": false,
+        "update": 1710191519,
+        "commit": 1707050406,
+        "archive": true,
         "readme": null
     },
     {
@@ -940,6 +985,46 @@
         "readme": "# Equestria Lossless Audio Codec\nAn entirely open-source lightweight lossless audio codec\/container.\n\n> WebKit\/Safari doesn't support playing audio from a Blob, a required feature to play ELAC files in a browser; therefore playing ELAC files in Safari is not supported.\n\n## Why use ELAC?\n* ELAC is free, libre and open-source software\n* It is lighter than FLAC, WAV, or MP3 with the same quality\n* A single file can contain multiple tracks that will be played after each other (if using a supported player, e.g. `elac-play`)\n* ELAC keeps all metadata from your original file (except album art)\n\n## ELAC-EL vs ELAC-PL\nELAC-EL (Emulated Lossless) files are created when a non-lossless file is given to `elac-encode` (e.g. MP3, OGG, ...), they usually have small file size and are playable everywhere.\n\nELAC-PL (Physical Lossless) files are created when a lossless file is given to `elac-encode` (e.g. WAV, FLAC, ...).\n\nBoth ELAC-EL and ELAC-PL usually have smaller size than the original files."
     },
     {
+        "id": "06b386bbcc0d68c270c2daaa132e5d69",
+        "owner": "equestria.dev",
+        "name": "delta-kiosk",
+        "display_name": "Delta Kiosk",
+        "description": "A kiosk system for Delta",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-kiosk",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/62\/delta-kiosk.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-kiosk",
+        "size": 90751655,
+        "language": "HTML",
+        "languages": {
+            "HTML": 70.34,
+            "JavaScript": 28.14,
+            "Shell": 1.52
+        },
+        "update": 1707575134,
+        "commit": 1687687713,
+        "archive": true,
+        "readme": null
+    },
+    {
+        "id": "876a7fc81f95fbae9c05c2d1a4dedae8",
+        "owner": "equestria.dev",
+        "name": "delta-android",
+        "display_name": "Delta Android",
+        "description": "A native (Kotlin) Android application for the Delta platform",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-android",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/61\/delta-android.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-android",
+        "size": 9653433,
+        "language": "Kotlin",
+        "languages": {
+            "Kotlin": 100
+        },
+        "update": 1707575236,
+        "commit": 1704153096,
+        "archive": true,
+        "readme": null
+    },
+    {
         "id": "eaa41cb1cabdea96d27ff300363a13f0",
         "owner": "equestria.dev",
         "name": "derp",
@@ -954,9 +1039,9 @@
             "Python": 99.51,
             "Shell": 0.49
         },
-        "update": 1704153111,
+        "update": 1707049982,
         "commit": 1704153103,
-        "archive": false,
+        "archive": true,
         "readme": null
     },
     {
@@ -1000,25 +1085,23 @@
         "readme": null
     },
     {
-        "id": "4b3bc7ee22eca2abb1f39c7243d424fd",
+        "id": "5f30b1157b8c94bba9b53860a49cf72a",
         "owner": "equestria.dev",
-        "name": "ponycule",
-        "display_name": "Ponycule",
-        "description": "An all-in-one application + public website suite for plural systems",
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/53\/cold-haze.png",
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponycule",
-        "size": 131946136,
+        "name": "pluralconnect",
+        "display_name": "Plural Connect",
+        "description": "Formerly Ponycule, a central hub for interconnecting services with PluralKit",
+        "source": "https:\/\/source.equestria.dev\/equestria.dev\/pluralconnect",
+        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/53\/Plural_Connect-full.png",
+        "website": "https:\/\/source.equestria.dev\/equestria.dev\/pluralconnect",
+        "size": 132068057,
         "language": "PHP",
         "languages": {
-            "PHP": 86.98,
-            "CSS": 6.28,
-            "JavaScript": 2.66,
-            "Pawn": 2.54,
-            "HTML": 1.54
+            "PHP": 71.18,
+            "JavaScript": 24.05,
+            "Hack": 4.77
         },
-        "update": 1706822008,
-        "commit": 1706822001,
+        "update": 1715459853,
+        "commit": 1715459837,
         "archive": false,
         "readme": null
     },
@@ -1216,77 +1299,14 @@
         "source": "https:\/\/source.equestria.dev\/equestria.dev\/ponywatch",
         "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/4\/ponywatch.png",
         "website": "https:\/\/source.equestria.dev\/equestria.dev\/ponywatch",
-        "size": 19011243,
+        "size": 19011074,
         "language": "Kotlin",
         "languages": {
             "Kotlin": 100
         },
-        "update": 1704405994,
-        "commit": 1704405989,
-        "archive": false,
-        "readme": null
-    },
-    {
-        "id": "e224a24777d323571f12694bf859ebe6",
-        "owner": "delta-tech",
-        "name": "delta-kiosk",
-        "display_name": "Delta Kiosk",
-        "description": "A kiosk system for Delta",
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-kiosk",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/62\/delta-kiosk.png",
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-kiosk",
-        "size": 90751655,
-        "language": "HTML",
-        "languages": {
-            "HTML": 70.34,
-            "JavaScript": 28.14,
-            "Shell": 1.52
-        },
-        "update": 1695708732,
-        "commit": 1687687713,
+        "update": 1711190164,
+        "commit": 1707050457,
         "archive": true,
-        "readme": null
-    },
-    {
-        "id": "57ba0623a5c0c28eacb7b1fa2478ecb6",
-        "owner": "delta-tech",
-        "name": "delta-android",
-        "display_name": "Delta Android",
-        "description": "A native (Kotlin) Android application for the Delta platform",
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-android",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/61\/delta-android.png",
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-android",
-        "size": 9653433,
-        "language": "Kotlin",
-        "languages": {
-            "Kotlin": 100
-        },
-        "update": 1704153105,
-        "commit": 1704153096,
-        "archive": false,
-        "readme": null
-    },
-    {
-        "id": "bc4fac7bf57407efce7ed5345d7283d9",
-        "owner": "delta-tech",
-        "name": "delta-web",
-        "display_name": "Delta Web",
-        "description": "The Web UI and backend for the Delta platform",
-        "source": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-web",
-        "icon": "https:\/\/source.equestria.dev\/uploads\/-\/system\/project\/avatar\/60\/delta.png",
-        "website": "https:\/\/source.equestria.dev\/equestria.dev\/delta-tech\/delta-web",
-        "size": 89340157,
-        "language": "PHP",
-        "languages": {
-            "PHP": 92.26,
-            "JavaScript": 7.07,
-            "HTML": 0.44,
-            "Hack": 0.14,
-            "Shell": 0.09
-        },
-        "update": 1704153098,
-        "commit": 1704153091,
-        "archive": false,
         "readme": null
     },
     {

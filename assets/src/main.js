@@ -30,12 +30,7 @@ window.onload = () => {
         }
     }
 
-    if (document.getElementById("hero-logo-img")) document.getElementById("hero-logo-img").ontimeupdate = () => {
-        try { document.getElementById("hero-logo-img").disableRemotePlayback(); } catch (e) {}
-        if (document.getElementById("hero-logo-img").duration - document.getElementById("hero-logo-img").currentTime <= .7) {
-            document.body.classList.add("animated");
-        }
-    }
+    document.body.classList.add("animated");
 
     if (document.getElementById("legal-color-switch-oklch")) {
         document.getElementById("legal-color-switch-oklch").onclick = (e) => {

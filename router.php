@@ -12,6 +12,10 @@ function error($code) {
     die();
 }
 
+if (!isset($parts[0]) || !($parts[0] === "assets" || $parts[0] === "warrant" || $parts[0] === "pubkey")) {
+    array_unshift($parts, "en");
+}
+
 if (isset($parts[0])) {
     if ($parts[0] === "assets") {
         $assetPath = implode("/", array_values(array_filter(array_slice($parts, 1), function ($i) {

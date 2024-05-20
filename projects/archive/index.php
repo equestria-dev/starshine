@@ -31,7 +31,7 @@
 
                 ?></td>
             <td>
-                <a class="archive-table-link" href="/<?= lp() ?>/projects/<?= $project["name"] ?? $project["id"] ?>">
+                <a class="archive-table-link" href="/projects/<?= $project["name"] ?? $project["id"] ?>">
                     <?php if (isset($project["icon"])): ?><img class="archive-table-icon" src="/assets/projects/<?= $project["id"] ?>.png" alt="Project icon"><?php else: ?><i class="archive-table-icon bi bi-journal-code"></i><?php endif; ?>
                     <span class="archive-table-title"><?= $project["display_name"] ?? $project["name"] ?></span>
                 </a>

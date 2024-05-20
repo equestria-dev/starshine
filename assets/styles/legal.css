@@ -129,8 +129,12 @@
     opacity: .25;
 }
 
+.asset-download-light {
+    color: oklch(0% 0 0 / 1);
+}
+
 .asset-download-dark {
-    color: var(--theme-main-bg);
+    color: oklch(100% 0 0 / 1);
 }
 
 .legal-card-body {

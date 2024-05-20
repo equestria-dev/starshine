@@ -33,7 +33,7 @@ $title = l("lang.error.title") . " $c"; require_once $_SERVER['DOCUMENT_ROOT'] .
                 default => l("lang.error.descriptions.default"),
             } ?></p>
             <div id="error-page-links">
-                <a href="/<?= lp() ?>" id="error-page-link-1" class="error-page-link"><i class="bi bi-house"></i>&nbsp;&nbsp;<?= l("lang.error.actions.home") ?></a>
+                <a href="/" id="error-page-link-1" class="error-page-link"><i class="bi bi-house"></i>&nbsp;&nbsp;<?= l("lang.error.actions.home") ?></a>
                 <a href="https://status.equestria.dev/" target="_blank" id="error-page-link-2" class="error-page-link"><i class="bi bi-gear"></i>&nbsp;&nbsp;<?= l("lang.error.actions.status") ?></a>
                 <a href="mailto:hello@equestria.dev" target="_blank" id="error-page-link-3" class="error-page-link"><i class="bi bi-envelope"></i>&nbsp;&nbsp;<?= l("lang.error.actions.email") ?></a>
             </div>
