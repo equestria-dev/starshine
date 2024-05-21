@@ -1,4 +1,4 @@
 <?php
 
-header("Location: https://raindrops-blog.equestria.horse");
+header("Location: https://blog.p.equestria.dev");
 die();

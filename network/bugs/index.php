@@ -1,4 +1,4 @@
 <?php
 
-header("Location: https://bugs.equestria.dev/issues?u=");
+header("Location: https://source.equestria.dev/groups/equestria.dev/-/issues");
 die();
