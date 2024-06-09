@@ -61,8 +61,6 @@ $title = $project["display_name"] ?? $project["name"]; require_once $_SERVER['DO
 
             ?>
             <div id="project-details-inner">
-                <p id="project-details-update"><i class="bi bi-clock"></i>&nbsp;&nbsp;<?= l("lang.project.update") ?> <?= timeAgo(max($project["commit"], $project["update"])) ?></p>
-
                 <div id="project-details-languages">
                     <div id="project-details-languages-1" class="project-details-languages-item"><?php $i = 0; ?>
                         <div class="project-details-languages-item-title">

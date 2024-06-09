@@ -90,37 +90,7 @@
                         </span>
                     <div class="navbar-item-menu-container">
                         <div class="navbar-item-menu">
-                            <?php $status = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/includes/data/status.json"), true); if ($status["services"]["code"] === 0): ?>
-                            <a href="/network/status" class="navbar-status navbar-status-ok">
-                                <i class="bi bi-check-circle-fill"></i>
-                                <span class="navbar-status-text"><?= l("lang.navigation.network.status.0") ?></span>
-                            </a>
-                            <?php elseif ($status["services"]["code"] === 1): ?>
-                            <a href="/network/status" class="navbar-status navbar-status-warn">
-                                <i class="bi bi-exclamation-circle-fill"></i>
-                                <span class="navbar-status-text"><?= l("lang.navigation.network.status.1") ?></span>
-                            </a>
-                            <?php else: ?>
-                            <a href="/network/status" class="navbar-status navbar-status-fail">
-                                <i class="bi bi-x-circle-fill"></i>
-                                <span class="navbar-status-text"><?= l("lang.navigation.network.status.2") ?></span>
-                            </a>
-                            <?php endif; ?>
-
-                            <div class="navbar-stats">
-                                <div class="navbar-stats-item">
-                                    <i class="bi bi-memory"></i>
-                                    <span class="navbar-network-item-text"><?= size($status["servers"]["ram"]) ?></span>
-                                </div>
-                                <div class="navbar-stats-item">
-                                    <i class="bi bi-hdd"></i>
-                                    <span class="navbar-network-item-text"><?= size($status["servers"]["disk"]) ?></span>
-                                </div>
-                                <div class="navbar-stats-item">
-                                    <i class="bi bi-wifi"></i>
-                                    <span class="navbar-network-item-text"><?= round($status["services"]["ping"]) ?> ms</span>
-                                </div>
-                            </div>
+                            <div id="navbar-status"></div>
 
                             <hr>
 
@@ -129,14 +99,6 @@
                                     <i class="bi bi-person-circle"></i>
                                     <span class="navbar-network-item-text"><?= l("lang.navigation.network.account") ?></span>
                                 </a>
-                                <!--<a href="/network" class="navbar-network-item">
-                                    <i class="bi bi-hdd-network"></i>
-                                    <span class="navbar-network-item-text"><?= l("lang.navigation.network.infra") ?></span>
-                                </a>
-                                <a href="/network/security" class="navbar-network-item">
-                                    <i class="bi bi-lock"></i>
-                                    <span class="navbar-network-item-text"><?= l("lang.navigation.network.security") ?></span>
-                                </a>-->
                                 <a href="/network/gitlab" class="navbar-network-item">
                                     <i class="bi bi-gitlab"></i>
                                     <span class="navbar-network-item-text">GitLab</span>

@@ -1,5 +1,5 @@
 <?php
 
 global $parts;
-header("Location: /$parts[0]");
+header("Location: /");
 die();

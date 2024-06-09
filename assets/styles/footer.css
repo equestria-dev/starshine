@@ -12,7 +12,14 @@ footer.container {
 }
 
 #footer-links {
+    display: flex;
+    align-items: center;
     margin-left: 30px;
+}
+
+#footer-copyright {
+    display: flex;
+    align-items: center;
 }
 
 #footer-links a, #footer-language a {

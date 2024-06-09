@@ -4,9 +4,15 @@ const path = require('path');
 
 const port = ("42" + Math.random().toString().split(".")[1]).substring(0, 5);
 
+console.log("Backing up .vercel...");
+cp.execSync("mv ./out/.vercel ./.vercel");
+
 console.log("Removing old build...");
 if (fs.existsSync("./out")) fs.rmSync("./out", { recursive: true });
 fs.mkdirSync("./out");
+
+console.log("Restoring .vercel...");
+cp.execSync("mv ./.vercel ./out/.vercel");
 
 console.log("Copying assets...");
 cp.execSync("cp -r ./assets ./out/assets");
@@ -25,7 +31,64 @@ async function getFiles(dir) {
 console.log("Starting PHP internal server on port " + port + "...");
 let p = cp.execFile("php", [ "-S", "127.0.0.1:" + port, "router.php" ]);
 
-let config = {};
+let config = {
+    headers: [
+        {
+            source: "/assets/(.*)",
+            headers: [
+                {
+                    key: "Cache-Control",
+                    value: "public, s-maxage=3600, maxage=86400, stale-while-revalidate=300, stale-if-error=86400"
+                }
+            ]
+        },
+        {
+            source: "/warrant",
+            headers: [
+                {
+                    key: "Content-Type",
+                    value: "text/plain"
+                }
+            ]
+        },
+        {
+            source: "/announcement",
+            headers: [
+                {
+                    key: "Content-Type",
+                    value: "text/plain"
+                }
+            ]
+        },
+        {
+            source: "/version",
+            headers: [
+                {
+                    key: "Content-Type",
+                    value: "text/plain"
+                }
+            ]
+        },
+        {
+            source: "/pubkey",
+            headers: [
+                {
+                    key: "Content-Type",
+                    value: "text/plain"
+                }
+            ]
+        },
+        {
+            source: "/(.*)",
+            headers: [
+                {
+                    key: "Cache-Control",
+                    value: "public, s-maxage=60, maxage=300, stale-while-revalidate=60, stale-if-error=300"
+                }
+            ]
+        }
+    ]
+};
 
 let continued = false;
 let waiter = setInterval(async () => {
@@ -38,18 +101,15 @@ let waiter = setInterval(async () => {
         console.log("Analyzing source code...");
         let files = (await getFiles(".")).map(i => i.substring(process.cwd().length + 1)).filter(i => !i.startsWith(".") && !i.startsWith("assets/") && !i.startsWith("includes/") && !i.startsWith("out/"));
 
-        console.log("Gathering list of available languages...");
-        let languages = fs.readdirSync("./includes/lang").filter(i => i.endsWith(".json") && !i.startsWith("package"));
-
         console.log("Gathering list of projects...");
         let projects = require('./includes/data/projects.json').map(i => "projects/" + (i["name"] ?? i["id"]));
 
         console.log("Gathering list of pages...");
-        let pages = [...projects, ...files.filter(i => i.endsWith("/index.php")), "404.html"];
-        let fullPages = languages.map(i => ["", ...pages.map(k => {
+        let pages = [...projects, ...files.filter(i => i.endsWith("/index.php")), "404.html", ""];
+        let fullPages = pages.map(k => {
             if (k.endsWith("/index.php")) return k.substring(0, k.length - 10);
             return k;
-        })].map(j => "/" + i.substring(0, i.length - 5) + "/" + j)).reduce((a, b) => [...a, ...b]);
+        }).map(j => "/" + j);
         console.log("Found " + fullPages.length + " pages to render");
 
         let index = 0;
@@ -62,7 +122,7 @@ let waiter = setInterval(async () => {
 
             async function doRequest() {
                 try {
-                    return await fetch("http://127.0.0.1:" + port + page);
+                    return await fetch("http://127.0.0.1:" + port + page, { redirect: "manual", headers: { "User-Agent": "Mozilla/5.0 (+Starshine/1.0)" } });
                 } catch (e) {
                     p.kill("SIGKILL");
                     p = cp.execFile("php", [ "-S", "127.0.0.1:" + port, "router.php" ]);
@@ -86,11 +146,11 @@ let waiter = setInterval(async () => {
 
             let res = await doRequest();
 
-            if (res.redirected) {
+            if (res.status === 302 || res.status === 301 || res.status === 308 || res.status === 307) {
                 if (!config['redirects']) config['redirects'] = [];
                 config['redirects'].push({
                     source: page,
-                    destination: res.url.replace("http://127.0.0.1:42934", "")
+                    destination: res.headers.get("location").replace("http://127.0.0.1:42934/", "")
                 });
             } else {
                 if (page.endsWith("/404.html")) {
@@ -106,8 +166,8 @@ let waiter = setInterval(async () => {
                     fs.writeFileSync("./out" + page + "/index.html", await res.text());
                     if (!config['rewrites']) config['rewrites'] = [];
                     config['rewrites'].push({
-                        source: "/" + page,
-                        destination: "/" + page
+                        source: page + "/index.html",
+                        destination: page
                     });
                 }
             }
@@ -115,29 +175,20 @@ let waiter = setInterval(async () => {
             index++;
         }
 
-        for (let language of languages) {
-            for (let page of pages) {
-                if (page.endsWith("/index.php")) {
-                    config['rewrites'].push({
-                        source: "/" + page.substring(0, page.length - 10),
-                        has: [
-                            {
-                                type: "header",
-                                key: "accept-language",
-                                value: language + "(.*)"
-                            }
-                        ],
-                        destination: "/" + language + "/" + page.substring(0, page.length - 10)
-                    })
-                }
-            }
-        }
+        fs.writeFileSync("./out/warrant", fs.readFileSync("./warrant"));
+        fs.writeFileSync("./out/version", fs.readFileSync("./version"));
+        fs.writeFileSync("./out/pubkey", fs.readFileSync("./pubkey"));
+        fs.writeFileSync("./out/announcement", fs.readFileSync("./announcement"));
 
         fs.writeFileSync("./out/vercel.json", JSON.stringify(config, null, 2));
         process.stdout.clearLine(null);
         process.stdout.cursorTo(0);
         console.log("Export completed!");
         p.kill();
+
+        console.log("Deploying to Vercel...");
+        cp.execSync("vercel --prod", { cwd: "./out", stdio: "inherit" });
+
         process.exit();
     } catch (e) {
         if (continued) {

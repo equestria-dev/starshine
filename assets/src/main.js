@@ -82,4 +82,36 @@ window.onload = () => {
             document.getElementById("legal-color-box").classList.add("legal-color-format-cmyk");
         }
     }
+
+    (async () => {
+        const status = await (await fetch("https://d6gd1hq6b89h1s1v.public.blob.vercel-storage.com/public/api.json")).json();
+        switch (status.code) {
+            case 0:
+                document.getElementById("navbar-status").innerHTML = `
+                <a href="/network/status" class="navbar-status navbar-status-ok">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <span class="navbar-status-text">All systems operational</span>
+                </a>
+                `;
+                break;
+
+            case 1:
+                document.getElementById("navbar-status").innerHTML = `
+                <a href="/network/status" class="navbar-status navbar-status-warn">
+                    <i class="bi bi-exclamation-circle-fill"></i>
+                    <span class="navbar-status-text">Degraded performance</span>
+                </a>
+                `;
+                break;
+
+            case 2:
+                document.getElementById("navbar-status").innerHTML = `
+                <a href="/network/status" class="navbar-status navbar-status-fail">
+                    <i class="bi bi-x-circle-fill"></i>
+                    <span class="navbar-status-text">Major outage</span>
+                </a>
+                `;
+                break;
+        }
+    })();
 }
