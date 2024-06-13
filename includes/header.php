@@ -137,9 +137,9 @@
                                     <i class="bi bi-mastodon"></i>
                                     <span class="navbar-contact-item-text">Mastodon</span>
                                 </a>
-                                <a href="/contact/twitter" class="navbar-contact-item">
+                                <a href="/contact/x" class="navbar-contact-item">
                                     <i class="bi bi-twitter-x"></i>
-                                    <span class="navbar-contact-item-text">Twitter/X</span>
+                                    <span class="navbar-contact-item-text">X</span>
                                 </a>
                                 <a href="/contact/reddit" class="navbar-contact-item">
                                     <i class="bi bi-reddit"></i>

@@ -19,7 +19,7 @@ Special note should be taken if these messages ever cease being updated, or are 
 
 %%
 
-https://equestria.dev/pubkey | https://github.com/RaindropsSys.gpg | https://gitlab.com/RaindropsSys.gpg
+https://equestria.dev/pubkey | https://github.com/starscouts.gpg | https://gitlab.com/starscouts.gpg
 
 Notes:
 
@@ -53,3 +53,4 @@ require('child_process').execSync("gpg --clearsign -o warrant pre.txt");
 require('child_process').execSync("gpg --export -a AEA773DB0620C57CFFB07A91EFBDC68435A574B7 > pubkey");
 require('fs').writeFileSync("warrant", full.replace("%%", require('fs').readFileSync("warrant").toString()));
 require('fs').unlinkSync("pre.txt");
+require('child_process').execSync("node build.js", { stdio: "inherit" });

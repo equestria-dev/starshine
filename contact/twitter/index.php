@@ -1,4 +1,4 @@
 <?php
 
-header("Location: https://twitter.com/equestriadev");
+header("Location: /contact/x");
 die();

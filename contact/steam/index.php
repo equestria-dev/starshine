@@ -1,4 +1,4 @@
 <?php
 
-header("Location: https://steamcommunity.com/id/RaindropsSys");
+header("Location: https://steamcommunity.com/id/Starscouts");
 die();
