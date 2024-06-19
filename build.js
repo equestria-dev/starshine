@@ -4,8 +4,8 @@ const path = require('path');
 
 const port = ("42" + Math.random().toString().split(".")[1]).substring(0, 5);
 
-console.log("Refreshing projects...");
-cp.execSync("php refresh-projects.php", { stdio: "inherit", cwd: "includes" });
+//console.log("Refreshing projects...");
+//.execSync("php refresh-projects.php", { stdio: "inherit", cwd: "includes" });
 
 console.log("Backing up .vercel...");
 cp.execSync("mv ./out/.vercel ./.vercel");
