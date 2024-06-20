@@ -48,20 +48,6 @@
                             <?php $projects = json_decode(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/includes/data/projects.json"), true); uasort($projects, function ($a, $b) {
                                 return strcmp($a["display_name"] ?? $a["name"], $b["display_name"] ?? $b["name"]);
                             }); ?>
-                            <div class="navbar-projects-flagships">
-                                <?php $flagships = []; $i = 0; $projects2 = array_values(array_filter($projects, function ($i) {
-                                    return !$i["archive"] && isset($i["icon"]);
-                                })); uasort($projects2, function ($a, $b) {
-                                    return $b["size"] - $a["size"];
-                                }); foreach ($projects2 as $project): $i++; if ($i <= 4): $flagships[] = $project["id"]; ?>
-                                    <a href="/projects/<?= $project['name'] ?? $project['id'] ?>" class="navbar-projects-flagship" id="navbar-projects-flagship-<?= $project["id"] ?>">
-                                        <img alt="Project icon" src="/assets/projects/<?= $project["id"] ?>.png" class="navbar-projects-flagship-icon">
-                                        <span class="navbar-projects-flagship-name"><?= $project["display_name"] ?? $project["name"] ?></span>
-                                    </a>
-                                <?php endif; endforeach; ?>
-                            </div>
-
-                            <hr>
 
                             <div class="navbar-projects-other">
                                 <?php foreach ($projects as $project): if (!$project["archive"] && !in_array($project["id"], $flagships)): ?>

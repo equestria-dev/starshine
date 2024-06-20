@@ -4,8 +4,8 @@ const path = require('path');
 
 const port = ("42" + Math.random().toString().split(".")[1]).substring(0, 5);
 
-//console.log("Refreshing projects...");
-//.execSync("php refresh-projects.php", { stdio: "inherit", cwd: "includes" });
+console.log("Refreshing projects...");
+cp.execSync("php refresh-projects.php", { stdio: "inherit", cwd: "includes" });
 
 console.log("Backing up .vercel...");
 cp.execSync("mv ./out/.vercel ./.vercel");
@@ -47,6 +47,15 @@ let config = {
         },
         {
             source: "/warrant",
+            headers: [
+                {
+                    key: "Content-Type",
+                    value: "text/plain"
+                }
+            ]
+        },
+        {
+            source: "/security.txt",
             headers: [
                 {
                     key: "Content-Type",
@@ -182,6 +191,12 @@ let waiter = setInterval(async () => {
         fs.writeFileSync("./out/version", fs.readFileSync("./version"));
         fs.writeFileSync("./out/pubkey", fs.readFileSync("./pubkey"));
         fs.writeFileSync("./out/announcement", fs.readFileSync("./announcement"));
+        fs.writeFileSync("./out/security.txt", fs.readFileSync("./security.txt"));
+
+        config['rewrites'].push({
+            source: "/.well-known/security.txt",
+            destination: "/security.txt"
+        });
 
         fs.writeFileSync("./out/vercel.json", JSON.stringify(config, null, 2));
         process.stdout.clearLine(null);
