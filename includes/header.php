@@ -85,9 +85,9 @@
                                     <i class="bi bi-person-circle"></i>
                                     <span class="navbar-network-item-text"><?= l("lang.navigation.network.account") ?></span>
                                 </a>
-                                <a href="/network/gitlab" class="navbar-network-item">
-                                    <i class="bi bi-gitlab"></i>
-                                    <span class="navbar-network-item-text">GitLab</span>
+                                <a href="/network/github" class="navbar-network-item">
+                                    <i class="bi bi-github"></i>
+                                    <span class="navbar-network-item-text">GitHub</span>
                                 </a>
                                 <a href="/network/bugs" class="navbar-network-item">
                                     <i class="bi bi-bug"></i>
@@ -190,7 +190,7 @@
 
                             <div class="navbar-notices">
                                 <div class="navbar-notices-version">
-                                    <a href="https://source.equestria.dev/equestria.dev/starshine" target="_blank" class="navbar-notices-version-link"><?= l("lang.navigation.legal.version") ?> <?= trim(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/version")) ?></a> · <?= l("lang.navigation.legal.made") ?> <i class="bi bi-heart-fill"></i> (<?= l("lang.navigation.legal.phpstorm") ?>)
+                                    <a href="https://github.com/equestria-dev/starshine" target="_blank" class="navbar-notices-version-link"><?= l("lang.navigation.legal.version") ?> <?= trim(file_get_contents($_SERVER['DOCUMENT_ROOT'] . "/version")) ?></a> · <?= l("lang.navigation.legal.made") ?> <i class="bi bi-heart-fill"></i> (<?= l("lang.navigation.legal.phpstorm") ?>)
                                 </div>
                                 <div class="navbar-notices-trademarks">
                                     <?= l("lang.navigation.legal.trademark") ?>
