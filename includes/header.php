@@ -50,9 +50,9 @@
                             }); ?>
 
                             <div class="navbar-projects-other">
-                                <?php foreach ($projects as $project): if (!$project["archive"] && !in_array($project["id"], $flagships)): ?>
+                                <?php foreach ($projects as $project): ?>
                                     <a href="/projects/<?= $project['name'] ?? $project['id'] ?>" class="navbar-projects-other-item" id="navbar-projects-other-item-<?= $project['id'] ?>"><?= $project["display_name"] ?? $project["name"] ?></a>
-                                <?php endif; endforeach; ?>
+                                <?php endforeach; ?>
                             </div>
 
                             <hr class="navbar-projects-archive-hr">
