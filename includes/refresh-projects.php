@@ -24,12 +24,14 @@ while (count($current) > 0) {
 
 foreach ($gitea as $project) {
     if ($project["visibility"] !== "public") continue;
+    if (str_starts_with($project["name"], ".")) continue;
 
     print("    " . $project["name"] . "\n");
     $languages = json_decode(file_get_contents("https://api.github.com/repos/equestria-dev/$project[name]/languages", false, stream_context_create(["ssl"=>["verify_peer"=>false,"verify_peer_name"=>false],"http"=>["header"=>"User-Agent: Mozilla/5.0 (Equestria.dev; +Starshine; hello@equestria.dev)\r\n"]])), true);
+    $project = json_decode(file_get_contents("https://api.github.com/repos/equestria-dev/$project[name]", false, stream_context_create(["ssl"=>["verify_peer"=>false,"verify_peer_name"=>false],"http"=>["header"=>"User-Agent: Mozilla/5.0 (Equestria.dev; +Starshine; hello@equestria.dev)\r\n"]])), true);
+    $languages2 = [];
 
     if (count($languages) > 0) {
-        $languages2 = [];
         $languages_total = array_sum(array_values($languages));
 
         foreach ($languages as $key => $value) {
@@ -41,7 +43,7 @@ foreach ($gitea as $project) {
         "id" => md5($project["full_name"]),
         "owner" => $project["owner"]["login"],
         "name" => $project["name"],
-        "display_name" => $project["name"],
+        "display_name" => $project["custom_properties"]["display-name"] ?? $project["name"],
         "description" => $project["description"],
         "source" => $project["html_url"],
         "icon" => null,
