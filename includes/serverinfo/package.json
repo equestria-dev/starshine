@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "systeminformation": "^5.21.20"
-  },
-  "devDependencies": {
-    "pkg": "^5.8.1"
-  }
-}
