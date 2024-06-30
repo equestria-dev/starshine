@@ -1,20 +1,20 @@
 [
     {
-        "id": "b2ef51efafb9e29917c5acba965b0ccb",
+        "id": "d98c62bc22ee55c5386e481cfd352790",
         "owner": "equestria-dev",
-        "name": "libprisbeam",
+        "name": "libfaunerie",
         "display_name": "libprisbeam",
-        "description": "A TypeScript library to work with Prisbeam databases in first-party as well as third-party consumers.",
-        "source": "https:\/\/github.com\/equestria-dev\/libprisbeam",
+        "description": "A library to work with Faunerie databases in first-party as well as third-party consumers.",
+        "source": "https:\/\/github.com\/equestria-dev\/libfaunerie",
         "icon": null,
-        "website": "https:\/\/github.com\/equestria-dev\/libprisbeam",
-        "size": 49152,
+        "website": "https:\/\/github.com\/equestria-dev\/libfaunerie",
+        "size": 65536,
         "language": "TypeScript",
         "languages": {
             "TypeScript": 100
         },
-        "update": 1718829470,
-        "commit": 1718829467,
+        "update": 1719682239,
+        "commit": 1719682236,
         "archive": false,
         "readme": null
     },
@@ -28,10 +28,8 @@
         "icon": null,
         "website": "https:\/\/github.com\/equestria-dev\/maretimesans",
         "size": 1792000,
-        "language": "TypeScript",
-        "languages": {
-            "TypeScript": 100
-        },
+        "language": null,
+        "languages": [],
         "update": 1718915792,
         "commit": 1718915790,
         "archive": false,
@@ -57,26 +55,26 @@
         "readme": null
     },
     {
-        "id": "3728b05eb842aaa2df4b6d7606b8a459",
+        "id": "49d6c399fd0e57593d04157cafcc036c",
         "owner": "equestria-dev",
-        "name": "prisbeam",
+        "name": "faunerie",
         "display_name": "Prisbeam",
-        "description": "A browser and search engine for local copies of various image boards (Derpibooru, Furbooru, e621, ...)",
-        "source": "https:\/\/github.com\/equestria-dev\/prisbeam",
+        "description": "A browser and search engine for local copies of various image boards (e621, Derpibooru, Furbooru, ...)",
+        "source": "https:\/\/github.com\/equestria-dev\/faunerie",
         "icon": null,
-        "website": "https:\/\/github.com\/equestria-dev\/prisbeam",
-        "size": 4075520,
+        "website": "https:\/\/github.com\/equestria-dev\/faunerie",
+        "size": 4078592,
         "language": "TypeScript",
         "languages": {
-            "TypeScript": 48.261565233640496,
-            "JavaScript": 23.25718556929797,
-            "HTML": 14.838302792473984,
-            "Python": 6.072550599722037,
-            "CSS": 5.203625194165119,
-            "Shell": 2.366770610700396
+            "TypeScript": 48.9591760808329,
+            "JavaScript": 23.293196407164412,
+            "HTML": 15.005580587821918,
+            "Python": 6.141008757684381,
+            "CSS": 5.26228762763011,
+            "Shell": 1.3387505388662844
         },
-        "update": 1718787265,
-        "commit": 1718787262,
+        "update": 1719687570,
+        "commit": 1719687567,
         "archive": false,
         "readme": null
     },
@@ -89,16 +87,15 @@
         "source": "https:\/\/github.com\/equestria-dev\/starshine",
         "icon": null,
         "website": "https:\/\/github.com\/equestria-dev\/starshine",
-        "size": 79036416,
+        "size": 79039488,
         "language": "PHP",
         "languages": {
-            "PHP": 54.77494245805878,
-            "CSS": 30.56910433995031,
-            "JavaScript": 14.026107838167965,
-            "Shell": 0.6298453638229453
+            "PHP": 55.74794281055365,
+            "CSS": 30.922141998604722,
+            "JavaScript": 13.329915190841621
         },
-        "update": 1718921171,
-        "commit": 1718921168,
+        "update": 1719234251,
+        "commit": 1719234247,
         "archive": false,
         "readme": null
     },
@@ -111,18 +108,18 @@
         "source": "https:\/\/github.com\/equestria-dev\/status",
         "icon": null,
         "website": "https:\/\/github.com\/equestria-dev\/status",
-        "size": 7015424,
+        "size": 7046144,
         "language": "Rust",
         "languages": {
-            "Rust": 36.19760345672413,
-            "JavaScript": 35.75511901049787,
-            "CSS": 19.81528501640756,
-            "HTML": 6.788721101162635,
-            "Nix": 1.42842294385793,
-            "Shell": 0.01484847134987453
+            "Rust": 35.58325835195774,
+            "JavaScript": 23.76425855513308,
+            "CSS": 19.584651554291355,
+            "HTML": 19.390183728557744,
+            "Nix": 1.3961048384756045,
+            "Shell": 0.2815429715844774
         },
-        "update": 1719172259,
-        "commit": 1719172256,
+        "update": 1719270977,
+        "commit": 1719270974,
         "archive": false,
         "readme": null
     },
@@ -177,15 +174,15 @@
         "source": "https:\/\/github.com\/equestria-dev\/where-rs",
         "icon": null,
         "website": "https:\/\/github.com\/equestria-dev\/where-rs",
-        "size": 68608,
+        "size": 71680,
         "language": "Rust",
         "languages": {
-            "Rust": 83.48852086146847,
-            "Shell": 11.603525481555192,
-            "Nix": 4.90795365697633
+            "Rust": 92.96706739241101,
+            "Nix": 5.407839605278615,
+            "Shell": 1.6250930023103731
         },
-        "update": 1718787283,
-        "commit": 1718787279,
+        "update": 1719523274,
+        "commit": 1719523421,
         "archive": false,
         "readme": null
     },
