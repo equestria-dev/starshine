@@ -13,3 +13,5 @@ out
 build.zip
 build.tar.xz
 assets/projects
+warrant
+includes/data/projects.json

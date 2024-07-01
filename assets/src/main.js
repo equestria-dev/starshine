@@ -84,7 +84,7 @@ window.onload = () => {
     }
 
     (async () => {
-        const status = await (await fetch("https://d6gd1hq6b89h1s1v.public.blob.vercel-storage.com/public/api.json")).json();
+        const status = await (await fetch("https://d6gd1hq6b89h1s1v.public.blob.vercel-storage.com/public/api-v2.json")).json();
         switch (status.code) {
             case 0:
                 document.getElementById("navbar-status").innerHTML = `
